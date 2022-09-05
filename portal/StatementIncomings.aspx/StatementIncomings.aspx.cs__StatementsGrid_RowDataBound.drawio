@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-05T09:50:50.854Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="wpGZD34F_PR9v7CcJwxn" version="20.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-05T09:52:37.631Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="ATs-uYDyYx3jkx6lSfF-" version="20.2.7" type="github">
   <diagram id="58sSC5JXQoV5nZuX8xAD" name="Страница 1">
     <mxGraphModel dx="1527" dy="872" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -27,6 +27,14 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="NzDwZOVcidQ5wz9ZAWTa-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NzDwZOVcidQ5wz9ZAWTa-5" target="NzDwZOVcidQ5wz9ZAWTa-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NzDwZOVcidQ5wz9ZAWTa-13" value="FALSE" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NzDwZOVcidQ5wz9ZAWTa-12">
+          <mxGeometry x="0.7212" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="NzDwZOVcidQ5wz9ZAWTa-5" value="X" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="210" y="520" width="80" height="80" as="geometry" />
         </mxCell>
@@ -34,7 +42,13 @@
           <mxGeometry x="5" y="530" width="210" height="30" as="geometry" />
         </mxCell>
         <mxCell id="NzDwZOVcidQ5wz9ZAWTa-8" value="&amp;lt;&amp;lt;RequestAnswerBaseLong&amp;gt;&amp;gt;&lt;br&gt;doc" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-10" y="650" width="180" height="60" as="geometry" />
+          <mxGeometry x="-10" y="650" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="NzDwZOVcidQ5wz9ZAWTa-11" value="X" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="635" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NzDwZOVcidQ5wz9ZAWTa-14" value="StatementTypeCode&amp;nbsp; = &quot;accred_orgs&quot;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="400" y="635" width="210" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
