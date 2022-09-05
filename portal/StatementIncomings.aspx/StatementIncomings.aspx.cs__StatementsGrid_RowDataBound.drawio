@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-05T09:54:45.004Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="Xdb7qPhCJvO1iLHffj0N" version="20.2.7" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-05T09:56:03.564Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="xY7i5Yo0toXy8FbRTW1g" version="20.2.7" type="github">
   <diagram id="58sSC5JXQoV5nZuX8xAD" name="Страница 1">
     <mxGraphModel dx="700" dy="872" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -47,6 +47,14 @@
         <mxCell id="NzDwZOVcidQ5wz9ZAWTa-16" value="TRUE" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NzDwZOVcidQ5wz9ZAWTa-11" target="NzDwZOVcidQ5wz9ZAWTa-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="NzDwZOVcidQ5wz9ZAWTa-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="NzDwZOVcidQ5wz9ZAWTa-11" target="NzDwZOVcidQ5wz9ZAWTa-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NzDwZOVcidQ5wz9ZAWTa-19" value="FALSE" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="NzDwZOVcidQ5wz9ZAWTa-18">
+          <mxGeometry x="0.871" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="NzDwZOVcidQ5wz9ZAWTa-11" value="X" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="460" y="620" width="80" height="80" as="geometry" />
         </mxCell>
@@ -55,6 +63,12 @@
         </mxCell>
         <mxCell id="NzDwZOVcidQ5wz9ZAWTa-15" value="&amp;lt;&amp;lt;AccreditationStatement&amp;gt;&amp;gt;&lt;br&gt;doc" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="420" y="750" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NzDwZOVcidQ5wz9ZAWTa-17" value="X" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="730" y="740" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NzDwZOVcidQ5wz9ZAWTa-20" value="StatementTypeCode IN [longStatement]" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="790" y="730" width="210" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
