@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-06T06:45:02.510Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="LwCC4mUYzk9vzv1qaG8x" version="20.2.8" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-06T06:51:27.394Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="OQxK9bt1mSZUyJ5spn8-" version="20.2.8" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="611" dy="2041" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -9,6 +9,9 @@
         </mxCell>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-6" value="e.Row.Index &lt;br&gt;&amp;gt;= 0" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="130" y="110" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="D6D7XB3cmuAuXM4LaKSe-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-12" target="D6D7XB3cmuAuXM4LaKSe-8">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-12" value="&lt;b&gt;инициализация&lt;br&gt;&lt;/b&gt;innumber&lt;br&gt;flowId&lt;br&gt;statementTypeId&lt;br&gt;statementId&lt;br&gt;regDate&lt;br&gt;regNumber&lt;br&gt;state&lt;br&gt;isMainIncoming&lt;br&gt;parentIncomingNumber&lt;br&gt;parentIncomingLink&lt;br&gt;statementTypeCode&lt;br&gt;link&lt;br&gt;number" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="110" y="230" width="140" height="210" as="geometry" />
@@ -35,6 +38,18 @@
         </mxCell>
         <mxCell id="D6D7XB3cmuAuXM4LaKSe-7" value="Данные получает из разметки..." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="260" y="290" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="D6D7XB3cmuAuXM4LaKSe-12" value="FALSE" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="D6D7XB3cmuAuXM4LaKSe-8" target="D6D7XB3cmuAuXM4LaKSe-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D6D7XB3cmuAuXM4LaKSe-8" value="Х" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="130" y="500" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="D6D7XB3cmuAuXM4LaKSe-10" value="Все кроме&amp;nbsp;&lt;br&gt;statementTypeId == 8 &amp;amp;&amp;amp; IsMainIncoming" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry y="500" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="D6D7XB3cmuAuXM4LaKSe-11" value="" style="rhombus;whiteSpace=wrap;html=1;shadow=0;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="350" y="500" width="80" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
