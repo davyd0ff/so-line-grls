@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-06T11:33:18.038Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="Au-U6Y1oDmv86gapumy-" version="20.2.8" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-06T11:33:42.208Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="wJQGmFS73xWRxIhwdpmQ" version="20.2.8" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
     <mxGraphModel dx="1227" dy="1817" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -387,7 +387,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="qjLwmyaU8uEKaYYAKhHv-184" value="Получается события DataBound() происходят между событиями страницы PreRender и PreRenderComplete" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-180" y="1370" width="140" height="90" as="geometry" />
+          <mxGeometry x="-190" y="1270" width="140" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
