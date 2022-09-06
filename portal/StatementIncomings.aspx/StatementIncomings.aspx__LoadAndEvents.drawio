@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-06T13:09:14.126Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="0qIi5I0PNZTl_drILHD7" version="20.2.8" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-09-06T13:09:50.702Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="HCdXGTB9FjN9USqaFg5F" version="20.2.8" type="github" pages="2">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="IsNotPostback">
     <mxGraphModel dx="1767" dy="2303" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -497,7 +497,7 @@
         <mxCell id="Yf0ycgSYYFZtoHzidE6d-31" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="Yf0ycgSYYFZtoHzidE6d-21">
           <mxGeometry x="60" y="80" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="Yf0ycgSYYFZtoHzidE6d-35" value="REDIRECT" style="ellipse;shape=doubleEllipse;whiteSpace=wrap;html=1;aspect=fixed;verticalAlign=top;labelPosition=center;verticalLabelPosition=bottom;align=center;" vertex="1" parent="Yf0ycgSYYFZtoHzidE6d-21">
+        <mxCell id="Yf0ycgSYYFZtoHzidE6d-35" value="REDIRECT to StatementIncomings.aspx с параметрами из фильтра" style="ellipse;shape=doubleEllipse;whiteSpace=wrap;html=1;aspect=fixed;verticalAlign=top;labelPosition=center;verticalLabelPosition=bottom;align=center;" vertex="1" parent="Yf0ycgSYYFZtoHzidE6d-21">
           <mxGeometry x="260" y="80" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Yf0ycgSYYFZtoHzidE6d-23" value="InitBeginDate" style="swimlane;html=1;startSize=20;horizontal=0;" vertex="1" parent="2Zh1Aq9-7QK6VoxLoqKi-1">
