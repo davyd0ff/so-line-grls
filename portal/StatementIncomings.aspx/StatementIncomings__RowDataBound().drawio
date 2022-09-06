@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-06T07:16:25.869Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="YsuIYpCMgwYN_-R4szVM" version="20.2.8" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-06T07:17:40.720Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="-eYmxf4SAJKHCR0MjN4l" version="20.2.8" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="611" dy="2041" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -75,6 +75,9 @@
         <mxCell id="D6D7XB3cmuAuXM4LaKSe-25" value="TRUE" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="D6D7XB3cmuAuXM4LaKSe-21" target="D6D7XB3cmuAuXM4LaKSe-24">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="D6D7XB3cmuAuXM4LaKSe-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="D6D7XB3cmuAuXM4LaKSe-21" target="D6D7XB3cmuAuXM4LaKSe-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="D6D7XB3cmuAuXM4LaKSe-21" value="X" style="rhombus;whiteSpace=wrap;html=1;shadow=0;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="790" y="660" width="80" height="80" as="geometry" />
         </mxCell>
@@ -83,6 +86,18 @@
         </mxCell>
         <mxCell id="D6D7XB3cmuAuXM4LaKSe-24" value="GetEntityByFilter&amp;lt;AccreditationStatement, AccreditationFilter&amp;gt;(unitOfWork)&lt;br&gt;.Do(new AccreditationFilter() { statementIdList = [statementId] })" style="whiteSpace=wrap;html=1;shadow=0;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="610" y="800" width="440" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="D6D7XB3cmuAuXM4LaKSe-30" value="TRUE" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="D6D7XB3cmuAuXM4LaKSe-26" target="D6D7XB3cmuAuXM4LaKSe-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D6D7XB3cmuAuXM4LaKSe-26" value="X" style="rhombus;whiteSpace=wrap;html=1;shadow=0;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1220" y="660" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="D6D7XB3cmuAuXM4LaKSe-28" value="statementTypeCode это Аккредитация организации для КИ&lt;br&gt;(accred_orgs)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1080" y="610" width="150" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="D6D7XB3cmuAuXM4LaKSe-29" value="new GetByLongId&amp;lt;PermissionClaim&amp;gt;(unitOfWork)&lt;br&gt;.Do(statementId)" style="whiteSpace=wrap;html=1;shadow=0;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1115" y="800" width="290" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
