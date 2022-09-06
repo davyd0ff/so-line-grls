@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-06T07:00:06.336Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="JtghT7Fls-Yu1O70BPMd" version="20.2.8" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-06T07:00:59.704Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="JG7KDS-vNmPXQmTrLko7" version="20.2.8" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="611" dy="2041" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -57,11 +57,17 @@
         <mxCell id="D6D7XB3cmuAuXM4LaKSe-15" value="statementTypeId is not&amp;nbsp;&lt;br&gt;5, 7, 8, 9, 22, 23" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="390" y="480" width="150" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="D6D7XB3cmuAuXM4LaKSe-20" value="TRUE" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="D6D7XB3cmuAuXM4LaKSe-16" target="D6D7XB3cmuAuXM4LaKSe-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="D6D7XB3cmuAuXM4LaKSe-16" value="X" style="rhombus;whiteSpace=wrap;html=1;shadow=0;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="350" y="660" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="D6D7XB3cmuAuXM4LaKSe-18" value="statementTypeCode это Ответ (Answer)&lt;br&gt;&lt;br&gt;Причем любой ответ&lt;br&gt;ответ на запрос по ПЦ&lt;br&gt;ответ на запрос по КИ&amp;nbsp;&lt;br&gt;и т.д." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="210" y="660" width="150" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="D6D7XB3cmuAuXM4LaKSe-19" value="" style="whiteSpace=wrap;html=1;shadow=0;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="330" y="800" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
