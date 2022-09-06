@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-06T10:48:48.248Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="1xA4LmMGUDwdNP0srC8n" version="20.2.8" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-06T10:50:28.554Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="OXoQ2pyWaCQ5l8k9GSE-" version="20.2.8" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
     <mxGraphModel dx="424" dy="1697" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -146,6 +146,17 @@
         </mxCell>
         <mxCell id="qjLwmyaU8uEKaYYAKhHv-120" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="qjLwmyaU8uEKaYYAKhHv-13" source="qjLwmyaU8uEKaYYAKhHv-116" target="qjLwmyaU8uEKaYYAKhHv-118">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qjLwmyaU8uEKaYYAKhHv-121" value="&quot;Кроме&quot; активна&lt;br&gt;IncomingStatus Выбран по умолчанию как 4" style="whiteSpace=wrap;html=1;" vertex="1" parent="qjLwmyaU8uEKaYYAKhHv-13">
+          <mxGeometry x="1054" y="15" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qjLwmyaU8uEKaYYAKhHv-122" value="Задан" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="qjLwmyaU8uEKaYYAKhHv-13" source="qjLwmyaU8uEKaYYAKhHv-118" target="qjLwmyaU8uEKaYYAKhHv-121">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="925" y="30" />
+              <mxPoint x="1030" y="30" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="qjLwmyaU8uEKaYYAKhHv-23" value="Lane 3" style="swimlane;html=1;startSize=20;horizontal=0;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-19">
           <mxGeometry x="20" y="770" width="1280" height="140" as="geometry" />
