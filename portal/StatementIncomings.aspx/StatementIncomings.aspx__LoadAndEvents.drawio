@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-06T10:25:18.492Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="6DzRkxc9MWzTFckHZRvQ" version="20.2.8" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-06T10:27:44.221Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="L6NOUcttVBlwI0PrAi4P" version="20.2.8" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
     <mxGraphModel dx="737" dy="2087" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -81,7 +81,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="qjLwmyaU8uEKaYYAKhHv-49" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="qjLwmyaU8uEKaYYAKhHv-17">
-          <mxGeometry x="60" y="50" width="40" height="40" as="geometry" />
+          <mxGeometry x="60" y="40" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qjLwmyaU8uEKaYYAKhHv-56" value="Активна кнопка создания Входящего" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="qjLwmyaU8uEKaYYAKhHv-17">
+          <mxGeometry x="80" y="80" width="260" height="30" as="geometry" />
         </mxCell>
         <mxCell id="qjLwmyaU8uEKaYYAKhHv-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-19" source="qjLwmyaU8uEKaYYAKhHv-25" target="qjLwmyaU8uEKaYYAKhHv-9">
           <mxGeometry relative="1" as="geometry">
@@ -158,6 +161,12 @@
           <mxGeometry x="-0.3143" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="qjLwmyaU8uEKaYYAKhHv-54" value="bAddInc.Visible = true;&amp;nbsp;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="550" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qjLwmyaU8uEKaYYAKhHv-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qjLwmyaU8uEKaYYAKhHv-49" target="qjLwmyaU8uEKaYYAKhHv-54">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
