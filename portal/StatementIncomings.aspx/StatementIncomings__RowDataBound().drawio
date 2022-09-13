@@ -1,0 +1,111 @@
+<mxfile host="app.diagrams.net" modified="2022-09-06T07:22:23.960Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="cFrUDrr5XE5173rAQofO" version="20.2.8" type="github">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="719" dy="2195" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="D6D7XB3cmuAuXM4LaKSe-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-6" target="WIyWlLk6GJQsqaUBKTNV-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-6" value="e.Row.Index &lt;br&gt;&amp;gt;= 0" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="130" y="110" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="D6D7XB3cmuAuXM4LaKSe-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-12" target="D6D7XB3cmuAuXM4LaKSe-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-12" value="&lt;b&gt;инициализация&lt;br&gt;&lt;/b&gt;innumber&lt;br&gt;flowId&lt;br&gt;statementTypeId&lt;br&gt;statementId&lt;br&gt;regDate&lt;br&gt;regNumber&lt;br&gt;state&lt;br&gt;isMainIncoming&lt;br&gt;parentIncomingNumber&lt;br&gt;parentIncomingLink&lt;br&gt;statementTypeCode&lt;br&gt;link&lt;br&gt;number" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="110" y="230" width="140" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="D6D7XB3cmuAuXM4LaKSe-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="WIyWlLk6GJQsqaUBKTNV-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="180" y="10" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D6D7XB3cmuAuXM4LaKSe-0" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="160" y="-20" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="D6D7XB3cmuAuXM4LaKSe-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="D6D7XB3cmuAuXM4LaKSe-0" target="D6D7XB3cmuAuXM4LaKSe-0">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="240" />
+              <mxPoint x="240" y="-60" />
+              <mxPoint x="180" y="-60" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D6D7XB3cmuAuXM4LaKSe-4" value="&lt;b&gt;Цикл&lt;/b&gt;&lt;br&gt;Сколько записей загружено - столько итераций у цикла&lt;br&gt;(по умолчанию 12, максимум 99)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="230" y="-80" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="D6D7XB3cmuAuXM4LaKSe-7" value="Данные получает из разметки..." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="260" y="290" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="D6D7XB3cmuAuXM4LaKSe-12" value="FALSE" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="D6D7XB3cmuAuXM4LaKSe-8" target="D6D7XB3cmuAuXM4LaKSe-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D6D7XB3cmuAuXM4LaKSe-8" value="Х" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fontFamily=Helvetica;fontSize=12;align=center;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="130" y="500" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="D6D7XB3cmuAuXM4LaKSe-10" value="Все кроме&amp;nbsp;&lt;br&gt;statementTypeId == 8 &amp;amp;&amp;amp; IsMainIncoming" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry y="500" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="D6D7XB3cmuAuXM4LaKSe-17" value="TRUE" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="D6D7XB3cmuAuXM4LaKSe-11" target="D6D7XB3cmuAuXM4LaKSe-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D6D7XB3cmuAuXM4LaKSe-11" value="X" style="rhombus;whiteSpace=wrap;html=1;shadow=0;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="350" y="500" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="D6D7XB3cmuAuXM4LaKSe-15" value="statementTypeId is not&amp;nbsp;&lt;br&gt;5, 7, 8, 9, 22, 23" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="390" y="480" width="150" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="D6D7XB3cmuAuXM4LaKSe-20" value="TRUE" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="D6D7XB3cmuAuXM4LaKSe-16" target="D6D7XB3cmuAuXM4LaKSe-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D6D7XB3cmuAuXM4LaKSe-22" value="FALSE" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="D6D7XB3cmuAuXM4LaKSe-16" target="D6D7XB3cmuAuXM4LaKSe-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D6D7XB3cmuAuXM4LaKSe-16" value="X" style="rhombus;whiteSpace=wrap;html=1;shadow=0;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="350" y="660" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="D6D7XB3cmuAuXM4LaKSe-18" value="statementTypeCode это Ответ (Answer)&lt;br&gt;&lt;br&gt;Причем любой ответ&lt;br&gt;ответ на запрос по ПЦ&lt;br&gt;ответ на запрос по КИ&amp;nbsp;&lt;br&gt;и т.д." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="210" y="660" width="150" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="D6D7XB3cmuAuXM4LaKSe-19" value="тогда получить ответ&amp;nbsp;&lt;br&gt;RequestAnswerBaseLong&lt;b&gt;Repository&lt;/b&gt;.GetByRequestId(statementId)" style="whiteSpace=wrap;html=1;shadow=0;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="200" y="800" width="380" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="D6D7XB3cmuAuXM4LaKSe-25" value="TRUE" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="D6D7XB3cmuAuXM4LaKSe-21" target="D6D7XB3cmuAuXM4LaKSe-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D6D7XB3cmuAuXM4LaKSe-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="D6D7XB3cmuAuXM4LaKSe-21" target="D6D7XB3cmuAuXM4LaKSe-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D6D7XB3cmuAuXM4LaKSe-21" value="X" style="rhombus;whiteSpace=wrap;html=1;shadow=0;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="790" y="660" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="D6D7XB3cmuAuXM4LaKSe-23" value="statementTypeCode это Аккредитация организации для КИ&lt;br&gt;(accred_orgs)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="690" y="610" width="150" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="D6D7XB3cmuAuXM4LaKSe-24" value="GetEntityByFilter&amp;lt;AccreditationStatement, AccreditationFilter&amp;gt;(unitOfWork)&lt;br&gt;.Do(new AccreditationFilter() { statementIdList = [statementId] })" style="whiteSpace=wrap;html=1;shadow=0;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="610" y="800" width="440" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="D6D7XB3cmuAuXM4LaKSe-30" value="TRUE" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="D6D7XB3cmuAuXM4LaKSe-26" target="D6D7XB3cmuAuXM4LaKSe-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D6D7XB3cmuAuXM4LaKSe-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="D6D7XB3cmuAuXM4LaKSe-26" target="D6D7XB3cmuAuXM4LaKSe-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="D6D7XB3cmuAuXM4LaKSe-26" value="X" style="rhombus;whiteSpace=wrap;html=1;shadow=0;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1220" y="660" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="D6D7XB3cmuAuXM4LaKSe-28" value="statementTypeCode in&lt;br&gt;[mp_pandemic_claim, mp_import_temp_reg_statement]&lt;br&gt;&lt;br&gt;почему-то longStatement..." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="970" y="610" width="320" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="D6D7XB3cmuAuXM4LaKSe-29" value="new GetByLongId&amp;lt;PermissionClaim&amp;gt;(unitOfWork)&lt;br&gt;.Do(statementId)" style="whiteSpace=wrap;html=1;shadow=0;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1115" y="800" width="290" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="D6D7XB3cmuAuXM4LaKSe-31" value="&lt;div&gt;new GetDocumentById(unitOfWork)&lt;/div&gt;&lt;div&gt;.Do(new CommonDocumentRequest() {&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;Id = statementId,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;DocumentType = new DocumentType() { Id = statementTypeId, Code = statementTypeCode },&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;Level = RegistrationStatementLevelEnum.Заявительский&lt;/div&gt;&lt;div&gt;})&lt;/div&gt;" style="whiteSpace=wrap;html=1;shadow=0;strokeWidth=1;spacing=6;spacingTop=-4;align=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1440" y="800" width="550" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
