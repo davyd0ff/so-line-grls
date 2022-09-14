@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-09-14T10:28:27.798Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="gN2wERoST8fmXKfaJ4z8" version="20.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-14T10:29:12.278Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="IVnReD49rPhHM-d0ynxn" version="20.3.0" type="github">
   <diagram id="j9tNzVP-D8R7nncAc0zW" name="Страница 1">
-    <mxGraphModel dx="1301" dy="701" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1805" dy="1446" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -140,6 +140,12 @@
               <mxPoint x="410" y="560" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="KA42aVoV2NwXhPdS14lZ-36" value="FileAttachmentHelper" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="1880" y="40" width="180" height="840" as="geometry" />
+        </mxCell>
+        <mxCell id="KA42aVoV2NwXhPdS14lZ-37" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;sketch=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="KA42aVoV2NwXhPdS14lZ-36">
+          <mxGeometry x="85" y="680" width="10" height="29" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
