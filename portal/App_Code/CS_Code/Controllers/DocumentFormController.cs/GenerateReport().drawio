@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-09-14T09:54:37.367Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="dstD57e1X8gyNSkhaHJx" version="20.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-14T09:56:07.960Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="CMG9tUPrCx90Pzsc-GGL" version="20.3.0" type="github">
   <diagram id="j9tNzVP-D8R7nncAc0zW" name="Страница 1">
-    <mxGraphModel dx="1314" dy="551" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1679" dy="964" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -20,7 +20,7 @@
             <mxPoint x="120.02380952380963" y="180" as="targetPoint" />
             <Array as="points">
               <mxPoint x="130" y="110" />
-              <mxPoint x="80" y="140" />
+              <mxPoint x="80" y="120" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
@@ -37,14 +37,15 @@
             <mxPoint x="680" y="260" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="KA42aVoV2NwXhPdS14lZ-11" value="&amp;lt;&amp;lt;create&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;sketch=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;curved=1;" edge="1" parent="1">
-          <mxGeometry width="80" relative="1" as="geometry">
+        <mxCell id="KA42aVoV2NwXhPdS14lZ-11" value="GetUnitOfWork(Transaction.NotUse)" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;sketch=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;curved=1;entryX=0.533;entryY=-0.033;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="KA42aVoV2NwXhPdS14lZ-2" target="KA42aVoV2NwXhPdS14lZ-16">
+          <mxGeometry x="-0.644" width="80" relative="1" as="geometry">
             <mxPoint x="89.99999999999977" y="340" as="sourcePoint" />
             <mxPoint x="650" y="340" as="targetPoint" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="KA42aVoV2NwXhPdS14lZ-12" value="DocumentType" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;sketch=1;" vertex="1" parent="1">
-          <mxGeometry x="800" y="40" width="160" height="840" as="geometry" />
+          <mxGeometry x="770" y="40" width="160" height="840" as="geometry" />
         </mxCell>
         <mxCell id="KA42aVoV2NwXhPdS14lZ-13" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;sketch=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="KA42aVoV2NwXhPdS14lZ-12">
           <mxGeometry x="75" y="160" width="10" height="20" as="geometry" />
@@ -57,6 +58,12 @@
               <mxPoint x="310" y="200" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="KA42aVoV2NwXhPdS14lZ-15" value="Database" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="940" y="40" width="160" height="840" as="geometry" />
+        </mxCell>
+        <mxCell id="KA42aVoV2NwXhPdS14lZ-16" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;sketch=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="KA42aVoV2NwXhPdS14lZ-15">
+          <mxGeometry x="75" y="250" width="10" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
