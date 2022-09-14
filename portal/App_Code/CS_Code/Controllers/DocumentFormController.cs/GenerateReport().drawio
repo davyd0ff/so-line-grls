@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2022-09-14T10:07:22.829Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="oGx2r7ycW5a7C5zljEeX" version="20.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-14T10:23:58.348Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="gZ4z5sFRnilpWgHQNeSm" version="20.3.0" type="github">
   <diagram id="j9tNzVP-D8R7nncAc0zW" name="Страница 1">
-    <mxGraphModel dx="1849" dy="1157" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1609" dy="1157" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="KA42aVoV2NwXhPdS14lZ-2" value="DocumentFormController.cs" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;sketch=1;" vertex="1" parent="1">
+        <mxCell id="KA42aVoV2NwXhPdS14lZ-2" value="DocumentFormController.cs" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;sketch=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="40" y="40" width="160" height="840" as="geometry" />
         </mxCell>
         <mxCell id="KA42aVoV2NwXhPdS14lZ-3" value="&amp;lt;&amp;lt;POST&amp;gt;&amp;gt;&lt;br&gt;GenerateReport(id, routingGuid, documentTypeCode)" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;rounded=0;sketch=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;curved=1;align=left;labelPosition=right;verticalLabelPosition=top;" edge="1" parent="KA42aVoV2NwXhPdS14lZ-2" target="KA42aVoV2NwXhPdS14lZ-2">
@@ -24,6 +24,9 @@
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="KA42aVoV2NwXhPdS14lZ-31" value="calculateReportName" style="ellipse;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;align=left;verticalAlign=middle;labelPosition=right;verticalLabelPosition=middle;" vertex="1" parent="KA42aVoV2NwXhPdS14lZ-2">
+          <mxGeometry x="45" y="410" width="70" height="70" as="geometry" />
         </mxCell>
         <mxCell id="KA42aVoV2NwXhPdS14lZ-6" value="ComonDocumentRequest" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;sketch=1;" vertex="1" parent="1">
           <mxGeometry x="600" y="40" width="160" height="840" as="geometry" />
@@ -87,7 +90,7 @@
         <mxCell id="KA42aVoV2NwXhPdS14lZ-21" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;sketch=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="KA42aVoV2NwXhPdS14lZ-20">
           <mxGeometry x="85" y="341" width="10" height="29" as="geometry" />
         </mxCell>
-        <mxCell id="KA42aVoV2NwXhPdS14lZ-23" value="Do (documentRequest)" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;sketch=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;curved=1;entryX=0.415;entryY=0.073;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="KA42aVoV2NwXhPdS14lZ-2" target="KA42aVoV2NwXhPdS14lZ-21">
+        <mxCell id="KA42aVoV2NwXhPdS14lZ-23" value="(TemplateDocument) Do (documentRequest)" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;sketch=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;curved=1;entryX=0.415;entryY=0.073;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="KA42aVoV2NwXhPdS14lZ-2" target="KA42aVoV2NwXhPdS14lZ-21">
           <mxGeometry x="-0.6426" width="80" relative="1" as="geometry">
             <mxPoint x="120.00034482758628" y="380" as="sourcePoint" />
             <mxPoint x="1183.4100000000003" y="380" as="targetPoint" />
@@ -121,6 +124,15 @@
             <mxPoint x="1360" y="280" as="sourcePoint" />
             <mxPoint x="1440" y="280" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="KA42aVoV2NwXhPdS14lZ-32" value="ReportViewerApi" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;sketch=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="1680" y="40" width="180" height="840" as="geometry" />
+        </mxCell>
+        <mxCell id="KA42aVoV2NwXhPdS14lZ-33" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;sketch=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="KA42aVoV2NwXhPdS14lZ-32">
+          <mxGeometry x="85" y="250" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="KA42aVoV2NwXhPdS14lZ-34" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;sketch=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="KA42aVoV2NwXhPdS14lZ-32">
+          <mxGeometry x="85" y="400" width="10" height="10" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
