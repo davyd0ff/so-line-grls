@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-09-14T10:04:00.035Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="9NplvkWwEykn3qpZ7yPO" version="20.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-14T10:05:15.277Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="emR4tszxqF_sImOwGkym" version="20.3.0" type="github">
   <diagram id="j9tNzVP-D8R7nncAc0zW" name="Страница 1">
-    <mxGraphModel dx="1314" dy="551" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1411" dy="661" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -72,7 +72,7 @@
           <mxGeometry x="75" y="290" width="10" height="20" as="geometry" />
         </mxCell>
         <mxCell id="KA42aVoV2NwXhPdS14lZ-22" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;sketch=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="KA42aVoV2NwXhPdS14lZ-17">
-          <mxGeometry x="75" y="370" width="10" height="20" as="geometry" />
+          <mxGeometry x="75" y="370" width="10" height="60" as="geometry" />
         </mxCell>
         <mxCell id="KA42aVoV2NwXhPdS14lZ-19" value="&amp;lt;&amp;lt;create&amp;gt;&amp;gt;&lt;br&gt;( unitOfWork )" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;sketch=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;curved=1;entryX=-0.178;entryY=0.064;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="KA42aVoV2NwXhPdS14lZ-2" target="KA42aVoV2NwXhPdS14lZ-18">
           <mxGeometry x="-0.6426" width="80" relative="1" as="geometry">
@@ -111,6 +111,12 @@
             <mxPoint x="1270" y="80" as="sourcePoint" />
             <mxPoint x="1350" y="80" as="targetPoint" />
             <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KA42aVoV2NwXhPdS14lZ-29" value="GetDocumentTypeByTypeCode(code)" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;sketch=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;curved=1;exitX=1.048;exitY=0.483;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="KA42aVoV2NwXhPdS14lZ-22" target="KA42aVoV2NwXhPdS14lZ-26">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1360" y="280" as="sourcePoint" />
+            <mxPoint x="1440" y="280" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
