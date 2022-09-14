@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-09-14T13:59:08.598Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="1mgmcR7Ksv_AcvNkcrfp" version="20.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-14T14:02:46.426Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="SO9QSJjS2n_jdZeVBxwi" version="20.3.0" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1204" dy="1733" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1276" dy="1840" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -135,14 +135,8 @@
         <mxCell id="85bUbTbqDZPOqHRigDFA-34" value="documentTypeCode.&lt;br&gt;contains&amp;nbsp;&lt;br&gt;&quot;eec&quot;" style="rhombus;whiteSpace=wrap;html=1;fontSize=10;fontFamily=Architects Daughter;align=right;rounded=0;sketch=1;hachureGap=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;labelPosition=left;verticalLabelPosition=middle;verticalAlign=middle;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="175" y="830" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="85bUbTbqDZPOqHRigDFA-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=10;endArrow=open;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="85bUbTbqDZPOqHRigDFA-38" target="85bUbTbqDZPOqHRigDFA-40">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="85bUbTbqDZPOqHRigDFA-38" value="reportName += &quot;EEC&quot;;" style="whiteSpace=wrap;html=1;fontSize=10;fontFamily=Architects Daughter;align=center;rounded=0;sketch=1;hachureGap=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="315" y="855" width="120" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="85bUbTbqDZPOqHRigDFA-40" value="GetEecRegStatement (_docObject.IncomingPackage.DocumentId)" style="ellipse;html=1;fontSize=10;fontFamily=Architects Daughter;rounded=0;sketch=1;hachureGap=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="346.25" y="930" width="57.5" height="60" as="geometry" />
+        <mxCell id="85bUbTbqDZPOqHRigDFA-38" value="reportName += &quot;EEC&quot;;&lt;br&gt;&lt;span style=&quot;&quot;&gt;regStat = GetEecRegStatement (_docObject.IncomingPackage.DocumentId);&lt;br&gt;orgCountry = RegStatementHelper.GetApplicationOrgCountry(regStat);&lt;br&gt;orgName = RegStatementHelper.GetApplicatOrgName(regState);&lt;br&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;fontSize=10;fontFamily=Architects Daughter;align=left;rounded=0;sketch=1;hachureGap=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;spacingLeft=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="315" y="843.75" width="355" height="52.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
