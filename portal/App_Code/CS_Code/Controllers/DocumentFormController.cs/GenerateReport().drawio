@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-09-14T10:24:33.323Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="piKwtBP8KCSIheuFKTZw" version="20.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-14T10:27:07.119Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="iNvYJPOdngOrP9Kmy4q1" version="20.3.0" type="github">
   <diagram id="j9tNzVP-D8R7nncAc0zW" name="Страница 1">
-    <mxGraphModel dx="1018" dy="282" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1650" dy="1218" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -131,8 +131,8 @@
         <mxCell id="KA42aVoV2NwXhPdS14lZ-33" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;sketch=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="KA42aVoV2NwXhPdS14lZ-32">
           <mxGeometry x="85" y="520" width="10" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="KA42aVoV2NwXhPdS14lZ-35" value="(TemplateDocument) Do (documentRequest)" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;sketch=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;curved=1;entryX=0.041;entryY=0.017;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="KA42aVoV2NwXhPdS14lZ-2" target="KA42aVoV2NwXhPdS14lZ-33">
-          <mxGeometry x="-0.6426" width="80" relative="1" as="geometry">
+        <mxCell id="KA42aVoV2NwXhPdS14lZ-35" value="SaveReportFile { reportName, &quot;WORD&quot;, reportPars, reportFileFolder, $&quot;{routingGuid}&quot;.doc, docOvbject.DocumentId)" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;sketch=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;curved=1;entryX=0.041;entryY=0.017;entryDx=0;entryDy=0;entryPerimeter=0;align=left;spacing=5;" edge="1" parent="1" source="KA42aVoV2NwXhPdS14lZ-2" target="KA42aVoV2NwXhPdS14lZ-33">
+          <mxGeometry x="-0.9507" y="-2" width="80" relative="1" as="geometry">
             <mxPoint x="119.63043478260875" y="383.11699999999996" as="sourcePoint" />
             <mxPoint x="1369.15" y="383.11699999999996" as="targetPoint" />
             <mxPoint as="offset" />
