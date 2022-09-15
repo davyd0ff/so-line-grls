@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-15T07:31:35.323Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="0nOkjcNQKDFV4xD3wWZJ" version="20.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-15T07:33:06.491Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="JisMaZIWAROWYoimNqJ_" version="20.3.0" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="1437" dy="1973" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -244,6 +244,9 @@
             <mxPoint x="1270" y="560" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="B710JooNBCGoiN81PVn3-62" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;http://testgrlsrc3.fastoffice.ru//CiStatement.aspx?CIStatementGUID=64baf02c-b264-4751-8fd4-44517ab92167&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;glass=0;sketch=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="-90" y="-50" width="850" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
