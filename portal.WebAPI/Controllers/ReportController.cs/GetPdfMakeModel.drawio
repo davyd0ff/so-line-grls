@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-09-15T09:13:54.818Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="iz9Qo3jB0_npPkPEZIey" version="20.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-15T09:16:37.526Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="CYRXQL8wNHZYVIzS-YLd" version="20.3.0" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
-    <mxGraphModel dx="2082" dy="2828" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1827" dy="2698" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -443,43 +443,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="B710JooNBCGoiN81PVn3-104" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;BioMatPermissionModel&lt;/span&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;sketch=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="3860" y="-1140" width="240" height="1040" as="geometry" />
-        </mxCell>
-        <mxCell id="B710JooNBCGoiN81PVn3-105" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;sketch=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="B710JooNBCGoiN81PVn3-104">
-          <mxGeometry x="115" y="500" width="10" height="10" as="geometry" />
-        </mxCell>
-        <mxCell id="B710JooNBCGoiN81PVn3-106" value="(NationalClinicalStatementPdfModel) aNationalClinicalStatementPdfModel" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;sketch=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=10;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;entryX=-0.023;entryY=-0.114;entryDx=0;entryDy=0;entryPerimeter=0;align=left;" edge="1" parent="1" source="B710JooNBCGoiN81PVn3-82" target="B710JooNBCGoiN81PVn3-105">
-          <mxGeometry x="-0.9828" y="-1" width="80" relative="1" as="geometry">
-            <mxPoint x="3200" y="-700" as="sourcePoint" />
-            <mxPoint x="3280" y="-700" as="targetPoint" />
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="B710JooNBCGoiN81PVn3-107" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;BioMatPermissionJsonModel&lt;/span&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;sketch=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="4110" y="-1140" width="240" height="1040" as="geometry" />
-        </mxCell>
-        <mxCell id="B710JooNBCGoiN81PVn3-108" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;sketch=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="B710JooNBCGoiN81PVn3-107">
-          <mxGeometry x="115" y="530" width="10" height="10" as="geometry" />
-        </mxCell>
-        <mxCell id="B710JooNBCGoiN81PVn3-109" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=1;shadow=0;glass=0;sketch=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=10;" vertex="1" parent="B710JooNBCGoiN81PVn3-107">
-          <mxGeometry x="115" y="560" width="10" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="B710JooNBCGoiN81PVn3-110" value="&amp;lt;&amp;lt; create &amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;sketch=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=10;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;entryX=0.076;entryY=0.079;entryDx=0;entryDy=0;entryPerimeter=0;align=left;spacingTop=0;spacingBottom=3;" edge="1" parent="1" source="B710JooNBCGoiN81PVn3-82" target="B710JooNBCGoiN81PVn3-108">
-          <mxGeometry x="-0.9828" y="-1" width="80" relative="1" as="geometry">
-            <mxPoint x="3051.9999999999995" y="-631.1399999999999" as="sourcePoint" />
-            <mxPoint x="3984.77" y="-631.1399999999999" as="targetPoint" />
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="B710JooNBCGoiN81PVn3-111" value="MapFromBioMatPermissionModel (aBioMatPermissionModel)" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;sketch=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=10;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;align=left;spacingTop=0;spacingBottom=3;entryX=0.058;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="B710JooNBCGoiN81PVn3-82" target="B710JooNBCGoiN81PVn3-109">
-          <mxGeometry x="-0.9828" y="-1" width="80" relative="1" as="geometry">
-            <mxPoint x="3052" y="-599.2099999999996" as="sourcePoint" />
-            <mxPoint x="4136" y="-552" as="targetPoint" />
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="B710JooNBCGoiN81PVn3-112" value="jsonModel" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;sketch=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=10;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;exitX=0.047;exitY=0.994;exitDx=0;exitDy=0;exitPerimeter=0;align=right;spacingBottom=2;" edge="1" parent="1" source="B710JooNBCGoiN81PVn3-82" target="B710JooNBCGoiN81PVn3-64">
+        <mxCell id="B710JooNBCGoiN81PVn3-112" value="xmlModel" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;sketch=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=10;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;exitX=0.047;exitY=0.994;exitDx=0;exitDy=0;exitPerimeter=0;align=right;spacingBottom=2;" edge="1" parent="1" source="B710JooNBCGoiN81PVn3-82" target="B710JooNBCGoiN81PVn3-64">
           <mxGeometry x="-0.9762" y="2" relative="1" as="geometry">
             <mxPoint x="2910" y="-620" as="sourcePoint" />
             <mxPoint x="2830" y="-620" as="targetPoint" />
