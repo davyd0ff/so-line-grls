@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-09-15T09:16:40.734Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="dzkg-MCWREKHdb6--Y_-" version="20.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-15T11:10:32.948Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="Zc-5ZP-0DuzyCKfHlF-f" version="20.3.0" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
-    <mxGraphModel dx="2874" dy="3232" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1827" dy="2698" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -447,6 +447,241 @@
           <mxGeometry x="-0.9762" y="2" relative="1" as="geometry">
             <mxPoint x="2910" y="-620" as="sourcePoint" />
             <mxPoint x="2830" y="-620" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B710JooNBCGoiN81PVn3-115" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;:ReportServiceController&lt;/font&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;sketch=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="150" y="1140" width="180" height="1040" as="geometry" />
+        </mxCell>
+        <mxCell id="B710JooNBCGoiN81PVn3-116" value="GetPdfMakeModel (aGetPdfMakeModelFilter)" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;rounded=0;sketch=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;align=left;" edge="1" parent="B710JooNBCGoiN81PVn3-115" target="B710JooNBCGoiN81PVn3-115">
+          <mxGeometry x="-0.8662" width="60" relative="1" as="geometry">
+            <mxPoint x="-240" y="80" as="sourcePoint" />
+            <mxPoint x="60" y="80" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B710JooNBCGoiN81PVn3-117" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;u&gt;:Database&lt;/u&gt;&lt;/font&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;sketch=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="420" y="1140" width="180" height="1040" as="geometry" />
+        </mxCell>
+        <mxCell id="B710JooNBCGoiN81PVn3-118" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;sketch=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=14;" vertex="1" parent="B710JooNBCGoiN81PVn3-117">
+          <mxGeometry x="85" y="100" width="10" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="B710JooNBCGoiN81PVn3-119" value="хз" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;sketch=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=10;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;entryX=0.205;entryY=0.048;entryDx=0;entryDy=0;entryPerimeter=0;align=left;" edge="1" parent="1" source="B710JooNBCGoiN81PVn3-115" target="B710JooNBCGoiN81PVn3-118">
+          <mxGeometry x="-0.9253" y="1" width="80" relative="1" as="geometry">
+            <mxPoint x="310" y="1280" as="sourcePoint" />
+            <mxPoint x="380" y="1270" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B710JooNBCGoiN81PVn3-120" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Ninject&lt;/font&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;sketch=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="630" y="1140" width="180" height="1040" as="geometry" />
+        </mxCell>
+        <mxCell id="B710JooNBCGoiN81PVn3-121" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;sketch=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=14;" vertex="1" parent="B710JooNBCGoiN81PVn3-120">
+          <mxGeometry x="85" y="150" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="B710JooNBCGoiN81PVn3-122" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;sketch=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=14;" vertex="1" parent="B710JooNBCGoiN81PVn3-120">
+          <mxGeometry x="85" y="260" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="B710JooNBCGoiN81PVn3-123" value="хз" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;sketch=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=10;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;entryX=0.419;entryY=-0.023;entryDx=0;entryDy=0;entryPerimeter=0;align=left;" edge="1" parent="1" source="B710JooNBCGoiN81PVn3-115" target="B710JooNBCGoiN81PVn3-121">
+          <mxGeometry x="-0.9584" width="80" relative="1" as="geometry">
+            <mxPoint x="250.02380952380963" y="1250.96" as="sourcePoint" />
+            <mxPoint x="517.05" y="1250.96" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B710JooNBCGoiN81PVn3-124" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;sketch=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="830" y="1140" width="240" height="1040" as="geometry" />
+        </mxCell>
+        <mxCell id="B710JooNBCGoiN81PVn3-125" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;sketch=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=14;" vertex="1" parent="B710JooNBCGoiN81PVn3-124">
+          <mxGeometry x="115" y="160" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="B710JooNBCGoiN81PVn3-126" value="aGetPdfMakeModelFilter {&lt;br style=&quot;font-size: 10px;&quot;&gt;&amp;nbsp; DocumentTypeCode = &quot;&lt;b&gt;permision_mr&lt;/b&gt;&quot;,&lt;br style=&quot;font-size: 10px;&quot;&gt;&amp;nbsp; DocumentGUID = &quot;???&quot;&lt;br style=&quot;font-size: 10px;&quot;&gt;}" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=10;spacingLeft=2;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="1220" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B710JooNBCGoiN81PVn3-127" value="&amp;lt;&amp;lt; get binding by Named&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;sketch=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=10;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;entryX=-0.08;entryY=0.08;entryDx=0;entryDy=0;entryPerimeter=0;align=left;" edge="1" parent="1" source="B710JooNBCGoiN81PVn3-121" target="B710JooNBCGoiN81PVn3-125">
+          <mxGeometry x="-0.839" width="80" relative="1" as="geometry">
+            <mxPoint x="800" y="1350" as="sourcePoint" />
+            <mxPoint x="880" y="1350" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B710JooNBCGoiN81PVn3-128" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;GetPdfMakeModelBioMatPermission&lt;/font&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;sketch=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="1334" y="1140" width="240" height="1040" as="geometry" />
+        </mxCell>
+        <mxCell id="B710JooNBCGoiN81PVn3-129" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;sketch=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="B710JooNBCGoiN81PVn3-128">
+          <mxGeometry x="115" y="180" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="B710JooNBCGoiN81PVn3-130" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;sketch=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=14;" vertex="1" parent="B710JooNBCGoiN81PVn3-128">
+          <mxGeometry x="115" y="220" width="10" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="B710JooNBCGoiN81PVn3-131" value="&amp;lt;&amp;lt; create &amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;sketch=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=10;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;entryX=-0.028;entryY=0.122;entryDx=0;entryDy=0;entryPerimeter=0;align=left;" edge="1" parent="1" source="B710JooNBCGoiN81PVn3-121" target="B710JooNBCGoiN81PVn3-129">
+          <mxGeometry x="-0.9264" width="80" relative="1" as="geometry">
+            <mxPoint x="743" y="1311.6" as="sourcePoint" />
+            <mxPoint x="954.2000000000003" y="1311.6" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B710JooNBCGoiN81PVn3-132" value="Do (filter)" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;sketch=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=10;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;align=left;entryX=0.057;entryY=0.005;entryDx=0;entryDy=0;entryPerimeter=0;horizontal=1;" edge="1" parent="1" source="B710JooNBCGoiN81PVn3-115" target="B710JooNBCGoiN81PVn3-130">
+          <mxGeometry x="-0.9798" width="80" relative="1" as="geometry">
+            <mxPoint x="640" y="1380" as="sourcePoint" />
+            <mxPoint x="1110" y="1380" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B710JooNBCGoiN81PVn3-133" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;sketch=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1454" y="1384" width="10" height="356" as="geometry" />
+        </mxCell>
+        <mxCell id="B710JooNBCGoiN81PVn3-134" value="хз" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;sketch=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=10;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;entryX=1.119;entryY=0.018;entryDx=0;entryDy=0;entryPerimeter=0;align=left;" edge="1" parent="1" source="B710JooNBCGoiN81PVn3-130" target="B710JooNBCGoiN81PVn3-133">
+          <mxGeometry x="-0.0933" width="80" relative="1" as="geometry">
+            <mxPoint x="1402" y="1400" as="sourcePoint" />
+            <mxPoint x="1482" y="1400" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1492" y="1370" />
+              <mxPoint x="1492" y="1390" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B710JooNBCGoiN81PVn3-135" value="&lt;span style=&quot;text-align: left;&quot;&gt;хз&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;sketch=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=10;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;entryX=1.034;entryY=0.003;entryDx=0;entryDy=0;entryPerimeter=0;align=right;" edge="1" parent="1" source="B710JooNBCGoiN81PVn3-133" target="B710JooNBCGoiN81PVn3-122">
+          <mxGeometry x="-0.9444" width="80" relative="1" as="geometry">
+            <mxPoint x="1080" y="1390" as="sourcePoint" />
+            <mxPoint x="760" y="1417" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B710JooNBCGoiN81PVn3-136" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;sketch=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="1140" width="240" height="1040" as="geometry" />
+        </mxCell>
+        <mxCell id="B710JooNBCGoiN81PVn3-137" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;sketch=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=14;" vertex="1" parent="B710JooNBCGoiN81PVn3-136">
+          <mxGeometry x="115" y="275" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="B710JooNBCGoiN81PVn3-138" value="&amp;lt;&amp;lt; get binding by Named&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;sketch=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=10;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;entryX=-0.116;entryY=0.117;entryDx=0;entryDy=0;entryPerimeter=0;align=left;" edge="1" parent="1" source="B710JooNBCGoiN81PVn3-122" target="B710JooNBCGoiN81PVn3-137">
+          <mxGeometry x="-0.9696" width="80" relative="1" as="geometry">
+            <mxPoint x="733.8" y="1419.76" as="sourcePoint" />
+            <mxPoint x="944.9999999999998" y="1419.76" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B710JooNBCGoiN81PVn3-139" value="&lt;span style=&quot;font-size: 16px; text-align: left;&quot;&gt;RegistrationResolutionRepository&lt;/span&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;sketch=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="1580" y="1140" width="240" height="1040" as="geometry" />
+        </mxCell>
+        <mxCell id="B710JooNBCGoiN81PVn3-140" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;sketch=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="B710JooNBCGoiN81PVn3-139">
+          <mxGeometry x="115" y="300" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="B710JooNBCGoiN81PVn3-141" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;sketch=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=14;" vertex="1" parent="B710JooNBCGoiN81PVn3-139">
+          <mxGeometry x="115" y="320" width="10" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="B710JooNBCGoiN81PVn3-142" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=1;shadow=0;glass=0;sketch=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=10;" vertex="1" parent="B710JooNBCGoiN81PVn3-139">
+          <mxGeometry x="120" y="372" width="10" height="98" as="geometry" />
+        </mxCell>
+        <mxCell id="B710JooNBCGoiN81PVn3-143" value="хз" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;sketch=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=10;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="B710JooNBCGoiN81PVn3-139" source="B710JooNBCGoiN81PVn3-141" target="B710JooNBCGoiN81PVn3-142">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="125" y="352" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="155" y="352" />
+              <mxPoint x="155" y="372" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B710JooNBCGoiN81PVn3-144" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=1;shadow=0;glass=0;sketch=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=10;" vertex="1" parent="B710JooNBCGoiN81PVn3-139">
+          <mxGeometry x="125" y="420" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="B710JooNBCGoiN81PVn3-145" value="хз" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;sketch=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=10;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;" edge="1" parent="B710JooNBCGoiN81PVn3-139" source="B710JooNBCGoiN81PVn3-142" target="B710JooNBCGoiN81PVn3-144">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130" y="400" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="160" y="400" />
+              <mxPoint x="160" y="420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B710JooNBCGoiN81PVn3-146" value="&amp;lt;&amp;lt; create &amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;sketch=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=10;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;align=left;entryX=0.054;entryY=0.075;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="B710JooNBCGoiN81PVn3-122" target="B710JooNBCGoiN81PVn3-140">
+          <mxGeometry x="-0.9855" y="1" width="80" relative="1" as="geometry">
+            <mxPoint x="744.16" y="1439.9999999999998" as="sourcePoint" />
+            <mxPoint x="1663" y="1441" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B710JooNBCGoiN81PVn3-147" value="Get" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;sketch=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=10;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;entryX=-0.066;entryY=0.02;entryDx=0;entryDy=0;entryPerimeter=0;align=left;" edge="1" parent="1" source="B710JooNBCGoiN81PVn3-133" target="B710JooNBCGoiN81PVn3-141">
+          <mxGeometry x="-0.928" y="1" width="80" relative="1" as="geometry">
+            <mxPoint x="1520" y="1420" as="sourcePoint" />
+            <mxPoint x="1600" y="1420" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B710JooNBCGoiN81PVn3-148" value="хз" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;sketch=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=10;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;entryX=-0.114;entryY=-0.002;entryDx=0;entryDy=0;entryPerimeter=0;align=left;" edge="1" parent="1" source="B710JooNBCGoiN81PVn3-141" target="B710JooNBCGoiN81PVn3-150">
+          <mxGeometry x="-0.9473" width="80" relative="1" as="geometry">
+            <mxPoint x="1730" y="1470" as="sourcePoint" />
+            <mxPoint x="1810" y="1470" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B710JooNBCGoiN81PVn3-149" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;DB&lt;/font&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;sketch=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;glass=0;rounded=1;shadow=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="1950" y="1140" width="70" height="1040" as="geometry" />
+        </mxCell>
+        <mxCell id="B710JooNBCGoiN81PVn3-150" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;sketch=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=14;" vertex="1" parent="B710JooNBCGoiN81PVn3-149">
+          <mxGeometry x="30" y="340" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="B710JooNBCGoiN81PVn3-151" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;NationalClinicalStatementPdfModel&lt;/span&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;sketch=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="2040" y="1140" width="240" height="1040" as="geometry" />
+        </mxCell>
+        <mxCell id="B710JooNBCGoiN81PVn3-152" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;sketch=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="B710JooNBCGoiN81PVn3-151">
+          <mxGeometry x="115" y="440" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="B710JooNBCGoiN81PVn3-153" value="хз" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;sketch=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=10;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;entryX=0.033;entryY=0.005;entryDx=0;entryDy=0;entryPerimeter=0;align=left;" edge="1" parent="1" source="B710JooNBCGoiN81PVn3-144" target="B710JooNBCGoiN81PVn3-152">
+          <mxGeometry x="-1" y="3" width="80" relative="1" as="geometry">
+            <mxPoint x="1890" y="1560" as="sourcePoint" />
+            <mxPoint x="2137" y="1583" as="targetPoint" />
+            <mxPoint x="-3" y="3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B710JooNBCGoiN81PVn3-154" value="&lt;span style=&quot;text-align: left;&quot;&gt;хз&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;sketch=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=10;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;align=right;exitX=-0.047;exitY=1.004;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="B710JooNBCGoiN81PVn3-141" target="B710JooNBCGoiN81PVn3-133">
+          <mxGeometry x="-0.937" relative="1" as="geometry">
+            <mxPoint x="1630" y="1620" as="sourcePoint" />
+            <mxPoint x="1550" y="1620" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B710JooNBCGoiN81PVn3-155" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;BioMatPermissionModel&lt;/span&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;sketch=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="2290" y="1140" width="240" height="1040" as="geometry" />
+        </mxCell>
+        <mxCell id="B710JooNBCGoiN81PVn3-156" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;sketch=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="B710JooNBCGoiN81PVn3-155">
+          <mxGeometry x="115" y="500" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="B710JooNBCGoiN81PVn3-157" value="хз" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;sketch=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=10;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;entryX=-0.023;entryY=-0.114;entryDx=0;entryDy=0;entryPerimeter=0;align=left;" edge="1" parent="1" source="B710JooNBCGoiN81PVn3-133" target="B710JooNBCGoiN81PVn3-156">
+          <mxGeometry x="-0.9828" y="-1" width="80" relative="1" as="geometry">
+            <mxPoint x="1630" y="1580" as="sourcePoint" />
+            <mxPoint x="1710" y="1580" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B710JooNBCGoiN81PVn3-158" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;BioMatPermissionJsonModel&lt;/span&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;sketch=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="2540" y="1140" width="240" height="1040" as="geometry" />
+        </mxCell>
+        <mxCell id="B710JooNBCGoiN81PVn3-159" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;sketch=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="B710JooNBCGoiN81PVn3-158">
+          <mxGeometry x="115" y="530" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="B710JooNBCGoiN81PVn3-160" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=1;shadow=0;glass=0;sketch=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=10;" vertex="1" parent="B710JooNBCGoiN81PVn3-158">
+          <mxGeometry x="115" y="560" width="10" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="B710JooNBCGoiN81PVn3-161" value="хз" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;sketch=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=10;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;entryX=0.076;entryY=0.079;entryDx=0;entryDy=0;entryPerimeter=0;align=left;spacingTop=0;spacingBottom=3;" edge="1" parent="1" source="B710JooNBCGoiN81PVn3-133" target="B710JooNBCGoiN81PVn3-159">
+          <mxGeometry x="-0.9828" y="-1" width="80" relative="1" as="geometry">
+            <mxPoint x="1481.9999999999995" y="1648.8600000000001" as="sourcePoint" />
+            <mxPoint x="2414.77" y="1648.8600000000001" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B710JooNBCGoiN81PVn3-162" value="хз" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;sketch=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=10;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;align=left;spacingTop=0;spacingBottom=3;entryX=0.058;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="B710JooNBCGoiN81PVn3-133" target="B710JooNBCGoiN81PVn3-160">
+          <mxGeometry x="-0.9828" y="-1" width="80" relative="1" as="geometry">
+            <mxPoint x="1482" y="1680.7900000000004" as="sourcePoint" />
+            <mxPoint x="2566" y="1728" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B710JooNBCGoiN81PVn3-163" value="&lt;span style=&quot;text-align: left;&quot;&gt;хз&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;sketch=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=10;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;exitX=0.047;exitY=0.994;exitDx=0;exitDy=0;exitPerimeter=0;align=right;spacingBottom=2;" edge="1" parent="1" source="B710JooNBCGoiN81PVn3-133" target="B710JooNBCGoiN81PVn3-115">
+          <mxGeometry x="-0.9762" y="2" relative="1" as="geometry">
+            <mxPoint x="1340" y="1660" as="sourcePoint" />
+            <mxPoint x="1260" y="1660" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
