@@ -1,17 +1,17 @@
-<mxfile host="app.diagrams.net" modified="2022-09-21T08:29:16.132Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="WUK47kyz2_GsKAArh7OC" version="20.3.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-21T08:38:06.030Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="KcfXrDprA5CzTrF6ow9n" version="20.3.2" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
-    <mxGraphModel dx="1463" dy="1917" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1023" dy="1331" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="ks56MIvrGEHXzN9xDOrr-1" value=":DocumentFormController" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;sketch=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" parent="1" vertex="1">
-          <mxGeometry x="80" y="30" width="450" height="1050" as="geometry" />
+          <mxGeometry x="-120" y="30" width="450" height="1050" as="geometry" />
         </mxCell>
         <mxCell id="Nu30mHrz8tzxWeqDDHN9-23" value="DocumentCode contains &quot;eec&quot;" style="shape=umlFrame;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=8;" vertex="1" parent="ks56MIvrGEHXzN9xDOrr-1">
           <mxGeometry x="90" y="411" width="360" height="200" as="geometry" />
         </mxCell>
         <mxCell id="Nu30mHrz8tzxWeqDDHN9-14" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;sketch=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=8;" vertex="1" parent="ks56MIvrGEHXzN9xDOrr-1">
-          <mxGeometry x="165" y="306" width="10" height="354" as="geometry" />
+          <mxGeometry x="220" y="306" width="10" height="444" as="geometry" />
         </mxCell>
         <mxCell id="Nu30mHrz8tzxWeqDDHN9-15" value="DataLoad()" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;sketch=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=8;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;curved=1;exitX=0.505;exitY=0.261;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" target="Nu30mHrz8tzxWeqDDHN9-14" parent="ks56MIvrGEHXzN9xDOrr-1" source="ks56MIvrGEHXzN9xDOrr-1">
           <mxGeometry relative="1" as="geometry">
@@ -23,17 +23,17 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Nu30mHrz8tzxWeqDDHN9-24" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;sketch=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=8;" vertex="1" parent="ks56MIvrGEHXzN9xDOrr-1">
-          <mxGeometry x="171" y="472" width="10" height="78" as="geometry" />
-        </mxCell>
-        <mxCell id="Nu30mHrz8tzxWeqDDHN9-25" value="GetEecRegStatement(_docObject.IncomingPackage.DocumentId)" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;sketch=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=8;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;curved=1;" edge="1" target="Nu30mHrz8tzxWeqDDHN9-24" parent="ks56MIvrGEHXzN9xDOrr-1" source="Nu30mHrz8tzxWeqDDHN9-14">
+        <mxCell id="Nu30mHrz8tzxWeqDDHN9-25" value="eecRegStat = GetEecRegStatement(_docObject.IncomingPackage.DocumentId)" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;sketch=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=8;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;curved=1;exitX=0.974;exitY=0.326;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" target="Nu30mHrz8tzxWeqDDHN9-24" parent="ks56MIvrGEHXzN9xDOrr-1" source="Nu30mHrz8tzxWeqDDHN9-14">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="180" y="450" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="210" y="450" />
-              <mxPoint x="210" y="472" />
+              <mxPoint x="260" y="451" />
+              <mxPoint x="260" y="484" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="Nu30mHrz8tzxWeqDDHN9-24" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;sketch=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=8;" vertex="1" parent="ks56MIvrGEHXzN9xDOrr-1">
+          <mxGeometry x="226" y="484" width="10" height="166" as="geometry" />
         </mxCell>
         <mxCell id="ks56MIvrGEHXzN9xDOrr-2" value="Index(string guid, string type)" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;rounded=0;sketch=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;curved=1;" parent="1" target="ks56MIvrGEHXzN9xDOrr-1" edge="1">
           <mxGeometry width="60" relative="1" as="geometry">
@@ -192,9 +192,9 @@
           <mxGeometry x="2620" y="30" width="260" height="1050" as="geometry" />
         </mxCell>
         <mxCell id="Nu30mHrz8tzxWeqDDHN9-27" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;sketch=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="Nu30mHrz8tzxWeqDDHN9-26">
-          <mxGeometry x="125" y="500" width="10" height="10" as="geometry" />
+          <mxGeometry x="125" y="515" width="10" height="10" as="geometry" />
         </mxCell>
-        <mxCell id="Nu30mHrz8tzxWeqDDHN9-28" value="&amp;lt;&amp;lt; create &amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;sketch=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=8;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;curved=1;entryX=0.092;entryY=0.048;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Nu30mHrz8tzxWeqDDHN9-24" target="Nu30mHrz8tzxWeqDDHN9-27">
+        <mxCell id="Nu30mHrz8tzxWeqDDHN9-28" value="&amp;lt;&amp;lt; create &amp;gt;&amp;gt; &lt;br&gt;eecDoc" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;sketch=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=8;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;curved=1;entryX=0.092;entryY=0.048;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Nu30mHrz8tzxWeqDDHN9-24" target="Nu30mHrz8tzxWeqDDHN9-27">
           <mxGeometry x="-0.983" width="80" relative="1" as="geometry">
             <mxPoint x="340" y="550" as="sourcePoint" />
             <mxPoint x="420" y="550" as="targetPoint" />
