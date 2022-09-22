@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-09-22T08:16:15.548Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="DR1pXPIgjPb-tK6Vi7XK" version="20.3.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-22T08:17:11.493Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="a-fqjS2ik-R_lLqFBPqt" version="20.3.2" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
-    <mxGraphModel dx="562" dy="599" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="464" dy="494" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -23,6 +23,9 @@
         </mxCell>
         <mxCell id="foolkbOFwzQNOnHuT_NG-3" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;sketch=1;" vertex="1" parent="3nuBFxr9cyL0pnOWT2aG-5">
           <mxGeometry x="45" y="145" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="foolkbOFwzQNOnHuT_NG-14" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;sketch=1;" vertex="1" parent="3nuBFxr9cyL0pnOWT2aG-5">
+          <mxGeometry x="45" y="207" width="10" height="10" as="geometry" />
         </mxCell>
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-8" value="select id as RequestType, [Name] as RequestTypeNm from dbo.DocRequestTypeList where Code in (&#39;grls_mp_mz&#39;, &#39;grls_mp_fgbu&#39;, &#39;grls_mp_inspect&#39;)" style="verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;shadow=0;strokeWidth=1;sketch=1;align=left;" parent="1" source="3nuBFxr9cyL0pnOWT2aG-2" target="3nuBFxr9cyL0pnOWT2aG-6" edge="1">
           <mxGeometry x="-0.9323" relative="1" as="geometry">
@@ -70,6 +73,13 @@
         </mxCell>
         <mxCell id="foolkbOFwzQNOnHuT_NG-13" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;sketch=1;" vertex="1" parent="foolkbOFwzQNOnHuT_NG-11">
           <mxGeometry x="100" y="200" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="foolkbOFwzQNOnHuT_NG-15" value="[grls].[core].[select_RequestAnswer_ByParentId]" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;sketch=1;hachureGap=4;fontFamily=Verdana;fontSize=10;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;curved=1;entryX=-0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;align=left;" edge="1" parent="1" source="foolkbOFwzQNOnHuT_NG-13" target="foolkbOFwzQNOnHuT_NG-14">
+          <mxGeometry x="-0.9048" width="80" relative="1" as="geometry">
+            <mxPoint x="1060" y="280" as="sourcePoint" />
+            <mxPoint x="1140" y="280" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
