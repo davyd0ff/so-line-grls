@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-09-22T08:42:42.271Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="g9qugTXSGHQZUe3NtMpJ" version="20.3.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-22T08:44:25.465Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="RVzeiCmyW3byF8RbwbWX" version="20.3.2" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
-    <mxGraphModel dx="1437" dy="872" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1185" dy="498" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -15,12 +15,12 @@
           <mxGeometry x="-80" y="130" width="290" height="90" as="geometry" />
         </mxCell>
         <mxCell id="TBUGCeUl6jJKip95aAgG-12" value="&lt;font face=&quot;Verdana&quot;&gt;DocSubTypeRepository&lt;/font&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;sketch=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="600" y="40" width="290" height="1040" as="geometry" />
+          <mxGeometry x="730" y="40" width="290" height="1040" as="geometry" />
         </mxCell>
         <mxCell id="TBUGCeUl6jJKip95aAgG-19" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;sketch=1;hachureGap=4;fontFamily=Verdana;fontSize=12;" vertex="1" parent="TBUGCeUl6jJKip95aAgG-12">
           <mxGeometry x="140" y="425" width="10" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="TBUGCeUl6jJKip95aAgG-20" value="[dbo].[select_DocSubType_ByID]" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;sketch=1;hachureGap=4;fontFamily=Verdana;fontSize=12;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;curved=1;entryX=-0.161;entryY=0.011;entryDx=0;entryDy=0;entryPerimeter=0;align=left;" edge="1" parent="1" source="TBUGCeUl6jJKip95aAgG-1" target="TBUGCeUl6jJKip95aAgG-19">
+        <mxCell id="TBUGCeUl6jJKip95aAgG-20" value="new GetEntityById&amp;lt;DocSubType&amp;gt;(unit).Do(Formatter.fmtNum(hfSubTypeID.Value))" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;sketch=1;hachureGap=4;fontFamily=Verdana;fontSize=12;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;curved=1;entryX=-0.161;entryY=0.011;entryDx=0;entryDy=0;entryPerimeter=0;align=left;" edge="1" parent="1" source="TBUGCeUl6jJKip95aAgG-1" target="TBUGCeUl6jJKip95aAgG-19">
           <mxGeometry x="-0.8654" width="80" relative="1" as="geometry">
             <mxPoint x="520" y="500" as="sourcePoint" />
             <mxPoint x="550" y="360" as="targetPoint" />
@@ -47,6 +47,19 @@
         </mxCell>
         <mxCell id="TBUGCeUl6jJKip95aAgG-8" value="reportName = &quot;rpDocRequest2&quot;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;hachureGap=4;fontFamily=Verdana;fontSize=12;" vertex="1" parent="TBUGCeUl6jJKip95aAgG-1">
           <mxGeometry x="85" y="350" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TBUGCeUl6jJKip95aAgG-22" value="&lt;font face=&quot;Verdana&quot;&gt;DB&lt;/font&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;sketch=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="40" width="120" height="1040" as="geometry" />
+        </mxCell>
+        <mxCell id="TBUGCeUl6jJKip95aAgG-23" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;sketch=1;hachureGap=4;fontFamily=Verdana;fontSize=12;" vertex="1" parent="TBUGCeUl6jJKip95aAgG-22">
+          <mxGeometry x="55" y="440" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="TBUGCeUl6jJKip95aAgG-24" value="&lt;span style=&quot;&quot;&gt;[dbo].[select_DocSubType_ByID]&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;sketch=1;hachureGap=4;fontFamily=Verdana;fontSize=12;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;curved=1;entryX=0.01;entryY=0.034;entryDx=0;entryDy=0;entryPerimeter=0;align=left;" edge="1" parent="1" source="TBUGCeUl6jJKip95aAgG-19" target="TBUGCeUl6jJKip95aAgG-23">
+          <mxGeometry x="-0.8219" y="1" width="80" relative="1" as="geometry">
+            <mxPoint x="1020" y="470" as="sourcePoint" />
+            <mxPoint x="1100" y="470" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
