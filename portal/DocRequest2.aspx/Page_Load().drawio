@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-09-22T08:18:26.333Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="jnJHFXcUdE4qwXfb9dSc" version="20.3.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-22T08:22:53.336Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="Ob7Ns2QIk8aY53djh8_d" version="20.3.2" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
-    <mxGraphModel dx="977" dy="1040" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="417" dy="599" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -8,7 +8,7 @@
           <mxGeometry x="80" y="80" width="140" height="960" as="geometry" />
         </mxCell>
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-2" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;sketch=1;" parent="3nuBFxr9cyL0pnOWT2aG-1" vertex="1">
-          <mxGeometry x="65" y="65" width="10" height="190" as="geometry" />
+          <mxGeometry x="65" y="65" width="10" height="335" as="geometry" />
         </mxCell>
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-3" value="Page_Load()" style="verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;shadow=0;strokeWidth=1;sketch=1;entryX=0.185;entryY=-0.002;entryDx=0;entryDy=0;entryPerimeter=0;" parent="3nuBFxr9cyL0pnOWT2aG-1" target="3nuBFxr9cyL0pnOWT2aG-2" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -27,6 +27,9 @@
         <mxCell id="foolkbOFwzQNOnHuT_NG-14" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;sketch=1;" vertex="1" parent="3nuBFxr9cyL0pnOWT2aG-5">
           <mxGeometry x="45" y="207" width="10" height="10" as="geometry" />
         </mxCell>
+        <mxCell id="foolkbOFwzQNOnHuT_NG-20" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;sketch=1;" vertex="1" parent="3nuBFxr9cyL0pnOWT2aG-5">
+          <mxGeometry x="45" y="240" width="10" height="10" as="geometry" />
+        </mxCell>
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-8" value="select id as RequestType, [Name] as RequestTypeNm from dbo.DocRequestTypeList where Code in (&#39;grls_mp_mz&#39;, &#39;grls_mp_fgbu&#39;, &#39;grls_mp_inspect&#39;)" style="verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;shadow=0;strokeWidth=1;sketch=1;align=left;" parent="1" source="3nuBFxr9cyL0pnOWT2aG-2" target="3nuBFxr9cyL0pnOWT2aG-6" edge="1">
           <mxGeometry x="-0.9323" relative="1" as="geometry">
             <mxPoint x="275" y="160" as="sourcePoint" />
@@ -34,7 +37,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="foolkbOFwzQNOnHuT_NG-1" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;sketch=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="1">
-          <mxGeometry x="150" y="197" width="10" height="93" as="geometry" />
+          <mxGeometry x="150" y="197" width="10" height="213" as="geometry" />
         </mxCell>
         <mxCell id="foolkbOFwzQNOnHuT_NG-2" value="&lt;font style=&quot;font-size: 10px;&quot; face=&quot;Verdana&quot;&gt;InitDocRequest()&lt;/font&gt;" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;sketch=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;curved=1;" edge="1" target="foolkbOFwzQNOnHuT_NG-1" parent="1" source="3nuBFxr9cyL0pnOWT2aG-2">
           <mxGeometry relative="1" as="geometry">
@@ -69,7 +72,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="foolkbOFwzQNOnHuT_NG-11" value="RequestAnswerBaseLongRepository" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;sketch=1;" vertex="1" parent="1">
-          <mxGeometry x="900" y="80" width="210" height="960" as="geometry" />
+          <mxGeometry x="630" y="80" width="210" height="960" as="geometry" />
         </mxCell>
         <mxCell id="foolkbOFwzQNOnHuT_NG-13" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;sketch=1;" vertex="1" parent="foolkbOFwzQNOnHuT_NG-11">
           <mxGeometry x="100" y="200" width="10" height="10" as="geometry" />
@@ -78,6 +81,26 @@
           <mxGeometry x="-0.9048" width="80" relative="1" as="geometry">
             <mxPoint x="1060" y="280" as="sourcePoint" />
             <mxPoint x="1140" y="280" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="foolkbOFwzQNOnHuT_NG-16" value="ReportFileRepository" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="880" y="80" width="160" height="960" as="geometry" />
+        </mxCell>
+        <mxCell id="foolkbOFwzQNOnHuT_NG-17" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;sketch=1;" vertex="1" parent="foolkbOFwzQNOnHuT_NG-16">
+          <mxGeometry x="75" y="240" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="foolkbOFwzQNOnHuT_NG-18" value="UnitOfWork.GetIdentifiedLongRepository&amp;lt;T&amp;gt;.GetById(id)" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;sketch=1;hachureGap=4;fontFamily=Verdana;fontSize=10;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;curved=1;entryX=-0.073;entryY=0.073;entryDx=0;entryDy=0;entryPerimeter=0;align=left;" edge="1" parent="1" source="foolkbOFwzQNOnHuT_NG-1" target="foolkbOFwzQNOnHuT_NG-17">
+          <mxGeometry x="-0.9231" width="80" relative="1" as="geometry">
+            <mxPoint x="178" y="290" as="sourcePoint" />
+            <mxPoint x="740" y="290" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="foolkbOFwzQNOnHuT_NG-19" value="[core].[select_ReportFile_ByID]" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;sketch=1;hachureGap=4;fontFamily=Verdana;fontSize=10;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;curved=1;align=left;" edge="1" parent="1" source="foolkbOFwzQNOnHuT_NG-17" target="foolkbOFwzQNOnHuT_NG-20">
+          <mxGeometry x="-0.8929" width="80" relative="1" as="geometry">
+            <mxPoint x="1100" y="350" as="sourcePoint" />
+            <mxPoint x="1180" y="350" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
