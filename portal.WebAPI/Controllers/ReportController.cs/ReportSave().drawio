@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-09-27T08:50:29.747Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="2SYWOMUya_9RAiitZjvL" version="20.3.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-27T08:52:27.175Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="RE_fuh07SiTIRkE4pRrj" version="20.3.3" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
-    <mxGraphModel dx="2272" dy="882" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1663" dy="504" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -212,15 +212,18 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="7eR0mogJ4ErbtlqO6J7q-88" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="7eR0mogJ4ErbtlqO6J7q-43">
+          <mxGeometry x="60" y="280" width="10" height="100" as="geometry" />
+        </mxCell>
         <mxCell id="7eR0mogJ4ErbtlqO6J7q-46" value="ReportServiceController" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
           <mxGeometry x="-190" y="1240" width="140" height="400" as="geometry" />
         </mxCell>
         <mxCell id="7eR0mogJ4ErbtlqO6J7q-47" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="7eR0mogJ4ErbtlqO6J7q-46">
           <mxGeometry x="65" y="80" width="10" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="7eR0mogJ4ErbtlqO6J7q-48" value="UpdateFileReport(UpdateReportRequestModel)" style="verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;shadow=0;strokeWidth=1;fontSize=10;align=left;" edge="1" parent="7eR0mogJ4ErbtlqO6J7q-46" target="7eR0mogJ4ErbtlqO6J7q-47">
+        <mxCell id="7eR0mogJ4ErbtlqO6J7q-48" value="UpdateFileReport(UpdateReportRequestModel)" style="verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;shadow=0;strokeWidth=1;fontSize=10;align=left;entryX=0.08;entryY=-0.008;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="7eR0mogJ4ErbtlqO6J7q-46" target="7eR0mogJ4ErbtlqO6J7q-88">
           <mxGeometry x="-0.7091" relative="1" as="geometry">
-            <mxPoint x="-210" y="80" as="sourcePoint" />
+            <mxPoint x="-210" y="-320" as="sourcePoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -229,6 +232,9 @@
         </mxCell>
         <mxCell id="7eR0mogJ4ErbtlqO6J7q-51" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="7eR0mogJ4ErbtlqO6J7q-50">
           <mxGeometry x="60" y="120" width="10" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="7eR0mogJ4ErbtlqO6J7q-89" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="7eR0mogJ4ErbtlqO6J7q-50">
+          <mxGeometry x="60" y="295" width="10" height="70" as="geometry" />
         </mxCell>
         <mxCell id="7eR0mogJ4ErbtlqO6J7q-53" value="ReportFileService" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
           <mxGeometry x="450" y="1240" width="130" height="400" as="geometry" />
@@ -248,10 +254,11 @@
         <mxCell id="7eR0mogJ4ErbtlqO6J7q-62" value="Прослойка, для конвертирования модели запроса в модель для сохранения отчета, &lt;br&gt;добавляет при этом, например, директорию куда сохранять файл" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=8;" vertex="1" parent="1">
           <mxGeometry x="665" y="45" width="340" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="7eR0mogJ4ErbtlqO6J7q-63" value="(true/false" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;fontSize=8;exitX=0;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="7eR0mogJ4ErbtlqO6J7q-64" target="7eR0mogJ4ErbtlqO6J7q-47">
-          <mxGeometry relative="1" as="geometry">
+        <mxCell id="7eR0mogJ4ErbtlqO6J7q-63" value="true | false" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;fontSize=8;exitX=-0.1;exitY=1.002;exitDx=0;exitDy=0;exitPerimeter=0;align=left;" edge="1" parent="1" source="7eR0mogJ4ErbtlqO6J7q-89" target="7eR0mogJ4ErbtlqO6J7q-88">
+          <mxGeometry x="-0.7793" relative="1" as="geometry">
             <mxPoint x="380" y="1480" as="sourcePoint" />
             <mxPoint x="20" y="1450" as="targetPoint" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="7eR0mogJ4ErbtlqO6J7q-67" value="{ idReportFile, Url }" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;fontSize=8;exitX=-0.064;exitY=1.022;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="7eR0mogJ4ErbtlqO6J7q-51" target="7eR0mogJ4ErbtlqO6J7q-44">
@@ -284,12 +291,12 @@
           <mxGeometry x="-360" y="720" width="100" height="70" as="geometry" />
         </mxCell>
         <mxCell id="7eR0mogJ4ErbtlqO6J7q-77" value="{&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;FileData,&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; FileExtension,&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; ReportFileId&lt;/span&gt;&lt;/div&gt;}" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=8;" vertex="1" parent="1">
-          <mxGeometry x="-360" y="1320" width="80" height="60" as="geometry" />
+          <mxGeometry x="-360" y="920" width="80" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="7eR0mogJ4ErbtlqO6J7q-78" value="Update()" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=8;entryX=-0.08;entryY=-0.053;entryDx=0;entryDy=0;entryPerimeter=0;align=left;" edge="1" parent="1" source="7eR0mogJ4ErbtlqO6J7q-47" target="7eR0mogJ4ErbtlqO6J7q-54">
+        <mxCell id="7eR0mogJ4ErbtlqO6J7q-78" value="Update()" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=8;align=left;entryX=0.04;entryY=-0.002;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="7eR0mogJ4ErbtlqO6J7q-88" target="7eR0mogJ4ErbtlqO6J7q-89">
           <mxGeometry x="-0.8876" width="80" relative="1" as="geometry">
             <mxPoint x="50" y="1350" as="sourcePoint" />
-            <mxPoint x="130" y="1350" as="targetPoint" />
+            <mxPoint x="250" y="930" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
