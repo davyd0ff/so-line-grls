@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-09-27T06:06:24.009Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="3lQKx3qvV6qzaLofo08x" version="20.3.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-27T06:08:44.179Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="vALD0l9Z5rxDZAVLJr8v" version="20.3.3" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
-    <mxGraphModel dx="1515" dy="353" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1800" dy="504" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -43,15 +43,44 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="7eR0mogJ4ErbtlqO6J7q-4" value="GetSaveMedicamentRegistrationApplicantRequestReportModel" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
-          <mxGeometry x="560" y="80" width="350" height="300" as="geometry" />
+          <mxGeometry x="660" y="80" width="350" height="300" as="geometry" />
         </mxCell>
         <mxCell id="7eR0mogJ4ErbtlqO6J7q-5" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="7eR0mogJ4ErbtlqO6J7q-4">
-          <mxGeometry x="170" y="120" width="10" height="20" as="geometry" />
+          <mxGeometry x="170" y="140" width="10" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7eR0mogJ4ErbtlqO6J7q-13" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="7eR0mogJ4ErbtlqO6J7q-4">
+          <mxGeometry x="170" y="117" width="10" height="10" as="geometry" />
         </mxCell>
         <mxCell id="7eR0mogJ4ErbtlqO6J7q-6" value="Do(model)" style="verticalAlign=bottom;endArrow=block;entryX=-0.1;entryY=0.01;shadow=0;strokeWidth=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="3nuBFxr9cyL0pnOWT2aG-2" target="7eR0mogJ4ErbtlqO6J7q-5">
           <mxGeometry x="-0.7653" relative="1" as="geometry">
             <mxPoint x="185" y="170" as="sourcePoint" />
             <mxPoint x="355" y="170" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7eR0mogJ4ErbtlqO6J7q-7" value="GetSaveMedicamentRegistrationApplicantRequestReportModel" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="1120" y="80" width="350" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="7eR0mogJ4ErbtlqO6J7q-8" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="7eR0mogJ4ErbtlqO6J7q-7">
+          <mxGeometry x="170" y="120" width="10" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7eR0mogJ4ErbtlqO6J7q-9" value="Ninject" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="80" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="7eR0mogJ4ErbtlqO6J7q-10" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="7eR0mogJ4ErbtlqO6J7q-9">
+          <mxGeometry x="45" y="110" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="7eR0mogJ4ErbtlqO6J7q-11" value="Get&lt;IGetSaveReportModel&gt;" style="verticalAlign=bottom;endArrow=block;entryX=-0.014;entryY=0.029;shadow=0;strokeWidth=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="3nuBFxr9cyL0pnOWT2aG-2" target="7eR0mogJ4ErbtlqO6J7q-10">
+          <mxGeometry x="-0.6427" relative="1" as="geometry">
+            <mxPoint x="185" y="230.19999999999993" as="sourcePoint" />
+            <mxPoint x="839" y="230.19999999999993" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7eR0mogJ4ErbtlqO6J7q-12" value="&lt;&lt; create &gt;&gt;" style="verticalAlign=bottom;endArrow=block;entryX=-0.029;entryY=-0.057;shadow=0;strokeWidth=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="7eR0mogJ4ErbtlqO6J7q-10" target="7eR0mogJ4ErbtlqO6J7q-13">
+          <mxGeometry x="-0.2435" relative="1" as="geometry">
+            <mxPoint x="640" y="289.99999999999994" as="sourcePoint" />
+            <mxPoint x="1059.8600000000001" y="289.99999999999994" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
