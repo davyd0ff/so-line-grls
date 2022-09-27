@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-09-27T08:52:27.175Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="RE_fuh07SiTIRkE4pRrj" version="20.3.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-27T08:53:57.467Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="VezT1h0L0ke5D0xGapnL" version="20.3.3" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
-    <mxGraphModel dx="1663" dy="504" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2272" dy="882" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -213,7 +213,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="7eR0mogJ4ErbtlqO6J7q-88" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="7eR0mogJ4ErbtlqO6J7q-43">
-          <mxGeometry x="60" y="280" width="10" height="100" as="geometry" />
+          <mxGeometry x="60" y="280" width="10" height="70" as="geometry" />
         </mxCell>
         <mxCell id="7eR0mogJ4ErbtlqO6J7q-46" value="ReportServiceController" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
           <mxGeometry x="-190" y="1240" width="140" height="400" as="geometry" />
@@ -234,7 +234,7 @@
           <mxGeometry x="60" y="120" width="10" height="70" as="geometry" />
         </mxCell>
         <mxCell id="7eR0mogJ4ErbtlqO6J7q-89" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="7eR0mogJ4ErbtlqO6J7q-50">
-          <mxGeometry x="60" y="295" width="10" height="70" as="geometry" />
+          <mxGeometry x="60" y="295" width="10" height="45" as="geometry" />
         </mxCell>
         <mxCell id="7eR0mogJ4ErbtlqO6J7q-53" value="ReportFileService" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
           <mxGeometry x="450" y="1240" width="130" height="400" as="geometry" />
@@ -250,6 +250,9 @@
         </mxCell>
         <mxCell id="7eR0mogJ4ErbtlqO6J7q-59" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="7eR0mogJ4ErbtlqO6J7q-58">
           <mxGeometry x="60" y="170" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="7eR0mogJ4ErbtlqO6J7q-91" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="7eR0mogJ4ErbtlqO6J7q-58">
+          <mxGeometry x="60" y="305" width="10" height="10" as="geometry" />
         </mxCell>
         <mxCell id="7eR0mogJ4ErbtlqO6J7q-62" value="Прослойка, для конвертирования модели запроса в модель для сохранения отчета, &lt;br&gt;добавляет при этом, например, директорию куда сохранять файл" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=8;" vertex="1" parent="1">
           <mxGeometry x="665" y="45" width="340" height="30" as="geometry" />
@@ -306,6 +309,9 @@
         <mxCell id="7eR0mogJ4ErbtlqO6J7q-82" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="7eR0mogJ4ErbtlqO6J7q-79">
           <mxGeometry x="60" y="130" width="10" height="10" as="geometry" />
         </mxCell>
+        <mxCell id="7eR0mogJ4ErbtlqO6J7q-93" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="7eR0mogJ4ErbtlqO6J7q-79">
+          <mxGeometry x="60" y="320" width="10" height="10" as="geometry" />
+        </mxCell>
         <mxCell id="7eR0mogJ4ErbtlqO6J7q-81" value="" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;fontSize=8;" vertex="1" parent="1">
           <mxGeometry x="430" y="610" width="30" height="60" as="geometry" />
         </mxCell>
@@ -327,6 +333,20 @@
           <mxGeometry x="-0.909" width="80" relative="1" as="geometry">
             <mxPoint x="349.9999999999998" y="800.1199999999999" as="sourcePoint" />
             <mxPoint x="638.77" y="800.1199999999999" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7eR0mogJ4ErbtlqO6J7q-92" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;GetPath(ReportFileId)&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=8;entryX=0.087;entryY=0.041;entryDx=0;entryDy=0;entryPerimeter=0;align=left;" edge="1" parent="1" source="7eR0mogJ4ErbtlqO6J7q-89" target="7eR0mogJ4ErbtlqO6J7q-91">
+          <mxGeometry x="-0.909" width="80" relative="1" as="geometry">
+            <mxPoint x="350" y="820" as="sourcePoint" />
+            <mxPoint x="789.4200000000001" y="820" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7eR0mogJ4ErbtlqO6J7q-90" value="&amp;lt;&amp;lt; save file &amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=8;entryX=0.016;entryY=0.012;entryDx=0;entryDy=0;entryPerimeter=0;align=left;" edge="1" parent="1" source="7eR0mogJ4ErbtlqO6J7q-89" target="7eR0mogJ4ErbtlqO6J7q-93">
+          <mxGeometry x="-0.7173" width="80" relative="1" as="geometry">
+            <mxPoint x="338.52" y="980.0000000000001" as="sourcePoint" />
+            <mxPoint x="480" y="980.0000000000001" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
