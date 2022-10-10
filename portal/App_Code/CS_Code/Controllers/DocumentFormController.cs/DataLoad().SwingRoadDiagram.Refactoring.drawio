@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-10-10T13:09:07.698Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="G231EUZgfwLUCkGNdode" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-10T13:12:12.610Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="MuNqX3FlySqS8eBPZYS0" version="20.4.0" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
-    <mxGraphModel dx="1346" dy="1815" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1564" dy="2087" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -72,6 +72,14 @@
         <mxCell id="_GVcp1NFg4RlwitaNLRl-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Verdana;" edge="1" parent="_GVcp1NFg4RlwitaNLRl-25" source="_GVcp1NFg4RlwitaNLRl-27" target="_GVcp1NFg4RlwitaNLRl-30">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="_GVcp1NFg4RlwitaNLRl-39" value="TRUE" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Verdana;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="_GVcp1NFg4RlwitaNLRl-25" source="_GVcp1NFg4RlwitaNLRl-32" target="_GVcp1NFg4RlwitaNLRl-37">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1500" y="150" />
+              <mxPoint x="440" y="150" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="_GVcp1NFg4RlwitaNLRl-32" value="" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Verdana;align=left;fontColor=#000000;rounded=0;" vertex="1" parent="_GVcp1NFg4RlwitaNLRl-25">
           <mxGeometry x="1460" y="55" width="80" height="80" as="geometry" />
         </mxCell>
@@ -84,14 +92,8 @@
         <mxCell id="_GVcp1NFg4RlwitaNLRl-35" value="EecRegCertificate" style="swimlane;html=1;startSize=20;horizontal=0;fontFamily=Verdana;" vertex="1" parent="_GVcp1NFg4RlwitaNLRl-25">
           <mxGeometry x="20" y="170" width="2200" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="_GVcp1NFg4RlwitaNLRl-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;fontFamily=Verdana;" edge="1" parent="_GVcp1NFg4RlwitaNLRl-35" source="_GVcp1NFg4RlwitaNLRl-37" target="_GVcp1NFg4RlwitaNLRl-38">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="_GVcp1NFg4RlwitaNLRl-37" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=12;fontColor=#000000;align=center;" vertex="1" parent="_GVcp1NFg4RlwitaNLRl-35">
-          <mxGeometry x="240" y="20" width="80" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="_GVcp1NFg4RlwitaNLRl-38" value="" style="rhombus;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=12;fontColor=#000000;align=center;" vertex="1" parent="_GVcp1NFg4RlwitaNLRl-35">
-          <mxGeometry x="360" y="30" width="40" height="40" as="geometry" />
+        <mxCell id="_GVcp1NFg4RlwitaNLRl-37" value="&lt;div&gt;var eecRegCertificate = unit.CreateSearchRepository&amp;lt;EecRegCertificate&amp;gt;().&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&amp;nbsp; .Find(new EecRegCertFindRequest() { StatementId = eecRegStat.Id }).&lt;/div&gt;&lt;div&gt;&amp;nbsp; .FirstOrDefault(r =&amp;gt; r.InnerState != null &amp;amp;&amp;amp; r.InnerState.Code != InnerStateCode.canceled)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=12;fontColor=#000000;align=left;" vertex="1" parent="_GVcp1NFg4RlwitaNLRl-35">
+          <mxGeometry x="130" y="30" width="580" height="60" as="geometry" />
         </mxCell>
         <mxCell id="_GVcp1NFg4RlwitaNLRl-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;fontFamily=Verdana;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-22" source="_GVcp1NFg4RlwitaNLRl-21" target="_GVcp1NFg4RlwitaNLRl-28">
           <mxGeometry relative="1" as="geometry">
