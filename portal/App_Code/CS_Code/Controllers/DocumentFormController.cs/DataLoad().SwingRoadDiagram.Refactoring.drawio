@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-10-10T12:39:16.660Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="wobfCAPyMdd07FPXf6s9" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-10T12:40:25.478Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="07g4MPuXYT0sd3nTm8aS" version="20.4.0" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
-    <mxGraphModel dx="1365" dy="1840" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1463" dy="1962" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -65,6 +65,12 @@
         </mxCell>
         <mxCell id="_GVcp1NFg4RlwitaNLRl-27" value="eecDoc = new RegistrationResolutionEec(_docObject as RegistrationResolution)" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=12;fontColor=#000000;align=center;" vertex="1" parent="_GVcp1NFg4RlwitaNLRl-25">
           <mxGeometry x="150" y="65" width="410" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_GVcp1NFg4RlwitaNLRl-30" value="&lt;div&gt;&amp;nbsp; model.EecStatementNumber = eecDoc.EECNumber = (eecRegStat == null) ? string.Empty : eecRegStat.EECNumber;&lt;/div&gt;&lt;div&gt;&amp;nbsp; model.EecStatementDate = eecDoc.EECNumberCreated = eecRegStat.EECNumberCreated;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontFamily=Verdana;fontColor=#000000;rounded=0;align=left;" vertex="1" parent="_GVcp1NFg4RlwitaNLRl-25">
+          <mxGeometry x="610" y="65" width="740" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_GVcp1NFg4RlwitaNLRl-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Verdana;" edge="1" parent="_GVcp1NFg4RlwitaNLRl-25" source="_GVcp1NFg4RlwitaNLRl-27" target="_GVcp1NFg4RlwitaNLRl-30">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="_GVcp1NFg4RlwitaNLRl-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;fontFamily=Verdana;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-22" source="_GVcp1NFg4RlwitaNLRl-21" target="_GVcp1NFg4RlwitaNLRl-28">
           <mxGeometry relative="1" as="geometry">
