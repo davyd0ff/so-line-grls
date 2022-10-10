@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-10-10T13:05:17.372Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="5nwxYSYa2md0h_Pa0e1A" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-10T13:06:20.819Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="NMVk5GDN8wzzd4_2R129" version="20.4.0" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
-    <mxGraphModel dx="1436" dy="1927" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1564" dy="2087" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -55,13 +55,13 @@
           <mxGeometry x="120" y="30" width="320" height="30" as="geometry" />
         </mxCell>
         <mxCell id="_GVcp1NFg4RlwitaNLRl-19" value="GetEecRegStatement" style="swimlane;html=1;startSize=20;horizontal=0;fontFamily=Verdana;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-22">
-          <mxGeometry x="20" y="100" width="2190" height="190" as="geometry" />
+          <mxGeometry x="20" y="100" width="2180" height="190" as="geometry" />
         </mxCell>
         <mxCell id="_GVcp1NFg4RlwitaNLRl-21" value="eecRegStat = GetEecRegStatement(_docObject.IncomingPackage.DocumentId);" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=12;fontColor=#000000;align=center;" vertex="1" parent="_GVcp1NFg4RlwitaNLRl-19">
           <mxGeometry x="150" y="65" width="410" height="60" as="geometry" />
         </mxCell>
         <mxCell id="_GVcp1NFg4RlwitaNLRl-25" value="RegistrationResolutionEEC" style="swimlane;html=1;startSize=20;horizontal=0;fontFamily=Verdana;" vertex="1" parent="dNxyNK7c78bLwvsdeMH5-22">
-          <mxGeometry x="20" y="290" width="2140" height="210" as="geometry" />
+          <mxGeometry x="20" y="290" width="2180" height="210" as="geometry" />
         </mxCell>
         <mxCell id="_GVcp1NFg4RlwitaNLRl-27" value="eecDoc = new RegistrationResolutionEec(_docObject as RegistrationResolution)" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;fontSize=12;fontColor=#000000;align=center;" vertex="1" parent="_GVcp1NFg4RlwitaNLRl-25">
           <mxGeometry x="150" y="65" width="410" height="60" as="geometry" />
@@ -78,8 +78,8 @@
         <mxCell id="_GVcp1NFg4RlwitaNLRl-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Verdana;" edge="1" parent="_GVcp1NFg4RlwitaNLRl-25" source="_GVcp1NFg4RlwitaNLRl-30" target="_GVcp1NFg4RlwitaNLRl-32">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_GVcp1NFg4RlwitaNLRl-34" value="&lt;div&gt;_docObject.RegistrationCertificate == null ||&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; string.IsNullOrEmpty(_docObject.RegistrationCertificate.Registratio&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Verdana;" vertex="1" parent="_GVcp1NFg4RlwitaNLRl-25">
-          <mxGeometry x="1430" y="15" width="550" height="40" as="geometry" />
+        <mxCell id="_GVcp1NFg4RlwitaNLRl-34" value="&lt;div&gt;_docObject.RegistrationCertificate == null ||&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; string.IsNullOrEmpty(_docObject.RegistrationCertificate.&lt;span style=&quot;background-color: initial;&quot;&gt;RegistrationCertificateNumber) ||&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; _docObject.RegistrationCertificate.Registered == DateTime.MinValue&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Verdana;" vertex="1" parent="_GVcp1NFg4RlwitaNLRl-25">
+          <mxGeometry x="1370" y="20" width="690" height="60" as="geometry" />
         </mxCell>
         <mxCell id="_GVcp1NFg4RlwitaNLRl-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;fontFamily=Verdana;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="dNxyNK7c78bLwvsdeMH5-22" source="_GVcp1NFg4RlwitaNLRl-21" target="_GVcp1NFg4RlwitaNLRl-28">
           <mxGeometry relative="1" as="geometry">
