@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-10-19T07:21:21.284Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="52TqaruCWc-unIL5AfuL" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-19T07:24:00.414Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="yCjuJjUgPGNSsgdZPqKN" version="20.4.0" type="github">
   <diagram id="p5f6WdTLzAqui4o8Hyai" name="Страница 1">
-    <mxGraphModel dx="130" dy="140" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="324" dy="349" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -17,12 +17,36 @@
           <mxGeometry x="530" y="40" width="160" height="300" as="geometry" />
         </mxCell>
         <mxCell id="NP6vg25aCVnL6aQOL06P-6" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="NP6vg25aCVnL6aQOL06P-3">
-          <mxGeometry x="75" y="90" width="10" height="20" as="geometry" />
+          <mxGeometry x="75" y="90" width="10" height="110" as="geometry" />
         </mxCell>
         <mxCell id="NP6vg25aCVnL6aQOL06P-5" value="GetDocumentTypeByTypeCode(aCommonDocumentRequest.Code)" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;entryX=0.068;entryY=0.012;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="NP6vg25aCVnL6aQOL06P-1" target="NP6vg25aCVnL6aQOL06P-6">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="220" y="240" as="sourcePoint" />
             <mxPoint x="300" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NP6vg25aCVnL6aQOL06P-9" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="610" y="165" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="NP6vg25aCVnL6aQOL06P-10" value="Get&amp;lt;OldEntityBase&amp;gt;(code)" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="NP6vg25aCVnL6aQOL06P-9" parent="1" source="NP6vg25aCVnL6aQOL06P-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="615" y="145" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="645" y="145" />
+              <mxPoint x="645" y="165" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NP6vg25aCVnL6aQOL06P-11" value="Ninject" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="800" y="40" width="160" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="NP6vg25aCVnL6aQOL06P-12" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="NP6vg25aCVnL6aQOL06P-11">
+          <mxGeometry x="75" y="140" width="10" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="NP6vg25aCVnL6aQOL06P-14" value="Get&amp;lt;OldEntityBase&amp;gt;(name)" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;entryX=0.06;entryY=-0.002;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="NP6vg25aCVnL6aQOL06P-9" target="NP6vg25aCVnL6aQOL06P-12">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="720" y="200" as="sourcePoint" />
+            <mxPoint x="800" y="200" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
