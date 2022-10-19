@@ -1,15 +1,15 @@
-<mxfile host="app.diagrams.net" modified="2022-10-19T07:19:25.219Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="5xarbCdLe66WSGFtZls_" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-19T07:19:42.339Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="LyS-WxKTm1O19nJmmqWn" version="20.4.0" type="github">
   <diagram id="p5f6WdTLzAqui4o8Hyai" name="Страница 1">
-    <mxGraphModel dx="810" dy="872" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="463" dy="498" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="NP6vg25aCVnL6aQOL06P-1" value=":GetDocumentByGuid" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="160" y="40" width="160" height="300" as="geometry" />
         </mxCell>
-        <mxCell id="NP6vg25aCVnL6aQOL06P-2" value="internalDo()" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;rounded=0;" edge="1" parent="1" target="NP6vg25aCVnL6aQOL06P-1">
+        <mxCell id="NP6vg25aCVnL6aQOL06P-2" value="internalDo(aCommonDocumentRequest)" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;rounded=0;" edge="1" parent="1" target="NP6vg25aCVnL6aQOL06P-1">
           <mxGeometry width="60" relative="1" as="geometry">
-            <mxPoint x="70" y="110" as="sourcePoint" />
+            <mxPoint x="10" y="110" as="sourcePoint" />
             <mxPoint x="150" y="450" as="targetPoint" />
           </mxGeometry>
         </mxCell>
