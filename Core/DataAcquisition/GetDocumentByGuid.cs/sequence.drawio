@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-10-19T07:36:44.970Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="MUVJJtJLQ8b6UC5R6yFj" version="20.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-19T07:37:58.300Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="r1xs1xdrKTDSmr4QOlew" version="20.4.0" type="github">
   <diagram id="p5f6WdTLzAqui4o8Hyai" name="Страница 1">
-    <mxGraphModel dx="463" dy="498" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="675" dy="727" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -20,7 +20,7 @@
           <mxGeometry x="75" y="90" width="10" height="110" as="geometry" />
         </mxCell>
         <mxCell id="NP6vg25aCVnL6aQOL06P-19" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="NP6vg25aCVnL6aQOL06P-3">
-          <mxGeometry x="75" y="230" width="10" height="50" as="geometry" />
+          <mxGeometry x="75" y="230" width="10" height="30" as="geometry" />
         </mxCell>
         <mxCell id="NP6vg25aCVnL6aQOL06P-5" value="GetDocumentTypeByTypeCode(aCommonDocumentRequest.Code)" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;entryX=0.068;entryY=0.012;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="NP6vg25aCVnL6aQOL06P-1" target="NP6vg25aCVnL6aQOL06P-6">
           <mxGeometry width="80" relative="1" as="geometry">
@@ -76,10 +76,20 @@
         <mxCell id="NP6vg25aCVnL6aQOL06P-21" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="NP6vg25aCVnL6aQOL06P-20">
           <mxGeometry x="75" y="240" width="10" height="10" as="geometry" />
         </mxCell>
+        <mxCell id="NP6vg25aCVnL6aQOL06P-24" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="NP6vg25aCVnL6aQOL06P-20">
+          <mxGeometry x="75" y="270" width="10" height="30" as="geometry" />
+        </mxCell>
         <mxCell id="NP6vg25aCVnL6aQOL06P-22" value="&amp;lt;&amp;lt; create &amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;entryX=-0.067;entryY=0.067;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="NP6vg25aCVnL6aQOL06P-19" target="NP6vg25aCVnL6aQOL06P-21">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="975" y="200" as="sourcePoint" />
             <mxPoint x="1250" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NP6vg25aCVnL6aQOL06P-23" value="FindByGuid(aCommonDocumentRequest.RoutingGuid)" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;entryX=0;entryY=-0.002;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="NP6vg25aCVnL6aQOL06P-1" target="NP6vg25aCVnL6aQOL06P-24">
+          <mxGeometry x="-0.7125" width="80" relative="1" as="geometry">
+            <mxPoint x="244.87666666666664" y="369.9999999999999" as="sourcePoint" />
+            <mxPoint x="1260" y="320" as="targetPoint" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
