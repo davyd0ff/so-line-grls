@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-26T14:15:54.086Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="PhDcrpsnbJ-t5UgDn1hk" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-26T14:16:00.089Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="kGOwyTL2zOPriqvB96Lr" version="20.5.1" type="github">
   <diagram id="fqF-8aLwEwoHDfmYO83Y" name="Страница 1">
     <mxGraphModel dx="2901" dy="1984" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -89,7 +89,7 @@
         <mxCell id="jXxLxAo7_-cvNq_sS0AN-22" value="GRLS" style="shape=umlFrame;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="-650" y="1110" width="970" height="570" as="geometry" />
         </mxCell>
-        <mxCell id="jXxLxAo7_-cvNq_sS0AN-23" value="grls.dbo.reSolution" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="1">
+        <mxCell id="jXxLxAo7_-cvNq_sS0AN-23" value="grls.dbo.reSolution" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="260" y="630" width="180" height="280" as="geometry" />
         </mxCell>
         <mxCell id="jXxLxAo7_-cvNq_sS0AN-331" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="jXxLxAo7_-cvNq_sS0AN-23">
