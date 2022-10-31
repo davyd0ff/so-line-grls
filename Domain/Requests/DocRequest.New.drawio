@@ -1,16 +1,17 @@
-<mxfile host="app.diagrams.net" modified="2022-10-31T13:32:24.604Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="jZATxlUR6zPnv_7-4TmG" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-31T13:32:58.435Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="gRbkaDa5CoUjsST_7Phy" version="20.5.1" type="github">
   <diagram id="dsU_ii47a0S2btjW8iKH" name="Страница 1">
-    <mxGraphModel dx="850" dy="466" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1239" dy="679" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="BPP2ajkxVIenSYZT_UOM-1" value="DocRequestTypeList:DB" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="280" y="40" width="160" height="1120" as="geometry" />
+          <mxGeometry x="1500" y="40" width="160" height="1120" as="geometry" />
         </mxCell>
         <mxCell id="BPP2ajkxVIenSYZT_UOM-2" value="&amp;lt;&amp;lt; insert &amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;rounded=0;" edge="1" parent="1" target="BPP2ajkxVIenSYZT_UOM-1">
-          <mxGeometry width="60" relative="1" as="geometry">
+          <mxGeometry x="-0.8718" width="60" relative="1" as="geometry">
             <mxPoint x="20" y="120" as="sourcePoint" />
             <mxPoint x="180" y="120" as="targetPoint" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="BPP2ajkxVIenSYZT_UOM-3" value="insert into (Name, ShortName, idStatementType, ...)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
