@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-31T10:50:08.716Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="auXzJ41a-9WCJfc5gFcl" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-10-31T10:50:30.034Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="PB6hW9u0GbdO8BTFVDcu" version="20.5.1" type="github">
   <diagram id="ESB7JyxYeQET72yzLlRy" name="Страница 1">
     <mxGraphModel dx="1549" dy="815" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -6,6 +6,9 @@
         <mxCell id="1" parent="0" />
         <mxCell id="g_nUXbkKunnwgk4_lB-h-1" value=":DocRequest2.aspx" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="40" y="40" width="160" height="680" as="geometry" />
+        </mxCell>
+        <mxCell id="g_nUXbkKunnwgk4_lB-h-2" value=":DocRequest2.aspx.cs" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="40" width="160" height="680" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
