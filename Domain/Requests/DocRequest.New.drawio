@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-01T08:06:47.817Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="KzsOFQKZ5X8SyA4WIRSr" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-01T08:11:44.514Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="yIZfv7mKNHTUXe2w_L8E" version="20.5.1" type="github">
   <diagram id="dsU_ii47a0S2btjW8iKH" name="Страница 1">
-    <mxGraphModel dx="445" dy="291" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="438" dy="286" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -268,7 +268,7 @@
           <mxGeometry x="2090" y="40" width="180" height="1120" as="geometry" />
         </mxCell>
         <mxCell id="BPP2ajkxVIenSYZT_UOM-87" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=11;" vertex="1" parent="BPP2ajkxVIenSYZT_UOM-86">
-          <mxGeometry x="85" y="780" width="10" height="50" as="geometry" />
+          <mxGeometry x="85" y="780" width="10" height="90" as="geometry" />
         </mxCell>
         <mxCell id="BPP2ajkxVIenSYZT_UOM-88" value="MakeOutNumber(count, postFix)" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=11;fontColor=#000000;entryX=-0.024;entryY=0.007;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="BPP2ajkxVIenSYZT_UOM-65" target="BPP2ajkxVIenSYZT_UOM-87">
           <mxGeometry x="-0.7092" width="80" relative="1" as="geometry">
@@ -283,6 +283,9 @@
         <mxCell id="BPP2ajkxVIenSYZT_UOM-90" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=11;" vertex="1" parent="BPP2ajkxVIenSYZT_UOM-89">
           <mxGeometry x="65" y="790" width="10" height="20" as="geometry" />
         </mxCell>
+        <mxCell id="BPP2ajkxVIenSYZT_UOM-95" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=11;" vertex="1" parent="BPP2ajkxVIenSYZT_UOM-89">
+          <mxGeometry x="65" y="840" width="10" height="20" as="geometry" />
+        </mxCell>
         <mxCell id="BPP2ajkxVIenSYZT_UOM-91" value="GetPostFix(parentType.Code, postFix)" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=11;fontColor=#000000;entryX=0.083;entryY=0.003;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="BPP2ajkxVIenSYZT_UOM-87" target="BPP2ajkxVIenSYZT_UOM-90">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="2190" y="830" as="sourcePoint" />
@@ -290,7 +293,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="BPP2ajkxVIenSYZT_UOM-92" value="{mp_defect_reg_statement}" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="2180" y="825" width="160" height="30" as="geometry" />
+          <mxGeometry x="2198" y="822" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BPP2ajkxVIenSYZT_UOM-94" value="GetFlow(parentType.Code, flowID)" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=11;fontColor=#000000;entryX=0.048;entryY=-0.027;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="BPP2ajkxVIenSYZT_UOM-87" target="BPP2ajkxVIenSYZT_UOM-95">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="2185" y="880.0000000000002" as="sourcePoint" />
+            <mxPoint x="2385.83" y="880.0000000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BPP2ajkxVIenSYZT_UOM-96" value="{mp_defect_reg_statement}" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="2200" y="870" width="160" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
