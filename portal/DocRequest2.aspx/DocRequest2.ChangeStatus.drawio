@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-01T14:21:20.143Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="H9CSh9so4yXQIXHAw4t2" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-01T14:22:20.767Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="0Ze3YjSF-sd86TrvkIX4" version="20.5.1" type="github">
   <diagram id="1gG8MEolRxr3eOi24UUM" name="Страница 1">
     <mxGraphModel dx="1703" dy="543" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -163,6 +163,9 @@
             <mxPoint x="1660" y="610" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="j3cDPz18Dl61WBa1ze43-43" value="DocumentToInternalStateBinding&lt;br&gt;Объект для привязки внутреннего состояния к объекту" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="1290" y="510" width="300" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
