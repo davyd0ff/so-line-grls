@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-01T07:23:15.292Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="RhmCt67bdgcnVhf1_BVx" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-01T07:23:48.357Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="A7nEk53Wwp__qDtKCkEI" version="20.5.1" type="github">
   <diagram id="dsU_ii47a0S2btjW8iKH" name="Страница 1">
-    <mxGraphModel dx="713" dy="466" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1467" dy="959" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -104,7 +104,7 @@
           <mxGeometry x="740" y="280" width="210" height="40" as="geometry" />
         </mxCell>
         <mxCell id="BPP2ajkxVIenSYZT_UOM-24" value="[grls].[core].[Get_ExpertCabinetDocumentTypes_L2]" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=11;entryX=-0.051;entryY=0.185;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="BPP2ajkxVIenSYZT_UOM-19" target="BPP2ajkxVIenSYZT_UOM-23">
-          <mxGeometry x="-0.7349" width="80" relative="1" as="geometry">
+          <mxGeometry x="-0.8167" y="2" width="80" relative="1" as="geometry">
             <mxPoint x="1240" y="280" as="sourcePoint" />
             <mxPoint x="1320" y="280" as="targetPoint" />
             <mxPoint as="offset" />
