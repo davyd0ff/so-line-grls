@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-01T08:29:48.399Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="ipk-k_J39dUIddqsxsCg" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-01T08:34:41.991Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="tVA7O8sMlLcKvGV5i9jA" version="20.5.1" type="github">
   <diagram id="dsU_ii47a0S2btjW8iKH" name="Страница 1">
-    <mxGraphModel dx="1084" dy="709" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="924" dy="604" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -317,7 +317,20 @@
           <mxGeometry x="2690" y="40" width="299" height="1120" as="geometry" />
         </mxCell>
         <mxCell id="BPP2ajkxVIenSYZT_UOM-102" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=11;" vertex="1" parent="BPP2ajkxVIenSYZT_UOM-101">
-          <mxGeometry x="144.5" y="880" width="10" height="20" as="geometry" />
+          <mxGeometry x="144.5" y="910" width="10" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="BPP2ajkxVIenSYZT_UOM-103" value="Run()" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=11;fontColor=#000000;entryX=-0.033;entryY=0.021;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="BPP2ajkxVIenSYZT_UOM-65" target="BPP2ajkxVIenSYZT_UOM-100">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="2090" y="710" as="sourcePoint" />
+            <mxPoint x="2170" y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BPP2ajkxVIenSYZT_UOM-104" value="Add(appReq)" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=11;fontColor=#000000;entryX=-0.119;entryY=0.034;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="BPP2ajkxVIenSYZT_UOM-65" target="BPP2ajkxVIenSYZT_UOM-102">
+          <mxGeometry x="-0.9012" width="80" relative="1" as="geometry">
+            <mxPoint x="1325" y="930.4200000000001" as="sourcePoint" />
+            <mxPoint x="2585.1700000000005" y="930.4200000000001" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
