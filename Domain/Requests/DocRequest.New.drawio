@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-01T07:30:14.448Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="8dC03v6_t3c5QJdxayK1" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-01T07:36:43.649Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="jzDFbcbTsSyzzQdPHiKJ" version="20.5.1" type="github">
   <diagram id="dsU_ii47a0S2btjW8iKH" name="Страница 1">
-    <mxGraphModel dx="346" dy="226" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="860" dy="562" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -185,6 +185,9 @@
         </mxCell>
         <mxCell id="BPP2ajkxVIenSYZT_UOM-54" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=11;" vertex="1" parent="BPP2ajkxVIenSYZT_UOM-49">
           <mxGeometry x="120" y="380" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BPP2ajkxVIenSYZT_UOM-67" value="Ошибка сопряжения... &lt;br&gt;во время валидации из БД извлекается requestType и сохраняется в глобальной области видимости, после чего присваивается Entity (ApplicantRequest)" style="text;align=center;verticalAlign=middle;resizable=1;points=[];autosize=1;fontSize=11;imageAspect=1;absoluteArcSize=0;portConstraintRotation=0;allowArrows=1;container=1;fixedWidth=0;resizeHeight=1;treeMoving=0;treeFolding=0;comic=0;enumerate=0;snapToPoint=0;fixDash=0;dropTarget=0;metaEdit=0;backgroundOutline=0;resizeWidth=1;html=1;labelBackgroundColor=none;labelBorderColor=none;fontColor=#6E6E6E;" vertex="1" parent="BPP2ajkxVIenSYZT_UOM-49">
+          <mxGeometry x="-100" y="250" width="220" height="90" as="geometry" />
         </mxCell>
         <mxCell id="BPP2ajkxVIenSYZT_UOM-53" value="Do(request.Incoming.DocumentType.Id)" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=11;entryX=0.074;entryY=0.013;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="BPP2ajkxVIenSYZT_UOM-47" target="BPP2ajkxVIenSYZT_UOM-54">
           <mxGeometry width="80" relative="1" as="geometry">
