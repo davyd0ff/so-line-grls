@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-01T07:24:50.054Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="cj_sftz9mzg3o2X-Dnsx" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-01T07:25:00.925Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="W0PqKhTRVIdQP3As6b7n" version="20.5.1" type="github">
   <diagram id="dsU_ii47a0S2btjW8iKH" name="Страница 1">
-    <mxGraphModel dx="1247" dy="815" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1467" dy="959" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -76,7 +76,7 @@
           <mxGeometry x="75" y="215" width="10" height="65" as="geometry" />
         </mxCell>
         <mxCell id="BPP2ajkxVIenSYZT_UOM-33" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=11;" vertex="1" parent="BPP2ajkxVIenSYZT_UOM-15">
-          <mxGeometry x="75" y="300" width="10" height="80" as="geometry" />
+          <mxGeometry x="75" y="300" width="10" height="210" as="geometry" />
         </mxCell>
         <mxCell id="BPP2ajkxVIenSYZT_UOM-16" value="ddlDocTypeChange(ddl)" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;entryX=0.07;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="BPP2ajkxVIenSYZT_UOM-30" target="BPP2ajkxVIenSYZT_UOM-17">
           <mxGeometry x="-0.4119" y="5" width="80" relative="1" as="geometry">
@@ -92,7 +92,7 @@
           <mxGeometry x="75" y="240" width="10" height="30" as="geometry" />
         </mxCell>
         <mxCell id="BPP2ajkxVIenSYZT_UOM-35" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="BPP2ajkxVIenSYZT_UOM-18">
-          <mxGeometry x="75" y="310" width="10" height="60" as="geometry" />
+          <mxGeometry x="75" y="310" width="10" height="190" as="geometry" />
         </mxCell>
         <mxCell id="BPP2ajkxVIenSYZT_UOM-20" value="&lt;div&gt;GetDocumentTypes()&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;entryX=0.044;entryY=0.007;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="BPP2ajkxVIenSYZT_UOM-17" target="BPP2ajkxVIenSYZT_UOM-19">
           <mxGeometry width="80" relative="1" as="geometry">
@@ -136,7 +136,7 @@
           <mxGeometry x="1040" y="40" width="160" height="1120" as="geometry" />
         </mxCell>
         <mxCell id="BPP2ajkxVIenSYZT_UOM-40" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="BPP2ajkxVIenSYZT_UOM-38">
-          <mxGeometry x="75" y="320" width="10" height="60" as="geometry" />
+          <mxGeometry x="75" y="320" width="10" height="160" as="geometry" />
         </mxCell>
         <mxCell id="BPP2ajkxVIenSYZT_UOM-41" value="Create()" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=11;entryX=0;entryY=0.016;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="BPP2ajkxVIenSYZT_UOM-35" target="BPP2ajkxVIenSYZT_UOM-40">
           <mxGeometry width="80" relative="1" as="geometry">
