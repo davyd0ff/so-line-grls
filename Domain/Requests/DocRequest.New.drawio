@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-01T07:15:18.192Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="5g6YCTW9TeZq1ANWrPBY" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-01T07:15:37.377Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="1l9WV4N82eMddfe_LYIV" version="20.5.1" type="github">
   <diagram id="dsU_ii47a0S2btjW8iKH" name="Страница 1">
     <mxGraphModel dx="416" dy="272" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -146,6 +146,18 @@
         </mxCell>
         <mxCell id="BPP2ajkxVIenSYZT_UOM-43" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="BPP2ajkxVIenSYZT_UOM-42">
           <mxGeometry x="90" y="335" width="10" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="BPP2ajkxVIenSYZT_UOM-47" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=11;" vertex="1" parent="BPP2ajkxVIenSYZT_UOM-42">
+          <mxGeometry x="95" y="360" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BPP2ajkxVIenSYZT_UOM-48" value="Validate()" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;fontSize=11;" edge="1" target="BPP2ajkxVIenSYZT_UOM-47" parent="BPP2ajkxVIenSYZT_UOM-42" source="BPP2ajkxVIenSYZT_UOM-43">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="340" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="130" y="340" />
+              <mxPoint x="130" y="360" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="BPP2ajkxVIenSYZT_UOM-46" value="Run(request)" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=11;entryX=0.115;entryY=0.006;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="BPP2ajkxVIenSYZT_UOM-40" target="BPP2ajkxVIenSYZT_UOM-43">
           <mxGeometry width="80" relative="1" as="geometry">
