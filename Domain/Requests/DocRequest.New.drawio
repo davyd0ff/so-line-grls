@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2022-11-01T06:39:43.763Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="RfHzrqLe7Vx8NvDkh8Rf" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-01T06:42:15.506Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="H54gVgVqLZ6nPcJnxFrf" version="20.5.1" type="github">
   <diagram id="dsU_ii47a0S2btjW8iKH" name="Страница 1">
-    <mxGraphModel dx="499" dy="326" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1247" dy="815" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="BPP2ajkxVIenSYZT_UOM-1" value="DocRequestTypeList:DB" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="1920" y="40" width="160" height="1120" as="geometry" />
+          <mxGeometry x="2180" y="40" width="160" height="1120" as="geometry" />
         </mxCell>
         <mxCell id="BPP2ajkxVIenSYZT_UOM-2" value="&amp;lt;&amp;lt; insert &amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;rounded=0;" edge="1" parent="1" target="BPP2ajkxVIenSYZT_UOM-1">
           <mxGeometry x="-0.8718" width="60" relative="1" as="geometry">
@@ -27,19 +27,20 @@
           <mxGeometry x="480" y="40" width="160" height="1120" as="geometry" />
         </mxCell>
         <mxCell id="BPP2ajkxVIenSYZT_UOM-6" value="Core.DataAcquisition.GetDocumentTypeByIncoming" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="1120" y="40" width="320" height="1120" as="geometry" />
+          <mxGeometry x="1380" y="40" width="320" height="1120" as="geometry" />
         </mxCell>
         <mxCell id="BPP2ajkxVIenSYZT_UOM-8" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="BPP2ajkxVIenSYZT_UOM-6">
           <mxGeometry x="155" y="160" width="10" height="60" as="geometry" />
         </mxCell>
         <mxCell id="BPP2ajkxVIenSYZT_UOM-7" value="Do(inNumber)" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;entryX=-0.088;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="BPP2ajkxVIenSYZT_UOM-5" target="BPP2ajkxVIenSYZT_UOM-8">
-          <mxGeometry width="80" relative="1" as="geometry">
+          <mxGeometry x="-0.8348" width="80" relative="1" as="geometry">
             <mxPoint x="370" y="240" as="sourcePoint" />
             <mxPoint x="450" y="240" as="targetPoint" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="BPP2ajkxVIenSYZT_UOM-9" value="Core.Repositories.DocumentTypeRepository" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="1450" y="40" width="260" height="1120" as="geometry" />
+          <mxGeometry x="1710" y="40" width="260" height="1120" as="geometry" />
         </mxCell>
         <mxCell id="BPP2ajkxVIenSYZT_UOM-10" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="BPP2ajkxVIenSYZT_UOM-9">
           <mxGeometry x="125" y="180" width="10" height="20" as="geometry" />
@@ -51,7 +52,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="BPP2ajkxVIenSYZT_UOM-12" value="DB" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="1830" y="40" width="80" height="1120" as="geometry" />
+          <mxGeometry x="2090" y="40" width="80" height="1120" as="geometry" />
         </mxCell>
         <mxCell id="BPP2ajkxVIenSYZT_UOM-13" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="BPP2ajkxVIenSYZT_UOM-12">
           <mxGeometry x="35" y="190" width="10" height="10" as="geometry" />
@@ -75,9 +76,10 @@
           <mxGeometry x="75" y="300" width="10" height="80" as="geometry" />
         </mxCell>
         <mxCell id="BPP2ajkxVIenSYZT_UOM-16" value="ddlDocTypeChange(ddl)" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;entryX=0.07;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="BPP2ajkxVIenSYZT_UOM-30" target="BPP2ajkxVIenSYZT_UOM-17">
-          <mxGeometry width="80" relative="1" as="geometry">
+          <mxGeometry x="-0.4119" y="5" width="80" relative="1" as="geometry">
             <mxPoint x="820" y="270" as="sourcePoint" />
             <mxPoint x="900" y="270" as="targetPoint" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="BPP2ajkxVIenSYZT_UOM-18" value="ExpertCabinet.aspx" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
@@ -87,7 +89,7 @@
           <mxGeometry x="75" y="240" width="10" height="30" as="geometry" />
         </mxCell>
         <mxCell id="BPP2ajkxVIenSYZT_UOM-35" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="BPP2ajkxVIenSYZT_UOM-18">
-          <mxGeometry x="75" y="310" width="10" height="30" as="geometry" />
+          <mxGeometry x="75" y="310" width="10" height="60" as="geometry" />
         </mxCell>
         <mxCell id="BPP2ajkxVIenSYZT_UOM-20" value="&lt;div&gt;GetDocumentTypes()&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;entryX=0.044;entryY=0.007;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="BPP2ajkxVIenSYZT_UOM-17" target="BPP2ajkxVIenSYZT_UOM-19">
           <mxGeometry width="80" relative="1" as="geometry">
@@ -99,7 +101,7 @@
           <mxGeometry x="740" y="280" width="210" height="40" as="geometry" />
         </mxCell>
         <mxCell id="BPP2ajkxVIenSYZT_UOM-24" value="[grls].[core].[Get_ExpertCabinetDocumentTypes_L2]" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=11;entryX=-0.051;entryY=0.185;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="BPP2ajkxVIenSYZT_UOM-19" target="BPP2ajkxVIenSYZT_UOM-23">
-          <mxGeometry x="-0.6435" y="2" width="80" relative="1" as="geometry">
+          <mxGeometry x="-0.7349" width="80" relative="1" as="geometry">
             <mxPoint x="1240" y="280" as="sourcePoint" />
             <mxPoint x="1320" y="280" as="targetPoint" />
             <mxPoint as="offset" />
@@ -112,9 +114,10 @@
           <mxGeometry x="390" y="317" width="26" height="50" as="geometry" />
         </mxCell>
         <mxCell id="BPP2ajkxVIenSYZT_UOM-34" value="&lt;span style=&quot;color: rgb(32, 33, 36); font-family: consolas, &amp;quot;lucida console&amp;quot;, &amp;quot;courier new&amp;quot;, monospace; font-size: 12px; text-align: left;&quot;&gt;btnNewDocumentClick()&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=11;entryX=-0.077;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="BPP2ajkxVIenSYZT_UOM-32" target="BPP2ajkxVIenSYZT_UOM-33">
-          <mxGeometry width="80" relative="1" as="geometry">
+          <mxGeometry x="-0.4721" y="-1" width="80" relative="1" as="geometry">
             <mxPoint x="570" y="220" as="sourcePoint" />
             <mxPoint x="650" y="220" as="targetPoint" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="BPP2ajkxVIenSYZT_UOM-36" value="AddDoc()" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=11;entryX=0.047;entryY=-0.004;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="BPP2ajkxVIenSYZT_UOM-33" target="BPP2ajkxVIenSYZT_UOM-35">
@@ -125,6 +128,18 @@
         </mxCell>
         <mxCell id="BPP2ajkxVIenSYZT_UOM-37" value="inNumber {&quot;4097849&quot;},&lt;br&gt;status {4}&lt;br style=&quot;font-size: 8px;&quot;&gt;redtype {applicant_request_mr}" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=8;" vertex="1" parent="1">
           <mxGeometry x="780" y="350" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BPP2ajkxVIenSYZT_UOM-38" value="ApplicantRequestHelper" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="40" width="160" height="1120" as="geometry" />
+        </mxCell>
+        <mxCell id="BPP2ajkxVIenSYZT_UOM-40" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="BPP2ajkxVIenSYZT_UOM-38">
+          <mxGeometry x="75" y="320" width="10" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BPP2ajkxVIenSYZT_UOM-41" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=11;entryX=0;entryY=0.016;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="BPP2ajkxVIenSYZT_UOM-35" target="BPP2ajkxVIenSYZT_UOM-40">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1070" y="370" as="sourcePoint" />
+            <mxPoint x="1150" y="370" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
