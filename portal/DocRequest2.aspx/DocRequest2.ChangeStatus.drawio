@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-01T13:32:40.604Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="zVqIi6VnhElaotj6pugP" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-01T13:33:34.195Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="dQdNA3d06A3XpzJ32Ffx" version="20.5.1" type="github">
   <diagram id="1gG8MEolRxr3eOi24UUM" name="Страница 1">
     <mxGraphModel dx="1922" dy="679" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -109,7 +109,7 @@
           <mxGeometry x="1320" y="40" width="220" height="2280" as="geometry" />
         </mxCell>
         <mxCell id="j3cDPz18Dl61WBa1ze43-28" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=11;" vertex="1" parent="j3cDPz18Dl61WBa1ze43-26">
-          <mxGeometry x="105" y="330" width="10" height="40" as="geometry" />
+          <mxGeometry x="105" y="330" width="10" height="10" as="geometry" />
         </mxCell>
         <mxCell id="j3cDPz18Dl61WBa1ze43-29" value="..." style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=11;entryX=0.134;entryY=-0.015;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="j3cDPz18Dl61WBa1ze43-25" target="j3cDPz18Dl61WBa1ze43-31">
           <mxGeometry x="-0.4924" width="80" relative="1" as="geometry">
@@ -124,7 +124,7 @@
         <mxCell id="j3cDPz18Dl61WBa1ze43-31" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=11;" vertex="1" parent="j3cDPz18Dl61WBa1ze43-30">
           <mxGeometry x="105" y="320" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="j3cDPz18Dl61WBa1ze43-32" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=11;entryX=0.119;entryY=0.004;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="j3cDPz18Dl61WBa1ze43-31" target="j3cDPz18Dl61WBa1ze43-28">
+        <mxCell id="j3cDPz18Dl61WBa1ze43-32" value="&amp;lt;&amp;lt; Ninject.GetStateRepository() &amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=11;entryX=0.119;entryY=0.004;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="j3cDPz18Dl61WBa1ze43-31" target="j3cDPz18Dl61WBa1ze43-28">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="1200" y="379.58000000000004" as="sourcePoint" />
             <mxPoint x="1280" y="379.58000000000004" as="targetPoint" />
