@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-01T14:23:06.831Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="bseMJ4schuRdHHvIMNNk" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-01T14:27:09.298Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="3UbQn8egT3I108wWPRXj" version="20.5.1" type="github">
   <diagram id="1gG8MEolRxr3eOi24UUM" name="Страница 1">
-    <mxGraphModel dx="1703" dy="1712" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2849" dy="2423" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -133,9 +133,6 @@
         <mxCell id="j3cDPz18Dl61WBa1ze43-33" value="InternalStateTransitionPermissionRepository" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="1980" y="40" width="250" height="2280" as="geometry" />
         </mxCell>
-        <mxCell id="j3cDPz18Dl61WBa1ze43-34" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=11;" vertex="1" parent="j3cDPz18Dl61WBa1ze43-33">
-          <mxGeometry x="120" y="475" width="10" height="10" as="geometry" />
-        </mxCell>
         <mxCell id="j3cDPz18Dl61WBa1ze43-35" value="Core.Repositories.dbo.DocumentToInternalStateBindingRepository" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="1040" y="40" width="400" height="2280" as="geometry" />
         </mxCell>
@@ -155,9 +152,9 @@
           <mxGeometry x="2640" y="40" width="80" height="2280" as="geometry" />
         </mxCell>
         <mxCell id="j3cDPz18Dl61WBa1ze43-41" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=11;" vertex="1" parent="j3cDPz18Dl61WBa1ze43-40">
-          <mxGeometry x="35" y="360" width="10" height="10" as="geometry" />
+          <mxGeometry x="35" y="478" width="10" height="10" as="geometry" />
         </mxCell>
-        <mxCell id="j3cDPz18Dl61WBa1ze43-42" value="[grls].[core].[select_DocumentToInternalStateBinding]" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=11;entryX=0.003;entryY=-0.013;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="j3cDPz18Dl61WBa1ze43-36" target="j3cDPz18Dl61WBa1ze43-34">
+        <mxCell id="j3cDPz18Dl61WBa1ze43-42" value="[grls].[core].[select_DocumentToInternalStateBinding]" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=11;entryX=-0.066;entryY=0.073;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="j3cDPz18Dl61WBa1ze43-36" target="j3cDPz18Dl61WBa1ze43-41">
           <mxGeometry x="-0.5439" width="80" relative="1" as="geometry">
             <mxPoint x="1580" y="610" as="sourcePoint" />
             <mxPoint x="1660" y="610" as="targetPoint" />
@@ -171,11 +168,11 @@
           <mxGeometry x="2240" y="40" width="180" height="2280" as="geometry" />
         </mxCell>
         <mxCell id="j3cDPz18Dl61WBa1ze43-45" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=11;" vertex="1" parent="j3cDPz18Dl61WBa1ze43-44">
-          <mxGeometry x="85" y="475" width="10" height="10" as="geometry" />
+          <mxGeometry x="85" y="490" width="10" height="10" as="geometry" />
         </mxCell>
-        <mxCell id="j3cDPz18Dl61WBa1ze43-47" value="&amp;lt;&amp;lt; create &amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=11;entryX=0.056;entryY=0.476;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="j3cDPz18Dl61WBa1ze43-34" target="j3cDPz18Dl61WBa1ze43-45">
+        <mxCell id="j3cDPz18Dl61WBa1ze43-47" value="&amp;lt;&amp;lt; create &amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=11;entryX=0.056;entryY=0.476;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="j3cDPz18Dl61WBa1ze43-36" target="j3cDPz18Dl61WBa1ze43-45">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="2090" y="480" as="sourcePoint" />
+            <mxPoint x="2110" y="534.7600000000002" as="sourcePoint" />
             <mxPoint x="2170" y="480" as="targetPoint" />
           </mxGeometry>
         </mxCell>
