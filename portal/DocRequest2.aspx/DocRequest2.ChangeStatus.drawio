@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-01T12:45:35.791Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="OwrrJDNcT6AYocDmPgwy" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-01T12:46:34.133Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="wA-sIQJO32X7ldqVSoso" version="20.5.1" type="github">
   <diagram id="1gG8MEolRxr3eOi24UUM" name="Страница 1">
     <mxGraphModel dx="1453" dy="388" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -76,6 +76,12 @@
         </mxCell>
         <mxCell id="j3cDPz18Dl61WBa1ze43-20" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="j3cDPz18Dl61WBa1ze43-19">
           <mxGeometry x="105" y="280" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="j3cDPz18Dl61WBa1ze43-21" value="PerformTransaction(request)" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=8;entryX=0.032;entryY=0.007;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="j3cDPz18Dl61WBa1ze43-16" target="j3cDPz18Dl61WBa1ze43-20">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="700" y="280" as="sourcePoint" />
+            <mxPoint x="780" y="280" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
