@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-01T12:34:50.920Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="nb0ds8EureWGnxXGBddf" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-01T12:35:15.306Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="YfKwh7YAVBaKoljBlnkk" version="20.5.1" type="github">
   <diagram id="1gG8MEolRxr3eOi24UUM" name="Страница 1">
-    <mxGraphModel dx="2141" dy="815" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1265" dy="272" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -16,10 +16,19 @@
         <mxCell id="j3cDPz18Dl61WBa1ze43-2" value=":DocRequest.aspx.cs" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="240" y="40" width="120" height="2280" as="geometry" />
         </mxCell>
+        <mxCell id="j3cDPz18Dl61WBa1ze43-5" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="j3cDPz18Dl61WBa1ze43-2">
+          <mxGeometry x="55" y="130" width="10" height="80" as="geometry" />
+        </mxCell>
         <mxCell id="j3cDPz18Dl61WBa1ze43-3" value="&amp;lt;&amp;lt; change status &amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;rounded=0;" edge="1" parent="1" target="j3cDPz18Dl61WBa1ze43-1">
           <mxGeometry width="60" relative="1" as="geometry">
             <mxPoint y="120" as="sourcePoint" />
             <mxPoint x="90" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="j3cDPz18Dl61WBa1ze43-6" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;entryX=0.001;entryY=0.014;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="j3cDPz18Dl61WBa1ze43-1" target="j3cDPz18Dl61WBa1ze43-5">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="400" y="300" as="sourcePoint" />
+            <mxPoint x="480" y="300" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
