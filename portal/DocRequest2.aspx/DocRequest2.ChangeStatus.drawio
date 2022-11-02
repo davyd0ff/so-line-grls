@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-02T05:51:40.100Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="jvVLuYHcQcNb-EkSACvf" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-02T05:52:57.579Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="qopLWWJPSu4mKB18sZev" version="20.5.1" type="github">
   <diagram id="1gG8MEolRxr3eOi24UUM" name="Страница 1">
-    <mxGraphModel dx="1375" dy="1509" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1623" dy="1663" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -120,11 +120,11 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="j3cDPz18Dl61WBa1ze43-26" value="InternalStateTransitionRepository" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="j3cDPz18Dl61WBa1ze43-26" value="Core.Repositories.DocumentState.&lt;br&gt;InternalStateTransitionRepository" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="1750" y="40" width="220" height="2280" as="geometry" />
         </mxCell>
         <mxCell id="j3cDPz18Dl61WBa1ze43-28" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=11;" vertex="1" parent="j3cDPz18Dl61WBa1ze43-26">
-          <mxGeometry x="105" y="720" width="10" height="10" as="geometry" />
+          <mxGeometry x="105" y="647" width="10" height="10" as="geometry" />
         </mxCell>
         <mxCell id="j3cDPz18Dl61WBa1ze43-29" value="Do(UnitOfWork, documentTypeId = {94}, currentStateId = {11 : Project}, StateTypeEnum.Inner, isSystem)" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=11;entryX=0.134;entryY=-0.015;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="j3cDPz18Dl61WBa1ze43-25" target="j3cDPz18Dl61WBa1ze43-31">
           <mxGeometry x="-0.2044" width="80" relative="1" as="geometry">
@@ -152,7 +152,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="j3cDPz18Dl61WBa1ze43-55" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=11;fontColor=#545454;" vertex="1" parent="j3cDPz18Dl61WBa1ze43-30">
-          <mxGeometry x="110" y="630" width="10" height="40" as="geometry" />
+          <mxGeometry x="110" y="630" width="10" height="60" as="geometry" />
         </mxCell>
         <mxCell id="j3cDPz18Dl61WBa1ze43-56" value="InternalDo(DocumentStateInfo)" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;fontSize=11;fontColor=#545454;" edge="1" target="j3cDPz18Dl61WBa1ze43-55" parent="j3cDPz18Dl61WBa1ze43-30">
           <mxGeometry relative="1" as="geometry">
@@ -163,7 +163,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="j3cDPz18Dl61WBa1ze43-32" value="&amp;lt;&amp;lt; Ninject.GetStateRepository() &amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=11;entryX=0.119;entryY=0.004;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="j3cDPz18Dl61WBa1ze43-31" target="j3cDPz18Dl61WBa1ze43-28">
+        <mxCell id="j3cDPz18Dl61WBa1ze43-32" value="&amp;lt;&amp;lt; Ninject.GetStateRepository() &amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=11;entryX=0.119;entryY=0.004;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="j3cDPz18Dl61WBa1ze43-55" target="j3cDPz18Dl61WBa1ze43-28">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="1200" y="527.58" as="sourcePoint" />
             <mxPoint x="1280" y="527.58" as="targetPoint" />
