@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-02T06:17:58.697Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="CWJfqiSzRpv7britPZow" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-02T06:19:07.190Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="D4TkHsN6Lm0zrx38g8F-" version="20.5.1" type="github">
   <diagram id="1gG8MEolRxr3eOi24UUM" name="Страница 1">
-    <mxGraphModel dx="1922" dy="1848" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1453" dy="1557" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -102,15 +102,15 @@
           <mxGeometry x="790" y="40" width="220" height="2280" as="geometry" />
         </mxCell>
         <mxCell id="j3cDPz18Dl61WBa1ze43-20" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="j3cDPz18Dl61WBa1ze43-19">
-          <mxGeometry x="105" y="958" width="10" height="180" as="geometry" />
+          <mxGeometry x="105" y="1128" width="10" height="180" as="geometry" />
         </mxCell>
         <mxCell id="j3cDPz18Dl61WBa1ze43-25" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=11;" vertex="1" parent="j3cDPz18Dl61WBa1ze43-19">
-          <mxGeometry x="105" y="458" width="10" height="402" as="geometry" />
+          <mxGeometry x="105" y="458" width="10" height="442" as="geometry" />
         </mxCell>
         <mxCell id="j3cDPz18Dl61WBa1ze43-21" value="PerformTransaction(request)" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=11;entryX=0.032;entryY=0.007;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="j3cDPz18Dl61WBa1ze43-20">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="655" y="999.2599999999998" as="sourcePoint" />
-            <mxPoint x="780" y="798" as="targetPoint" />
+            <mxPoint x="655" y="1169.2599999999998" as="sourcePoint" />
+            <mxPoint x="780" y="968" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="j3cDPz18Dl61WBa1ze43-24" value="base.Validate()" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=11;entryX=0.14;entryY=0.004;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="j3cDPz18Dl61WBa1ze43-22" target="j3cDPz18Dl61WBa1ze43-25">
@@ -182,10 +182,10 @@
           <mxGeometry x="1040" y="40" width="400" height="2280" as="geometry" />
         </mxCell>
         <mxCell id="j3cDPz18Dl61WBa1ze43-36" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="j3cDPz18Dl61WBa1ze43-35">
-          <mxGeometry x="195" y="973" width="10" height="55" as="geometry" />
+          <mxGeometry x="195" y="1143" width="10" height="55" as="geometry" />
         </mxCell>
         <mxCell id="j3cDPz18Dl61WBa1ze43-39" value="{documentTypeId = 94 !! (а должно быть по хорошему 219)}" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;" vertex="1" parent="j3cDPz18Dl61WBa1ze43-35">
-          <mxGeometry x="-130" y="973" width="320" height="30" as="geometry" />
+          <mxGeometry x="-130" y="1143" width="320" height="30" as="geometry" />
         </mxCell>
         <mxCell id="j3cDPz18Dl61WBa1ze43-51" value="Проверяем у кого меняем состояние&lt;br&gt;Если это StatementTypeList.RegistrationStatements, то&lt;br&gt;вызывается UpdateRegistrationStatementId()&lt;br&gt;&lt;br&gt;Сейчас проверяется что у нас Document не RegistrationStatement" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontColor=#545454;" vertex="1" parent="j3cDPz18Dl61WBa1ze43-35">
           <mxGeometry x="-140" y="410" width="360" height="80" as="geometry" />
@@ -193,25 +193,28 @@
         <mxCell id="j3cDPz18Dl61WBa1ze43-52" value="Еще раз проверяется что CurrentState != NewState&lt;br&gt;... Зачем это делается в DocRequest2.aspx.cs нипонятно" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontColor=#545454;" vertex="1" parent="j3cDPz18Dl61WBa1ze43-35">
           <mxGeometry x="-130" y="505" width="310" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="j3cDPz18Dl61WBa1ze43-67" value="Выбирается нужный transition ... &lt;br&gt;например с 11 =&amp;gt; 12 (Проект =&amp;gt; На визировании)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontColor=#000000;" vertex="1" parent="j3cDPz18Dl61WBa1ze43-35">
+          <mxGeometry x="-130" y="820" width="280" height="40" as="geometry" />
+        </mxCell>
         <mxCell id="j3cDPz18Dl61WBa1ze43-38" value="GetDocumentInternalState(documentId, documentTypeId)" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=11;entryX=0.03;entryY=-0.001;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="j3cDPz18Dl61WBa1ze43-20" target="j3cDPz18Dl61WBa1ze43-36">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="990" y="968" as="sourcePoint" />
-            <mxPoint x="1070" y="968" as="targetPoint" />
+            <mxPoint x="990" y="1138" as="sourcePoint" />
+            <mxPoint x="1070" y="1138" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="j3cDPz18Dl61WBa1ze43-40" value="DB" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="2640" y="40" width="80" height="2280" as="geometry" />
         </mxCell>
         <mxCell id="j3cDPz18Dl61WBa1ze43-41" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=11;" vertex="1" parent="j3cDPz18Dl61WBa1ze43-40">
-          <mxGeometry x="35" y="996" width="10" height="10" as="geometry" />
+          <mxGeometry x="35" y="1166" width="10" height="10" as="geometry" />
         </mxCell>
         <mxCell id="j3cDPz18Dl61WBa1ze43-59" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=11;fontColor=#545454;" vertex="1" parent="j3cDPz18Dl61WBa1ze43-40">
           <mxGeometry x="35" y="690" width="10" height="10" as="geometry" />
         </mxCell>
         <mxCell id="j3cDPz18Dl61WBa1ze43-42" value="[grls].[core].[select_DocumentToInternalStateBinding]" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=11;entryX=-0.066;entryY=0.073;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="j3cDPz18Dl61WBa1ze43-36" target="j3cDPz18Dl61WBa1ze43-41">
           <mxGeometry x="-0.5439" width="80" relative="1" as="geometry">
-            <mxPoint x="1580" y="1128" as="sourcePoint" />
-            <mxPoint x="1660" y="1128" as="targetPoint" />
+            <mxPoint x="1580" y="1298" as="sourcePoint" />
+            <mxPoint x="1660" y="1298" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -222,7 +225,7 @@
           <mxGeometry x="2240" y="40" width="230" height="2280" as="geometry" />
         </mxCell>
         <mxCell id="j3cDPz18Dl61WBa1ze43-45" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=11;" vertex="1" parent="j3cDPz18Dl61WBa1ze43-44">
-          <mxGeometry x="85" y="1008" width="10" height="10" as="geometry" />
+          <mxGeometry x="85" y="1178" width="10" height="10" as="geometry" />
         </mxCell>
         <mxCell id="j3cDPz18Dl61WBa1ze43-64" value="&lt;font color=&quot;#545454&quot;&gt;Фильтруются переходы, которые пользователь может совершить?&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontColor=#000;" vertex="1" parent="j3cDPz18Dl61WBa1ze43-44">
           <mxGeometry x="-190" y="732.5" width="360" height="30" as="geometry" />
@@ -232,8 +235,8 @@
         </mxCell>
         <mxCell id="j3cDPz18Dl61WBa1ze43-47" value="&amp;lt;&amp;lt; create &amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=11;entryX=0.056;entryY=0.476;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="j3cDPz18Dl61WBa1ze43-36" target="j3cDPz18Dl61WBa1ze43-45">
           <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="2110" y="1052.7600000000002" as="sourcePoint" />
-            <mxPoint x="2170" y="998" as="targetPoint" />
+            <mxPoint x="2110" y="1222.7600000000002" as="sourcePoint" />
+            <mxPoint x="2170" y="1168" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="j3cDPz18Dl61WBa1ze43-58" value="GetByType(typeId = {94}, Id = {0})" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=11;entryX=0.119;entryY=0.004;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="j3cDPz18Dl61WBa1ze43-57" source="j3cDPz18Dl61WBa1ze43-55">
