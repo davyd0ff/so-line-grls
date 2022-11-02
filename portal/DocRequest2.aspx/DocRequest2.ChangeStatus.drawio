@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-02T06:47:10.635Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="VSm0qhvbmhn_8bhyFU2b" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-02T06:47:37.496Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="ZuyMBKhuGlBySr26g064" version="20.5.1" type="github">
   <diagram id="1gG8MEolRxr3eOi24UUM" name="Страница 1">
-    <mxGraphModel dx="2704" dy="2333" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2141" dy="1984" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -105,7 +105,7 @@
           <mxGeometry x="105" y="1128" width="10" height="180" as="geometry" />
         </mxCell>
         <mxCell id="j3cDPz18Dl61WBa1ze43-25" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=11;" vertex="1" parent="j3cDPz18Dl61WBa1ze43-19">
-          <mxGeometry x="105" y="458" width="10" height="622" as="geometry" />
+          <mxGeometry x="105" y="458" width="10" height="552" as="geometry" />
         </mxCell>
         <mxCell id="j3cDPz18Dl61WBa1ze43-21" value="PerformTransaction(request)" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=11;entryX=0.032;entryY=0.007;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="j3cDPz18Dl61WBa1ze43-20">
           <mxGeometry width="80" relative="1" as="geometry">
@@ -279,7 +279,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="j3cDPz18Dl61WBa1ze43-70" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=11;fontColor=#545454;" vertex="1" parent="1">
-          <mxGeometry x="900" y="1020" width="10" height="40" as="geometry" />
+          <mxGeometry x="900" y="1020" width="10" height="20" as="geometry" />
         </mxCell>
         <mxCell id="j3cDPz18Dl61WBa1ze43-71" value="&lt;font color=&quot;#000000&quot;&gt;CheckParentDocument(documentType)&lt;/font&gt;" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;fontSize=11;fontColor=#545454;" edge="1" target="j3cDPz18Dl61WBa1ze43-70" parent="1" source="j3cDPz18Dl61WBa1ze43-25">
           <mxGeometry relative="1" as="geometry">
