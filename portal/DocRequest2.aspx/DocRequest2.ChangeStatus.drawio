@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-02T05:45:55.466Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="R35cRlPEqUOq7cCu55Eo" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-02T05:47:09.482Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="ud0FfK6JhbBxquju2ObQ" version="20.5.1" type="github">
   <diagram id="1gG8MEolRxr3eOi24UUM" name="Страница 1">
     <mxGraphModel dx="1970" dy="1878" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -126,8 +126,8 @@
         <mxCell id="j3cDPz18Dl61WBa1ze43-28" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=11;" vertex="1" parent="j3cDPz18Dl61WBa1ze43-26">
           <mxGeometry x="105" y="590" width="10" height="10" as="geometry" />
         </mxCell>
-        <mxCell id="j3cDPz18Dl61WBa1ze43-29" value="..." style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=11;entryX=0.134;entryY=-0.015;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="j3cDPz18Dl61WBa1ze43-25" target="j3cDPz18Dl61WBa1ze43-31">
-          <mxGeometry x="-0.4924" width="80" relative="1" as="geometry">
+        <mxCell id="j3cDPz18Dl61WBa1ze43-29" value="Do(UnitOfWork, documentTypeId, currentStateId, StateTypeEnum.Inner, isSystem)" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=11;entryX=0.134;entryY=-0.015;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="j3cDPz18Dl61WBa1ze43-25" target="j3cDPz18Dl61WBa1ze43-31">
+          <mxGeometry x="-0.2623" width="80" relative="1" as="geometry">
             <mxPoint x="960" y="508.1600000000001" as="sourcePoint" />
             <mxPoint x="1196.4" y="508.1600000000001" as="targetPoint" />
             <mxPoint as="offset" />
@@ -137,7 +137,7 @@
           <mxGeometry x="1490" y="40" width="220" height="2280" as="geometry" />
         </mxCell>
         <mxCell id="j3cDPz18Dl61WBa1ze43-31" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=11;" vertex="1" parent="j3cDPz18Dl61WBa1ze43-30">
-          <mxGeometry x="105" y="580" width="10" height="80" as="geometry" />
+          <mxGeometry x="105" y="564" width="10" height="80" as="geometry" />
         </mxCell>
         <mxCell id="j3cDPz18Dl61WBa1ze43-32" value="&amp;lt;&amp;lt; Ninject.GetStateRepository() &amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=11;entryX=0.119;entryY=0.004;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="j3cDPz18Dl61WBa1ze43-31" target="j3cDPz18Dl61WBa1ze43-28">
           <mxGeometry width="80" relative="1" as="geometry">
@@ -157,10 +157,10 @@
         <mxCell id="j3cDPz18Dl61WBa1ze43-39" value="{documentTypeId = 94 !! (а должно быть по хорошему 219)}" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;" vertex="1" parent="j3cDPz18Dl61WBa1ze43-35">
           <mxGeometry x="-130" y="773" width="320" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="j3cDPz18Dl61WBa1ze43-51" value="Проверяем у кого меняем состояние&lt;br&gt;Если это StatementTypeList.RegistrationStatements, то&lt;br&gt;вызывается UpdateRegistrationStatementId()&lt;br&gt;&lt;br&gt;Сейчас проверяется что у нас Document не RegistrationStatement" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;" vertex="1" parent="j3cDPz18Dl61WBa1ze43-35">
+        <mxCell id="j3cDPz18Dl61WBa1ze43-51" value="Проверяем у кого меняем состояние&lt;br&gt;Если это StatementTypeList.RegistrationStatements, то&lt;br&gt;вызывается UpdateRegistrationStatementId()&lt;br&gt;&lt;br&gt;Сейчас проверяется что у нас Document не RegistrationStatement" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontColor=#545454;" vertex="1" parent="j3cDPz18Dl61WBa1ze43-35">
           <mxGeometry x="-140" y="410" width="360" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="j3cDPz18Dl61WBa1ze43-52" value="Еще раз проверяется что CurrentState != NewState&lt;br&gt;... Зачем это делается в DocRequest2.aspx.cs нипонятно" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;" vertex="1" parent="j3cDPz18Dl61WBa1ze43-35">
+        <mxCell id="j3cDPz18Dl61WBa1ze43-52" value="Еще раз проверяется что CurrentState != NewState&lt;br&gt;... Зачем это делается в DocRequest2.aspx.cs нипонятно" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontColor=#545454;" vertex="1" parent="j3cDPz18Dl61WBa1ze43-35">
           <mxGeometry x="-130" y="505" width="310" height="40" as="geometry" />
         </mxCell>
         <mxCell id="j3cDPz18Dl61WBa1ze43-38" value="GetDocumentInternalState(documentId, documentTypeId)" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=11;entryX=0.03;entryY=-0.001;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="j3cDPz18Dl61WBa1ze43-20" target="j3cDPz18Dl61WBa1ze43-36">
