@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-02T06:24:58.003Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="n-sIpX6u2PQKXH7K4YJy" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-02T06:25:08.499Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="1VR_ydpCc6myv7CKQMMY" version="20.5.1" type="github">
   <diagram id="1gG8MEolRxr3eOi24UUM" name="Страница 1">
     <mxGraphModel dx="1192" dy="1395" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -199,11 +199,11 @@
         <mxCell id="j3cDPz18Dl61WBa1ze43-68" value="_stateTransition = transitions.Where(x =&amp;gt; x.ToStateId == _newStateId).FirstOrDefault()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontColor=#000000;" vertex="1" parent="j3cDPz18Dl61WBa1ze43-35">
           <mxGeometry x="-140" y="835" width="450" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="j3cDPz18Dl61WBa1ze43-69" value="Опять проверяем что DocumentType не StatementRegistration ... &lt;br&gt;только уже проверяется не в архиве ли заявление...&lt;br&gt;&lt;br&gt;или не анулировано ли&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontColor=#545454;" vertex="1" parent="j3cDPz18Dl61WBa1ze43-35">
+        <mxCell id="j3cDPz18Dl61WBa1ze43-69" value="Опять проверяем что DocumentType не StatementRegistration ... &lt;br&gt;только уже проверяется не в архиве ли заявление...&lt;br&gt;&lt;br&gt;или не аннулировано ли&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontColor=#545454;" vertex="1" parent="j3cDPz18Dl61WBa1ze43-35">
           <mxGeometry x="-130" y="865" width="350" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="j3cDPz18Dl61WBa1ze43-72" value="&lt;font color=&quot;#545454&quot;&gt;Проверка входящего не анулирован ли&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontColor=#000000;" vertex="1" parent="j3cDPz18Dl61WBa1ze43-35">
-          <mxGeometry x="-110" y="965" width="220" height="30" as="geometry" />
+        <mxCell id="j3cDPz18Dl61WBa1ze43-72" value="&lt;font color=&quot;#545454&quot;&gt;Проверка входящего не аннулирован ли&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontColor=#000000;" vertex="1" parent="j3cDPz18Dl61WBa1ze43-35">
+          <mxGeometry x="-115" y="965" width="230" height="30" as="geometry" />
         </mxCell>
         <mxCell id="j3cDPz18Dl61WBa1ze43-38" value="GetDocumentInternalState(documentId, documentTypeId)" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=11;entryX=0.03;entryY=-0.001;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="j3cDPz18Dl61WBa1ze43-20" target="j3cDPz18Dl61WBa1ze43-36">
           <mxGeometry width="80" relative="1" as="geometry">
