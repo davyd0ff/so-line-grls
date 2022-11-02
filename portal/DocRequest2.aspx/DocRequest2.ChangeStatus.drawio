@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-02T06:25:08.499Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="1VR_ydpCc6myv7CKQMMY" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-02T06:47:10.635Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="VSm0qhvbmhn_8bhyFU2b" version="20.5.1" type="github">
   <diagram id="1gG8MEolRxr3eOi24UUM" name="Страница 1">
-    <mxGraphModel dx="1192" dy="1395" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2704" dy="2333" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -52,7 +52,7 @@
         <mxCell id="j3cDPz18Dl61WBa1ze43-18" value="request.NewStateId = newState.Id" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=8;" vertex="1" parent="j3cDPz18Dl61WBa1ze43-9">
           <mxGeometry x="-70" y="418" width="150" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="j3cDPz18Dl61WBa1ze43-50" value="Создается QRCode ? в валидации??" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;" vertex="1" parent="j3cDPz18Dl61WBa1ze43-9">
+        <mxCell id="j3cDPz18Dl61WBa1ze43-50" value="Создается QRCode ? в валидации??" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontColor=#545454;" vertex="1" parent="j3cDPz18Dl61WBa1ze43-9">
           <mxGeometry x="-80" y="110" width="210" height="30" as="geometry" />
         </mxCell>
         <mxCell id="j3cDPz18Dl61WBa1ze43-11" value="Run(request)" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;entryX=-0.125;entryY=-0.018;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="j3cDPz18Dl61WBa1ze43-5" target="j3cDPz18Dl61WBa1ze43-10">
@@ -184,7 +184,7 @@
         <mxCell id="j3cDPz18Dl61WBa1ze43-36" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="j3cDPz18Dl61WBa1ze43-35">
           <mxGeometry x="195" y="1143" width="10" height="55" as="geometry" />
         </mxCell>
-        <mxCell id="j3cDPz18Dl61WBa1ze43-39" value="{documentTypeId = 94 !! (а должно быть по хорошему 219)}" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;" vertex="1" parent="j3cDPz18Dl61WBa1ze43-35">
+        <mxCell id="j3cDPz18Dl61WBa1ze43-39" value="{documentTypeId = 94 !! (а должно быть по хорошему 219)}" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontColor=#545454;" vertex="1" parent="j3cDPz18Dl61WBa1ze43-35">
           <mxGeometry x="-130" y="1143" width="320" height="30" as="geometry" />
         </mxCell>
         <mxCell id="j3cDPz18Dl61WBa1ze43-51" value="Проверяем у кого меняем состояние&lt;br&gt;Если это StatementTypeList.RegistrationStatements, то&lt;br&gt;вызывается UpdateRegistrationStatementId()&lt;br&gt;&lt;br&gt;Сейчас проверяется что у нас Document не RegistrationStatement" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=11;fontColor=#545454;" vertex="1" parent="j3cDPz18Dl61WBa1ze43-35">
