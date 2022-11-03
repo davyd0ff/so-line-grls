@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-03T10:37:46.207Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="AcQY8gM7MSogE8pKhyHs" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-03T10:38:59.238Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="-x4paSkT1lGAmgPZR8f_" version="20.5.1" type="github">
   <diagram id="SpqMT6dvR783rYkQ1yZy" name="Страница 1">
     <mxGraphModel dx="290" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -14,6 +14,18 @@
           <mxGeometry width="60" relative="1" as="geometry">
             <mxPoint x="-40" y="80" as="sourcePoint" />
             <mxPoint x="40" y="60" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n07gCbci1OqDR9Fsgq51-4" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="220" y="154" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="n07gCbci1OqDR9Fsgq51-5" value="SetUpdateEntity()" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="n07gCbci1OqDR9Fsgq51-4" parent="1" source="n07gCbci1OqDR9Fsgq51-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="225" y="134" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="255" y="134" />
+              <mxPoint x="255" y="154" />
+            </Array>
           </mxGeometry>
         </mxCell>
       </root>
