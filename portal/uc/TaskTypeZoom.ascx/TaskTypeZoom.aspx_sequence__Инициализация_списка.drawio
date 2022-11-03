@@ -1,1 +1,16 @@
-<mxfile host="app.diagrams.net" modified="2022-11-03T06:33:13.648Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" version="20.5.1" etag="-chzuEtj1sfHJL0dDxhl" type="github"><diagram id="0S9IuA0MUspX1pKyNK9L">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-11-03T06:34:40.061Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="epUqwslUDs8uDDyMaklP" version="20.5.1" type="github">
+  <diagram id="0S9IuA0MUspX1pKyNK9L" name="Страница 1">
+    <mxGraphModel dx="1247" dy="815" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="AjJ1fiy0JQN6Zd3U1w5--1" value=":TaskTypeZoom.ascx" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="40" width="160" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="AjJ1fiy0JQN6Zd3U1w5--2" value="dsThread:SqlDataSource" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="280" y="40" width="160" height="300" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
