@@ -1,13 +1,13 @@
-<mxfile host="app.diagrams.net" modified="2022-11-03T10:56:10.784Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="96ttb9zlwAakQpzYarAS" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-03T11:02:50.305Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="G-hay-rp0vVdoU8L5qrv" version="20.5.1" type="github">
   <diagram id="SpqMT6dvR783rYkQ1yZy" name="Страница 1">
-    <mxGraphModel dx="290" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="500" dy="556" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="n07gCbci1OqDR9Fsgq51-1" value=":ImportUnRegStatement.js" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="75" y="40" width="300" height="3450" as="geometry" />
         </mxCell>
-        <mxCell id="n07gCbci1OqDR9Fsgq51-6" value="frame" style="shape=umlFrame;whiteSpace=wrap;html=1;" vertex="1" parent="n07gCbci1OqDR9Fsgq51-1">
+        <mxCell id="n07gCbci1OqDR9Fsgq51-6" value="Цикл" style="shape=umlFrame;whiteSpace=wrap;html=1;" vertex="1" parent="n07gCbci1OqDR9Fsgq51-1">
           <mxGeometry y="150" width="300" height="200" as="geometry" />
         </mxCell>
         <mxCell id="n07gCbci1OqDR9Fsgq51-2" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="n07gCbci1OqDR9Fsgq51-1">
@@ -30,6 +30,9 @@
               <mxPoint x="255" y="154" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="n07gCbci1OqDR9Fsgq51-7" value="Для каждой строки (таблиц) имеющую атрибут entityType" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="244" y="190" width="340" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
