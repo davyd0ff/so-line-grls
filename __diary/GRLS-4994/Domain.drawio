@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-03T08:45:26.154Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="L9Agm7Ff7yi3SN7Ggzrp" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-03T08:47:58.284Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="f9DoAnzb9h2bkWKXf2EO" version="20.5.1" type="github">
   <diagram id="948CzCGxnO4U-4VhyMQS" name="Страница 1">
     <mxGraphModel dx="1247" dy="815" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -7,11 +7,17 @@
         <mxCell id="pBAx81KD6ok2a-h8795H-1" value="&amp;lt;&amp;lt; Controller &amp;gt;&amp;gt;&lt;br&gt;&lt;br&gt;ImportUnRegController" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="120" y="200" width="180" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="pBAx81KD6ok2a-h8795H-5" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="pBAx81KD6ok2a-h8795H-2" target="pBAx81KD6ok2a-h8795H-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="pBAx81KD6ok2a-h8795H-2" value="&amp;lt;&amp;lt; View &amp;gt;&amp;gt;&lt;br&gt;&lt;br&gt;ImportUnReg\Index.cshtml" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="380" y="200" width="180" height="60" as="geometry" />
         </mxCell>
         <mxCell id="pBAx81KD6ok2a-h8795H-3" value="&amp;lt;&amp;lt; Model &amp;gt;&amp;gt;&lt;br&gt;&lt;br&gt;Core.Portal.Models.CommnunicationModels.ImportUnReg.DocumentModel" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="120" y="320" width="440" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pBAx81KD6ok2a-h8795H-4" value="ImportUnRegStatement.js" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="490" y="85" width="160" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
