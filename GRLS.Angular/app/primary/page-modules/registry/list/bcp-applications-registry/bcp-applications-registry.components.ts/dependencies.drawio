@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-03T13:48:13.951Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="KcyN6ajpfKl5OIKofo52" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-03T13:48:18.558Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="XrRwTFqWxBOWf2UXYXW5" version="20.5.1" type="github">
   <diagram id="WNYNXLuQhr5H1WM_juKS" name="Страница 1">
     <mxGraphModel dx="1619" dy="948" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -11,6 +11,9 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="FiCnPz2NSFqeGe_ML8CB-9" value="d" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FiCnPz2NSFqeGe_ML8CB-1" target="FiCnPz2NSFqeGe_ML8CB-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FiCnPz2NSFqeGe_ML8CB-11" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FiCnPz2NSFqeGe_ML8CB-1" target="FiCnPz2NSFqeGe_ML8CB-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="FiCnPz2NSFqeGe_ML8CB-1" value="&amp;lt;&amp;lt; component &amp;gt;&amp;gt;&lt;br&gt;&lt;br&gt;&lt;div style=&quot;color: rgb(252, 252, 250); background-color: rgb(45, 42, 46); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #78dce8;&quot;&gt;AppBCPApplicationsRegistryComponent&lt;/span&gt;&lt;/div&gt;&lt;br&gt;&amp;lt;&amp;lt;primary&amp;gt;&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
