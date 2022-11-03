@@ -1,1 +1,16 @@
-<mxfile host="app.diagrams.net" modified="2022-11-03T08:39:15.893Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" version="20.5.1" etag="Ddcn8Da4makS1l4tjwUu" type="github"><diagram id="948CzCGxnO4U-4VhyMQS">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-11-03T08:40:00.465Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="pK5WVYoL6Im8GauKehWv" version="20.5.1" type="github">
+  <diagram id="948CzCGxnO4U-4VhyMQS" name="Страница 1">
+    <mxGraphModel dx="1247" dy="815" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="pBAx81KD6ok2a-h8795H-1" value="ImportUnRegController" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="200" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pBAx81KD6ok2a-h8795H-2" value="ImportUnReg\Index.cshtml" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="200" width="150" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
