@@ -1,14 +1,17 @@
-<mxfile host="app.diagrams.net" modified="2022-11-03T10:38:59.238Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="-x4paSkT1lGAmgPZR8f_" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-03T10:56:10.784Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="96ttb9zlwAakQpzYarAS" version="20.5.1" type="github">
   <diagram id="SpqMT6dvR783rYkQ1yZy" name="Страница 1">
     <mxGraphModel dx="290" dy="322" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="n07gCbci1OqDR9Fsgq51-1" value=":ImportUnRegStatement.js" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="120" y="40" width="200" height="3450" as="geometry" />
+          <mxGeometry x="75" y="40" width="300" height="3450" as="geometry" />
+        </mxCell>
+        <mxCell id="n07gCbci1OqDR9Fsgq51-6" value="frame" style="shape=umlFrame;whiteSpace=wrap;html=1;" vertex="1" parent="n07gCbci1OqDR9Fsgq51-1">
+          <mxGeometry y="150" width="300" height="200" as="geometry" />
         </mxCell>
         <mxCell id="n07gCbci1OqDR9Fsgq51-2" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="n07gCbci1OqDR9Fsgq51-1">
-          <mxGeometry x="95" y="80" width="10" height="920" as="geometry" />
+          <mxGeometry x="145" y="80" width="10" height="920" as="geometry" />
         </mxCell>
         <mxCell id="n07gCbci1OqDR9Fsgq51-3" value="&amp;lt;&amp;lt; load &amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;rounded=0;entryX=-0.041;entryY=0.001;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="n07gCbci1OqDR9Fsgq51-1" target="n07gCbci1OqDR9Fsgq51-2">
           <mxGeometry width="60" relative="1" as="geometry">
@@ -17,7 +20,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="n07gCbci1OqDR9Fsgq51-4" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
-          <mxGeometry x="220" y="154" width="10" height="40" as="geometry" />
+          <mxGeometry x="225" y="154" width="10" height="126" as="geometry" />
         </mxCell>
         <mxCell id="n07gCbci1OqDR9Fsgq51-5" value="SetUpdateEntity()" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="n07gCbci1OqDR9Fsgq51-4" parent="1" source="n07gCbci1OqDR9Fsgq51-2">
           <mxGeometry relative="1" as="geometry">
