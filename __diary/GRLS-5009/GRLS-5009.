@@ -1,11 +1,26 @@
-<mxfile host="app.diagrams.net" modified="2022-11-07T06:15:41.024Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="t3Gj80H6ioK9PP3xroz0" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-07T06:17:31.800Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="iSjCQHOJIPmcDEivCM3b" version="20.5.1" type="github">
   <diagram id="T6cJRyOHcKk0c-L9ARpE" name="Страница 1">
     <mxGraphModel dx="2314" dy="815" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="IMDlLjs4sjClbd5Zkskd-4" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="IMDlLjs4sjClbd5Zkskd-1" target="IMDlLjs4sjClbd5Zkskd-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="IMDlLjs4sjClbd5Zkskd-1" value="&amp;lt;&amp;lt; component &amp;gt;&amp;gt;&lt;br&gt;&lt;br&gt;&lt;div style=&quot;color: rgb(252, 252, 250); background-color: rgb(45, 42, 46); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #78dce8;&quot;&gt;AppLimitedPriceOrderOrdersRegistryComponent&lt;/span&gt;&lt;/div&gt;&lt;br&gt;&amp;lt;&amp;lt; primary/.../limited-price-orders-registry.component.ts &amp;gt;&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-90" y="380" width="350" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="IMDlLjs4sjClbd5Zkskd-2" value="&amp;lt;&amp;lt; abstract &amp;gt;&amp;gt;&lt;br&gt;&amp;lt;&amp;lt; component &amp;gt;&amp;gt;&lt;br&gt;&lt;br&gt;&lt;div style=&quot;color: rgb(252, 252, 250); background-color: rgb(45, 42, 46); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(252, 252, 250); background-color: rgb(45, 42, 46); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #78dce8;font-style: italic;&quot;&gt;AppRegistryAbstractComponent&lt;/span&gt;&lt;/div&gt;&lt;br&gt;&amp;lt;&amp;lt; primary/.../limited-price-orders-registry.component.ts &amp;gt;&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="375" width="350" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="IMDlLjs4sjClbd5Zkskd-3" value="&amp;lt;&amp;lt; model &amp;gt;&amp;gt;&lt;br&gt;&lt;br&gt;&lt;div style=&quot;color: rgb(252, 252, 250); background-color: rgb(45, 42, 46); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #78dce8;&quot;&gt;LimitedPriceOrderOrdersRegistryModel&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;br&gt;&amp;lt;&amp;lt; primary/.../limited-price-orders-registry.model.ts &amp;gt;&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="210" width="350" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="IMDlLjs4sjClbd5Zkskd-5" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="IMDlLjs4sjClbd5Zkskd-1" target="IMDlLjs4sjClbd5Zkskd-2">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="330" y="360" as="sourcePoint" />
+            <mxPoint x="490" y="360" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
