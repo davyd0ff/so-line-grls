@@ -1,26 +1,17 @@
-<mxfile host="app.diagrams.net" modified="2022-11-09T10:43:59.253Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="Sp7f-hA_nJqr7oG3gZbJ" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-09T10:47:18.850Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="v1f_FSz5EfnwFmaex3JW" version="20.5.1" type="github">
   <diagram id="T6cJRyOHcKk0c-L9ARpE" name="Страница 1">
-    <mxGraphModel dx="3609" dy="1075" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3327" dy="1075" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="IMDlLjs4sjClbd5Zkskd-4" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="IMDlLjs4sjClbd5Zkskd-1" target="IMDlLjs4sjClbd5Zkskd-3">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="IMDlLjs4sjClbd5Zkskd-8" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IMDlLjs4sjClbd5Zkskd-1" target="IMDlLjs4sjClbd5Zkskd-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="IMDlLjs4sjClbd5Zkskd-13" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IMDlLjs4sjClbd5Zkskd-1" target="IMDlLjs4sjClbd5Zkskd-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="IMDlLjs4sjClbd5Zkskd-1" value="&amp;lt;&amp;lt; component &amp;gt;&amp;gt;&lt;br&gt;&lt;br&gt;&lt;div style=&quot;color: rgb(252, 252, 250); background-color: rgb(45, 42, 46); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #78dce8;&quot;&gt;AppLimitedPriceOrderOrdersRegistryComponent&lt;/span&gt;&lt;/div&gt;&lt;br&gt;&amp;lt;&amp;lt;&amp;nbsp;&lt;span style=&quot;color: rgb(255, 216, 102); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; background-color: rgb(45, 42, 46);&quot;&gt;primary&lt;/span&gt;/.../&lt;span style=&quot;color: rgb(255, 216, 102); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; background-color: rgb(45, 42, 46);&quot;&gt;limited-price-orders-registry.component&lt;/span&gt;&amp;nbsp;&amp;gt;&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-90" y="370" width="430" height="90" as="geometry" />
-        </mxCell>
         <mxCell id="IMDlLjs4sjClbd5Zkskd-2" value="&amp;lt;&amp;lt; abstract &amp;gt;&amp;gt;&lt;br&gt;&amp;lt;&amp;lt; component &amp;gt;&amp;gt;&lt;br&gt;&lt;br&gt;&lt;div style=&quot;color: rgb(252, 252, 250); background-color: rgb(45, 42, 46); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(252, 252, 250); background-color: rgb(45, 42, 46); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #78dce8;font-style: italic;&quot;&gt;AppRegistryAbstractComponent&lt;/span&gt;&lt;/div&gt;&lt;br&gt;&amp;lt;&amp;lt;&amp;nbsp;&lt;span style=&quot;color: rgb(255, 216, 102); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; background-color: rgb(45, 42, 46);&quot;&gt;primary&lt;/span&gt;/.../registry.component.ts &amp;gt;&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="600" y="600" width="350" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="IMDlLjs4sjClbd5Zkskd-3" value="&amp;lt;&amp;lt; model &amp;gt;&amp;gt;&lt;br&gt;&lt;br&gt;&lt;div style=&quot;color: rgb(252, 252, 250); background-color: rgb(45, 42, 46); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #78dce8;&quot;&gt;LimitedPriceOrderOrdersRegistryModel&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;br&gt;&amp;lt;&amp;lt;&amp;nbsp;&lt;span style=&quot;color: rgb(255, 216, 102); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; background-color: rgb(45, 42, 46);&quot;&gt;primary&lt;/span&gt;/.../limited-price-orders-registry.model.ts &amp;gt;&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="30" y="260" width="350" height="80" as="geometry" />
         </mxCell>
         <mxCell id="IMDlLjs4sjClbd5Zkskd-5" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="IMDlLjs4sjClbd5Zkskd-1" target="IMDlLjs4sjClbd5Zkskd-2">
           <mxGeometry width="160" relative="1" as="geometry">
@@ -36,9 +27,6 @@
         </mxCell>
         <mxCell id="IMDlLjs4sjClbd5Zkskd-12" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IMDlLjs4sjClbd5Zkskd-7" target="IMDlLjs4sjClbd5Zkskd-11">
           <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="IMDlLjs4sjClbd5Zkskd-7" value="&amp;lt;&amp;lt; component &amp;gt;&amp;gt;&lt;br&gt;&lt;br&gt;&lt;div style=&quot;color: rgb(252, 252, 250); background-color: rgb(45, 42, 46); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #78dce8;&quot;&gt;AppBCPApplicationsRegistryComponent&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;br&gt;&amp;lt;&amp;lt;&amp;nbsp;&lt;span style=&quot;color: rgb(255, 216, 102); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; background-color: rgb(45, 42, 46);&quot;&gt;primary&lt;/span&gt;/.../&lt;span style=&quot;color: rgb(255, 216, 102); background-color: rgb(45, 42, 46); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px;&quot;&gt;bcp-applications-registry.component&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&amp;gt;&amp;gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-80" y="880" width="400" height="90" as="geometry" />
         </mxCell>
         <mxCell id="IMDlLjs4sjClbd5Zkskd-10" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="IMDlLjs4sjClbd5Zkskd-7" target="IMDlLjs4sjClbd5Zkskd-2">
           <mxGeometry width="160" relative="1" as="geometry">
@@ -79,20 +67,8 @@
         <mxCell id="IMDlLjs4sjClbd5Zkskd-23" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IMDlLjs4sjClbd5Zkskd-21" target="IMDlLjs4sjClbd5Zkskd-17">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="IMDlLjs4sjClbd5Zkskd-21" value="&amp;lt;&amp;lt; component &amp;gt;&amp;gt;&lt;br&gt;&lt;br&gt;&lt;div style=&quot;color: rgb(252, 252, 250); background-color: rgb(45, 42, 46); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(252, 252, 250); background-color: rgb(45, 42, 46); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #78dce8;&quot;&gt;SecondaryAppBCPApplicationsRegistryComponent&lt;/span&gt;&lt;/div&gt;&lt;br&gt;&amp;lt;&amp;lt; &lt;span style=&quot;color: rgb(255, 216, 102); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; background-color: rgb(45, 42, 46);&quot;&gt;secondary&lt;/span&gt;/.../&lt;span style=&quot;color: rgb(255, 216, 102); background-color: rgb(45, 42, 46); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px;&quot;&gt;bcp-applications-registry.component&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&amp;gt;&amp;gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-290" y="1079" width="400" height="90" as="geometry" />
-        </mxCell>
-        <mxCell id="IMDlLjs4sjClbd5Zkskd-22" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="IMDlLjs4sjClbd5Zkskd-21" target="IMDlLjs4sjClbd5Zkskd-7">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="221.91489361702133" y="890" as="sourcePoint" />
-            <mxPoint x="610" y="700" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="IMDlLjs4sjClbd5Zkskd-30" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IMDlLjs4sjClbd5Zkskd-24" target="IMDlLjs4sjClbd5Zkskd-17">
           <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="IMDlLjs4sjClbd5Zkskd-24" value="&amp;lt;&amp;lt; component &amp;gt;&amp;gt;&lt;br&gt;&lt;br&gt;&lt;div style=&quot;color: rgb(252, 252, 250); background-color: rgb(45, 42, 46); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #78dce8;&quot;&gt;SecondaryAppLimitedPriceOrderOrdersRegistryComponent&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;br&gt;&amp;lt;&amp;lt;&amp;nbsp;&lt;span style=&quot;color: rgb(255, 216, 102); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; background-color: rgb(45, 42, 46);&quot;&gt;secondary&lt;/span&gt;/.../&lt;span style=&quot;color: rgb(255, 216, 102); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; background-color: rgb(45, 42, 46);&quot;&gt;limited-price-orders-registry.component&lt;/span&gt;&amp;nbsp;&amp;gt;&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-720" y="250" width="430" height="90" as="geometry" />
         </mxCell>
         <mxCell id="IMDlLjs4sjClbd5Zkskd-28" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="IMDlLjs4sjClbd5Zkskd-25" target="IMDlLjs4sjClbd5Zkskd-27">
           <mxGeometry relative="1" as="geometry" />
@@ -103,17 +79,62 @@
         <mxCell id="IMDlLjs4sjClbd5Zkskd-27" value="&lt;div style=&quot;color: rgb(252, 252, 250); background-color: rgb(45, 42, 46); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #78dce8;font-style: italic;&quot;&gt;const&lt;/span&gt; &lt;span style=&quot;color: #ab9df2;&quot;&gt;defaultRegistryLimit&lt;/span&gt; &lt;span style=&quot;color: #ff6188;&quot;&gt;=&lt;/span&gt; &lt;span style=&quot;color: #ab9df2;&quot;&gt;10&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-1570" y="565" width="260" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="IMDlLjs4sjClbd5Zkskd-29" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;" edge="1" parent="1" source="IMDlLjs4sjClbd5Zkskd-24" target="IMDlLjs4sjClbd5Zkskd-1">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="-395.294117647059" y="789.9999999999998" as="sourcePoint" />
-            <mxPoint x="-324.70588235294144" y="709.9999999999998" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="IMDlLjs4sjClbd5Zkskd-31" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Где находится значение пагинации по умолчанию&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-1610" y="520" width="580" height="40" as="geometry" />
         </mxCell>
         <mxCell id="IMDlLjs4sjClbd5Zkskd-32" value="&amp;lt;&amp;lt; component &amp;gt;&amp;gt;&lt;br&gt;&lt;br&gt;&lt;div style=&quot;color: rgb(252, 252, 250); background-color: rgb(45, 42, 46); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #78dce8;&quot;&gt;AppLimitedPriceOrderPositionsRegistryComponent&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;br&gt;&amp;lt;&amp;lt;&amp;nbsp;&lt;span style=&quot;color: rgb(255, 216, 102); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; background-color: rgb(45, 42, 46);&quot;&gt;primary&lt;/span&gt;/.../&lt;span style=&quot;color: rgb(255, 216, 102); background-color: rgb(45, 42, 46); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px;&quot;&gt;limited-price-positions-registry.component&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&amp;gt;&amp;gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="380" y="1240" width="434" height="90" as="geometry" />
+          <mxGeometry x="900" y="1079" width="434" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="IMDlLjs4sjClbd5Zkskd-33" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;" edge="1" parent="1" source="IMDlLjs4sjClbd5Zkskd-32" target="IMDlLjs4sjClbd5Zkskd-2">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="221.91489361702133" y="890" as="sourcePoint" />
+            <mxPoint x="610" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IMDlLjs4sjClbd5Zkskd-34" value="" style="group;container=0;noLabel=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-290" y="880" width="610" height="289" as="geometry" />
+        </mxCell>
+        <mxCell id="IMDlLjs4sjClbd5Zkskd-7" value="&amp;lt;&amp;lt; component &amp;gt;&amp;gt;&lt;br&gt;&lt;br&gt;&lt;div style=&quot;color: rgb(252, 252, 250); background-color: rgb(45, 42, 46); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #78dce8;&quot;&gt;AppBCPApplicationsRegistryComponent&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;br&gt;&amp;lt;&amp;lt;&amp;nbsp;&lt;span style=&quot;color: rgb(255, 216, 102); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; background-color: rgb(45, 42, 46);&quot;&gt;primary&lt;/span&gt;/.../&lt;span style=&quot;color: rgb(255, 216, 102); background-color: rgb(45, 42, 46); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px;&quot;&gt;bcp-applications-registry.component&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&amp;gt;&amp;gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="IMDlLjs4sjClbd5Zkskd-34">
+          <mxGeometry x="210" width="400" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="IMDlLjs4sjClbd5Zkskd-21" value="&amp;lt;&amp;lt; component &amp;gt;&amp;gt;&lt;br&gt;&lt;br&gt;&lt;div style=&quot;color: rgb(252, 252, 250); background-color: rgb(45, 42, 46); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(252, 252, 250); background-color: rgb(45, 42, 46); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #78dce8;&quot;&gt;SecondaryAppBCPApplicationsRegistryComponent&lt;/span&gt;&lt;/div&gt;&lt;br&gt;&amp;lt;&amp;lt; &lt;span style=&quot;color: rgb(255, 216, 102); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; background-color: rgb(45, 42, 46);&quot;&gt;secondary&lt;/span&gt;/.../&lt;span style=&quot;color: rgb(255, 216, 102); background-color: rgb(45, 42, 46); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px;&quot;&gt;bcp-applications-registry.component&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&amp;gt;&amp;gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="IMDlLjs4sjClbd5Zkskd-34">
+          <mxGeometry y="199" width="400" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="IMDlLjs4sjClbd5Zkskd-22" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="IMDlLjs4sjClbd5Zkskd-34" source="IMDlLjs4sjClbd5Zkskd-21" target="IMDlLjs4sjClbd5Zkskd-7">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="511.91489361702133" y="10" as="sourcePoint" />
+            <mxPoint x="900" y="-180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IMDlLjs4sjClbd5Zkskd-35" value="bcp-application-registry" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=24;" vertex="1" parent="1">
+          <mxGeometry x="5" y="1010" width="270" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IMDlLjs4sjClbd5Zkskd-36" value="" style="group;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-600" y="210" width="980" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="IMDlLjs4sjClbd5Zkskd-1" value="&amp;lt;&amp;lt; component &amp;gt;&amp;gt;&lt;br&gt;&lt;br&gt;&lt;div style=&quot;color: rgb(252, 252, 250); background-color: rgb(45, 42, 46); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #78dce8;&quot;&gt;AppLimitedPriceOrderOrdersRegistryComponent&lt;/span&gt;&lt;/div&gt;&lt;br&gt;&amp;lt;&amp;lt;&amp;nbsp;&lt;span style=&quot;color: rgb(255, 216, 102); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; background-color: rgb(45, 42, 46);&quot;&gt;primary&lt;/span&gt;/.../&lt;span style=&quot;color: rgb(255, 216, 102); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; background-color: rgb(45, 42, 46);&quot;&gt;limited-price-orders-registry.component&lt;/span&gt;&amp;nbsp;&amp;gt;&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="IMDlLjs4sjClbd5Zkskd-36">
+          <mxGeometry x="280" y="170" width="430" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="IMDlLjs4sjClbd5Zkskd-3" value="&amp;lt;&amp;lt; model &amp;gt;&amp;gt;&lt;br&gt;&lt;br&gt;&lt;div style=&quot;color: rgb(252, 252, 250); background-color: rgb(45, 42, 46); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #78dce8;&quot;&gt;LimitedPriceOrderOrdersRegistryModel&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;br&gt;&amp;lt;&amp;lt;&amp;nbsp;&lt;span style=&quot;color: rgb(255, 216, 102); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; background-color: rgb(45, 42, 46);&quot;&gt;primary&lt;/span&gt;/.../limited-price-orders-registry.model.ts &amp;gt;&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="IMDlLjs4sjClbd5Zkskd-36">
+          <mxGeometry x="630" y="50" width="350" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="IMDlLjs4sjClbd5Zkskd-4" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="IMDlLjs4sjClbd5Zkskd-36" source="IMDlLjs4sjClbd5Zkskd-1" target="IMDlLjs4sjClbd5Zkskd-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IMDlLjs4sjClbd5Zkskd-24" value="&amp;lt;&amp;lt; component &amp;gt;&amp;gt;&lt;br&gt;&lt;br&gt;&lt;div style=&quot;color: rgb(252, 252, 250); background-color: rgb(45, 42, 46); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #78dce8;&quot;&gt;SecondaryAppLimitedPriceOrderOrdersRegistryComponent&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;br&gt;&amp;lt;&amp;lt;&amp;nbsp;&lt;span style=&quot;color: rgb(255, 216, 102); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; background-color: rgb(45, 42, 46);&quot;&gt;secondary&lt;/span&gt;/.../&lt;span style=&quot;color: rgb(255, 216, 102); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; background-color: rgb(45, 42, 46);&quot;&gt;limited-price-orders-registry.component&lt;/span&gt;&amp;nbsp;&amp;gt;&amp;gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="IMDlLjs4sjClbd5Zkskd-36">
+          <mxGeometry width="430" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="IMDlLjs4sjClbd5Zkskd-29" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="IMDlLjs4sjClbd5Zkskd-36" source="IMDlLjs4sjClbd5Zkskd-24" target="IMDlLjs4sjClbd5Zkskd-1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="204.705882352941" y="579.9999999999998" as="sourcePoint" />
+            <mxPoint x="275.29411764705856" y="499.9999999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IMDlLjs4sjClbd5Zkskd-37" value="limited-price-orders-registry" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=24;" vertex="1" parent="IMDlLjs4sjClbd5Zkskd-36">
+          <mxGeometry x="440" width="320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="IMDlLjs4sjClbd5Zkskd-38" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=24;" edge="1" parent="IMDlLjs4sjClbd5Zkskd-36" source="IMDlLjs4sjClbd5Zkskd-37" target="IMDlLjs4sjClbd5Zkskd-1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
