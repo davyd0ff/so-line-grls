@@ -1,13 +1,21 @@
-<mxfile host="app.diagrams.net" modified="2022-08-30T14:26:49.175Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36" etag="6FnMecEOAfNtuxhzzo_s" version="20.2.7" type="github">
-  <diagram id="mI9CHjfRKkApZ2Oig0kl" name="Страница 1">
-    <mxGraphModel dx="1662" dy="882" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+<mxfile host="app.diagrams.net" modified="2022-11-09T07:35:36.645Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="UgMtZtrvwJ9TfrGvtnMZ" version="20.5.1" type="github" pages="2">
+  <diagram id="7m0mALaloaVYS14Rym1W" name="Domain">
+    <mxGraphModel dx="1599" dy="815" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="9WfXSOXhKIP_xHc56vow-1" value="&lt;h1&gt;Версионность форм&amp;nbsp;&lt;/h1&gt;&lt;p&gt;Существует понятие версионность форм сущности ... Есть старые формы, есть новые формы... Старые формы открывают одни страницы, новые формы - другие страницы ...&lt;/p&gt;&lt;p&gt;Видимо это сделано чтобы не усложнять страницы...&lt;/p&gt;&lt;p&gt;Пример - Dossier2.aspx открывается на старых формах&amp;nbsp;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="mI9CHjfRKkApZ2Oig0kl" name="Страница 1">
+    <mxGraphModel dx="1599" dy="815" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="9WfXSOXhKIP_xHc56vow-1" value="&lt;h1&gt;Версионность форм&amp;nbsp;&lt;/h1&gt;&lt;p&gt;Существует понятие версионность форм сущности ... Есть старые формы, есть новые формы... Старые формы открывают одни страницы, новые формы - другие страницы ...&lt;/p&gt;&lt;p&gt;Видимо это сделано чтобы не усложнять страницы...&lt;/p&gt;&lt;p&gt;Пример - Dossier2.aspx открывается на старых формах&amp;nbsp;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="40" y="40" width="760" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="9WfXSOXhKIP_xHc56vow-2" value="&lt;h1&gt;Actual&amp;nbsp;&lt;/h1&gt;&lt;p&gt;В базе в таблицах существует поле Actual, он отвечает за версионность данных в таблице ... Вообще есть несколько реализаций версионности данных в таблице... это через триггер в таблицу History и через поле таблицы Actual&lt;/p&gt;&lt;p&gt;Если Actual == 1, тогда это гарантировано актуальная версия записи&lt;/p&gt;&lt;p&gt;Если Actual == 0, тогда это запись помечена вручную как &quot;удаленная&quot;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="9WfXSOXhKIP_xHc56vow-2" value="&lt;h1&gt;Actual&amp;nbsp;&lt;/h1&gt;&lt;p&gt;В базе в таблицах существует поле Actual, он отвечает за версионность данных в таблице ... Вообще есть несколько реализаций версионности данных в таблице... это через триггер в таблицу History и через поле таблицы Actual&lt;/p&gt;&lt;p&gt;Если Actual == 1, тогда это гарантировано актуальная версия записи&lt;/p&gt;&lt;p&gt;Если Actual == 0, тогда это запись помечена вручную как &quot;удаленная&quot;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="40" y="200" width="760" height="150" as="geometry" />
         </mxCell>
       </root>
