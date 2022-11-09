@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-09T14:32:07.933Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="GcBQ0j4atmcdBsabi8kc" version="20.5.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-11-09T14:32:21.266Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="lLk37k6872QaD6QkxKHz" version="20.5.1" type="github" pages="2">
   <diagram id="T6cJRyOHcKk0c-L9ARpE" name="Страница 1">
     <mxGraphModel dx="4377" dy="1219" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -225,10 +225,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="M5lSCwPh74RmjI6cjPYA-8" value="&lt;span style=&quot;font-size: 11px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;BmcpCertificateFindRequest&lt;/span&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontSize=12;size=50;" vertex="1" parent="1">
-          <mxGeometry x="520" y="120" width="100" height="300" as="geometry" />
+          <mxGeometry x="470" y="120" width="150" height="300" as="geometry" />
         </mxCell>
-        <mxCell id="M5lSCwPh74RmjI6cjPYA-9" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="566" y="221" width="10" height="19" as="geometry" />
+        <mxCell id="M5lSCwPh74RmjI6cjPYA-9" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=11;" vertex="1" parent="M5lSCwPh74RmjI6cjPYA-8">
+          <mxGeometry x="70" y="101" width="10" height="19" as="geometry" />
         </mxCell>
         <mxCell id="M5lSCwPh74RmjI6cjPYA-10" value="&lt;span style=&quot;text-align: left;&quot;&gt;MapToFilter(filterRequest)&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;fontSize=11;" edge="1" target="M5lSCwPh74RmjI6cjPYA-9" parent="1" source="M5lSCwPh74RmjI6cjPYA-5">
           <mxGeometry relative="1" as="geometry">
