@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-09T08:02:46.011Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="lRP9pqqCiPyW4yd8DvZ3" version="20.5.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-11-09T08:03:37.172Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="BGUKErA1CHRkDVfKUaDi" version="20.5.1" type="github" pages="2">
   <diagram id="7m0mALaloaVYS14Rym1W" name="Domain">
     <mxGraphModel dx="2601" dy="3252" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1029,6 +1029,24 @@
               <mxPoint x="1022" y="-1570" />
               <mxPoint x="1600" y="-1570" />
               <mxPoint x="1600" y="-1997" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jdq2e6tJTYjd_MaPfxzf-236" value="EecApplicantRequest" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontFamily=Verdana;" vertex="1" parent="1">
+          <mxGeometry x="940" y="-2120" width="220" height="52" as="geometry">
+            <mxRectangle x="10" y="-118" width="120" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jdq2e6tJTYjd_MaPfxzf-237" value="..." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Verdana;" vertex="1" parent="jdq2e6tJTYjd_MaPfxzf-236">
+          <mxGeometry y="26" width="220" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="jdq2e6tJTYjd_MaPfxzf-238" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;fontFamily=Verdana;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="jdq2e6tJTYjd_MaPfxzf-236" target="jdq2e6tJTYjd_MaPfxzf-225">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="1020" y="-1948" as="sourcePoint" />
+            <mxPoint x="840" y="-1830" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1040" y="-2010" />
+              <mxPoint x="1040" y="-2010" />
             </Array>
           </mxGeometry>
         </mxCell>
