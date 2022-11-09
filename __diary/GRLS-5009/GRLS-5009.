@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-07T07:37:07.719Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="8ZyhSMWAsOkhOcQ53g-6" version="20.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-09T10:39:43.645Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="xBSQFgX3ieI4GidBIk01" version="20.5.1" type="github">
   <diagram id="T6cJRyOHcKk0c-L9ARpE" name="Страница 1">
-    <mxGraphModel dx="3403" dy="959" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3609" dy="1075" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -108,6 +108,9 @@
             <mxPoint x="-395.294117647059" y="789.9999999999998" as="sourcePoint" />
             <mxPoint x="-324.70588235294144" y="709.9999999999998" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="IMDlLjs4sjClbd5Zkskd-31" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Где находится значение пагинации по умолчанию&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1610" y="520" width="580" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
