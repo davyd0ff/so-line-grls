@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-09T07:50:00.398Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="FUA3_LKoRb6Yp2f3-Bxc" version="20.5.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-11-09T07:50:20.808Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="v93mm2uiXO6tAh14nCAx" version="20.5.1" type="github" pages="2">
   <diagram id="7m0mALaloaVYS14Rym1W" name="Domain">
     <mxGraphModel dx="1930" dy="2900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -829,7 +829,7 @@
         <mxCell id="jdq2e6tJTYjd_MaPfxzf-219" value="+ DocumentNumber: string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="jdq2e6tJTYjd_MaPfxzf-195">
           <mxGeometry y="40" width="157" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="jdq2e6tJTYjd_MaPfxzf-196" value="DocumentTypeId : int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontFamily=Verdana;" vertex="1" parent="jdq2e6tJTYjd_MaPfxzf-195">
+        <mxCell id="jdq2e6tJTYjd_MaPfxzf-220" value="+ DocumentTypeId: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="jdq2e6tJTYjd_MaPfxzf-195">
           <mxGeometry y="66" width="157" height="26" as="geometry" />
         </mxCell>
         <mxCell id="jdq2e6tJTYjd_MaPfxzf-197" value="&lt;&lt; interface &gt;&gt;&#xa;ICreate" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontFamily=Verdana;" vertex="1" parent="1">
