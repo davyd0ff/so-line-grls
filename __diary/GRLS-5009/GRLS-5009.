@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-10T12:11:20.051Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="YQuI239If5nD0bCW5De6" version="20.5.3" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-11-10T12:12:52.938Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="5lHgMTnSzkxPDQubzVYo" version="20.5.3" type="github" pages="4">
   <diagram id="T6cJRyOHcKk0c-L9ARpE" name="Страница 1">
     <mxGraphModel dx="4851" dy="1523" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -380,7 +380,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="o4wlLo_9puNEJVaEXnUc" name="п.10">
-    <mxGraphModel dx="1504" dy="435" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1808" dy="630" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -412,7 +412,13 @@
           <mxGeometry x="70" y="220" width="10" height="10" as="geometry" />
         </mxCell>
         <mxCell id="ufYPcYZMp_UR22IxQRk4-17" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;GetEntityByFilterLimited&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontSize=12;size=50;" vertex="1" parent="1">
-          <mxGeometry x="800" y="120" width="150" height="300" as="geometry" />
+          <mxGeometry x="650" y="120" width="150" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="FC8HaKwyZs3ACVzob0SJ-7" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=11;" vertex="1" parent="ufYPcYZMp_UR22IxQRk4-17">
+          <mxGeometry x="70" y="177.5" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="FC8HaKwyZs3ACVzob0SJ-11" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=11;" vertex="1" parent="ufYPcYZMp_UR22IxQRk4-17">
+          <mxGeometry x="70" y="201" width="10" height="10" as="geometry" />
         </mxCell>
         <mxCell id="ufYPcYZMp_UR22IxQRk4-22" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;RegistrationStatementRepository&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontSize=12;size=50;" vertex="1" parent="1">
           <mxGeometry x="960" y="120" width="170" height="300" as="geometry" />
@@ -434,7 +440,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="FC8HaKwyZs3ACVzob0SJ-1" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
-          <mxGeometry x="310" y="245" width="10" height="95" as="geometry" />
+          <mxGeometry x="310" y="245" width="10" height="115" as="geometry" />
         </mxCell>
         <mxCell id="FC8HaKwyZs3ACVzob0SJ-2" value="FindIncomings()" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="FC8HaKwyZs3ACVzob0SJ-1" parent="1" source="ufYPcYZMp_UR22IxQRk4-3">
           <mxGeometry relative="1" as="geometry">
@@ -462,7 +468,27 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="FC8HaKwyZs3ACVzob0SJ-6" value="Не прописаны потоки для&amp;nbsp;&lt;br&gt;flowId = 21&lt;br&gt;flowId = 19&lt;br&gt;flowId = 18" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="395" y="25" width="170" height="70" as="geometry" />
+          <mxGeometry x="470" y="50" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="FC8HaKwyZs3ACVzob0SJ-8" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;&amp;lt;&amp;lt; create &amp;gt;&amp;gt;&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=11;entryX=-0.021;entryY=0.054;entryDx=0;entryDy=0;entryPerimeter=0;spacing=2;" edge="1" parent="1" target="FC8HaKwyZs3ACVzob0SJ-7" source="FC8HaKwyZs3ACVzob0SJ-1">
+          <mxGeometry x="-0.5498" width="80" relative="1" as="geometry">
+            <mxPoint x="490" y="298.5000000000001" as="sourcePoint" />
+            <mxPoint x="560.8600000000001" y="297.36" as="targetPoint" />
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="670" y="298.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FC8HaKwyZs3ACVzob0SJ-12" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;Do(filter)&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=11;entryX=-0.021;entryY=0.054;entryDx=0;entryDy=0;entryPerimeter=0;spacing=2;" edge="1" parent="1" target="FC8HaKwyZs3ACVzob0SJ-11" source="FC8HaKwyZs3ACVzob0SJ-1">
+          <mxGeometry x="-0.5498" width="80" relative="1" as="geometry">
+            <mxPoint x="320" y="322.0000000000001" as="sourcePoint" />
+            <mxPoint x="560.8600000000001" y="320.86" as="targetPoint" />
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="670" y="322" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
