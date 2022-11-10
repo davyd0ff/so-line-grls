@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-10T07:33:12.096Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="8PB4RexaAVqmjSe8kpAB" version="20.5.1" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-11-10T07:34:13.189Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="v-95tL1NQojJ93MMeUAP" version="20.5.1" type="github" pages="3">
   <diagram id="T6cJRyOHcKk0c-L9ARpE" name="Страница 1">
     <mxGraphModel dx="4377" dy="1219" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -265,7 +265,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="iwB9EgEMNWfSDM8yOkYh" name="п.8">
-    <mxGraphModel dx="1808" dy="630" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1504" dy="435" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -290,11 +290,11 @@
             <mxPoint x="450" y="440" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="dqoBiP6nA_giurqrpeqo-6" value="&lt;span style=&quot;font-size: 11px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;BmcpCertificateFindRequest&lt;/span&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontSize=12;size=50;" vertex="1" parent="1">
+        <mxCell id="dqoBiP6nA_giurqrpeqo-6" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 11px;&quot;&gt;FindStatementRequest&lt;/span&gt;&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontSize=12;size=50;" vertex="1" parent="1">
           <mxGeometry x="470" y="120" width="150" height="300" as="geometry" />
         </mxCell>
         <mxCell id="dqoBiP6nA_giurqrpeqo-7" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=11;" vertex="1" parent="dqoBiP6nA_giurqrpeqo-6">
-          <mxGeometry x="70" y="101" width="10" height="19" as="geometry" />
+          <mxGeometry x="70" y="101" width="10" height="49" as="geometry" />
         </mxCell>
         <mxCell id="dqoBiP6nA_giurqrpeqo-8" value="&lt;span style=&quot;text-align: left;&quot;&gt;MapToFilter(filterRequest)&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;fontSize=11;" edge="1" parent="1" source="dqoBiP6nA_giurqrpeqo-3" target="dqoBiP6nA_giurqrpeqo-7">
           <mxGeometry relative="1" as="geometry">
@@ -306,11 +306,11 @@
             <mxPoint x="496" y="297" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="dqoBiP6nA_giurqrpeqo-10" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 11px;&quot;&gt;MedicamentRepository&lt;/span&gt;&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontSize=12;size=50;" vertex="1" parent="1">
+        <mxCell id="dqoBiP6nA_giurqrpeqo-10" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;BMCPRegistrationFilter&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontSize=12;size=50;" vertex="1" parent="1">
           <mxGeometry x="640" y="120" width="150" height="300" as="geometry" />
         </mxCell>
         <mxCell id="dqoBiP6nA_giurqrpeqo-11" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=11;" vertex="1" parent="dqoBiP6nA_giurqrpeqo-10">
-          <mxGeometry x="70" y="130" width="10" height="19" as="geometry" />
+          <mxGeometry x="70" y="106" width="10" height="14" as="geometry" />
         </mxCell>
         <mxCell id="dqoBiP6nA_giurqrpeqo-12" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 11px;&quot;&gt;DB&lt;/span&gt;&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontSize=12;size=50;" vertex="1" parent="1">
           <mxGeometry x="800" y="120" width="150" height="300" as="geometry" />
