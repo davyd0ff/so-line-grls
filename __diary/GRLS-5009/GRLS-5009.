@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-10T12:09:36.584Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="FCz_NYsGJKqomRFMsYNZ" version="20.5.3" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-11-10T12:10:52.347Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="I2xaQybpeRjPBRZg90oU" version="20.5.3" type="github" pages="4">
   <diagram id="T6cJRyOHcKk0c-L9ARpE" name="Страница 1">
     <mxGraphModel dx="4851" dy="1523" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -380,7 +380,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="o4wlLo_9puNEJVaEXnUc" name="п.10">
-    <mxGraphModel dx="1301" dy="305" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1504" dy="435" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -434,14 +434,30 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="FC8HaKwyZs3ACVzob0SJ-1" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
-          <mxGeometry x="310" y="245" width="10" height="40" as="geometry" />
+          <mxGeometry x="310" y="245" width="10" height="95" as="geometry" />
         </mxCell>
-        <mxCell id="FC8HaKwyZs3ACVzob0SJ-2" value="FindIncomings" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="FC8HaKwyZs3ACVzob0SJ-1" parent="1" source="ufYPcYZMp_UR22IxQRk4-3">
+        <mxCell id="FC8HaKwyZs3ACVzob0SJ-2" value="FindIncomings()" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="FC8HaKwyZs3ACVzob0SJ-1" parent="1" source="ufYPcYZMp_UR22IxQRk4-3">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="315" y="225" as="sourcePoint" />
             <Array as="points">
               <mxPoint x="345" y="225" />
               <mxPoint x="345" y="245" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FC8HaKwyZs3ACVzob0SJ-3" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;DocumentFlowEnum&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontSize=12;size=50;" vertex="1" parent="1">
+          <mxGeometry x="480" y="120" width="150" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="FC8HaKwyZs3ACVzob0SJ-4" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=11;" vertex="1" parent="FC8HaKwyZs3ACVzob0SJ-3">
+          <mxGeometry x="70" y="150" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="FC8HaKwyZs3ACVzob0SJ-5" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;&amp;lt;&amp;lt; get &amp;gt;&amp;gt;&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=11;entryX=-0.021;entryY=0.054;entryDx=0;entryDy=0;entryPerimeter=0;spacing=2;" edge="1" parent="1" target="FC8HaKwyZs3ACVzob0SJ-4" source="FC8HaKwyZs3ACVzob0SJ-1">
+          <mxGeometry x="-0.2391" y="2" width="80" relative="1" as="geometry">
+            <mxPoint x="390" y="271.02600000000007" as="sourcePoint" />
+            <mxPoint x="390.8600000000001" y="269.86" as="targetPoint" />
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="500" y="271" />
             </Array>
           </mxGeometry>
         </mxCell>
