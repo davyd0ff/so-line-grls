@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-10T12:10:52.347Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="I2xaQybpeRjPBRZg90oU" version="20.5.3" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-11-10T12:11:20.051Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="YQuI239If5nD0bCW5De6" version="20.5.3" type="github" pages="4">
   <diagram id="T6cJRyOHcKk0c-L9ARpE" name="Страница 1">
     <mxGraphModel dx="4851" dy="1523" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -460,6 +460,9 @@
               <mxPoint x="500" y="271" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="FC8HaKwyZs3ACVzob0SJ-6" value="Не прописаны потоки для&amp;nbsp;&lt;br&gt;flowId = 21&lt;br&gt;flowId = 19&lt;br&gt;flowId = 18" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="395" y="25" width="170" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
