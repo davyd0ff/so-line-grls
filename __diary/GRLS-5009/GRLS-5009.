@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-10T12:08:32.849Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="x1OVky-5remm6LzuON1I" version="20.5.3" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-11-10T12:09:36.584Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="FCz_NYsGJKqomRFMsYNZ" version="20.5.3" type="github" pages="4">
   <diagram id="T6cJRyOHcKk0c-L9ARpE" name="Страница 1">
     <mxGraphModel dx="4851" dy="1523" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -380,7 +380,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="o4wlLo_9puNEJVaEXnUc" name="п.10">
-    <mxGraphModel dx="1504" dy="435" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1301" dy="305" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -399,36 +399,11 @@
             <mxPoint x="440" y="440" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ufYPcYZMp_UR22IxQRk4-5" value="find(request, sortfield, limit, offset)" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=12;entryX=0.1;entryY=0.029;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ufYPcYZMp_UR22IxQRk4-1" target="ufYPcYZMp_UR22IxQRk4-3">
+        <mxCell id="ufYPcYZMp_UR22IxQRk4-5" value="Find(request, sortfield, limit, offset)" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=12;entryX=0.1;entryY=0.029;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ufYPcYZMp_UR22IxQRk4-1" target="ufYPcYZMp_UR22IxQRk4-3">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="370" y="440" as="sourcePoint" />
             <mxPoint x="450" y="440" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="ufYPcYZMp_UR22IxQRk4-6" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 11px;&quot;&gt;FindStatementRequest&lt;/span&gt;&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontSize=12;size=50;" vertex="1" parent="1">
-          <mxGeometry x="470" y="120" width="150" height="300" as="geometry" />
-        </mxCell>
-        <mxCell id="ufYPcYZMp_UR22IxQRk4-7" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=11;" vertex="1" parent="ufYPcYZMp_UR22IxQRk4-6">
-          <mxGeometry x="70" y="101" width="10" height="59" as="geometry" />
-        </mxCell>
-        <mxCell id="ufYPcYZMp_UR22IxQRk4-8" value="&lt;span style=&quot;text-align: left;&quot;&gt;MapToFilter(filterRequest)&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;fontSize=11;" edge="1" parent="1" source="ufYPcYZMp_UR22IxQRk4-3" target="ufYPcYZMp_UR22IxQRk4-7">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="496" y="221" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ufYPcYZMp_UR22IxQRk4-9" value="filter" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;fontSize=11;" edge="1" parent="1" source="ufYPcYZMp_UR22IxQRk4-7" target="ufYPcYZMp_UR22IxQRk4-3">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="496" y="297" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ufYPcYZMp_UR22IxQRk4-10" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;BMCPRegistrationFilter&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontSize=12;size=50;" vertex="1" parent="1">
-          <mxGeometry x="640" y="120" width="150" height="300" as="geometry" />
-        </mxCell>
-        <mxCell id="ufYPcYZMp_UR22IxQRk4-11" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=11;" vertex="1" parent="ufYPcYZMp_UR22IxQRk4-10">
-          <mxGeometry x="70" y="106" width="10" height="14" as="geometry" />
-        </mxCell>
-        <mxCell id="ufYPcYZMp_UR22IxQRk4-12" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=11;" vertex="1" parent="ufYPcYZMp_UR22IxQRk4-10">
-          <mxGeometry x="70" y="131.5" width="10" height="14" as="geometry" />
         </mxCell>
         <mxCell id="ufYPcYZMp_UR22IxQRk4-13" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial; font-size: 11px;&quot;&gt;DB&lt;/span&gt;&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontSize=12;size=50;" vertex="1" parent="1">
           <mxGeometry x="1280" y="120" width="150" height="300" as="geometry" />
@@ -436,41 +411,8 @@
         <mxCell id="ufYPcYZMp_UR22IxQRk4-14" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=11;" vertex="1" parent="ufYPcYZMp_UR22IxQRk4-13">
           <mxGeometry x="70" y="220" width="10" height="10" as="geometry" />
         </mxCell>
-        <mxCell id="ufYPcYZMp_UR22IxQRk4-15" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;&amp;lt;&amp;lt; create &amp;gt;&amp;gt;&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=21;entryX=-0.019;entryY=0.031;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ufYPcYZMp_UR22IxQRk4-7" target="ufYPcYZMp_UR22IxQRk4-11">
-          <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="560" y="280" as="sourcePoint" />
-            <mxPoint x="640" y="280" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ufYPcYZMp_UR22IxQRk4-16" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;&amp;lt;&amp;lt; fill &amp;gt;&amp;gt;&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=11;entryX=-0.03;entryY=0.171;entryDx=0;entryDy=0;entryPerimeter=0;jumpSize=6;spacing=0;" edge="1" parent="1" source="ufYPcYZMp_UR22IxQRk4-7" target="ufYPcYZMp_UR22IxQRk4-12">
-          <mxGeometry x="0.0012" y="2" width="80" relative="1" as="geometry">
-            <mxPoint x="560" y="236.43399999999997" as="sourcePoint" />
-            <mxPoint x="709.81" y="252.351" as="targetPoint" />
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="ufYPcYZMp_UR22IxQRk4-17" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;GetEntityByFilterLimited&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontSize=12;size=50;" vertex="1" parent="1">
           <mxGeometry x="800" y="120" width="150" height="300" as="geometry" />
-        </mxCell>
-        <mxCell id="ufYPcYZMp_UR22IxQRk4-18" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=11;" vertex="1" parent="ufYPcYZMp_UR22IxQRk4-17">
-          <mxGeometry x="70" y="180" width="10" height="10" as="geometry" />
-        </mxCell>
-        <mxCell id="ufYPcYZMp_UR22IxQRk4-19" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=11;" vertex="1" parent="ufYPcYZMp_UR22IxQRk4-17">
-          <mxGeometry x="70" y="200" width="10" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="ufYPcYZMp_UR22IxQRk4-20" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;&amp;lt;&amp;lt; create &amp;gt;&amp;gt;&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=11;entryX=0.029;entryY=0.029;entryDx=0;entryDy=0;entryPerimeter=0;spacing=0;" edge="1" parent="1" source="ufYPcYZMp_UR22IxQRk4-3" target="ufYPcYZMp_UR22IxQRk4-18">
-          <mxGeometry x="-0.7299" width="80" relative="1" as="geometry">
-            <mxPoint x="560" y="236.43399999999997" as="sourcePoint" />
-            <mxPoint x="719.81" y="236.43399999999997" as="targetPoint" />
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ufYPcYZMp_UR22IxQRk4-21" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;Do(filter)&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=11;entryX=0.086;entryY=0.086;entryDx=0;entryDy=0;entryPerimeter=0;spacing=2;" edge="1" parent="1" source="ufYPcYZMp_UR22IxQRk4-3" target="ufYPcYZMp_UR22IxQRk4-19">
-          <mxGeometry x="-0.7299" width="80" relative="1" as="geometry">
-            <mxPoint x="325" y="310.28999999999996" as="sourcePoint" />
-            <mxPoint x="880.29" y="310.28999999999996" as="targetPoint" />
-            <mxPoint as="offset" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="ufYPcYZMp_UR22IxQRk4-22" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;RegistrationStatementRepository&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontSize=12;size=50;" vertex="1" parent="1">
           <mxGeometry x="960" y="120" width="170" height="300" as="geometry" />
@@ -478,9 +420,9 @@
         <mxCell id="ufYPcYZMp_UR22IxQRk4-23" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=11;" vertex="1" parent="ufYPcYZMp_UR22IxQRk4-22">
           <mxGeometry x="80" y="211" width="10" height="19" as="geometry" />
         </mxCell>
-        <mxCell id="ufYPcYZMp_UR22IxQRk4-24" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;FindWithTotalCount()&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=11;entryX=-0.021;entryY=0.054;entryDx=0;entryDy=0;entryPerimeter=0;spacing=2;" edge="1" parent="1" source="ufYPcYZMp_UR22IxQRk4-19" target="ufYPcYZMp_UR22IxQRk4-23">
+        <mxCell id="ufYPcYZMp_UR22IxQRk4-24" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;FindWithTotalCount()&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=11;entryX=-0.021;entryY=0.054;entryDx=0;entryDy=0;entryPerimeter=0;spacing=2;" edge="1" parent="1" target="ufYPcYZMp_UR22IxQRk4-23">
           <mxGeometry x="-0.2391" y="2" width="80" relative="1" as="geometry">
-            <mxPoint x="325" y="330.86" as="sourcePoint" />
+            <mxPoint x="880" y="332.02600000000007" as="sourcePoint" />
             <mxPoint x="880.8600000000001" y="330.86" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
@@ -489,6 +431,18 @@
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="1080" y="320" as="sourcePoint" />
             <mxPoint x="1160" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FC8HaKwyZs3ACVzob0SJ-1" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="310" y="245" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="FC8HaKwyZs3ACVzob0SJ-2" value="FindIncomings" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="FC8HaKwyZs3ACVzob0SJ-1" parent="1" source="ufYPcYZMp_UR22IxQRk4-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="315" y="225" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="345" y="225" />
+              <mxPoint x="345" y="245" />
+            </Array>
           </mxGeometry>
         </mxCell>
       </root>
