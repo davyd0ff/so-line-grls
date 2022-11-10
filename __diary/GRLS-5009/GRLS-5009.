@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-10T12:07:45.054Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="hZNr7KuegxfPRUYVrKp7" version="20.5.3" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-11-10T12:08:19.627Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="k0-G5tkON1zUnOVTW_UU" version="20.5.3" type="github" pages="4">
   <diagram id="T6cJRyOHcKk0c-L9ARpE" name="Страница 1">
     <mxGraphModel dx="4851" dy="1523" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -380,14 +380,14 @@
     </mxGraphModel>
   </diagram>
   <diagram id="o4wlLo_9puNEJVaEXnUc" name="п.10">
-    <mxGraphModel dx="2249" dy="914" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1504" dy="435" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="ufYPcYZMp_UR22IxQRk4-1" value="bmcp/incomings" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontSize=12;size=50;" vertex="1" parent="1">
           <mxGeometry x="-30" y="120" width="140" height="300" as="geometry" />
         </mxCell>
-        <mxCell id="ufYPcYZMp_UR22IxQRk4-2" value="&lt;font style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;&amp;lt;&amp;lt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(45, 42, 46);&quot;&gt;&lt;font face=&quot;Consolas, Courier New, monospace&quot; color=&quot;#ffd866&quot;&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;/api/bmcp/reg-statement/find&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;&amp;nbsp;&amp;gt;&amp;gt;&lt;br&gt;&lt;/font&gt;&lt;br&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;CPStatementWebApiController&lt;/span&gt;&lt;br&gt;&lt;/span&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontSize=12;size=50;" vertex="1" parent="1">
+        <mxCell id="ufYPcYZMp_UR22IxQRk4-2" value="&lt;font style=&quot;&quot;&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;&amp;lt;&amp;lt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: rgb(45, 42, 46);&quot;&gt;&lt;font face=&quot;Consolas, Courier New, monospace&quot; color=&quot;#ffd866&quot;&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;/api/incomings&lt;/span&gt;&lt;/font&gt;&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;&amp;nbsp;&amp;gt;&amp;gt;&lt;br&gt;&lt;/font&gt;&lt;br&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;IncomingNumberWebApiController&lt;/span&gt;&lt;br&gt;&lt;/span&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontSize=12;size=50;" vertex="1" parent="1">
           <mxGeometry x="190" y="120" width="240" height="300" as="geometry" />
         </mxCell>
         <mxCell id="ufYPcYZMp_UR22IxQRk4-3" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=12;" vertex="1" parent="ufYPcYZMp_UR22IxQRk4-2">
