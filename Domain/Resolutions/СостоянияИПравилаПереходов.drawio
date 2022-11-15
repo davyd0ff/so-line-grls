@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-15T11:15:07.656Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="Rim4AyEaRMOgIVv3R0tH" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-15T11:15:52.480Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="N_eLJbeGdx7OXU6GoK4n" version="20.5.3" type="github">
   <diagram id="6t-SUhszLYXBvOoJD4xG" name="Страница 1">
-    <mxGraphModel dx="706" dy="435" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1022" dy="630" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -17,16 +17,22 @@
           <mxGeometry x="370" y="120" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ODBvolYmN83fNnhT-kPj-2" value="Анулирован" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="190" y="200" width="120" height="40" as="geometry" />
+          <mxGeometry x="90" y="250" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ODBvolYmN83fNnhT-kPj-3" value="На визировании" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="370" y="250" width="120" height="40" as="geometry" />
+          <mxGeometry x="370" y="380" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ODBvolYmN83fNnhT-kPj-9" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ODBvolYmN83fNnhT-kPj-4" target="ODBvolYmN83fNnhT-kPj-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ODBvolYmN83fNnhT-kPj-10" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ODBvolYmN83fNnhT-kPj-4" target="ODBvolYmN83fNnhT-kPj-2">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ODBvolYmN83fNnhT-kPj-4" value="Подписан" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="560" y="200" width="120" height="40" as="geometry" />
+          <mxGeometry x="660" y="250" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="ODBvolYmN83fNnhT-kPj-8" value="END" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="180" y="180" width="60" height="30" as="geometry" />
+          <mxGeometry x="90" y="230" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
