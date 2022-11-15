@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-15T13:56:50.387Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="HqH7GauDftgjqAXCzEfd" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-15T13:59:43.709Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="tEdc9na6G5w8NMpwTo0J" version="20.5.3" type="github">
   <diagram id="UQaIwgQZNFvI9y2s87YT" name="Страница 1">
     <mxGraphModel dx="813" dy="522" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -17,7 +17,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="9g1YUz6DXll8vqnvcK5T-8" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="9g1YUz6DXll8vqnvcK5T-1">
-          <mxGeometry x="60" y="70" width="10" height="330" as="geometry" />
+          <mxGeometry x="60" y="70" width="10" height="530" as="geometry" />
         </mxCell>
         <mxCell id="9g1YUz6DXll8vqnvcK5T-3" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="9g1YUz6DXll8vqnvcK5T-1">
           <mxGeometry x="65" y="108" width="10" height="190" as="geometry" />
@@ -40,10 +40,24 @@
         <mxCell id="9g1YUz6DXll8vqnvcK5T-17" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;sketch=1;strokeColor=#000000;opacity=70;" vertex="1" parent="9g1YUz6DXll8vqnvcK5T-9">
           <mxGeometry x="115" y="320" width="10" height="10" as="geometry" />
         </mxCell>
-        <mxCell id="9g1YUz6DXll8vqnvcK5T-16" value="&amp;lt;&amp;lt; create &amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" edge="1" parent="1" source="9g1YUz6DXll8vqnvcK5T-8" target="9g1YUz6DXll8vqnvcK5T-17">
-          <mxGeometry width="80" relative="1" as="geometry">
+        <mxCell id="9g1YUz6DXll8vqnvcK5T-16" value="&amp;lt;&amp;lt; create &amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;entryX=0.057;entryY=0.086;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="9g1YUz6DXll8vqnvcK5T-8" target="9g1YUz6DXll8vqnvcK5T-17">
+          <mxGeometry x="-0.2742" width="80" relative="1" as="geometry">
             <mxPoint x="440" y="280" as="sourcePoint" />
             <mxPoint x="520" y="280" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9g1YUz6DXll8vqnvcK5T-18" value="UpdateApplicantRequest" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="640" y="40" width="160" height="3060" as="geometry" />
+        </mxCell>
+        <mxCell id="9g1YUz6DXll8vqnvcK5T-19" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;sketch=1;strokeColor=#000000;opacity=70;" vertex="1" parent="9g1YUz6DXll8vqnvcK5T-18">
+          <mxGeometry x="75" y="340" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="9g1YUz6DXll8vqnvcK5T-20" value="&amp;lt;&amp;lt; create &amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;entryX=0;entryY=-0.086;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="9g1YUz6DXll8vqnvcK5T-8" target="9g1YUz6DXll8vqnvcK5T-19">
+          <mxGeometry x="-0.596" width="80" relative="1" as="geometry">
+            <mxPoint x="230" y="370.86" as="sourcePoint" />
+            <mxPoint x="505.56999999999994" y="370.86" as="targetPoint" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
