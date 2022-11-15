@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-15T12:27:48.218Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="TNkBZR7dN-Dv-FrtMxYl" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-15T12:28:15.735Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="-stqxsaQ0JTFk0pWVkfa" version="20.5.3" type="github">
   <diagram id="XoZ3P9HmxM1zG5Is6Aeg" name="Страница 1">
     <mxGraphModel dx="1422" dy="2083" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -599,6 +599,15 @@
         </mxCell>
         <mxCell id="9OZzi6eaPg9HL32eHERa-194" value="" style="ellipse;html=1;shape=endState;fillColor=strokeColor;" vertex="1" parent="1">
           <mxGeometry x="720" y="-410" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9OZzi6eaPg9HL32eHERa-195" value="Подписан" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="-360" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9OZzi6eaPg9HL32eHERa-196" value="На выдачу" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="-280" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9OZzi6eaPg9HL32eHERa-197" value="Выдан заявителю" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="-200" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
