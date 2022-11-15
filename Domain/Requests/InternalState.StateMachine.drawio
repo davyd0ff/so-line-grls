@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-15T12:28:15.735Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="-stqxsaQ0JTFk0pWVkfa" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-15T12:30:07.943Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="Lcc-wU7x57ATf-FqgX1n" version="20.5.3" type="github">
   <diagram id="XoZ3P9HmxM1zG5Is6Aeg" name="Страница 1">
     <mxGraphModel dx="1422" dy="2083" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -577,16 +577,16 @@
           <mxGeometry x="640" y="-600" width="40" height="120" as="geometry" />
         </mxCell>
         <mxCell id="9OZzi6eaPg9HL32eHERa-187" value="Проект / Project" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="960" y="-600" width="120" height="40" as="geometry" />
+          <mxGeometry x="1040" y="-800" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="9OZzi6eaPg9HL32eHERa-188" value="" style="shape=ellipse;html=1;dashed=0;whitespace=wrap;aspect=fixed;perimeter=ellipsePerimeter;" vertex="1" parent="1">
-          <mxGeometry x="950" y="-614" width="30" height="30" as="geometry" />
+          <mxGeometry x="1030" y="-814" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="9OZzi6eaPg9HL32eHERa-189" value="На визировании" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1040" y="-520" width="120" height="40" as="geometry" />
+          <mxGeometry x="1120" y="-720" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="9OZzi6eaPg9HL32eHERa-190" value="На подписи" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1080" y="-440" width="120" height="40" as="geometry" />
+          <mxGeometry x="1160" y="-640" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="9OZzi6eaPg9HL32eHERa-191" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Конечные состояния&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="240" y="-640" width="440" height="40" as="geometry" />
@@ -595,19 +595,28 @@
           <mxGeometry x="80" y="-480" width="40" height="440" as="geometry" />
         </mxCell>
         <mxCell id="9OZzi6eaPg9HL32eHERa-193" value="Анулирован" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="730" y="-400" width="120" height="40" as="geometry" />
+          <mxGeometry x="810" y="-600" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="9OZzi6eaPg9HL32eHERa-194" value="" style="ellipse;html=1;shape=endState;fillColor=strokeColor;" vertex="1" parent="1">
-          <mxGeometry x="720" y="-410" width="30" height="30" as="geometry" />
+          <mxGeometry x="800" y="-610" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="9OZzi6eaPg9HL32eHERa-195" value="Подписан" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1080" y="-360" width="120" height="40" as="geometry" />
+          <mxGeometry x="1160" y="-560" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="9OZzi6eaPg9HL32eHERa-196" value="На выдачу" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1040" y="-280" width="120" height="40" as="geometry" />
+          <mxGeometry x="1160" y="-480" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="9OZzi6eaPg9HL32eHERa-197" value="Выдан заявителю" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1000" y="-200" width="120" height="40" as="geometry" />
+          <mxGeometry x="1120" y="-410" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9OZzi6eaPg9HL32eHERa-198" value="Обработан заявителем" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="-320" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9OZzi6eaPg9HL32eHERa-200" value="Ответ на запрос поступил" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="-240" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9OZzi6eaPg9HL32eHERa-201" value="Ответ на запрос не поступил" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="-240" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
