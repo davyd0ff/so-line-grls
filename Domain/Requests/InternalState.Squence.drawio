@@ -1,11 +1,24 @@
-<mxfile host="app.diagrams.net" modified="2022-11-15T13:27:57.118Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="r8hwhQpKJRM5kG4Egp5W" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-15T13:30:41.177Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="2Dm9vAdcocazWr7HQltW" version="20.5.3" type="github">
   <diagram id="UQaIwgQZNFvI9y2s87YT" name="Страница 1">
-    <mxGraphModel dx="569" dy="366" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="273" dy="176" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="9g1YUz6DXll8vqnvcK5T-1" value=":DocRequest2.aspx" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="150" y="40" width="130" height="300" as="geometry" />
+          <mxGeometry x="150" y="40" width="130" height="3060" as="geometry" />
+        </mxCell>
+        <mxCell id="9g1YUz6DXll8vqnvcK5T-3" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="9g1YUz6DXll8vqnvcK5T-1">
+          <mxGeometry x="60" y="110" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9g1YUz6DXll8vqnvcK5T-4" value="Valid()" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="9g1YUz6DXll8vqnvcK5T-3" parent="9g1YUz6DXll8vqnvcK5T-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="65" y="100" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="65" y="90" />
+              <mxPoint x="95" y="90" />
+              <mxPoint x="95" y="110" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="9g1YUz6DXll8vqnvcK5T-2" value="&amp;lt;&amp;lt; change state &amp;gt;&amp;gt;&lt;br&gt;Save()" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;rounded=0;" edge="1" parent="1" target="9g1YUz6DXll8vqnvcK5T-1">
           <mxGeometry width="60" relative="1" as="geometry">
