@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-15T13:59:43.709Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="tEdc9na6G5w8NMpwTo0J" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-15T13:59:55.989Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="dFBdx98YyU-HxudYQ-5b" version="20.5.3" type="github">
   <diagram id="UQaIwgQZNFvI9y2s87YT" name="Страница 1">
-    <mxGraphModel dx="813" dy="522" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="132" dy="85" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -40,7 +40,7 @@
         <mxCell id="9g1YUz6DXll8vqnvcK5T-17" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;sketch=1;strokeColor=#000000;opacity=70;" vertex="1" parent="9g1YUz6DXll8vqnvcK5T-9">
           <mxGeometry x="115" y="320" width="10" height="10" as="geometry" />
         </mxCell>
-        <mxCell id="9g1YUz6DXll8vqnvcK5T-16" value="&amp;lt;&amp;lt; create &amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;entryX=0.057;entryY=0.086;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="9g1YUz6DXll8vqnvcK5T-8" target="9g1YUz6DXll8vqnvcK5T-17">
+        <mxCell id="9g1YUz6DXll8vqnvcK5T-16" value="&amp;lt;&amp;lt; create &amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;entryX=-0.043;entryY=0.074;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="9g1YUz6DXll8vqnvcK5T-8" target="9g1YUz6DXll8vqnvcK5T-17">
           <mxGeometry x="-0.2742" width="80" relative="1" as="geometry">
             <mxPoint x="440" y="280" as="sourcePoint" />
             <mxPoint x="520" y="280" as="targetPoint" />
@@ -53,7 +53,7 @@
         <mxCell id="9g1YUz6DXll8vqnvcK5T-19" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;sketch=1;strokeColor=#000000;opacity=70;" vertex="1" parent="9g1YUz6DXll8vqnvcK5T-18">
           <mxGeometry x="75" y="340" width="10" height="10" as="geometry" />
         </mxCell>
-        <mxCell id="9g1YUz6DXll8vqnvcK5T-20" value="&amp;lt;&amp;lt; create &amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;entryX=0;entryY=-0.086;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="9g1YUz6DXll8vqnvcK5T-8" target="9g1YUz6DXll8vqnvcK5T-19">
+        <mxCell id="9g1YUz6DXll8vqnvcK5T-20" value="&amp;lt;&amp;lt; create &amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;entryX=-0.015;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="9g1YUz6DXll8vqnvcK5T-8" target="9g1YUz6DXll8vqnvcK5T-19">
           <mxGeometry x="-0.596" width="80" relative="1" as="geometry">
             <mxPoint x="230" y="370.86" as="sourcePoint" />
             <mxPoint x="505.56999999999994" y="370.86" as="targetPoint" />
