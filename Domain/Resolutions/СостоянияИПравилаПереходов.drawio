@@ -1,11 +1,29 @@
-<mxfile host="app.diagrams.net" modified="2022-11-15T11:11:49.785Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="_v2ZBuYxF5JxlZklbAyD" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-15T11:12:49.194Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="nFkBaPtzZsT2c9Zj6XlK" version="20.5.3" type="github">
   <diagram id="6t-SUhszLYXBvOoJD4xG" name="Страница 1">
     <mxGraphModel dx="1482" dy="914" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="ODBvolYmN83fNnhT-kPj-5" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ODBvolYmN83fNnhT-kPj-1" target="ODBvolYmN83fNnhT-kPj-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ODBvolYmN83fNnhT-kPj-6" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ODBvolYmN83fNnhT-kPj-1" target="ODBvolYmN83fNnhT-kPj-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ODBvolYmN83fNnhT-kPj-7" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ODBvolYmN83fNnhT-kPj-1" target="ODBvolYmN83fNnhT-kPj-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="ODBvolYmN83fNnhT-kPj-1" value="Проект / Project" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="370" y="120" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ODBvolYmN83fNnhT-kPj-2" value="Проект / Project" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="200" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ODBvolYmN83fNnhT-kPj-3" value="Проект / Project" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="200" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ODBvolYmN83fNnhT-kPj-4" value="Проект / Project" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="200" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
