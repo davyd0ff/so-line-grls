@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-16T09:56:31.163Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="5G8XDPTx3GXhHfPSLsDm" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-16T09:57:07.392Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="mjTH1c6MGXmDlz_ODmT9" version="20.5.3" type="github">
   <diagram id="iafy8vLnpcnuuy3_OvVW" name="Страница 1">
-    <mxGraphModel dx="981" dy="630" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="914" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -113,7 +113,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="J9ldG81cEZ1e4UeyS67y-29" value="UpdateDocument" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;movable=0;" vertex="1" parent="1">
+        <mxCell id="J9ldG81cEZ1e4UeyS67y-29" value="UpdateDocument" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;movable=0;resizable=0;" vertex="1" parent="1">
           <mxGeometry x="620" y="39" width="170" height="3429" as="geometry" />
         </mxCell>
         <mxCell id="J9ldG81cEZ1e4UeyS67y-30" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="J9ldG81cEZ1e4UeyS67y-29">
@@ -132,7 +132,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="J9ldG81cEZ1e4UeyS67y-32" value="BusinessTransactionBase" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="800" y="39" width="170" height="3429" as="geometry" />
+          <mxGeometry x="900" y="39" width="170" height="3429" as="geometry" />
         </mxCell>
         <mxCell id="J9ldG81cEZ1e4UeyS67y-33" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="J9ldG81cEZ1e4UeyS67y-32">
           <mxGeometry x="80" y="344" width="10" height="216" as="geometry" />
@@ -148,23 +148,23 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="J9ldG81cEZ1e4UeyS67y-35" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;opacity=70;" vertex="1" parent="1">
-          <mxGeometry x="885" y="421" width="10" height="120" as="geometry" />
+          <mxGeometry x="985" y="421" width="10" height="120" as="geometry" />
         </mxCell>
         <mxCell id="J9ldG81cEZ1e4UeyS67y-36" value="InternalRun()" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="J9ldG81cEZ1e4UeyS67y-35" parent="1" source="J9ldG81cEZ1e4UeyS67y-33">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="890" y="400" as="sourcePoint" />
+            <mxPoint x="990" y="400" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="920" y="400" />
-              <mxPoint x="920" y="421" />
+              <mxPoint x="1020" y="400" />
+              <mxPoint x="1020" y="421" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="J9ldG81cEZ1e4UeyS67y-40" value="BaseValidate()" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="J9ldG81cEZ1e4UeyS67y-39" parent="1" source="J9ldG81cEZ1e4UeyS67y-35">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="895" y="429" as="sourcePoint" />
+            <mxPoint x="995" y="429" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="925" y="429" />
-              <mxPoint x="925" y="449" />
+              <mxPoint x="1025" y="429" />
+              <mxPoint x="1025" y="449" />
             </Array>
           </mxGeometry>
         </mxCell>
