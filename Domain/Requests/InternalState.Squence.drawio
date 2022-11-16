@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2022-11-16T06:08:21.507Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="DdORzWyYepsLMJBtqw9G" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-16T06:08:46.510Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="yN1UwP0WRdURVvRvfEe4" version="20.5.3" type="github">
   <diagram id="UQaIwgQZNFvI9y2s87YT" name="Страница 1">
-    <mxGraphModel dx="813" dy="522" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1354" dy="870" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="9g1YUz6DXll8vqnvcK5T-58" value="Проверяет может ли entity StateTransition &lt;br&gt;выполняться текущим пользователем" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#d79b00;fillColor=#ffe6cc;" vertex="1" parent="1">
+          <mxGeometry x="2540" y="6" width="250" height="40" as="geometry" />
+        </mxCell>
         <mxCell id="9g1YUz6DXll8vqnvcK5T-1" value=":DocRequest2.aspx" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="150" y="40" width="130" height="3060" as="geometry" />
         </mxCell>
@@ -216,9 +219,6 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9g1YUz6DXll8vqnvcK5T-58" value="Проверяет может ли entity StateTransition &lt;br&gt;выполняться текущим пользователем" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=default;" vertex="1" parent="1">
-          <mxGeometry x="2540" y="6" width="250" height="40" as="geometry" />
-        </mxCell>
         <mxCell id="9g1YUz6DXll8vqnvcK5T-59" value="transitions" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;fontColor=default;exitX=0.11;exitY=1.006;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="9g1YUz6DXll8vqnvcK5T-45" target="9g1YUz6DXll8vqnvcK5T-40">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1810" y="640" as="sourcePoint" />
@@ -237,11 +237,11 @@
         <mxCell id="9g1YUz6DXll8vqnvcK5T-64" value="проверка входящего на аннулированность и перемещение в архив" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="1490" y="790" width="400" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="9g1YUz6DXll8vqnvcK5T-66" value="Проверка: Прав пользователя" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#d79b00;fillColor=#ffe6cc;" vertex="1" parent="1">
+          <mxGeometry x="1494" y="830" width="190" height="30" as="geometry" />
+        </mxCell>
         <mxCell id="9g1YUz6DXll8vqnvcK5T-65" value="проверка на прикрепленный файл у запросов ФГБУ" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="1494" y="811" width="310" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="9g1YUz6DXll8vqnvcK5T-66" value="Проверка: Прав пользователя" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=default;" vertex="1" parent="1">
-          <mxGeometry x="1494" y="830" width="190" height="30" as="geometry" />
         </mxCell>
         <mxCell id="9g1YUz6DXll8vqnvcK5T-67" value="UnitOfWork" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="2700" y="40" width="160" height="3060" as="geometry" />
