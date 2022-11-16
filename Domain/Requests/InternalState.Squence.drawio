@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-16T07:37:47.831Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="2xfO2iNKJ7UYhriLBgKS" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-16T07:39:09.775Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="S2x9Rr4KYtxh993iPrGz" version="20.5.3" type="github">
   <diagram id="UQaIwgQZNFvI9y2s87YT" name="Страница 1">
     <mxGraphModel dx="474" dy="305" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -146,7 +146,7 @@
           <mxGeometry x="100" y="540" width="10" height="370" as="geometry" />
         </mxCell>
         <mxCell id="9g1YUz6DXll8vqnvcK5T-77" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;labelBackgroundColor=none;labelBorderColor=none;sketch=1;strokeColor=#000000;fontColor=default;opacity=70;" vertex="1" parent="9g1YUz6DXll8vqnvcK5T-38">
-          <mxGeometry x="100" y="1090.0000000000002" width="10" height="80" as="geometry" />
+          <mxGeometry x="100" y="1090" width="10" height="170" as="geometry" />
         </mxCell>
         <mxCell id="9g1YUz6DXll8vqnvcK5T-41" value="Меняет внутренние состояния у документов вне дерева; &lt;br&gt;работа осуществляется с таблицей DocumentToInternalStateBinding" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;html=1;fontColor=default;labelBackgroundColor=none;labelBorderColor=none;flipH=1;absoluteArcSize=0;imageAspect=1;" vertex="1" parent="1">
           <mxGeometry x="1611" y="6" width="400" height="40" as="geometry" />
