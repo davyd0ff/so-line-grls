@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-16T10:10:06.728Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="-uJdZtRKg8boK8WKFq1J" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-16T10:10:14.295Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="xPaqB-YeJ3epajdgMsot" version="20.5.3" type="github">
   <diagram id="iafy8vLnpcnuuy3_OvVW" name="Страница 1">
     <mxGraphModel dx="948" dy="609" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -7,7 +7,7 @@
         <mxCell id="J9ldG81cEZ1e4UeyS67y-57" value="is&amp;nbsp;IIdentifiedLongInst" style="shape=umlFrame;whiteSpace=wrap;html=1;opacity=70;width=123;height=32;" vertex="1" parent="1">
           <mxGeometry x="567" y="848" width="300" height="119" as="geometry" />
         </mxCell>
-        <mxCell id="J9ldG81cEZ1e4UeyS67y-56" value="is&amp;nbsp;IIdentifiedBase" style="shape=umlFrame;whiteSpace=wrap;html=1;opacity=70;width=110;height=30;" vertex="1" parent="1">
+        <mxCell id="J9ldG81cEZ1e4UeyS67y-56" value="is&amp;nbsp;IIdentifiedBase" style="shape=umlFrame;whiteSpace=wrap;html=1;opacity=70;width=122;height=29;" vertex="1" parent="1">
           <mxGeometry x="568" y="721" width="300" height="119" as="geometry" />
         </mxCell>
         <mxCell id="J9ldG81cEZ1e4UeyS67y-7" value="DocumentForm/Index.cshtml" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
