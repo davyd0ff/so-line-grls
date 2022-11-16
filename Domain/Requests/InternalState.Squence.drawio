@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-16T08:19:31.963Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="9ExGw8LAM6SVX40FAAnD" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-16T08:23:31.831Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="_gHeJJxbzqCYYxSkOirz" version="20.5.3" type="github">
   <diagram id="UQaIwgQZNFvI9y2s87YT" name="Страница 1">
-    <mxGraphModel dx="1778" dy="1143" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3555" dy="2285" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -35,13 +35,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="9g1YUz6DXll8vqnvcK5T-8" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="9g1YUz6DXll8vqnvcK5T-1">
-          <mxGeometry x="60" y="70" width="10" height="890" as="geometry" />
+          <mxGeometry x="60" y="70" width="10" height="1950" as="geometry" />
         </mxCell>
         <mxCell id="9g1YUz6DXll8vqnvcK5T-3" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="9g1YUz6DXll8vqnvcK5T-1">
           <mxGeometry x="65" y="108" width="10" height="190" as="geometry" />
         </mxCell>
         <mxCell id="9g1YUz6DXll8vqnvcK5T-22" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;sketch=1;strokeColor=#000000;opacity=70;" vertex="1" parent="9g1YUz6DXll8vqnvcK5T-1">
-          <mxGeometry x="65" y="420" width="10" height="280" as="geometry" />
+          <mxGeometry x="65" y="420" width="10" height="1580" as="geometry" />
         </mxCell>
         <mxCell id="9g1YUz6DXll8vqnvcK5T-23" value="StoreInternalState()" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="9g1YUz6DXll8vqnvcK5T-22" parent="9g1YUz6DXll8vqnvcK5T-1" source="9g1YUz6DXll8vqnvcK5T-8">
           <mxGeometry relative="1" as="geometry">
