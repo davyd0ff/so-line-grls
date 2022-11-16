@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-16T09:13:41.805Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="RYa_h4DubMbrUdOjrE4k" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-16T09:14:23.734Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="YaSgAIa2ipuAyFOduwU6" version="20.5.3" type="github">
   <diagram id="iafy8vLnpcnuuy3_OvVW" name="Страница 1">
     <mxGraphModel dx="395" dy="254" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -11,7 +11,7 @@
           <mxGeometry x="80" y="81" width="10" height="239" as="geometry" />
         </mxCell>
         <mxCell id="J9ldG81cEZ1e4UeyS67y-14" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="J9ldG81cEZ1e4UeyS67y-7">
-          <mxGeometry x="85" y="119" width="10" height="141" as="geometry" />
+          <mxGeometry x="85" y="119" width="10" height="171" as="geometry" />
         </mxCell>
         <mxCell id="J9ldG81cEZ1e4UeyS67y-15" value="&lt;span style=&quot;color: rgb(32, 33, 36); font-family: consolas, &amp;quot;lucida console&amp;quot;, &amp;quot;courier new&amp;quot;, monospace; font-size: 12px;&quot;&gt;btnSave()&lt;/span&gt;" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="J9ldG81cEZ1e4UeyS67y-14" parent="J9ldG81cEZ1e4UeyS67y-7" source="J9ldG81cEZ1e4UeyS67y-11">
           <mxGeometry relative="1" as="geometry">
@@ -19,6 +19,18 @@
             <Array as="points">
               <mxPoint x="125" y="101" />
               <mxPoint x="125" y="119" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J9ldG81cEZ1e4UeyS67y-19" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="J9ldG81cEZ1e4UeyS67y-7">
+          <mxGeometry x="90" y="211" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="J9ldG81cEZ1e4UeyS67y-20" value="btnSaveCallback()" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="J9ldG81cEZ1e4UeyS67y-19" parent="J9ldG81cEZ1e4UeyS67y-7" source="J9ldG81cEZ1e4UeyS67y-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="95" y="191" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="125" y="191" />
+              <mxPoint x="125" y="211" />
             </Array>
           </mxGeometry>
         </mxCell>
