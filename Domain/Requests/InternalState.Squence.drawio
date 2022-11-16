@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-16T07:59:16.411Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="4XT5tmYaCXwMc97CvBPT" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-16T08:00:02.741Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="ew7ugADAzqmWJzxDFi2M" version="20.5.3" type="github">
   <diagram id="UQaIwgQZNFvI9y2s87YT" name="Страница 1">
     <mxGraphModel dx="569" dy="366" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -332,6 +332,9 @@
         <mxCell id="9g1YUz6DXll8vqnvcK5T-101" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;sketch=1;strokeColor=#000000;opacity=70;" vertex="1" parent="9g1YUz6DXll8vqnvcK5T-100">
           <mxGeometry x="45" y="1220" width="10" height="10" as="geometry" />
         </mxCell>
+        <mxCell id="9g1YUz6DXll8vqnvcK5T-108" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;sketch=1;strokeColor=#000000;opacity=70;" vertex="1" parent="9g1YUz6DXll8vqnvcK5T-100">
+          <mxGeometry x="45" y="1290" width="10" height="10" as="geometry" />
+        </mxCell>
         <mxCell id="9g1YUz6DXll8vqnvcK5T-102" value="[grls].[core].[select_DocumentToInternalStateBinding]" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=12;fontColor=default;entryX=-0.105;entryY=0.024;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="9g1YUz6DXll8vqnvcK5T-88" target="9g1YUz6DXll8vqnvcK5T-101">
           <mxGeometry x="-0.2792" width="80" relative="1" as="geometry">
             <mxPoint x="3360" y="1260" as="sourcePoint" />
@@ -356,6 +359,13 @@
           <mxGeometry x="-0.8981" y="1" width="80" relative="1" as="geometry">
             <mxPoint x="1730" y="1257.8000000000002" as="sourcePoint" />
             <mxPoint x="3298.8900000000003" y="1257.8000000000002" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9g1YUz6DXll8vqnvcK5T-110" value="[grls].[core].[update_DocumentToInternalStateBinding]" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=12;fontColor=default;entryX=-0.04;entryY=-0.04;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="9g1YUz6DXll8vqnvcK5T-107" target="9g1YUz6DXll8vqnvcK5T-108">
+          <mxGeometry x="-0.2792" width="80" relative="1" as="geometry">
+            <mxPoint x="3310" y="1270.24" as="sourcePoint" />
+            <mxPoint x="3753.95" y="1270.24" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
