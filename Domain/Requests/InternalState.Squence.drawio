@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-16T07:54:35.999Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="6aLwefXDyFnoiMNn-dkZ" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-16T07:54:52.952Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="ZCxL6288kLTIDoqJqw1r" version="20.5.3" type="github">
   <diagram id="UQaIwgQZNFvI9y2s87YT" name="Страница 1">
-    <mxGraphModel dx="3555" dy="2285" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="677" dy="435" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -325,6 +325,16 @@
         </mxCell>
         <mxCell id="9g1YUz6DXll8vqnvcK5T-100" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;DB&lt;/font&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;labelBackgroundColor=none;labelBorderColor=none;sketch=0;strokeColor=#000000;fontSize=24;fontColor=default;gradientColor=none;" vertex="1" parent="1">
           <mxGeometry x="3510" y="40" width="100" height="3050" as="geometry" />
+        </mxCell>
+        <mxCell id="9g1YUz6DXll8vqnvcK5T-101" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;sketch=1;strokeColor=#000000;opacity=70;" vertex="1" parent="9g1YUz6DXll8vqnvcK5T-100">
+          <mxGeometry x="45" y="1220" width="10" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9g1YUz6DXll8vqnvcK5T-102" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=12;fontColor=default;entryX=-0.105;entryY=0.024;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="9g1YUz6DXll8vqnvcK5T-88" target="9g1YUz6DXll8vqnvcK5T-101">
+          <mxGeometry x="-0.6062" y="1" width="80" relative="1" as="geometry">
+            <mxPoint x="3360" y="1260" as="sourcePoint" />
+            <mxPoint x="3440" y="1260" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
