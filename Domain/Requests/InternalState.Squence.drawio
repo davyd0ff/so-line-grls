@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-16T08:15:45.291Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="9A2MnZ1TZQQMcFdUj5cH" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-16T08:15:56.418Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="x52eeICs_vWLYGeuEUSo" version="20.5.3" type="github">
   <diagram id="UQaIwgQZNFvI9y2s87YT" name="Страница 1">
-    <mxGraphModel dx="3160" dy="2031" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1237" dy="795" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -451,6 +451,15 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1640" y="1630" as="sourcePoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="9g1YUz6DXll8vqnvcK5T-136" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;MailSenderApplicantRequestFgbuUpdateState&lt;/font&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;labelBackgroundColor=none;labelBorderColor=none;sketch=0;strokeColor=#000000;fontSize=24;fontColor=default;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="4080" y="40" width="280" height="3050" as="geometry" />
+        </mxCell>
+        <mxCell id="9g1YUz6DXll8vqnvcK5T-137" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;sketch=1;strokeColor=#000000;opacity=70;" vertex="1" parent="9g1YUz6DXll8vqnvcK5T-136">
+          <mxGeometry x="105" y="1240" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="9g1YUz6DXll8vqnvcK5T-138" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;sketch=1;strokeColor=#000000;opacity=70;" vertex="1" parent="9g1YUz6DXll8vqnvcK5T-136">
+          <mxGeometry x="105" y="1420" width="10" height="10" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
