@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-16T07:49:57.387Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="90c7azJtPUuBumtxerE6" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-16T07:50:56.589Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="eGS0TRk2ZB9wmjBvIl2E" version="20.5.3" type="github">
   <diagram id="UQaIwgQZNFvI9y2s87YT" name="Страница 1">
-    <mxGraphModel dx="4740" dy="3047" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2188" dy="1406" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -117,7 +117,7 @@
           <mxGeometry x="1430" y="40" width="160" height="3060" as="geometry" />
         </mxCell>
         <mxCell id="9g1YUz6DXll8vqnvcK5T-31" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;sketch=1;strokeColor=#000000;opacity=70;" vertex="1" parent="9g1YUz6DXll8vqnvcK5T-30">
-          <mxGeometry x="75" y="470" width="10" height="780" as="geometry" />
+          <mxGeometry x="75" y="470" width="10" height="1120" as="geometry" />
         </mxCell>
         <mxCell id="9g1YUz6DXll8vqnvcK5T-32" value="Run(request)" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;entryX=0.009;entryY=-0.001;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="9g1YUz6DXll8vqnvcK5T-22" target="9g1YUz6DXll8vqnvcK5T-31">
           <mxGeometry x="-0.8216" y="1" width="80" relative="1" as="geometry">
@@ -306,10 +306,20 @@
         <mxCell id="9g1YUz6DXll8vqnvcK5T-79" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;sketch=1;strokeColor=#000000;opacity=70;" vertex="1" parent="9g1YUz6DXll8vqnvcK5T-78">
           <mxGeometry x="180" y="1186" width="10" height="10" as="geometry" />
         </mxCell>
+        <mxCell id="9g1YUz6DXll8vqnvcK5T-88" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;sketch=1;strokeColor=#000000;opacity=70;" vertex="1" parent="9g1YUz6DXll8vqnvcK5T-78">
+          <mxGeometry x="180" y="1210" width="10" height="10" as="geometry" />
+        </mxCell>
         <mxCell id="9g1YUz6DXll8vqnvcK5T-81" value="&amp;lt;&amp;lt; create &amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontColor=default;entryX=0;entryY=0.22;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="9g1YUz6DXll8vqnvcK5T-77" target="9g1YUz6DXll8vqnvcK5T-79">
-          <mxGeometry x="-0.6433" y="2" width="80" relative="1" as="geometry">
+          <mxGeometry x="-0.8981" y="-2" width="80" relative="1" as="geometry">
             <mxPoint x="2090" y="1030" as="sourcePoint" />
             <mxPoint x="2170" y="1030" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9g1YUz6DXll8vqnvcK5T-87" value="GetDocumentInternalState(documentId, documentTypeId (StatementTypeId))" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontColor=default;entryX=-0.111;entryY=-0.044;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="9g1YUz6DXll8vqnvcK5T-77" target="9g1YUz6DXll8vqnvcK5T-88">
+          <mxGeometry x="-0.7068" width="80" relative="1" as="geometry">
+            <mxPoint x="1730" y="1238.1999999999998" as="sourcePoint" />
+            <mxPoint x="3300" y="1238.1999999999998" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
