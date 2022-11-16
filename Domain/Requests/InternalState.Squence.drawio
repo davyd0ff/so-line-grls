@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-16T07:26:01.256Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="DKt_a67bX3eUoME-AXFn" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-16T07:26:23.638Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="HzBJHk_uT55DSTzn5jVi" version="20.5.3" type="github">
   <diagram id="UQaIwgQZNFvI9y2s87YT" name="Страница 1">
-    <mxGraphModel dx="1896" dy="1219" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="769" dy="494" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -143,7 +143,7 @@
           <mxGeometry x="1380" y="40" width="210" height="3060" as="geometry" />
         </mxCell>
         <mxCell id="9g1YUz6DXll8vqnvcK5T-40" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;sketch=1;strokeColor=#000000;opacity=70;" vertex="1" parent="9g1YUz6DXll8vqnvcK5T-38">
-          <mxGeometry x="100" y="540" width="10" height="380" as="geometry" />
+          <mxGeometry x="100" y="540" width="10" height="370" as="geometry" />
         </mxCell>
         <mxCell id="9g1YUz6DXll8vqnvcK5T-41" value="Меняет внутренние состояния у документов вне дерева; &lt;br&gt;работа осуществляется с таблицей DocumentToInternalStateBinding" style="text;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;html=1;fontColor=default;labelBackgroundColor=none;labelBorderColor=none;flipH=1;absoluteArcSize=0;imageAspect=1;" vertex="1" parent="1">
           <mxGeometry x="1381" y="6" width="400" height="40" as="geometry" />
@@ -265,6 +265,13 @@
         </mxCell>
         <mxCell id="9g1YUz6DXll8vqnvcK5T-71" value="???&lt;br&gt;Не нашел этот код,&amp;nbsp;&lt;br&gt;который что-то делает с таблицей DocumentToInternalState" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="1494" y="46" width="350" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9g1YUz6DXll8vqnvcK5T-72" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;fontColor=default;exitX=-0.251;exitY=0.996;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="9g1YUz6DXll8vqnvcK5T-40" target="9g1YUz6DXll8vqnvcK5T-37">
+          <mxGeometry x="0.6387" y="1" relative="1" as="geometry">
+            <mxPoint x="1370" y="940" as="sourcePoint" />
+            <mxPoint x="1290" y="940" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
