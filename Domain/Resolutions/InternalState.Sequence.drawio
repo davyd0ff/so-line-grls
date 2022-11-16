@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-16T09:13:30.149Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="i73qVE2N0dR4wito5k6m" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-16T09:13:41.805Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="RYa_h4DubMbrUdOjrE4k" version="20.5.3" type="github">
   <diagram id="iafy8vLnpcnuuy3_OvVW" name="Страница 1">
     <mxGraphModel dx="395" dy="254" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -43,8 +43,8 @@
             <mxPoint x="380" y="160" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="J9ldG81cEZ1e4UeyS67y-17" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
-          <mxGeometry x="200" y="201" width="10" height="29" as="geometry" />
+        <mxCell id="J9ldG81cEZ1e4UeyS67y-17" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="200" y="201" width="10" height="19" as="geometry" />
         </mxCell>
         <mxCell id="J9ldG81cEZ1e4UeyS67y-18" value="Validator.validateForm()" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="J9ldG81cEZ1e4UeyS67y-17" parent="1" source="J9ldG81cEZ1e4UeyS67y-14">
           <mxGeometry relative="1" as="geometry">
