@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2022-11-16T07:44:39.569Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="81L3zPsI2UmWb5uE1To0" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-16T07:44:54.216Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="d-ApRH4kZ_7vEGtQ-khS" version="20.5.3" type="github">
   <diagram id="UQaIwgQZNFvI9y2s87YT" name="Страница 1">
     <mxGraphModel dx="2585" dy="1662" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="9g1YUz6DXll8vqnvcK5T-82" value="Валидация" style="shape=umlFrame;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;sketch=1;strokeColor=#6c8ebf;opacity=30;fillColor=#dae8fc;gradientColor=none;swimlaneFillColor=#66B2FF;width=140;height=40;fontSize=24;" vertex="1" parent="1">
+          <mxGeometry x="950" y="520" width="2130" height="610" as="geometry" />
+        </mxCell>
         <mxCell id="9g1YUz6DXll8vqnvcK5T-58" value="Проверяет может ли entity StateTransition &lt;br&gt;выполняться текущим пользователем" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#d79b00;fillColor=#ffe6cc;" vertex="1" parent="1">
           <mxGeometry x="2770" y="6" width="250" height="40" as="geometry" />
         </mxCell>
@@ -306,9 +309,6 @@
             <mxPoint x="2170" y="1030" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="9g1YUz6DXll8vqnvcK5T-82" value="Валидация" style="shape=umlFrame;whiteSpace=wrap;html=1;labelBackgroundColor=none;labelBorderColor=none;sketch=1;strokeColor=#6c8ebf;opacity=30;fillColor=#dae8fc;gradientColor=none;swimlaneFillColor=#66B2FF;width=140;height=40;fontSize=24;" vertex="1" parent="1">
-          <mxGeometry x="950" y="520" width="2130" height="610" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
