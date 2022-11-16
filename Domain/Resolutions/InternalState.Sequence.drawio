@@ -1,9 +1,15 @@
-<mxfile host="app.diagrams.net" modified="2022-11-16T10:08:51.527Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="G7qaa0M8afXt15M5oqOm" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-16T10:10:06.728Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="-uJdZtRKg8boK8WKFq1J" version="20.5.3" type="github">
   <diagram id="iafy8vLnpcnuuy3_OvVW" name="Страница 1">
-    <mxGraphModel dx="1354" dy="870" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="948" dy="609" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="J9ldG81cEZ1e4UeyS67y-57" value="is&amp;nbsp;IIdentifiedLongInst" style="shape=umlFrame;whiteSpace=wrap;html=1;opacity=70;width=123;height=32;" vertex="1" parent="1">
+          <mxGeometry x="567" y="848" width="300" height="119" as="geometry" />
+        </mxCell>
+        <mxCell id="J9ldG81cEZ1e4UeyS67y-56" value="is&amp;nbsp;IIdentifiedBase" style="shape=umlFrame;whiteSpace=wrap;html=1;opacity=70;width=110;height=30;" vertex="1" parent="1">
+          <mxGeometry x="568" y="721" width="300" height="119" as="geometry" />
+        </mxCell>
         <mxCell id="J9ldG81cEZ1e4UeyS67y-7" value="DocumentForm/Index.cshtml" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="110" y="39" width="170" height="3429" as="geometry" />
         </mxCell>
@@ -123,7 +129,7 @@
           <mxGeometry x="80" y="441" width="10" height="189" as="geometry" />
         </mxCell>
         <mxCell id="J9ldG81cEZ1e4UeyS67y-52" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;opacity=70;" vertex="1" parent="J9ldG81cEZ1e4UeyS67y-29">
-          <mxGeometry x="80" y="661" width="10" height="80" as="geometry" />
+          <mxGeometry x="80" y="661" width="10" height="299" as="geometry" />
         </mxCell>
         <mxCell id="J9ldG81cEZ1e4UeyS67y-31" value="&amp;lt;&amp;lt; create &amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;entryX=-0.176;entryY=-0.013;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="J9ldG81cEZ1e4UeyS67y-27" target="J9ldG81cEZ1e4UeyS67y-30">
           <mxGeometry width="80" relative="1" as="geometry">
