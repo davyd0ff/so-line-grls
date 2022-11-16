@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-16T08:04:43.139Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="3yZrhwM79BLsRUbifxKk" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-16T08:04:56.324Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="HxGoOiEJCRpvxoruBgDr" version="20.5.3" type="github">
   <diagram id="UQaIwgQZNFvI9y2s87YT" name="Страница 1">
-    <mxGraphModel dx="1896" dy="1219" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="917" dy="590" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -388,10 +388,11 @@
         <mxCell id="9g1YUz6DXll8vqnvcK5T-115" value="Создать binding" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#d79b00;fillColor=#ffe6cc;fontSize=12;" vertex="1" parent="1">
           <mxGeometry x="1720" y="1394" width="110" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="9g1YUz6DXll8vqnvcK5T-116" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;fontSize=12;fontColor=default;exitX=-0.133;exitY=0.967;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="9g1YUz6DXll8vqnvcK5T-88" target="9g1YUz6DXll8vqnvcK5T-77">
-          <mxGeometry relative="1" as="geometry">
+        <mxCell id="9g1YUz6DXll8vqnvcK5T-116" value="binding" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;fontSize=12;fontColor=default;exitX=-0.133;exitY=0.967;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="9g1YUz6DXll8vqnvcK5T-88" target="9g1YUz6DXll8vqnvcK5T-77">
+          <mxGeometry x="0.898" y="1" relative="1" as="geometry">
             <mxPoint x="2110" y="1250" as="sourcePoint" />
             <mxPoint x="2030" y="1250" as="targetPoint" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
