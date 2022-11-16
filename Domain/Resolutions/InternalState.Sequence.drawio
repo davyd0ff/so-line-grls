@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-16T10:42:52.966Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="cDbLrM3ByQB4s6k8V2qP" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-16T10:44:33.782Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="bItVNB5ZvZyyKYkgQ45b" version="20.5.3" type="github">
   <diagram id="iafy8vLnpcnuuy3_OvVW" name="Страница 1">
-    <mxGraphModel dx="499" dy="321" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="862" dy="554" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -145,6 +145,9 @@
         </mxCell>
         <mxCell id="J9ldG81cEZ1e4UeyS67y-39" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="J9ldG81cEZ1e4UeyS67y-32">
           <mxGeometry x="90" y="410" width="10" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="J9ldG81cEZ1e4UeyS67y-77" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;opacity=70;" vertex="1" parent="J9ldG81cEZ1e4UeyS67y-32">
+          <mxGeometry x="80" y="1341" width="10" height="80" as="geometry" />
         </mxCell>
         <mxCell id="J9ldG81cEZ1e4UeyS67y-34" value="Run()" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;entryX=-0.012;entryY=-0.003;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="J9ldG81cEZ1e4UeyS67y-27" target="J9ldG81cEZ1e4UeyS67y-33">
           <mxGeometry x="-0.6231" width="80" relative="1" as="geometry">
@@ -300,7 +303,7 @@
           <mxGeometry x="95" y="1280" width="10" height="10" as="geometry" />
         </mxCell>
         <mxCell id="J9ldG81cEZ1e4UeyS67y-74" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="J9ldG81cEZ1e4UeyS67y-71">
-          <mxGeometry x="95" y="1300" width="10" height="60" as="geometry" />
+          <mxGeometry x="95" y="1300" width="10" height="160" as="geometry" />
         </mxCell>
         <mxCell id="J9ldG81cEZ1e4UeyS67y-73" value="&amp;lt;&amp;lt; create &amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;entryX=0.002;entryY=0.002;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="J9ldG81cEZ1e4UeyS67y-21" target="J9ldG81cEZ1e4UeyS67y-72">
           <mxGeometry width="80" relative="1" as="geometry">
@@ -312,6 +315,13 @@
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="1650" y="1350.02" as="sourcePoint" />
             <mxPoint x="1690" y="1400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J9ldG81cEZ1e4UeyS67y-76" value="BaseValidate()" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;entryX=0.988;entryY=-0.002;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="J9ldG81cEZ1e4UeyS67y-74" target="J9ldG81cEZ1e4UeyS67y-77">
+          <mxGeometry x="0.7395" width="80" relative="1" as="geometry">
+            <mxPoint x="1300" y="1400" as="sourcePoint" />
+            <mxPoint x="1380" y="1400" as="targetPoint" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
