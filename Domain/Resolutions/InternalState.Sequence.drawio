@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-16T08:51:30.675Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="OUUvDPP2J81mgSty1IZ2" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-16T08:51:49.347Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="tQtuLv7Ww4oJOPO_l6x2" version="20.5.3" type="github">
   <diagram id="iafy8vLnpcnuuy3_OvVW" name="Страница 1">
     <mxGraphModel dx="813" dy="522" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -7,7 +7,7 @@
         <mxCell id="J9ldG81cEZ1e4UeyS67y-7" value="DocumentForm/Index.cshtml" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="110" y="39" width="170" height="3429" as="geometry" />
         </mxCell>
-        <mxCell id="J9ldG81cEZ1e4UeyS67y-8" value="dispatch" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;rounded=0;" edge="1" parent="1" target="J9ldG81cEZ1e4UeyS67y-7">
+        <mxCell id="J9ldG81cEZ1e4UeyS67y-8" value="&amp;lt;&amp;lt; change internal state&amp;gt;&amp;gt;&lt;br&gt;save()" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;rounded=0;" edge="1" parent="1" target="J9ldG81cEZ1e4UeyS67y-7">
           <mxGeometry width="60" relative="1" as="geometry">
             <mxPoint x="40" y="120" as="sourcePoint" />
             <mxPoint x="100" y="120" as="targetPoint" />
