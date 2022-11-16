@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-16T11:00:50.165Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="BJSkhi9CwQSFnF7ztP1x" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-16T11:05:44.529Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="gORqQzJ78O4UNEPQSfhv" version="20.5.3" type="github">
   <diagram id="iafy8vLnpcnuuy3_OvVW" name="Страница 1">
-    <mxGraphModel dx="862" dy="554" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1053" dy="677" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -240,7 +240,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="J9ldG81cEZ1e4UeyS67y-59" value="DB" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="3130" y="38" width="100" height="3427" as="geometry" />
+          <mxGeometry x="4020" y="38" width="100" height="3427" as="geometry" />
         </mxCell>
         <mxCell id="J9ldG81cEZ1e4UeyS67y-60" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;textOpacity=70;opacity=70;" vertex="1" parent="J9ldG81cEZ1e4UeyS67y-59">
           <mxGeometry x="45" y="769" width="10" height="19" as="geometry" />
@@ -249,9 +249,10 @@
           <mxGeometry x="45" y="1462" width="10" height="18" as="geometry" />
         </mxCell>
         <mxCell id="J9ldG81cEZ1e4UeyS67y-61" value="[grls].[core].[update_Resolution]" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;entryX=0.1;entryY=0.018;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="J9ldG81cEZ1e4UeyS67y-63" target="J9ldG81cEZ1e4UeyS67y-60">
-          <mxGeometry width="80" relative="1" as="geometry">
+          <mxGeometry x="0.6864" width="80" relative="1" as="geometry">
             <mxPoint x="1720" y="870" as="sourcePoint" />
             <mxPoint x="1800" y="870" as="targetPoint" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="J9ldG81cEZ1e4UeyS67y-62" value="Update()" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;entryX=0.017;entryY=0.026;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="J9ldG81cEZ1e4UeyS67y-52" target="J9ldG81cEZ1e4UeyS67y-63">
@@ -269,7 +270,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="J9ldG81cEZ1e4UeyS67y-65" value="UpdateLongEntity&amp;lt;T&amp;gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="2800" y="39" width="200" height="3428" as="geometry" />
+          <mxGeometry x="2800" y="38.5" width="200" height="3428" as="geometry" />
         </mxCell>
         <mxCell id="J9ldG81cEZ1e4UeyS67y-66" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;textOpacity=70;opacity=70;" vertex="1" parent="J9ldG81cEZ1e4UeyS67y-65">
           <mxGeometry x="95" y="830" width="10" height="19" as="geometry" />
@@ -360,7 +361,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="J9ldG81cEZ1e4UeyS67y-88" value="[grls].[core].[select_DocumentInternalState_List]" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;entryX=0.128;entryY=0.005;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="J9ldG81cEZ1e4UeyS67y-87" target="J9ldG81cEZ1e4UeyS67y-89">
-          <mxGeometry x="-0.5516" width="80" relative="1" as="geometry">
+          <mxGeometry x="0.7437" width="80" relative="1" as="geometry">
             <mxPoint x="2470" y="1500" as="sourcePoint" />
             <mxPoint x="2550" y="1500" as="targetPoint" />
             <mxPoint as="offset" />
@@ -370,6 +371,22 @@
           <mxGeometry x="-0.6885" y="-1" width="80" relative="1" as="geometry">
             <mxPoint x="1875" y="1490.5600000000002" as="sourcePoint" />
             <mxPoint x="2484.97" y="1490.5600000000002" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J9ldG81cEZ1e4UeyS67y-95" value="Core.Repositories.DocumentState.DocumentInnerStateRepository" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="3020" y="38" width="380" height="3426.5" as="geometry" />
+        </mxCell>
+        <mxCell id="J9ldG81cEZ1e4UeyS67y-96" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;textOpacity=70;opacity=70;" vertex="1" parent="J9ldG81cEZ1e4UeyS67y-95">
+          <mxGeometry x="185" y="1493" width="10" height="19" as="geometry" />
+        </mxCell>
+        <mxCell id="J9ldG81cEZ1e4UeyS67y-97" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;textOpacity=70;opacity=70;" vertex="1" parent="J9ldG81cEZ1e4UeyS67y-95">
+          <mxGeometry x="185" y="1522" width="10" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="J9ldG81cEZ1e4UeyS67y-98" value="&amp;lt;&amp;lt; create &amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;entryX=0.161;entryY=0.049;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="J9ldG81cEZ1e4UeyS67y-74" target="J9ldG81cEZ1e4UeyS67y-96">
+          <mxGeometry x="-0.8584" width="80" relative="1" as="geometry">
+            <mxPoint x="1875" y="1461.0080000000003" as="sourcePoint" />
+            <mxPoint x="2485.8499999999995" y="1461.0080000000003" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
