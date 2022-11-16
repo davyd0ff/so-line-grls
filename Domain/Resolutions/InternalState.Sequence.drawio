@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-16T11:53:36.989Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="eEWZNN4Fy4n8qudOUvPb" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-16T11:58:19.410Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="vydbtyHevg9bvGK5hYPC" version="20.5.3" type="github">
   <diagram id="iafy8vLnpcnuuy3_OvVW" name="Страница 1">
-    <mxGraphModel dx="3197" dy="1523" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3987" dy="2031" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -376,7 +376,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="J9ldG81cEZ1e4UeyS67y-95" value="Core.Repositories.DocumentState.DocumentInnerStateRepository" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="J9ldG81cEZ1e4UeyS67y-95" value="Core.Repositories.DocumentState.DocumentStateRepository" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="3020" y="38" width="380" height="3426.5" as="geometry" />
         </mxCell>
         <mxCell id="J9ldG81cEZ1e4UeyS67y-96" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;textOpacity=70;opacity=70;" vertex="1" parent="J9ldG81cEZ1e4UeyS67y-95">
