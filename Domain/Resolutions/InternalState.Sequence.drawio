@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-16T09:45:04.979Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="Na7IYZzc1LRLUiQeoI1j" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-16T09:46:31.955Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="CChDk3gBgeagQ8DeFF3A" version="20.5.3" type="github">
   <diagram id="iafy8vLnpcnuuy3_OvVW" name="Страница 1">
-    <mxGraphModel dx="474" dy="305" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="395" dy="254" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -102,7 +102,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="J9ldG81cEZ1e4UeyS67y-27" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
-          <mxGeometry x="525" y="323" width="10" height="137" as="geometry" />
+          <mxGeometry x="525" y="323" width="10" height="147" as="geometry" />
         </mxCell>
         <mxCell id="J9ldG81cEZ1e4UeyS67y-28" value="CommonSave()" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="J9ldG81cEZ1e4UeyS67y-27" parent="1" source="J9ldG81cEZ1e4UeyS67y-12">
           <mxGeometry relative="1" as="geometry">
@@ -123,6 +123,19 @@
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="580" y="420" as="sourcePoint" />
             <mxPoint x="660" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J9ldG81cEZ1e4UeyS67y-32" value="BusinessTransactionBase" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="800" y="39" width="170" height="3429" as="geometry" />
+        </mxCell>
+        <mxCell id="J9ldG81cEZ1e4UeyS67y-33" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="J9ldG81cEZ1e4UeyS67y-32">
+          <mxGeometry x="80" y="344" width="10" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="J9ldG81cEZ1e4UeyS67y-34" value="Run()" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;entryX=-0.012;entryY=-0.003;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="J9ldG81cEZ1e4UeyS67y-27" target="J9ldG81cEZ1e4UeyS67y-33">
+          <mxGeometry x="-0.6231" width="80" relative="1" as="geometry">
+            <mxPoint x="760" y="370" as="sourcePoint" />
+            <mxPoint x="840" y="370" as="targetPoint" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
