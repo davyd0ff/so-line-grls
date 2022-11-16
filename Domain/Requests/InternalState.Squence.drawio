@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-16T05:31:37.676Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="bxoiNqONRukfjzaWCXOX" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-16T05:40:15.806Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="RNQcz034cOFp5fEstqwK" version="20.5.3" type="github">
   <diagram id="UQaIwgQZNFvI9y2s87YT" name="Страница 1">
-    <mxGraphModel dx="1053" dy="677" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1237" dy="795" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -156,7 +156,7 @@
           <mxGeometry x="1920" y="40" width="170" height="3060" as="geometry" />
         </mxCell>
         <mxCell id="9g1YUz6DXll8vqnvcK5T-45" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;sketch=1;strokeColor=#000000;opacity=70;" vertex="1" parent="9g1YUz6DXll8vqnvcK5T-44">
-          <mxGeometry x="80" y="550" width="10" height="40" as="geometry" />
+          <mxGeometry x="80" y="550" width="10" height="90" as="geometry" />
         </mxCell>
         <mxCell id="9g1YUz6DXll8vqnvcK5T-46" value="&lt;div&gt;Do(ICoreUnitOfWork unit, int typeId, int stateId, StateTypeEnum stateType, bool isSystem = false&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontColor=default;entryX=-0.071;entryY=-0.004;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="9g1YUz6DXll8vqnvcK5T-40" target="9g1YUz6DXll8vqnvcK5T-45">
           <mxGeometry x="-0.0182" width="80" relative="1" as="geometry">
@@ -167,6 +167,12 @@
         </mxCell>
         <mxCell id="9g1YUz6DXll8vqnvcK5T-47" value="Доступные переходы состояний" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="1940" y="16" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9g1YUz6DXll8vqnvcK5T-48" value="Core.Repositories.DocumentState.InternalStateTransitionRepository" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="2140" y="40" width="370" height="3060" as="geometry" />
+        </mxCell>
+        <mxCell id="9g1YUz6DXll8vqnvcK5T-49" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;sketch=1;strokeColor=#000000;opacity=70;" vertex="1" parent="9g1YUz6DXll8vqnvcK5T-48">
+          <mxGeometry x="180" y="570" width="10" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
