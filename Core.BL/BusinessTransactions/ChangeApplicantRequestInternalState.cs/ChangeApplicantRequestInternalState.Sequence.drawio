@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2022-11-18T08:44:38.650Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="A6ySJ4GtW-IOwkHIVS2Q" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-18T08:45:12.697Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="CslEl6D6o-u3oey_xFFc" version="20.5.3" type="github">
   <diagram id="NJ8cJHLValZRu48dwTv1" name="Страница 1">
-    <mxGraphModel dx="2782" dy="688" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4022" dy="1445" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="DkcC5H-eTf_ur9rVXrn--91" value="Проверка для документов переданных в архив" style="shape=umlFrame;whiteSpace=wrap;html=1;strokeColor=#006666;fillColor=#00CCCC;opacity=70;align=left;width=411;height=30;" vertex="1" parent="1">
+        <mxCell id="DkcC5H-eTf_ur9rVXrn--91" value="Проверка для документов переданных в архив&lt;br&gt;StatementTypeList.RegistrationStatements.Contains(documentType.Code)" style="shape=umlFrame;whiteSpace=wrap;html=1;strokeColor=#006666;fillColor=#00CCCC;opacity=70;align=left;width=411;height=40;" vertex="1" parent="1">
           <mxGeometry x="99" y="900" width="541" height="160" as="geometry" />
         </mxCell>
         <mxCell id="DkcC5H-eTf_ur9rVXrn--67" value="StatementTypeListRegistrationStatements.contains(aDocumentType.Code)" style="shape=umlFrame;whiteSpace=wrap;html=1;strokeColor=#006666;fillColor=#00CCCC;opacity=70;align=left;width=411;height=30;" vertex="1" parent="1">
