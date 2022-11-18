@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-18T11:27:37.390Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="Q9lSFcH_4jVFYJT75Kzk" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-18T11:28:02.360Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="3V3Yo1cUl8dQmh-E8s4s" version="20.5.3" type="github">
   <diagram id="NJ8cJHLValZRu48dwTv1" name="Страница 1">
     <mxGraphModel dx="2887" dy="801" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -605,7 +605,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="DkcC5H-eTf_ur9rVXrn--171" value="Core.Repositories.dbo.DocumentToInternalStateBindingRepository" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="DkcC5H-eTf_ur9rVXrn--171" value="Core.Repositories.dbo.DocumentToInternalStateBindingRepository" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="2920" y="40" width="370" height="3360" as="geometry" />
         </mxCell>
         <mxCell id="DkcC5H-eTf_ur9rVXrn--172" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;strokeColor=#000000;opacity=70;" vertex="1" parent="DkcC5H-eTf_ur9rVXrn--171">
@@ -614,11 +614,20 @@
         <mxCell id="DkcC5H-eTf_ur9rVXrn--173" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;strokeColor=#000000;opacity=70;" vertex="1" parent="DkcC5H-eTf_ur9rVXrn--171">
           <mxGeometry x="180" y="1960" width="10" height="10" as="geometry" />
         </mxCell>
+        <mxCell id="DkcC5H-eTf_ur9rVXrn--177" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;strokeColor=#000000;fillColor=#FFFFFF;opacity=70;" vertex="1" parent="DkcC5H-eTf_ur9rVXrn--171">
+          <mxGeometry x="60" y="2100" width="10" height="80" as="geometry" />
+        </mxCell>
         <mxCell id="DkcC5H-eTf_ur9rVXrn--174" value="CreateConcreteRepository&amp;lt;IInternalStateBindingRepository&amp;gt;()" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;strokeColor=#000000;entryX=0.065;entryY=-0.005;entryDx=0;entryDy=0;entryPerimeter=0;align=left;" edge="1" parent="1" source="DkcC5H-eTf_ur9rVXrn--169" target="DkcC5H-eTf_ur9rVXrn--175">
           <mxGeometry x="-0.9044" width="80" relative="1" as="geometry">
             <mxPoint x="520" y="2210" as="sourcePoint" />
             <mxPoint x="600" y="2210" as="targetPoint" />
             <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DkcC5H-eTf_ur9rVXrn--176" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;strokeColor=#000000;" edge="1" parent="1" source="DkcC5H-eTf_ur9rVXrn--175" target="DkcC5H-eTf_ur9rVXrn--177">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1450" y="2100" as="sourcePoint" />
+            <mxPoint x="1530" y="2100" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
