@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-18T07:43:09.170Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="gUP6vEVUQoNtjIuSTWD8" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-18T07:43:51.738Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="0iFuqjTe0bJ7BAdHDl8D" version="20.5.3" type="github">
   <diagram id="NJ8cJHLValZRu48dwTv1" name="Страница 1">
     <mxGraphModel dx="1226" dy="424" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -33,6 +33,9 @@
               <mxPoint x="140" y="230" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="DkcC5H-eTf_ur9rVXrn--42" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="DkcC5H-eTf_ur9rVXrn--1">
+          <mxGeometry x="105" y="370" width="10" height="80" as="geometry" />
         </mxCell>
         <mxCell id="DkcC5H-eTf_ur9rVXrn--2" value="ChangeLongDocumentInternalStateObserver" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="-700" y="110" width="30" height="60" as="geometry" />
@@ -121,6 +124,13 @@
         </mxCell>
         <mxCell id="DkcC5H-eTf_ur9rVXrn--40" value="Проверяет что пользователь авторизован" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="1">
           <mxGeometry x="438" y="370" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DkcC5H-eTf_ur9rVXrn--41" value="Validate()" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;entryX=0.924;entryY=0.01;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="DkcC5H-eTf_ur9rVXrn--38" target="DkcC5H-eTf_ur9rVXrn--42">
+          <mxGeometry x="0.7598" y="-1" width="80" relative="1" as="geometry">
+            <mxPoint x="440" y="360" as="sourcePoint" />
+            <mxPoint x="520" y="360" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
