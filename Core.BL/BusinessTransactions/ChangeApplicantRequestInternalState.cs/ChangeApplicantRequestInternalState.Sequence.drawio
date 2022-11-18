@@ -1,14 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2022-11-18T09:07:47.969Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="X14hC5vaupN9bjKBYtLU" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-18T09:11:17.797Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="8Nm6uk19CVNr8YioH_Qe" version="20.5.3" type="github">
   <diagram id="NJ8cJHLValZRu48dwTv1" name="Страница 1">
-    <mxGraphModel dx="3548" dy="1156" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2755" dy="672" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="DkcC5H-eTf_ur9rVXrn--103" value="Запросы ФГБУ&amp;nbsp;" style="shape=umlFrame;whiteSpace=wrap;html=1;strokeColor=#006666;fillColor=#00CCCC;opacity=70;align=left;width=411;height=40;" vertex="1" parent="1">
-          <mxGeometry x="99.5" y="1240" width="541" height="220" as="geometry" />
+          <mxGeometry x="99.5" y="1240" width="541" height="320" as="geometry" />
         </mxCell>
         <mxCell id="DkcC5H-eTf_ur9rVXrn--106" value="Если Состояние не Rejected (отклонено) или не Project" style="shape=umlFrame;whiteSpace=wrap;html=1;strokeColor=#006666;fillColor=#00CCCC;opacity=70;align=left;width=411;height=40;" vertex="1" parent="1">
-          <mxGeometry x="109.5" y="1290" width="520.5" height="150" as="geometry" />
+          <mxGeometry x="109.5" y="1290" width="520.5" height="260" as="geometry" />
         </mxCell>
         <mxCell id="DkcC5H-eTf_ur9rVXrn--98" value="else" style="shape=umlFrame;whiteSpace=wrap;html=1;strokeColor=#006666;fillColor=#00CCCC;opacity=70;align=left;width=411;height=40;" vertex="1" parent="1">
           <mxGeometry x="99" y="1080" width="541" height="120" as="geometry" />
@@ -376,8 +376,11 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="DkcC5H-eTf_ur9rVXrn--120" value="проверка наличия запросов в grlsdoc" style="shape=umlFrame;whiteSpace=wrap;html=1;strokeColor=#006666;fillColor=#00CCCC;opacity=70;align=left;width=411;height=40;" vertex="1" parent="1">
-          <mxGeometry x="120" y="1340" width="520.5" height="90" as="geometry" />
+        <mxCell id="DkcC5H-eTf_ur9rVXrn--120" value="если запроса в grlsdoc нет" style="shape=umlFrame;whiteSpace=wrap;html=1;strokeColor=#006666;fillColor=#00CCCC;opacity=70;align=left;width=411;height=40;" vertex="1" parent="1">
+          <mxGeometry x="120" y="1420" width="500" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="DkcC5H-eTf_ur9rVXrn--121" value="&lt;span style=&quot;text-align: left;&quot;&gt;проверка наличия запросов в grlsdoc&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="196" y="1343" width="230" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
