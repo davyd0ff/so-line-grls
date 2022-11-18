@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-18T07:59:54.805Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="Yi18NzCUoPMqolMckeDN" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-18T08:01:15.947Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="A6kXFRk_leo7L2l1BNr4" version="20.5.3" type="github">
   <diagram id="NJ8cJHLValZRu48dwTv1" name="Страница 1">
     <mxGraphModel dx="1988" dy="509" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -149,15 +149,15 @@
         <mxCell id="DkcC5H-eTf_ur9rVXrn--58" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;strokeColor=#000000;" vertex="1" parent="DkcC5H-eTf_ur9rVXrn--51">
           <mxGeometry x="65" y="410" width="10" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="DkcC5H-eTf_ur9rVXrn--57" value="ResolveDocumentType(unit, aChangeStateRequest)" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;entryX=0.033;entryY=0.004;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="DkcC5H-eTf_ur9rVXrn--50" target="DkcC5H-eTf_ur9rVXrn--58">
-          <mxGeometry x="-0.5305" width="80" relative="1" as="geometry">
+        <mxCell id="DkcC5H-eTf_ur9rVXrn--57" value="ResolveDocumentType(unit, aChangeStateRequest)" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;entryX=0.033;entryY=0.004;entryDx=0;entryDy=0;entryPerimeter=0;align=left;" edge="1" parent="1" source="DkcC5H-eTf_ur9rVXrn--50" target="DkcC5H-eTf_ur9rVXrn--58">
+          <mxGeometry x="-0.9243" width="80" relative="1" as="geometry">
             <mxPoint x="260" y="430" as="sourcePoint" />
             <mxPoint x="600" y="480" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="DkcC5H-eTf_ur9rVXrn--59" value="aDocumentType" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;exitX=-0.129;exitY=0.907;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="DkcC5H-eTf_ur9rVXrn--58" target="DkcC5H-eTf_ur9rVXrn--50">
-          <mxGeometry x="0.7419" y="2" relative="1" as="geometry">
+        <mxCell id="DkcC5H-eTf_ur9rVXrn--59" value="aDocumentType" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;exitX=-0.129;exitY=0.907;exitDx=0;exitDy=0;exitPerimeter=0;align=left;" edge="1" parent="1" source="DkcC5H-eTf_ur9rVXrn--58" target="DkcC5H-eTf_ur9rVXrn--50">
+          <mxGeometry x="0.9241" y="2" relative="1" as="geometry">
             <mxPoint x="740" y="440" as="sourcePoint" />
             <mxPoint x="660" y="440" as="targetPoint" />
             <mxPoint as="offset" />
@@ -167,7 +167,21 @@
           <mxGeometry x="940" y="40" width="160" height="3360" as="geometry" />
         </mxCell>
         <mxCell id="DkcC5H-eTf_ur9rVXrn--61" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;strokeColor=#000000;" vertex="1" parent="DkcC5H-eTf_ur9rVXrn--60">
-          <mxGeometry x="75" y="440" width="10" height="20" as="geometry" />
+          <mxGeometry x="75" y="460" width="10" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="DkcC5H-eTf_ur9rVXrn--62" value="ResolveDocumentType(unit, aChangeStateRequest)" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;entryX=0.043;entryY=0.007;entryDx=0;entryDy=0;entryPerimeter=0;align=left;" edge="1" parent="1" source="DkcC5H-eTf_ur9rVXrn--50" target="DkcC5H-eTf_ur9rVXrn--61">
+          <mxGeometry x="-0.9391" width="80" relative="1" as="geometry">
+            <mxPoint x="205" y="460.08000000000004" as="sourcePoint" />
+            <mxPoint x="865.3300000000004" y="460.08000000000004" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DkcC5H-eTf_ur9rVXrn--63" value="aNewState" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;exitX=0.1;exitY=0.979;exitDx=0;exitDy=0;exitPerimeter=0;align=left;" edge="1" parent="1" source="DkcC5H-eTf_ur9rVXrn--61" target="DkcC5H-eTf_ur9rVXrn--50">
+          <mxGeometry x="0.9391" relative="1" as="geometry">
+            <mxPoint x="863.71" y="478.14" as="sourcePoint" />
+            <mxPoint x="205" y="478.14" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
