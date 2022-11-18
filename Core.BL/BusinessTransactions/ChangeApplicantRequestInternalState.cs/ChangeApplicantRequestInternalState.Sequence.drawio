@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-18T07:33:08.598Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="SbrYCsGcayUaJUiRtmTK" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-18T07:33:29.558Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="yglKwmg0n9LQnD7Rd61S" version="20.5.3" type="github">
   <diagram id="NJ8cJHLValZRu48dwTv1" name="Страница 1">
-    <mxGraphModel dx="1306" dy="509" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1405" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -57,7 +57,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="DkcC5H-eTf_ur9rVXrn--21" value="DocRequest2.aspx.cs::StoreInternalState()&lt;br&gt;DeleteDocument.cs&lt;br&gt;ChangeLongDocumentInternalState.cs&lt;br&gt;CommonController.cs&lt;br&gt;ExecuteInternalTransaction.cs&lt;br&gt;StatementIncomings.aspx.cs" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="-710" y="270" width="30" height="60" as="geometry" />
+          <mxGeometry x="-700" y="240" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DkcC5H-eTf_ur9rVXrn--22" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;entryX=0.034;entryY=0.005;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="DkcC5H-eTf_ur9rVXrn--21" target="DkcC5H-eTf_ur9rVXrn--10">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="-470" y="310" as="sourcePoint" />
+            <mxPoint x="-390" y="310" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
