@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-18T08:02:36.488Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="bzGvtkAbHJogXmV6g4z3" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-18T08:03:20.368Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="hcFzextIncg56yZP9QQB" version="20.5.3" type="github">
   <diagram id="NJ8cJHLValZRu48dwTv1" name="Страница 1">
     <mxGraphModel dx="2342" dy="1047" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -10,10 +10,10 @@
         <mxCell id="DkcC5H-eTf_ur9rVXrn--1" value=":ChangeApplicantRequestInternalState" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#00CCCC;strokeColor=#006666;" vertex="1" parent="1">
           <mxGeometry x="-320" y="40" width="220" height="3360" as="geometry" />
         </mxCell>
-        <mxCell id="DkcC5H-eTf_ur9rVXrn--5" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="DkcC5H-eTf_ur9rVXrn--1">
+        <mxCell id="DkcC5H-eTf_ur9rVXrn--5" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;opacity=70;" vertex="1" parent="DkcC5H-eTf_ur9rVXrn--1">
           <mxGeometry x="105" y="100" width="10" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="DkcC5H-eTf_ur9rVXrn--7" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="DkcC5H-eTf_ur9rVXrn--1">
+        <mxCell id="DkcC5H-eTf_ur9rVXrn--7" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;opacity=70;" vertex="1" parent="DkcC5H-eTf_ur9rVXrn--1">
           <mxGeometry x="111" y="120" width="10" height="16" as="geometry" />
         </mxCell>
         <mxCell id="DkcC5H-eTf_ur9rVXrn--8" value="&amp;lt;&amp;lt; create &amp;gt;&amp;gt;" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="DkcC5H-eTf_ur9rVXrn--7" parent="DkcC5H-eTf_ur9rVXrn--1" source="DkcC5H-eTf_ur9rVXrn--5">
@@ -25,7 +25,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="DkcC5H-eTf_ur9rVXrn--10" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="DkcC5H-eTf_ur9rVXrn--1">
+        <mxCell id="DkcC5H-eTf_ur9rVXrn--10" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;opacity=70;" vertex="1" parent="DkcC5H-eTf_ur9rVXrn--1">
           <mxGeometry x="105" y="230" width="10" height="20" as="geometry" />
         </mxCell>
         <mxCell id="DkcC5H-eTf_ur9rVXrn--11" value="Run(aChangeStateRequest)" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="DkcC5H-eTf_ur9rVXrn--10" parent="DkcC5H-eTf_ur9rVXrn--1" source="DkcC5H-eTf_ur9rVXrn--5">
@@ -37,7 +37,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="DkcC5H-eTf_ur9rVXrn--42" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="DkcC5H-eTf_ur9rVXrn--1">
+        <mxCell id="DkcC5H-eTf_ur9rVXrn--42" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;opacity=70;" vertex="1" parent="DkcC5H-eTf_ur9rVXrn--1">
           <mxGeometry x="105" y="370" width="10" height="140" as="geometry" />
         </mxCell>
         <mxCell id="DkcC5H-eTf_ur9rVXrn--4" value="&lt;u&gt;Run(unit, int documentId, int documentTypeId, int newStateId)&lt;/u&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;entryX=-0.14;entryY=0.01;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="DkcC5H-eTf_ur9rVXrn--43" target="DkcC5H-eTf_ur9rVXrn--5">
@@ -49,7 +49,7 @@
         <mxCell id="DkcC5H-eTf_ur9rVXrn--12" value=":ChangeStateRequest" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;strokeColor=#B3B3B3;" vertex="1" parent="1">
           <mxGeometry x="-80" y="40" width="140" height="3360" as="geometry" />
         </mxCell>
-        <mxCell id="DkcC5H-eTf_ur9rVXrn--19" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="DkcC5H-eTf_ur9rVXrn--12">
+        <mxCell id="DkcC5H-eTf_ur9rVXrn--19" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;opacity=70;" vertex="1" parent="DkcC5H-eTf_ur9rVXrn--12">
           <mxGeometry x="65" y="150" width="10" height="10" as="geometry" />
         </mxCell>
         <mxCell id="DkcC5H-eTf_ur9rVXrn--18" value="&amp;lt;&amp;lt; create &amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;entryX=0.009;entryY=0.004;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="DkcC5H-eTf_ur9rVXrn--5" target="DkcC5H-eTf_ur9rVXrn--19">
@@ -69,10 +69,10 @@
         <mxCell id="DkcC5H-eTf_ur9rVXrn--23" value="ChangeDocumentInternalState" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#00CCCC;strokeColor=#006666;" vertex="1" parent="1">
           <mxGeometry x="80" y="40" width="220" height="3360" as="geometry" />
         </mxCell>
-        <mxCell id="DkcC5H-eTf_ur9rVXrn--30" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="DkcC5H-eTf_ur9rVXrn--23">
+        <mxCell id="DkcC5H-eTf_ur9rVXrn--30" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;opacity=70;" vertex="1" parent="DkcC5H-eTf_ur9rVXrn--23">
           <mxGeometry x="105" y="240" width="10" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="DkcC5H-eTf_ur9rVXrn--50" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;strokeColor=#000000;" vertex="1" parent="DkcC5H-eTf_ur9rVXrn--23">
+        <mxCell id="DkcC5H-eTf_ur9rVXrn--50" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;strokeColor=#000000;opacity=70;" vertex="1" parent="DkcC5H-eTf_ur9rVXrn--23">
           <mxGeometry x="105" y="400" width="10" height="260" as="geometry" />
         </mxCell>
         <mxCell id="DkcC5H-eTf_ur9rVXrn--29" value="&amp;lt;&amp;lt; dispatch &amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;entryX=0.09;entryY=-0.004;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="DkcC5H-eTf_ur9rVXrn--10" target="DkcC5H-eTf_ur9rVXrn--30">
@@ -84,10 +84,10 @@
         <mxCell id="DkcC5H-eTf_ur9rVXrn--31" value="BusinessTransactionBase" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#00CCCC;strokeColor=#006666;" vertex="1" parent="1">
           <mxGeometry x="414" y="40" width="220" height="3360" as="geometry" />
         </mxCell>
-        <mxCell id="DkcC5H-eTf_ur9rVXrn--32" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="DkcC5H-eTf_ur9rVXrn--31">
+        <mxCell id="DkcC5H-eTf_ur9rVXrn--32" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;opacity=70;" vertex="1" parent="DkcC5H-eTf_ur9rVXrn--31">
           <mxGeometry x="105" y="250" width="10" height="680" as="geometry" />
         </mxCell>
-        <mxCell id="DkcC5H-eTf_ur9rVXrn--34" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="DkcC5H-eTf_ur9rVXrn--31">
+        <mxCell id="DkcC5H-eTf_ur9rVXrn--34" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;opacity=70;" vertex="1" parent="DkcC5H-eTf_ur9rVXrn--31">
           <mxGeometry x="110" y="280" width="10" height="540" as="geometry" />
         </mxCell>
         <mxCell id="DkcC5H-eTf_ur9rVXrn--35" value="InternalRun()" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="DkcC5H-eTf_ur9rVXrn--34" parent="DkcC5H-eTf_ur9rVXrn--31" source="DkcC5H-eTf_ur9rVXrn--32">
@@ -99,7 +99,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="DkcC5H-eTf_ur9rVXrn--38" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="DkcC5H-eTf_ur9rVXrn--31">
+        <mxCell id="DkcC5H-eTf_ur9rVXrn--38" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;opacity=70;" vertex="1" parent="DkcC5H-eTf_ur9rVXrn--31">
           <mxGeometry x="115" y="320" width="10" height="480" as="geometry" />
         </mxCell>
         <mxCell id="DkcC5H-eTf_ur9rVXrn--39" value="BaseValidate()" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="DkcC5H-eTf_ur9rVXrn--38" parent="DkcC5H-eTf_ur9rVXrn--31" source="DkcC5H-eTf_ur9rVXrn--34">
@@ -149,7 +149,7 @@
         <mxCell id="DkcC5H-eTf_ur9rVXrn--51" value="OperationHelper" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="790" y="40" width="140" height="3360" as="geometry" />
         </mxCell>
-        <mxCell id="DkcC5H-eTf_ur9rVXrn--58" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;strokeColor=#000000;" vertex="1" parent="DkcC5H-eTf_ur9rVXrn--51">
+        <mxCell id="DkcC5H-eTf_ur9rVXrn--58" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;strokeColor=#000000;opacity=70;" vertex="1" parent="DkcC5H-eTf_ur9rVXrn--51">
           <mxGeometry x="65" y="410" width="10" height="20" as="geometry" />
         </mxCell>
         <mxCell id="DkcC5H-eTf_ur9rVXrn--57" value="ResolveDocumentType(unit, aChangeStateRequest)" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;entryX=0.033;entryY=0.004;entryDx=0;entryDy=0;entryPerimeter=0;align=left;" edge="1" parent="1" source="DkcC5H-eTf_ur9rVXrn--50" target="DkcC5H-eTf_ur9rVXrn--58">
@@ -169,7 +169,7 @@
         <mxCell id="DkcC5H-eTf_ur9rVXrn--60" value="GetEntityById&amp;lt;InternalState&amp;gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="940" y="40" width="160" height="3360" as="geometry" />
         </mxCell>
-        <mxCell id="DkcC5H-eTf_ur9rVXrn--61" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;strokeColor=#000000;" vertex="1" parent="DkcC5H-eTf_ur9rVXrn--60">
+        <mxCell id="DkcC5H-eTf_ur9rVXrn--61" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;strokeColor=#000000;opacity=70;" vertex="1" parent="DkcC5H-eTf_ur9rVXrn--60">
           <mxGeometry x="75" y="460" width="10" height="20" as="geometry" />
         </mxCell>
         <mxCell id="DkcC5H-eTf_ur9rVXrn--62" value="Do(aChangeStateRequest.NewStateId)" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;entryX=0.043;entryY=0.007;entryDx=0;entryDy=0;entryPerimeter=0;align=left;" edge="1" parent="1" source="DkcC5H-eTf_ur9rVXrn--50" target="DkcC5H-eTf_ur9rVXrn--61">
