@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-18T12:08:27.839Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="QV0KjGD-NtZL9rcGYDN4" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-18T12:09:23.104Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="O9rAmEBD35Zh1LQ9waCW" version="20.5.3" type="github">
   <diagram id="vevyU_JwpkgxcqEgq_-W" name="Страница 1">
-    <mxGraphModel dx="1170" dy="223" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1414" dy="381" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -11,7 +11,10 @@
           <mxGeometry x="105" y="80" width="10" height="80" as="geometry" />
         </mxCell>
         <mxCell id="BNVn_nOS1r-TKsKf9ATg-9" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;strokeColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="BNVn_nOS1r-TKsKf9ATg-1">
-          <mxGeometry x="105" y="180" width="10" height="80" as="geometry" />
+          <mxGeometry x="105" y="180" width="10" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="BNVn_nOS1r-TKsKf9ATg-18" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;strokeColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="BNVn_nOS1r-TKsKf9ATg-1">
+          <mxGeometry x="105" y="290" width="10" height="80" as="geometry" />
         </mxCell>
         <mxCell id="BNVn_nOS1r-TKsKf9ATg-2" value="BinaryBusinessTransactionBase&amp;lt;ChangeStateInfo, bool&amp;gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#00CCCC;strokeColor=#006666;" vertex="1" parent="1">
           <mxGeometry x="520" y="40" width="320" height="3440" as="geometry" />
@@ -61,8 +64,8 @@
             <mxPoint x="204.78999999999996" y="130.64000000000004" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="BNVn_nOS1r-TKsKf9ATg-10" value="&amp;lt;&amp;lt; dispatch &amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;entryX=-0.017;entryY=0.022;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="BNVn_nOS1r-TKsKf9ATg-9" target="BNVn_nOS1r-TKsKf9ATg-11">
-          <mxGeometry x="-0.6807" y="2" width="80" relative="1" as="geometry">
+        <mxCell id="BNVn_nOS1r-TKsKf9ATg-10" value="&amp;lt;&amp;lt; dispatch &amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;entryX=-0.017;entryY=0.022;entryDx=0;entryDy=0;entryPerimeter=0;align=left;" edge="1" parent="1" source="BNVn_nOS1r-TKsKf9ATg-9" target="BNVn_nOS1r-TKsKf9ATg-11">
+          <mxGeometry x="-0.851" width="80" relative="1" as="geometry">
             <mxPoint x="420" y="200" as="sourcePoint" />
             <mxPoint x="500" y="200" as="targetPoint" />
             <mxPoint as="offset" />
@@ -70,6 +73,13 @@
         </mxCell>
         <mxCell id="BNVn_nOS1r-TKsKf9ATg-16" value="Проверка прав пользователя" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="1">
           <mxGeometry x="701" y="287" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BNVn_nOS1r-TKsKf9ATg-17" value="Validate(entity1, entity2)" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;entryX=0.992;entryY=0.008;entryDx=0;entryDy=0;entryPerimeter=0;align=left;" edge="1" parent="1" source="BNVn_nOS1r-TKsKf9ATg-14" target="BNVn_nOS1r-TKsKf9ATg-18">
+          <mxGeometry x="0.8539" y="-1" width="80" relative="1" as="geometry">
+            <mxPoint x="360" y="360" as="sourcePoint" />
+            <mxPoint x="440" y="360" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
