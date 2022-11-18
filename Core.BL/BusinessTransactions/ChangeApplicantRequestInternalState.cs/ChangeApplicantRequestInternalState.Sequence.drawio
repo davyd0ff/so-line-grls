@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-18T08:27:06.603Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="wscVD1lR2Y1cK1YUVjW1" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-18T08:28:36.821Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="EVipUttauAU6tkKE-LVb" version="20.5.3" type="github">
   <diagram id="NJ8cJHLValZRu48dwTv1" name="Страница 1">
     <mxGraphModel dx="1969" dy="397" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -275,6 +275,13 @@
         </mxCell>
         <mxCell id="DkcC5H-eTf_ur9rVXrn--87" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;strokeColor=#000000;opacity=70;" vertex="1" parent="DkcC5H-eTf_ur9rVXrn--86">
           <mxGeometry x="65" y="820" width="10" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="DkcC5H-eTf_ur9rVXrn--88" value="Do(unit, aDocumentType.Id, currentState.Id, StateTypeEnum.Inner, this._isSystem)" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;strokeColor=#000000;entryX=-0.011;entryY=0.025;entryDx=0;entryDy=0;entryPerimeter=0;align=left;" edge="1" parent="1" source="DkcC5H-eTf_ur9rVXrn--50" target="DkcC5H-eTf_ur9rVXrn--87">
+          <mxGeometry x="-0.9638" width="80" relative="1" as="geometry">
+            <mxPoint x="205" y="819.9200000000001" as="sourcePoint" />
+            <mxPoint x="1034.6399999999999" y="819.9200000000001" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
