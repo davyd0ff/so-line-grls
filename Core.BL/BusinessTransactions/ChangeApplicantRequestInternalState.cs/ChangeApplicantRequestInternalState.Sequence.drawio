@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-18T09:42:54.169Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="XR0t1SOm1uiOpRaW8tzG" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-18T09:43:32.857Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="WUV2SsOiu20IioxP9BVM" version="20.5.3" type="github">
   <diagram id="NJ8cJHLValZRu48dwTv1" name="Страница 1">
-    <mxGraphModel dx="3287" dy="997" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2109" dy="278" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -354,7 +354,10 @@
         <mxCell id="DkcC5H-eTf_ur9rVXrn--114" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;strokeColor=#000000;opacity=70;" vertex="1" parent="DkcC5H-eTf_ur9rVXrn--110">
           <mxGeometry x="90" y="1390" width="10" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="DkcC5H-eTf_ur9rVXrn--112" value="&amp;lt;&amp;lt; create &amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;strokeColor=#000000;entryX=0;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="DkcC5H-eTf_ur9rVXrn--108" target="DkcC5H-eTf_ur9rVXrn--111">
+        <mxCell id="DkcC5H-eTf_ur9rVXrn--126" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;strokeColor=#000000;opacity=70;" vertex="1" parent="DkcC5H-eTf_ur9rVXrn--110">
+          <mxGeometry x="90" y="1460" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="DkcC5H-eTf_ur9rVXrn--112" value="&amp;lt;&amp;lt; create via Ninject &amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;strokeColor=#000000;entryX=0;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="DkcC5H-eTf_ur9rVXrn--108" target="DkcC5H-eTf_ur9rVXrn--111">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="1950" y="1320" as="sourcePoint" />
             <mxPoint x="2030" y="1320" as="targetPoint" />
@@ -393,6 +396,12 @@
             <mxPoint x="220" y="1410" as="sourcePoint" />
             <mxPoint x="1845.5299999999997" y="1411.6100000000001" as="targetPoint" />
             <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DkcC5H-eTf_ur9rVXrn--125" value="&amp;lt;&amp;lt; create via Ninject &amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;strokeColor=#000000;entryX=0.062;entryY=0.056;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="DkcC5H-eTf_ur9rVXrn--123" target="DkcC5H-eTf_ur9rVXrn--126">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1855" y="1420" as="sourcePoint" />
+            <mxPoint x="2230" y="1420" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
