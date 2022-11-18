@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-18T11:14:27.883Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="Id2x3JaEhtr8SOZLDD28" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-18T11:14:56.008Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="bew3aARtczAGBw54WPRG" version="20.5.3" type="github">
   <diagram id="NJ8cJHLValZRu48dwTv1" name="Страница 1">
     <mxGraphModel dx="2147" dy="320" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -85,7 +85,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="DkcC5H-eTf_ur9rVXrn--168" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;strokeColor=#000000;fillColor=#FFFFFF;opacity=70;" vertex="1" parent="DkcC5H-eTf_ur9rVXrn--1">
+        <mxCell id="DkcC5H-eTf_ur9rVXrn--168" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;strokeColor=#000000;fillColor=#B3B3B3;opacity=70;" vertex="1" parent="DkcC5H-eTf_ur9rVXrn--1">
           <mxGeometry x="105" y="2110" width="10" height="80" as="geometry" />
         </mxCell>
         <mxCell id="DkcC5H-eTf_ur9rVXrn--4" value="&lt;u&gt;Run(unit, int documentId, int documentTypeId, int newStateId)&lt;/u&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;entryX=-0.14;entryY=0.01;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="DkcC5H-eTf_ur9rVXrn--43" target="DkcC5H-eTf_ur9rVXrn--5">
