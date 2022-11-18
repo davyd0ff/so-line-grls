@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-18T08:29:13.102Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="BFR5uZN00eg2ycmOv7Zf" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-18T08:30:11.860Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="wBzS2frBv_Hwa8Qg7mnR" version="20.5.3" type="github">
   <diagram id="NJ8cJHLValZRu48dwTv1" name="Страница 1">
-    <mxGraphModel dx="1969" dy="397" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2194" dy="681" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -289,6 +289,9 @@
             <mxPoint x="1040" y="820" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="DkcC5H-eTf_ur9rVXrn--90" value="Получает доступные переходы &lt;br&gt;с фильтрацией по правам пользователей" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1191" y="850" width="250" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
