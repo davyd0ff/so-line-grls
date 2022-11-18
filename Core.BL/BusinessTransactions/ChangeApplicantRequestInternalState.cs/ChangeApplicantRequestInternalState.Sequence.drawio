@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-18T08:01:15.947Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="A6kXFRk_leo7L2l1BNr4" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-18T08:01:42.120Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="hh6y2jrATa60hex0GpoW" version="20.5.3" type="github">
   <diagram id="NJ8cJHLValZRu48dwTv1" name="Страница 1">
     <mxGraphModel dx="1988" dy="509" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -169,7 +169,7 @@
         <mxCell id="DkcC5H-eTf_ur9rVXrn--61" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;strokeColor=#000000;" vertex="1" parent="DkcC5H-eTf_ur9rVXrn--60">
           <mxGeometry x="75" y="460" width="10" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="DkcC5H-eTf_ur9rVXrn--62" value="ResolveDocumentType(unit, aChangeStateRequest)" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;entryX=0.043;entryY=0.007;entryDx=0;entryDy=0;entryPerimeter=0;align=left;" edge="1" parent="1" source="DkcC5H-eTf_ur9rVXrn--50" target="DkcC5H-eTf_ur9rVXrn--61">
+        <mxCell id="DkcC5H-eTf_ur9rVXrn--62" value="Do(aChangeStateRequest.NewStateId)" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;entryX=0.043;entryY=0.007;entryDx=0;entryDy=0;entryPerimeter=0;align=left;" edge="1" parent="1" source="DkcC5H-eTf_ur9rVXrn--50" target="DkcC5H-eTf_ur9rVXrn--61">
           <mxGeometry x="-0.9391" width="80" relative="1" as="geometry">
             <mxPoint x="205" y="460.08000000000004" as="sourcePoint" />
             <mxPoint x="865.3300000000004" y="460.08000000000004" as="targetPoint" />
