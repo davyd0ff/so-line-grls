@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-18T10:01:39.864Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="1PH1-p8lTjOatKFhkDM9" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-18T10:06:27.512Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="8VqxI4u1Pcgcu9D9HeD4" version="20.5.3" type="github">
   <diagram id="NJ8cJHLValZRu48dwTv1" name="Страница 1">
-    <mxGraphModel dx="2312" dy="401" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2033" dy="231" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -56,7 +56,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="DkcC5H-eTf_ur9rVXrn--42" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;opacity=70;" vertex="1" parent="DkcC5H-eTf_ur9rVXrn--1">
-          <mxGeometry x="105" y="370" width="10" height="1270" as="geometry" />
+          <mxGeometry x="105" y="370" width="10" height="1280" as="geometry" />
         </mxCell>
         <mxCell id="DkcC5H-eTf_ur9rVXrn--4" value="&lt;u&gt;Run(unit, int documentId, int documentTypeId, int newStateId)&lt;/u&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;entryX=-0.14;entryY=0.01;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="DkcC5H-eTf_ur9rVXrn--43" target="DkcC5H-eTf_ur9rVXrn--5">
           <mxGeometry width="80" relative="1" as="geometry">
@@ -175,8 +175,8 @@
         <mxCell id="DkcC5H-eTf_ur9rVXrn--40" value="Проверяет что пользователь авторизован" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="1">
           <mxGeometry x="690" y="370" width="260" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="DkcC5H-eTf_ur9rVXrn--41" value="Validate(aChangeStateRequest)" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;entryX=0.924;entryY=0.01;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="DkcC5H-eTf_ur9rVXrn--38" target="DkcC5H-eTf_ur9rVXrn--42">
-          <mxGeometry x="0.6964" y="-1" width="80" relative="1" as="geometry">
+        <mxCell id="DkcC5H-eTf_ur9rVXrn--41" value="Validate(aChangeStateRequest)" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;entryX=0.924;entryY=0.01;entryDx=0;entryDy=0;entryPerimeter=0;align=left;" edge="1" parent="1" source="DkcC5H-eTf_ur9rVXrn--38" target="DkcC5H-eTf_ur9rVXrn--42">
+          <mxGeometry x="0.9415" width="80" relative="1" as="geometry">
             <mxPoint x="440" y="360" as="sourcePoint" />
             <mxPoint x="520" y="360" as="targetPoint" />
             <mxPoint as="offset" />
@@ -188,8 +188,8 @@
         <mxCell id="DkcC5H-eTf_ur9rVXrn--47" value="&lt;span style=&quot;&quot;&gt;DocRequest2.aspx.cs::StoreInternalState()&lt;/span&gt;&lt;br style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;DeleteDocument.cs&lt;/span&gt;&lt;br style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;ChangeLongDocumentInternalState.cs&lt;/span&gt;&lt;br style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;CommonController.cs&lt;/span&gt;&lt;br style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;ExecuteInternalTransaction.cs&lt;/span&gt;&lt;br style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;StatementIncomings.aspx.cs&lt;/span&gt;" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="-980" y="40" width="20" height="3360" as="geometry" />
         </mxCell>
-        <mxCell id="DkcC5H-eTf_ur9rVXrn--49" value="Validate(aChangeStateRequest)" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;entryX=0.031;entryY=0.004;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="DkcC5H-eTf_ur9rVXrn--42" target="DkcC5H-eTf_ur9rVXrn--50">
-          <mxGeometry x="-0.5132" width="80" relative="1" as="geometry">
+        <mxCell id="DkcC5H-eTf_ur9rVXrn--49" value="Validate(aChangeStateRequest)" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;entryX=0.031;entryY=0.004;entryDx=0;entryDy=0;entryPerimeter=0;align=left;" edge="1" parent="1" source="DkcC5H-eTf_ur9rVXrn--42" target="DkcC5H-eTf_ur9rVXrn--50">
+          <mxGeometry x="-0.8719" width="80" relative="1" as="geometry">
             <mxPoint x="-130" y="440" as="sourcePoint" />
             <mxPoint x="-50" y="440" as="targetPoint" />
             <mxPoint as="offset" />
@@ -441,10 +441,20 @@
         <mxCell id="DkcC5H-eTf_ur9rVXrn--134" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;strokeColor=#000000;opacity=70;" vertex="1" parent="DkcC5H-eTf_ur9rVXrn--133">
           <mxGeometry x="65" y="1580" width="10" height="10" as="geometry" />
         </mxCell>
+        <mxCell id="DkcC5H-eTf_ur9rVXrn--137" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;strokeColor=#000000;opacity=70;" vertex="1" parent="DkcC5H-eTf_ur9rVXrn--133">
+          <mxGeometry x="65" y="1600" width="10" height="10" as="geometry" />
+        </mxCell>
         <mxCell id="DkcC5H-eTf_ur9rVXrn--135" value="GetDocumentTypeByTypeCode(aChangeStateRequest.DocumentType.Code)" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;strokeColor=#000000;entryX=0.054;entryY=0.007;entryDx=0;entryDy=0;entryPerimeter=0;align=left;" edge="1" parent="1" source="DkcC5H-eTf_ur9rVXrn--42" target="DkcC5H-eTf_ur9rVXrn--134">
           <mxGeometry x="-0.9678" width="80" relative="1" as="geometry">
             <mxPoint x="-40" y="1550" as="sourcePoint" />
             <mxPoint x="40" y="1550" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DkcC5H-eTf_ur9rVXrn--136" value="CreateIdentifiedRepository()" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;strokeColor=#000000;align=left;entryX=0.037;entryY=0.055;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="DkcC5H-eTf_ur9rVXrn--42" target="DkcC5H-eTf_ur9rVXrn--137">
+          <mxGeometry x="-0.9678" width="80" relative="1" as="geometry">
+            <mxPoint x="-195" y="1630.0700000000002" as="sourcePoint" />
+            <mxPoint x="1320" y="1630" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
