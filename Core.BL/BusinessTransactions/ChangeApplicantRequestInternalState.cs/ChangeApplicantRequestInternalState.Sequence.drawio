@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-18T07:49:55.987Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="eIGRqrQyq22f-XZGBNeW" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-18T07:50:34.803Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="zy8J9bUG0nY6bAqCDxpm" version="20.5.3" type="github">
   <diagram id="NJ8cJHLValZRu48dwTv1" name="Страница 1">
     <mxGraphModel dx="2640" dy="1047" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -57,9 +57,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="DkcC5H-eTf_ur9rVXrn--22" value="Run(&lt;span style=&quot;text-align: left;&quot;&gt;Run(aChangeStateRequest)&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;entryX=0.034;entryY=0.005;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="DkcC5H-eTf_ur9rVXrn--47" target="DkcC5H-eTf_ur9rVXrn--10">
-          <mxGeometry width="80" relative="1" as="geometry">
+          <mxGeometry x="0.5097" width="80" relative="1" as="geometry">
             <mxPoint x="-470" y="310" as="sourcePoint" />
             <mxPoint x="-390" y="310" as="targetPoint" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="DkcC5H-eTf_ur9rVXrn--23" value="ChangeDocumentInternalState" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
@@ -110,7 +111,7 @@
             <mxPoint x="195.89999999999986" y="289.9200000000001" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="DkcC5H-eTf_ur9rVXrn--37" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;exitX=0.027;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="DkcC5H-eTf_ur9rVXrn--32" target="DkcC5H-eTf_ur9rVXrn--1">
+        <mxCell id="DkcC5H-eTf_ur9rVXrn--37" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;exitX=0.027;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="DkcC5H-eTf_ur9rVXrn--32" target="DkcC5H-eTf_ur9rVXrn--47">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="670" y="360" as="sourcePoint" />
             <mxPoint x="590" y="360" as="targetPoint" />
@@ -127,10 +128,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="DkcC5H-eTf_ur9rVXrn--43" value="&lt;span style=&quot;&quot;&gt;ChangeLongDocumentInternalStateObserver&lt;/span&gt;" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="-680" y="40" width="20" height="300" as="geometry" />
+          <mxGeometry x="-680" y="40" width="20" height="3360" as="geometry" />
         </mxCell>
         <mxCell id="DkcC5H-eTf_ur9rVXrn--47" value="&lt;span style=&quot;&quot;&gt;DocRequest2.aspx.cs::StoreInternalState()&lt;/span&gt;&lt;br style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;DeleteDocument.cs&lt;/span&gt;&lt;br style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;ChangeLongDocumentInternalState.cs&lt;/span&gt;&lt;br style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;CommonController.cs&lt;/span&gt;&lt;br style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;ExecuteInternalTransaction.cs&lt;/span&gt;&lt;br style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;StatementIncomings.aspx.cs&lt;/span&gt;" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="-980" y="40" width="20" height="300" as="geometry" />
+          <mxGeometry x="-980" y="40" width="20" height="3360" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
