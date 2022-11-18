@@ -1,11 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2022-11-18T08:47:58.242Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="bHCqJieA8tGBxqeXPU8X" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-18T08:51:21.339Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="T9XeDFTJpqNUjVQ1zjwI" version="20.5.3" type="github">
   <diagram id="NJ8cJHLValZRu48dwTv1" name="Страница 1">
-    <mxGraphModel dx="5037" dy="2064" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2443" dy="482" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="DkcC5H-eTf_ur9rVXrn--98" value="else" style="shape=umlFrame;whiteSpace=wrap;html=1;strokeColor=#006666;fillColor=#00CCCC;opacity=70;align=left;width=411;height=40;" vertex="1" parent="1">
+          <mxGeometry x="99" y="1080" width="541" height="120" as="geometry" />
+        </mxCell>
         <mxCell id="DkcC5H-eTf_ur9rVXrn--91" value="Проверка для документов переданных в архив&lt;br&gt;StatementTypeList.RegistrationStatements.Contains(documentType.Code)" style="shape=umlFrame;whiteSpace=wrap;html=1;strokeColor=#006666;fillColor=#00CCCC;opacity=70;align=left;width=411;height=40;" vertex="1" parent="1">
-          <mxGeometry x="99" y="900" width="541" height="80" as="geometry" />
+          <mxGeometry x="99" y="900" width="541" height="180" as="geometry" />
         </mxCell>
         <mxCell id="DkcC5H-eTf_ur9rVXrn--67" value="StatementTypeListRegistrationStatements.contains(aDocumentType.Code)" style="shape=umlFrame;whiteSpace=wrap;html=1;strokeColor=#006666;fillColor=#00CCCC;opacity=70;align=left;width=411;height=30;" vertex="1" parent="1">
           <mxGeometry x="99" y="560" width="541" height="160" as="geometry" />
@@ -300,10 +303,22 @@
           <mxGeometry x="196" y="944" width="270" height="30" as="geometry" />
         </mxCell>
         <mxCell id="DkcC5H-eTf_ur9rVXrn--95" value="aNewState.Code == InnerStateCode.canceled" style="shape=umlFrame;whiteSpace=wrap;html=1;strokeColor=#006666;fillColor=#00CCCC;opacity=70;align=left;width=411;height=40;" vertex="1" parent="1">
-          <mxGeometry x="99" y="1000" width="541" height="80" as="geometry" />
+          <mxGeometry x="120" y="980" width="500" height="80" as="geometry" />
         </mxCell>
         <mxCell id="DkcC5H-eTf_ur9rVXrn--96" value="проверяется наличие неаннулированного проекта РУ" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="196" y="1045" width="320" height="30" as="geometry" />
+          <mxGeometry x="195" y="1024" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DkcC5H-eTf_ur9rVXrn--99" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;strokeColor=#000000;fillColor=#FFFFFF;opacity=70;" vertex="1" parent="1">
+          <mxGeometry x="190" y="1150" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DkcC5H-eTf_ur9rVXrn--100" value="CheckParentDocument(aDocumentType)" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;strokeColor=#000000;" edge="1" target="DkcC5H-eTf_ur9rVXrn--99" parent="1" source="DkcC5H-eTf_ur9rVXrn--50">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="195" y="1130" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="225" y="1130" />
+              <mxPoint x="225" y="1150" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
