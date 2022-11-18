@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-18T10:35:09.221Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="F1heh0o2TyjKb-txzzME" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-18T10:35:50.247Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="DV0-euBgCaYVo064E8n_" version="20.5.3" type="github">
   <diagram id="NJ8cJHLValZRu48dwTv1" name="Страница 1">
-    <mxGraphModel dx="2782" dy="688" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2198" dy="332" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -402,7 +402,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="DkcC5H-eTf_ur9rVXrn--115" value="DB" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" vertex="1" parent="1">
-          <mxGeometry x="2760" y="40" width="80" height="3360" as="geometry" />
+          <mxGeometry x="3120" y="40" width="80" height="3360" as="geometry" />
         </mxCell>
         <mxCell id="DkcC5H-eTf_ur9rVXrn--116" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;strokeColor=#000000;opacity=70;" vertex="1" parent="DkcC5H-eTf_ur9rVXrn--115">
           <mxGeometry x="35" y="1400" width="10" height="10" as="geometry" />
@@ -524,7 +524,7 @@
           <mxGeometry x="2540" y="40" width="180" height="3360" as="geometry" />
         </mxCell>
         <mxCell id="DkcC5H-eTf_ur9rVXrn--149" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;strokeColor=#000000;opacity=70;" vertex="1" parent="DkcC5H-eTf_ur9rVXrn--148">
-          <mxGeometry x="85" y="1709" width="10" height="10" as="geometry" />
+          <mxGeometry x="85" y="1709" width="10" height="21" as="geometry" />
         </mxCell>
         <mxCell id="DkcC5H-eTf_ur9rVXrn--159" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;strokeColor=#000000;opacity=70;" vertex="1" parent="DkcC5H-eTf_ur9rVXrn--148">
           <mxGeometry x="85" y="1690" width="10" height="10" as="geometry" />
@@ -552,6 +552,15 @@
             <mxPoint x="2630" y="1740" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="DkcC5H-eTf_ur9rVXrn--161" value="&amp;lt;&amp;lt; HistoryRepository &amp;gt;&amp;gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="2730" y="40" width="180" height="3360" as="geometry" />
+        </mxCell>
+        <mxCell id="DkcC5H-eTf_ur9rVXrn--162" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;strokeColor=#000000;opacity=70;" vertex="1" parent="DkcC5H-eTf_ur9rVXrn--161">
+          <mxGeometry x="85" y="1709" width="10" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="DkcC5H-eTf_ur9rVXrn--163" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;strokeColor=#000000;opacity=70;" vertex="1" parent="DkcC5H-eTf_ur9rVXrn--161">
+          <mxGeometry x="85" y="1690" width="10" height="10" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
