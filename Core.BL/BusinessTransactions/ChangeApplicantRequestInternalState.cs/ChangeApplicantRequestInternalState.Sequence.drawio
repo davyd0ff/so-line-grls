@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-18T10:32:32.548Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="MWbt3gxuryYLQWBFVBdd" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-18T10:33:06.508Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="lvI_cfBGekCfzJjSr8oD" version="20.5.3" type="github">
   <diagram id="NJ8cJHLValZRu48dwTv1" name="Страница 1">
-    <mxGraphModel dx="2312" dy="401" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2782" dy="688" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -536,7 +536,7 @@
         <mxCell id="DkcC5H-eTf_ur9rVXrn--151" value="stateCode == InnerStateCode.handled_applicant&lt;br&gt;&amp;nbsp;(Обработан заявителем)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-199" y="1755" width="280" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="DkcC5H-eTf_ur9rVXrn--154" value="CreateIdentifiedRepository(typeof(InternalState)" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;strokeColor=#000000;align=left;entryX=-0.019;entryY=0.025;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="DkcC5H-eTf_ur9rVXrn--152" target="DkcC5H-eTf_ur9rVXrn--157">
+        <mxCell id="DkcC5H-eTf_ur9rVXrn--154" value="CreateHistoryRepository(t.DocumentType.Code, StateTypeEnum.Outer)" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;strokeColor=#000000;align=left;entryX=-0.019;entryY=0.025;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="DkcC5H-eTf_ur9rVXrn--152" target="DkcC5H-eTf_ur9rVXrn--157">
           <mxGeometry x="-0.9754" width="80" relative="1" as="geometry">
             <mxPoint x="-40" y="1950" as="sourcePoint" />
             <mxPoint x="40" y="1950" as="targetPoint" />
