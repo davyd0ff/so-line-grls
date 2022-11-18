@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-18T11:11:21.101Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="n1U5gvXEnYVn4gYsR5jU" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-18T11:14:27.883Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="Id2x3JaEhtr8SOZLDD28" version="20.5.3" type="github">
   <diagram id="NJ8cJHLValZRu48dwTv1" name="Страница 1">
-    <mxGraphModel dx="2065" dy="267" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2147" dy="320" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -150,6 +150,9 @@
         </mxCell>
         <mxCell id="DkcC5H-eTf_ur9rVXrn--78" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;opacity=70;" vertex="1" parent="DkcC5H-eTf_ur9rVXrn--23">
           <mxGeometry x="105" y="130" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DkcC5H-eTf_ur9rVXrn--169" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;strokeColor=#000000;fillColor=#FFFFFF;opacity=70;" vertex="1" parent="DkcC5H-eTf_ur9rVXrn--23">
+          <mxGeometry x="105" y="2130" width="10" height="80" as="geometry" />
         </mxCell>
         <mxCell id="DkcC5H-eTf_ur9rVXrn--29" value="&amp;lt;&amp;lt; dispatch &amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;entryX=0.09;entryY=-0.004;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="DkcC5H-eTf_ur9rVXrn--10" target="DkcC5H-eTf_ur9rVXrn--30">
           <mxGeometry width="80" relative="1" as="geometry">
@@ -589,6 +592,13 @@
           <mxGeometry x="0.9423" y="-1" width="80" relative="1" as="geometry">
             <mxPoint x="490" y="2060" as="sourcePoint" />
             <mxPoint x="440" y="2160" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DkcC5H-eTf_ur9rVXrn--170" value="PerformTransaction()" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;strokeColor=#000000;entryX=0.044;entryY=0.013;entryDx=0;entryDy=0;entryPerimeter=0;align=left;" edge="1" parent="1" source="DkcC5H-eTf_ur9rVXrn--168" target="DkcC5H-eTf_ur9rVXrn--169">
+          <mxGeometry x="-0.8719" y="1" width="80" relative="1" as="geometry">
+            <mxPoint x="-80" y="2150" as="sourcePoint" />
+            <mxPoint y="2150" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
