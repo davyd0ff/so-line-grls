@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-18T08:39:19.704Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="4htw5-PrZMBhcD4_F7V2" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-18T08:43:12.950Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="xohHfVQjdBZGgcolcTQ6" version="20.5.3" type="github">
   <diagram id="NJ8cJHLValZRu48dwTv1" name="Страница 1">
-    <mxGraphModel dx="2782" dy="688" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4022" dy="1445" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -76,7 +76,7 @@
           <mxGeometry x="105" y="240" width="10" height="20" as="geometry" />
         </mxCell>
         <mxCell id="DkcC5H-eTf_ur9rVXrn--50" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;strokeColor=#000000;opacity=70;" vertex="1" parent="DkcC5H-eTf_ur9rVXrn--23">
-          <mxGeometry x="105" y="400" width="10" height="550" as="geometry" />
+          <mxGeometry x="105" y="400" width="10" height="960" as="geometry" />
         </mxCell>
         <mxCell id="DkcC5H-eTf_ur9rVXrn--70" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;opacity=70;" vertex="1" parent="DkcC5H-eTf_ur9rVXrn--23">
           <mxGeometry x="110" y="631" width="10" height="40" as="geometry" />
@@ -116,10 +116,10 @@
           <mxGeometry x="560" y="40" width="220" height="3360" as="geometry" />
         </mxCell>
         <mxCell id="DkcC5H-eTf_ur9rVXrn--32" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;opacity=70;" vertex="1" parent="DkcC5H-eTf_ur9rVXrn--31">
-          <mxGeometry x="105" y="250" width="10" height="890" as="geometry" />
+          <mxGeometry x="105" y="250" width="10" height="1190" as="geometry" />
         </mxCell>
         <mxCell id="DkcC5H-eTf_ur9rVXrn--34" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;opacity=70;" vertex="1" parent="DkcC5H-eTf_ur9rVXrn--31">
-          <mxGeometry x="110" y="280" width="10" height="840" as="geometry" />
+          <mxGeometry x="110" y="280" width="10" height="1120" as="geometry" />
         </mxCell>
         <mxCell id="DkcC5H-eTf_ur9rVXrn--35" value="InternalRun()" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="DkcC5H-eTf_ur9rVXrn--34" parent="DkcC5H-eTf_ur9rVXrn--31" source="DkcC5H-eTf_ur9rVXrn--32">
           <mxGeometry relative="1" as="geometry">
@@ -131,7 +131,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="DkcC5H-eTf_ur9rVXrn--38" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;opacity=70;" vertex="1" parent="DkcC5H-eTf_ur9rVXrn--31">
-          <mxGeometry x="115" y="320" width="10" height="770" as="geometry" />
+          <mxGeometry x="115" y="320" width="10" height="1040" as="geometry" />
         </mxCell>
         <mxCell id="DkcC5H-eTf_ur9rVXrn--39" value="BaseValidate()" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="DkcC5H-eTf_ur9rVXrn--38" parent="DkcC5H-eTf_ur9rVXrn--31" source="DkcC5H-eTf_ur9rVXrn--34">
           <mxGeometry relative="1" as="geometry">
@@ -292,6 +292,9 @@
         </mxCell>
         <mxCell id="DkcC5H-eTf_ur9rVXrn--90" value="Получает доступные переходы &lt;br&gt;с фильтрацией по правам пользователей" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1191" y="850" width="250" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DkcC5H-eTf_ur9rVXrn--91" value="StatementTypeListRegistrationStatements.contains(aDocumentType.Code)" style="shape=umlFrame;whiteSpace=wrap;html=1;strokeColor=#006666;fillColor=#00CCCC;opacity=70;align=left;width=411;height=30;" vertex="1" parent="1">
+          <mxGeometry x="99" y="900" width="541" height="160" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
