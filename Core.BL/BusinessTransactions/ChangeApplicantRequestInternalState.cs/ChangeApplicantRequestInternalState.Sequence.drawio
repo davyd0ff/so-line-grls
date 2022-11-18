@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-18T09:11:17.797Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="8Nm6uk19CVNr8YioH_Qe" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-18T09:14:17.561Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="v7_W4Q-L8P79xNqJ1Vtz" version="20.5.3" type="github">
   <diagram id="NJ8cJHLValZRu48dwTv1" name="Страница 1">
-    <mxGraphModel dx="2755" dy="672" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2601" dy="578" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -9,6 +9,9 @@
         </mxCell>
         <mxCell id="DkcC5H-eTf_ur9rVXrn--106" value="Если Состояние не Rejected (отклонено) или не Project" style="shape=umlFrame;whiteSpace=wrap;html=1;strokeColor=#006666;fillColor=#00CCCC;opacity=70;align=left;width=411;height=40;" vertex="1" parent="1">
           <mxGeometry x="109.5" y="1290" width="520.5" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="DkcC5H-eTf_ur9rVXrn--120" value="checkFile (Проверка файла печатной формы)" style="shape=umlFrame;whiteSpace=wrap;html=1;strokeColor=#006666;fillColor=#00CCCC;opacity=70;align=left;width=411;height=40;" vertex="1" parent="1">
+          <mxGeometry x="120" y="1420" width="500" height="120" as="geometry" />
         </mxCell>
         <mxCell id="DkcC5H-eTf_ur9rVXrn--98" value="else" style="shape=umlFrame;whiteSpace=wrap;html=1;strokeColor=#006666;fillColor=#00CCCC;opacity=70;align=left;width=411;height=40;" vertex="1" parent="1">
           <mxGeometry x="99" y="1080" width="541" height="120" as="geometry" />
@@ -333,9 +336,9 @@
           <mxGeometry x="1750" y="40" width="180" height="3360" as="geometry" />
         </mxCell>
         <mxCell id="DkcC5H-eTf_ur9rVXrn--108" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;strokeColor=#000000;opacity=70;" vertex="1" parent="DkcC5H-eTf_ur9rVXrn--107">
-          <mxGeometry x="85" y="1360" width="10" height="80" as="geometry" />
+          <mxGeometry x="85" y="1360" width="10" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="DkcC5H-eTf_ur9rVXrn--109" value="&amp;lt;&amp;lt; create &amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;strokeColor=#000000;entryX=0.053;entryY=0.023;entryDx=0;entryDy=0;entryPerimeter=0;align=left;" edge="1" parent="1" source="DkcC5H-eTf_ur9rVXrn--50" target="DkcC5H-eTf_ur9rVXrn--108">
+        <mxCell id="DkcC5H-eTf_ur9rVXrn--109" value="&amp;lt;&amp;lt; create &amp;gt;&amp;gt;&lt;br&gt;DO()" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;strokeColor=#000000;entryX=0.053;entryY=0.023;entryDx=0;entryDy=0;entryPerimeter=0;align=center;" edge="1" parent="1" source="DkcC5H-eTf_ur9rVXrn--50" target="DkcC5H-eTf_ur9rVXrn--108">
           <mxGeometry x="-0.9451" width="80" relative="1" as="geometry">
             <mxPoint x="810" y="1320" as="sourcePoint" />
             <mxPoint x="840" y="1300" as="targetPoint" />
@@ -376,11 +379,21 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="DkcC5H-eTf_ur9rVXrn--120" value="если запроса в grlsdoc нет" style="shape=umlFrame;whiteSpace=wrap;html=1;strokeColor=#006666;fillColor=#00CCCC;opacity=70;align=left;width=411;height=40;" vertex="1" parent="1">
-          <mxGeometry x="120" y="1420" width="500" height="120" as="geometry" />
-        </mxCell>
         <mxCell id="DkcC5H-eTf_ur9rVXrn--121" value="&lt;span style=&quot;text-align: left;&quot;&gt;проверка наличия запросов в grlsdoc&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="196" y="1343" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="DkcC5H-eTf_ur9rVXrn--122" value="ApplicantRequestCheckEan" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="2140" y="40" width="180" height="3360" as="geometry" />
+        </mxCell>
+        <mxCell id="DkcC5H-eTf_ur9rVXrn--123" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;strokeColor=#000000;opacity=70;" vertex="1" parent="DkcC5H-eTf_ur9rVXrn--122">
+          <mxGeometry x="85" y="1450" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="DkcC5H-eTf_ur9rVXrn--124" value="&amp;lt;&amp;lt; create &amp;gt;&amp;gt;&lt;br&gt;DO()" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;strokeColor=#000000;entryX=0.016;entryY=0.01;entryDx=0;entryDy=0;entryPerimeter=0;align=center;" edge="1" parent="1" source="DkcC5H-eTf_ur9rVXrn--50" target="DkcC5H-eTf_ur9rVXrn--123">
+          <mxGeometry x="-0.9557" y="1" width="80" relative="1" as="geometry">
+            <mxPoint x="220" y="1410" as="sourcePoint" />
+            <mxPoint x="1845.5299999999997" y="1411.6100000000001" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
