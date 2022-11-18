@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-18T12:16:51.420Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="8Xjlb7uVfqDiQ7TdncTA" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-18T12:18:46.120Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="DfXeReoffsOW3P5giCbr" version="20.5.3" type="github">
   <diagram id="vevyU_JwpkgxcqEgq_-W" name="Страница 1">
     <mxGraphModel dx="1677" dy="552" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -131,7 +131,7 @@
             <mxPoint x="1305.1199999999994" y="380.0899999999999" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="BNVn_nOS1r-TKsKf9ATg-31" value="CreateIdentifiedRepository&amp;lt;InternalState&amp;gt;()" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;align=left;entryX=-0.012;entryY=0.086;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="BNVn_nOS1r-TKsKf9ATg-18" target="BNVn_nOS1r-TKsKf9ATg-32">
+        <mxCell id="BNVn_nOS1r-TKsKf9ATg-31" value="CreateConcreteRepository&amp;lt;IDocumentStateRepository&amp;gt;(typeof(InternalStateTransition))" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;align=left;entryX=-0.012;entryY=0.086;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="BNVn_nOS1r-TKsKf9ATg-18" target="BNVn_nOS1r-TKsKf9ATg-32">
           <mxGeometry x="-0.9204" width="80" relative="1" as="geometry">
             <mxPoint x="215.00000000000023" y="410.4999999999999" as="sourcePoint" />
             <mxPoint x="1305.4799999999996" y="410.4999999999999" as="targetPoint" />
