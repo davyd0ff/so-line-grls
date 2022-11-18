@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-18T12:18:46.120Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="DfXeReoffsOW3P5giCbr" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-18T12:19:59.565Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="gGT29Ftfe8ltQbg-9-22" version="20.5.3" type="github">
   <diagram id="vevyU_JwpkgxcqEgq_-W" name="Страница 1">
     <mxGraphModel dx="1677" dy="552" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -85,10 +85,10 @@
           <mxGeometry x="1040" y="40" width="100" height="3440" as="geometry" />
         </mxCell>
         <mxCell id="BNVn_nOS1r-TKsKf9ATg-21" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;strokeColor=#000000;fillColor=#FFFFFF;opacity=70;" vertex="1" parent="BNVn_nOS1r-TKsKf9ATg-19">
-          <mxGeometry x="45" y="320" width="10" height="30" as="geometry" />
+          <mxGeometry x="45" y="320" width="10" height="20" as="geometry" />
         </mxCell>
         <mxCell id="BNVn_nOS1r-TKsKf9ATg-32" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;strokeColor=#000000;fillColor=#FFFFFF;opacity=70;" vertex="1" parent="BNVn_nOS1r-TKsKf9ATg-19">
-          <mxGeometry x="45" y="410" width="10" height="30" as="geometry" />
+          <mxGeometry x="45" y="410" width="10" height="20" as="geometry" />
         </mxCell>
         <mxCell id="BNVn_nOS1r-TKsKf9ATg-20" value="CreateIdentifiedRepository&amp;lt;InternalState&amp;gt;()" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;entryX=-0.047;entryY=0.001;entryDx=0;entryDy=0;entryPerimeter=0;align=left;" edge="1" parent="1" source="BNVn_nOS1r-TKsKf9ATg-18" target="BNVn_nOS1r-TKsKf9ATg-21">
           <mxGeometry x="-0.9204" width="80" relative="1" as="geometry">
@@ -106,10 +106,11 @@
         <mxCell id="BNVn_nOS1r-TKsKf9ATg-26" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;strokeColor=#000000;fillColor=#FFFFFF;opacity=70;" vertex="1" parent="BNVn_nOS1r-TKsKf9ATg-22">
           <mxGeometry x="95" y="360" width="10" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="BNVn_nOS1r-TKsKf9ATg-24" value="&amp;lt;&amp;lt; create &amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;entryX=0.012;entryY=0.009;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="BNVn_nOS1r-TKsKf9ATg-21" target="BNVn_nOS1r-TKsKf9ATg-23">
-          <mxGeometry width="80" relative="1" as="geometry">
+        <mxCell id="BNVn_nOS1r-TKsKf9ATg-24" value="&amp;lt;&amp;lt; create &amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;entryX=0.012;entryY=0.009;entryDx=0;entryDy=0;entryPerimeter=0;align=left;" edge="1" parent="1" source="BNVn_nOS1r-TKsKf9ATg-21" target="BNVn_nOS1r-TKsKf9ATg-23">
+          <mxGeometry x="-0.7501" width="80" relative="1" as="geometry">
             <mxPoint x="1090" y="380" as="sourcePoint" />
             <mxPoint x="1170" y="380" as="targetPoint" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="BNVn_nOS1r-TKsKf9ATg-25" value="FindById(newStateId)" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;entryX=0.048;entryY=0.025;entryDx=0;entryDy=0;entryPerimeter=0;align=left;" edge="1" parent="1" source="BNVn_nOS1r-TKsKf9ATg-18" target="BNVn_nOS1r-TKsKf9ATg-26">
@@ -135,6 +136,22 @@
           <mxGeometry x="-0.9204" width="80" relative="1" as="geometry">
             <mxPoint x="215.00000000000023" y="410.4999999999999" as="sourcePoint" />
             <mxPoint x="1305.4799999999996" y="410.4999999999999" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BNVn_nOS1r-TKsKf9ATg-33" value="&amp;lt;&amp;lt; IDocumentStateRepository &amp;gt;&amp;gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;strokeColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="1410" y="40" width="200" height="3440" as="geometry" />
+        </mxCell>
+        <mxCell id="BNVn_nOS1r-TKsKf9ATg-34" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;strokeColor=#000000;fillColor=#FFFFFF;opacity=70;" vertex="1" parent="BNVn_nOS1r-TKsKf9ATg-33">
+          <mxGeometry x="95" y="420" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="BNVn_nOS1r-TKsKf9ATg-35" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;strokeColor=#000000;fillColor=#FFFFFF;opacity=70;" vertex="1" parent="BNVn_nOS1r-TKsKf9ATg-33">
+          <mxGeometry x="95" y="440" width="10" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="BNVn_nOS1r-TKsKf9ATg-36" value="&amp;lt;&amp;lt; create &amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;entryX=-0.005;entryY=0.324;entryDx=0;entryDy=0;entryPerimeter=0;align=left;" edge="1" parent="1" source="BNVn_nOS1r-TKsKf9ATg-32" target="BNVn_nOS1r-TKsKf9ATg-34">
+          <mxGeometry x="-0.878" width="80" relative="1" as="geometry">
+            <mxPoint x="1105" y="380.0899999999999" as="sourcePoint" />
+            <mxPoint x="1305.12" y="380.0899999999999" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
