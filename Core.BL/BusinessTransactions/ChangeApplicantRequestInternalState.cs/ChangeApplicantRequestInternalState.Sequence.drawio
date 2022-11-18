@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-18T11:56:55.197Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="GvJ0LY1XALyHqSyvtxHY" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-18T11:59:38.487Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="FMV1j4W4FDC4_RvfWMQh" version="20.5.3" type="github">
   <diagram id="NJ8cJHLValZRu48dwTv1" name="Страница 1">
-    <mxGraphModel dx="2887" dy="801" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2147" dy="320" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -641,7 +641,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="DkcC5H-eTf_ur9rVXrn--178" value="GetDocumentInternalState(_documentId, _documentTypeId)" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;strokeColor=#000000;entryX=0.027;entryY=0.012;entryDx=0;entryDy=0;entryPerimeter=0;align=left;" edge="1" parent="1" source="DkcC5H-eTf_ur9rVXrn--169" target="DkcC5H-eTf_ur9rVXrn--172">
-          <mxGeometry x="-0.9714" width="80" relative="1" as="geometry">
+          <mxGeometry x="-0.969" width="80" relative="1" as="geometry">
             <mxPoint x="1365" y="2210.2" as="sourcePoint" />
             <mxPoint x="3110.6900000000005" y="2210.2" as="targetPoint" />
             <mxPoint as="offset" />
@@ -654,14 +654,14 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="DkcC5H-eTf_ur9rVXrn--182" value="bindign" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;strokeColor=#000000;exitX=-0.051;exitY=0.982;exitDx=0;exitDy=0;exitPerimeter=0;align=left;" edge="1" parent="1" source="DkcC5H-eTf_ur9rVXrn--172" target="DkcC5H-eTf_ur9rVXrn--169">
-          <mxGeometry x="0.9713" y="-1" relative="1" as="geometry">
+          <mxGeometry x="0.969" y="-1" relative="1" as="geometry">
             <mxPoint x="2940" y="2260" as="sourcePoint" />
             <mxPoint x="2860" y="2260" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="DkcC5H-eTf_ur9rVXrn--183" value="Update() | Add()" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;strokeColor=#000000;entryX=-0.002;entryY=0.005;entryDx=0;entryDy=0;entryPerimeter=0;align=left;" edge="1" parent="1" source="DkcC5H-eTf_ur9rVXrn--169" target="DkcC5H-eTf_ur9rVXrn--184">
-          <mxGeometry x="-0.9714" width="80" relative="1" as="geometry">
+          <mxGeometry x="-0.969" width="80" relative="1" as="geometry">
             <mxPoint x="1365" y="2240.252" as="sourcePoint" />
             <mxPoint x="3110.2699999999995" y="2240.252" as="targetPoint" />
             <mxPoint as="offset" />
