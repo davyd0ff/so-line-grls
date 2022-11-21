@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-21T08:35:50.503Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="ix1CSx0F4_JfWinq3P2M" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-21T08:35:56.399Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="h79oKKZy8LKseqk96J-l" version="20.5.3" type="github">
   <diagram id="wPDYnrMMsrVUktS3hOfH" name="Страница 1">
     <mxGraphModel dx="2095" dy="801" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -193,7 +193,7 @@
             <mxPoint x="1050.04" y="410.15999999999997" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="OiXg59oZUQ7tXWbWP7Sv-50" value="&amp;lt;&amp;lt; transaction &amp;gt;&amp;gt;&lt;br&gt;ChangeDocumentInternalState" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="OiXg59oZUQ7tXWbWP7Sv-50" value="&amp;lt;&amp;lt; transaction &amp;gt;&amp;gt;&lt;br&gt;ChangeDocumentInternalState" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="1680" y="40" width="200" height="3590" as="geometry" />
         </mxCell>
         <mxCell id="OiXg59oZUQ7tXWbWP7Sv-51" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="OiXg59oZUQ7tXWbWP7Sv-50">
