@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2022-11-21T07:24:45.515Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="tkDcG6Sbs2A0F09DmTGW" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-21T07:26:29.884Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="y-SZLpaVU3FAPOmM-5KF" version="20.5.3" type="github">
   <diagram id="wPDYnrMMsrVUktS3hOfH" name="Страница 1">
-    <mxGraphModel dx="2095" dy="801" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1701" dy="552" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="OiXg59oZUQ7tXWbWP7Sv-24" value="Получить состояние заявления" style="shape=umlFrame;whiteSpace=wrap;html=1;fontSize=10;width=69;height=44;" vertex="1" parent="1">
+          <mxGeometry x="161" y="146" width="519" height="144" as="geometry" />
+        </mxCell>
         <mxCell id="OiXg59oZUQ7tXWbWP7Sv-2" value=":ExpertCabinet" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="40" y="40" width="100" height="3590" as="geometry" />
         </mxCell>
@@ -80,11 +83,24 @@
         <mxCell id="OiXg59oZUQ7tXWbWP7Sv-21" value="&lt;div style=&quot;font-size: 10px;&quot;&gt;.Do(new CommonDocumentRequest&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;{&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;&amp;nbsp; DocumentType = request.IncomingPackage.Document.DocumentType,&lt;/div&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;&amp;nbsp; Id = request.IncomingPackage.Document.Id&lt;/div&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;})&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;" vertex="1" parent="1">
           <mxGeometry x="259" y="210" width="340" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="OiXg59oZUQ7tXWbWP7Sv-22" value="Получение внешнего состояния по типу и идентификатору документа" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;" vertex="1" parent="1">
-          <mxGeometry x="570" y="20" width="350" height="30" as="geometry" />
+        <mxCell id="OiXg59oZUQ7tXWbWP7Sv-22" value="Получение внешнего состояния по типу &lt;br&gt;и идентификатору документа" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="549" y="8" width="210" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="OiXg59oZUQ7tXWbWP7Sv-24" value="Получить состояние заявления" style="shape=umlFrame;whiteSpace=wrap;html=1;fontSize=10;width=69;height=44;" vertex="1" parent="1">
-          <mxGeometry x="161" y="146" width="519" height="144" as="geometry" />
+        <mxCell id="OiXg59oZUQ7tXWbWP7Sv-25" value="CreateApplicantRequestBase" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="759" y="40" width="170" height="3590" as="geometry" />
+        </mxCell>
+        <mxCell id="OiXg59oZUQ7tXWbWP7Sv-26" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="OiXg59oZUQ7tXWbWP7Sv-25">
+          <mxGeometry x="80" y="300" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="OiXg59oZUQ7tXWbWP7Sv-27" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="OiXg59oZUQ7tXWbWP7Sv-25">
+          <mxGeometry x="80" y="320" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OiXg59oZUQ7tXWbWP7Sv-28" value="&amp;lt;&amp;lt; create &amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;entryX=-0.006;entryY=-0.039;entryDx=0;entryDy=0;entryPerimeter=0;align=left;" edge="1" parent="1" source="OiXg59oZUQ7tXWbWP7Sv-6" target="OiXg59oZUQ7tXWbWP7Sv-26">
+          <mxGeometry x="-0.8336" width="80" relative="1" as="geometry">
+            <mxPoint x="265" y="200.00999999999988" as="sourcePoint" />
+            <mxPoint x="635.5300000000002" y="200.00999999999988" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
