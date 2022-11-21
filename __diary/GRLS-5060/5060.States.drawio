@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-21T09:08:23.741Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="BbFMtlRPYGMZDpyB5N_8" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-21T09:09:51.053Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="R5TildbAzecAZgQPG6Xm" version="20.5.3" type="github">
   <diagram id="wPDYnrMMsrVUktS3hOfH" name="Страница 1">
-    <mxGraphModel dx="2095" dy="801" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1334" dy="320" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -97,6 +97,18 @@
         </mxCell>
         <mxCell id="OiXg59oZUQ7tXWbWP7Sv-27" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="OiXg59oZUQ7tXWbWP7Sv-25">
           <mxGeometry x="80" y="320" width="10" height="640" as="geometry" />
+        </mxCell>
+        <mxCell id="OiXg59oZUQ7tXWbWP7Sv-88" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=10;" vertex="1" parent="OiXg59oZUQ7tXWbWP7Sv-25">
+          <mxGeometry x="85" y="850" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OiXg59oZUQ7tXWbWP7Sv-89" value="UpdateState()" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;fontSize=10;" edge="1" target="OiXg59oZUQ7tXWbWP7Sv-88" parent="OiXg59oZUQ7tXWbWP7Sv-25" source="OiXg59oZUQ7tXWbWP7Sv-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="90" y="871" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="120" y="830" />
+              <mxPoint x="120" y="850" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="OiXg59oZUQ7tXWbWP7Sv-28" value="&amp;lt;&amp;lt; create &amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;entryX=-0.006;entryY=-0.039;entryDx=0;entryDy=0;entryPerimeter=0;align=left;" edge="1" parent="1" source="OiXg59oZUQ7tXWbWP7Sv-6" target="OiXg59oZUQ7tXWbWP7Sv-26">
           <mxGeometry x="-0.8336" width="80" relative="1" as="geometry">
