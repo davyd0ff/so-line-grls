@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2022-11-21T09:39:27.263Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="g-NHVBZqb3t9lkBcv9v1" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-21T09:42:33.407Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="I9l_TYW_aD9-CTFN7b65" version="20.5.3" type="github">
   <diagram id="wPDYnrMMsrVUktS3hOfH" name="Страница 1">
-    <mxGraphModel dx="1431" dy="381" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1236" dy="258" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="OiXg59oZUQ7tXWbWP7Sv-57" value="SetState(document.Id, innerProject.Id)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;" vertex="1" parent="1">
+        <mxCell id="OiXg59oZUQ7tXWbWP7Sv-57" value="SetState(document.Id, innerState.Id)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;" vertex="1" parent="1">
           <mxGeometry x="1043" y="430" width="190" height="30" as="geometry" />
         </mxCell>
         <mxCell id="OiXg59oZUQ7tXWbWP7Sv-24" value="Получить состояние заявления" style="shape=umlFrame;whiteSpace=wrap;html=1;fontSize=10;width=69;height=44;" vertex="1" parent="1">
@@ -249,7 +249,7 @@
         <mxCell id="OiXg59oZUQ7tXWbWP7Sv-55" value="А он уже делает запись в&amp;nbsp;DocumentToInternalStateBinding" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;" vertex="1" parent="1">
           <mxGeometry x="1700" y="18" width="290" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="OiXg59oZUQ7tXWbWP7Sv-58" value="&quot;core.insert_DocumentInnerState&quot;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=10;align=left;" edge="1" parent="1" source="OiXg59oZUQ7tXWbWP7Sv-41" target="OiXg59oZUQ7tXWbWP7Sv-45">
+        <mxCell id="OiXg59oZUQ7tXWbWP7Sv-58" value="&quot;core.insert_DocumentInnerState&quot;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=10;align=left;fillColor=#008a00;strokeColor=#005700;" edge="1" parent="1" source="OiXg59oZUQ7tXWbWP7Sv-41" target="OiXg59oZUQ7tXWbWP7Sv-45">
           <mxGeometry x="-0.9302" width="80" relative="1" as="geometry">
             <mxPoint x="1330" y="370" as="sourcePoint" />
             <mxPoint x="1430" y="350" as="targetPoint" />
