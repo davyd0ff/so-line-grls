@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-21T08:53:35.864Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="92rcjNx1koUUeXibUzsw" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-21T08:58:31.329Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="Q4FwbCfZCTxkC7VIYPpP" version="20.5.3" type="github">
   <diagram id="wPDYnrMMsrVUktS3hOfH" name="Страница 1">
-    <mxGraphModel dx="1378" dy="348" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1733" dy="572" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -264,6 +264,19 @@
         </mxCell>
         <mxCell id="OiXg59oZUQ7tXWbWP7Sv-70" value="вставка внешнего состояния в таблицу dbo.DocRequest&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#6c8ebf;fillColor=#dae8fc;fontSize=10;" vertex="1" parent="1">
           <mxGeometry x="3092" y="661" width="290" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OiXg59oZUQ7tXWbWP7Sv-71" value="AddIncomingWorkflowEvent" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="2160" y="40" width="200" height="3590" as="geometry" />
+        </mxCell>
+        <mxCell id="OiXg59oZUQ7tXWbWP7Sv-72" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="OiXg59oZUQ7tXWbWP7Sv-71">
+          <mxGeometry x="95" y="680" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="OiXg59oZUQ7tXWbWP7Sv-73" value="&amp;lt;&amp;lt; create &amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=10;" edge="1" parent="1" source="OiXg59oZUQ7tXWbWP7Sv-27" target="OiXg59oZUQ7tXWbWP7Sv-72">
+          <mxGeometry x="-0.8706" width="80" relative="1" as="geometry">
+            <mxPoint x="859" y="670" as="sourcePoint" />
+            <mxPoint x="1495.3400000000001" y="670" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
