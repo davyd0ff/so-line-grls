@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-21T07:30:24.591Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="4SoimQNF6rkQyM66ZprV" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-21T07:32:52.656Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="wGRN_U7mVvj_B2lAJbUc" version="20.5.3" type="github">
   <diagram id="wPDYnrMMsrVUktS3hOfH" name="Страница 1">
     <mxGraphModel dx="1431" dy="381" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -93,7 +93,7 @@
           <mxGeometry x="80" y="300" width="10" height="10" as="geometry" />
         </mxCell>
         <mxCell id="OiXg59oZUQ7tXWbWP7Sv-27" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="OiXg59oZUQ7tXWbWP7Sv-25">
-          <mxGeometry x="80" y="320" width="10" height="170" as="geometry" />
+          <mxGeometry x="80" y="320" width="10" height="440" as="geometry" />
         </mxCell>
         <mxCell id="OiXg59oZUQ7tXWbWP7Sv-28" value="&amp;lt;&amp;lt; create &amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;entryX=-0.006;entryY=-0.039;entryDx=0;entryDy=0;entryPerimeter=0;align=left;" edge="1" parent="1" source="OiXg59oZUQ7tXWbWP7Sv-6" target="OiXg59oZUQ7tXWbWP7Sv-26">
           <mxGeometry x="-0.8336" width="80" relative="1" as="geometry">
@@ -110,16 +110,25 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="OiXg59oZUQ7tXWbWP7Sv-30" value="MedicamentRegistrationApplicantRequestRepository" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="980" y="40" width="300" height="3590" as="geometry" />
+          <mxGeometry x="1340" y="40" width="300" height="3590" as="geometry" />
         </mxCell>
         <mxCell id="OiXg59oZUQ7tXWbWP7Sv-31" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="OiXg59oZUQ7tXWbWP7Sv-30">
-          <mxGeometry x="145" y="380" width="10" height="10" as="geometry" />
+          <mxGeometry x="145" y="500" width="10" height="10" as="geometry" />
         </mxCell>
         <mxCell id="OiXg59oZUQ7tXWbWP7Sv-32" value="&amp;lt;&amp;lt; create via Ninject &amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=10;entryX=0.037;entryY=-0.043;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="OiXg59oZUQ7tXWbWP7Sv-27" target="OiXg59oZUQ7tXWbWP7Sv-31">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="1020" y="410" as="sourcePoint" />
             <mxPoint x="1100" y="410" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="OiXg59oZUQ7tXWbWP7Sv-33" value="InsertDocumentOperation" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="960" y="40" width="170" height="3590" as="geometry" />
+        </mxCell>
+        <mxCell id="OiXg59oZUQ7tXWbWP7Sv-34" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="OiXg59oZUQ7tXWbWP7Sv-33">
+          <mxGeometry x="80" y="340" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="OiXg59oZUQ7tXWbWP7Sv-35" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="OiXg59oZUQ7tXWbWP7Sv-33">
+          <mxGeometry x="80" y="410" width="10" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
