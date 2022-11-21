@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-21T07:29:23.294Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="3Flba4Xj_tMOzXs_6AtT" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-21T07:29:59.759Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="k8ir1zRP0lEEtXLYmrV1" version="20.5.3" type="github">
   <diagram id="wPDYnrMMsrVUktS3hOfH" name="Страница 1">
-    <mxGraphModel dx="1334" dy="320" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1431" dy="381" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -32,7 +32,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="OiXg59oZUQ7tXWbWP7Sv-8" value=":&amp;lt;&amp;lt;incoming repo&amp;gt;&amp;gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="1200" y="40" width="140" height="3590" as="geometry" />
+          <mxGeometry x="1654" y="40" width="140" height="3590" as="geometry" />
         </mxCell>
         <mxCell id="OiXg59oZUQ7tXWbWP7Sv-9" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="OiXg59oZUQ7tXWbWP7Sv-8">
           <mxGeometry x="65" y="100" width="10" height="10" as="geometry" />
@@ -45,7 +45,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="OiXg59oZUQ7tXWbWP7Sv-11" value="MedicamentRegistrationApplicantRequest" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="1360" y="40" width="240" height="3590" as="geometry" />
+          <mxGeometry x="1814" y="40" width="240" height="3590" as="geometry" />
         </mxCell>
         <mxCell id="OiXg59oZUQ7tXWbWP7Sv-12" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="OiXg59oZUQ7tXWbWP7Sv-11">
           <mxGeometry x="115" y="130" width="10" height="10" as="geometry" />
@@ -108,6 +108,12 @@
             <mxPoint x="848.94" y="349.61" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="OiXg59oZUQ7tXWbWP7Sv-30" value="MedicamentRegistrationApplicantRequestRepository" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="980" y="40" width="300" height="3590" as="geometry" />
+        </mxCell>
+        <mxCell id="OiXg59oZUQ7tXWbWP7Sv-31" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="OiXg59oZUQ7tXWbWP7Sv-30">
+          <mxGeometry x="145" y="380" width="10" height="10" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
