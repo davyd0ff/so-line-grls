@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-21T07:45:55.925Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="ry6_aueWiUsSFIxOcGxU" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-21T07:46:16.646Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="DwX2CTd5mLqZ52VtF-dZ" version="20.5.3" type="github">
   <diagram id="wPDYnrMMsrVUktS3hOfH" name="Страница 1">
     <mxGraphModel dx="2638" dy="1144" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -86,7 +86,7 @@
         <mxCell id="OiXg59oZUQ7tXWbWP7Sv-22" value="Получение внешнего состояния по типу &lt;br&gt;и идентификатору документа" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;" vertex="1" parent="1">
           <mxGeometry x="549" y="8" width="210" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="OiXg59oZUQ7tXWbWP7Sv-25" value="CreateApplicantRequestBase" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="OiXg59oZUQ7tXWbWP7Sv-25" value="CreateApplicantRequestBase" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="759" y="40" width="170" height="3590" as="geometry" />
         </mxCell>
         <mxCell id="OiXg59oZUQ7tXWbWP7Sv-26" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="OiXg59oZUQ7tXWbWP7Sv-25">
@@ -171,7 +171,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="OiXg59oZUQ7tXWbWP7Sv-45" value="DB" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="OiXg59oZUQ7tXWbWP7Sv-45" value="DB" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="2490" y="40" width="70" height="3590" as="geometry" />
         </mxCell>
         <mxCell id="OiXg59oZUQ7tXWbWP7Sv-46" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="OiXg59oZUQ7tXWbWP7Sv-45">
@@ -190,7 +190,7 @@
             <mxPoint x="1050.04" y="410.15999999999997" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="OiXg59oZUQ7tXWbWP7Sv-50" value="&amp;lt;&amp;lt; transaction &amp;gt;&amp;gt;&lt;br&gt;ChangeDocumentInternalState" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="OiXg59oZUQ7tXWbWP7Sv-50" value="&amp;lt;&amp;lt; transaction &amp;gt;&amp;gt;&lt;br&gt;ChangeDocumentInternalState" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="1680" y="40" width="200" height="3590" as="geometry" />
         </mxCell>
         <mxCell id="OiXg59oZUQ7tXWbWP7Sv-51" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="OiXg59oZUQ7tXWbWP7Sv-50">
