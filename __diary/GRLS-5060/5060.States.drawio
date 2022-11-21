@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-21T07:16:13.731Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="4EcuKJKKHk4OgcgZ034t" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-21T07:17:17.979Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="LEYmfsDFcM1mOg2toSc9" version="20.5.3" type="github">
   <diagram id="wPDYnrMMsrVUktS3hOfH" name="Страница 1">
     <mxGraphModel dx="1701" dy="552" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -79,6 +79,9 @@
         </mxCell>
         <mxCell id="OiXg59oZUQ7tXWbWP7Sv-21" value="&lt;div style=&quot;font-size: 10px;&quot;&gt;.Do(new CommonDocumentRequest&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;{&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;&amp;nbsp; DocumentType = request.IncomingPackage.Document.DocumentType,&lt;/div&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;&amp;nbsp; Id = request.IncomingPackage.Document.Id&lt;/div&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;})&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;" vertex="1" parent="1">
           <mxGeometry x="259" y="210" width="340" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OiXg59oZUQ7tXWbWP7Sv-22" value="Получение внешнего состояния по типу и идентификатору документа" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="570" y="20" width="350" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
