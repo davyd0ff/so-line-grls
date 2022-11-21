@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-21T07:15:52.266Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="fI8Y1LgOKjn4XczXXcpA" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-21T07:16:10.452Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="02X7kRGuOABCr3rRV_ke" version="20.5.3" type="github">
   <diagram id="wPDYnrMMsrVUktS3hOfH" name="Страница 1">
-    <mxGraphModel dx="1334" dy="320" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1701" dy="552" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -55,7 +55,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="OiXg59oZUQ7tXWbWP7Sv-14" value="GetCurrentDocumentState" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="510" y="40" width="160" height="3590" as="geometry" />
+          <mxGeometry x="550" y="40" width="160" height="3590" as="geometry" />
         </mxCell>
         <mxCell id="OiXg59oZUQ7tXWbWP7Sv-15" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="OiXg59oZUQ7tXWbWP7Sv-14">
           <mxGeometry x="75" y="150" width="10" height="10" as="geometry" />
