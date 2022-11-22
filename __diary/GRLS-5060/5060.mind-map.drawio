@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-22T07:58:21.969Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="2DweqeUqnDYp2Scnf5gf" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-22T07:59:24.149Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="ebhGD1bFJ4hmzNv37Dzn" version="20.5.3" type="github">
   <diagram id="qM3AAim5_I2P72xAHU8p" name="Страница 1">
     <mxGraphModel dx="1899" dy="1866" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -400,6 +400,18 @@
         </mxCell>
         <mxCell id="UocfNX80_2cdvI--xIj--137" value="Возможно проверяет тип и вызывает разные транзакции в том числе и ChangeLongDocumentInternalState" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#9673a6;fillColor=#e1d5e7;" vertex="1" parent="1">
           <mxGeometry x="1820" y="-620" width="220" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="UocfNX80_2cdvI--xIj--140" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="UocfNX80_2cdvI--xIj--139" target="UocfNX80_2cdvI--xIj--39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UocfNX80_2cdvI--xIj--139" value="ChangeInternalStateObserver" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="1219" y="-604" width="180" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="UocfNX80_2cdvI--xIj--142" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="UocfNX80_2cdvI--xIj--141" target="UocfNX80_2cdvI--xIj--139">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UocfNX80_2cdvI--xIj--141" value="Нужно посмотреть" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#9673a6;fillColor=#e1d5e7;" vertex="1" parent="1">
+          <mxGeometry x="1534" y="-720" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
