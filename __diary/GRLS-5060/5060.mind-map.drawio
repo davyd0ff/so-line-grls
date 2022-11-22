@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-22T07:10:50.006Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="uy-HXkXGQyINHWcBPHVf" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-22T07:14:19.709Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="w_3MSiySTmxydZN4ahdf" version="20.5.3" type="github">
   <diagram id="qM3AAim5_I2P72xAHU8p" name="Страница 1">
     <mxGraphModel dx="2060" dy="1970" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -41,7 +41,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="UocfNX80_2cdvI--xIj--12" value="Есть еще ChangeApplicantRequestInternalState" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1220" y="-80" width="230" height="60" as="geometry" />
+          <mxGeometry x="1220" y="-50" width="230" height="60" as="geometry" />
         </mxCell>
         <mxCell id="UocfNX80_2cdvI--xIj--15" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="UocfNX80_2cdvI--xIj--14" target="UocfNX80_2cdvI--xIj--1">
           <mxGeometry relative="1" as="geometry" />
@@ -78,6 +78,30 @@
         </mxCell>
         <mxCell id="UocfNX80_2cdvI--xIj--25" value="А та ли это?" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#9673a6;fillColor=#e1d5e7;" vertex="1" parent="1">
           <mxGeometry x="-610" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UocfNX80_2cdvI--xIj--28" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="UocfNX80_2cdvI--xIj--27" target="UocfNX80_2cdvI--xIj--12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UocfNX80_2cdvI--xIj--27" value="Проверяет досье, если nextState ==&amp;nbsp;handled_applicant (Обработан заявителем)" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="1530" y="-130" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UocfNX80_2cdvI--xIj--30" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UocfNX80_2cdvI--xIj--29" target="UocfNX80_2cdvI--xIj--12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UocfNX80_2cdvI--xIj--29" value="Проверяет досье, если nextState ==&amp;nbsp;handled_applicant (Обработан заявителем)" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="1550" y="-40" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UocfNX80_2cdvI--xIj--34" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="UocfNX80_2cdvI--xIj--33" target="UocfNX80_2cdvI--xIj--27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UocfNX80_2cdvI--xIj--33" value="Использует HistoryRepository ?" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#B3B3B3;fillColor=#FFCCFF;" vertex="1" parent="1">
+          <mxGeometry x="1810" y="-230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UocfNX80_2cdvI--xIj--36" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="UocfNX80_2cdvI--xIj--35" target="UocfNX80_2cdvI--xIj--33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UocfNX80_2cdvI--xIj--35" value="Содержит внешние состояния?" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#B3B3B3;fillColor=#FFCCFF;" vertex="1" parent="1">
+          <mxGeometry x="1910" y="-330" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
