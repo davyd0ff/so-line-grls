@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-22T13:11:48.969Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="FriE98nSH-0SuvjOuNA9" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-22T13:11:58.113Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="s-jMOx3xdP-zoTRLAeb8" version="20.5.3" type="github">
   <diagram id="qM3AAim5_I2P72xAHU8p" name="Страница 1">
     <mxGraphModel dx="2060" dy="3139" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -789,7 +789,7 @@
         <mxCell id="UocfNX80_2cdvI--xIj--280" value="&lt;b&gt;&amp;lt;&amp;lt; проблема &amp;gt;&amp;gt;&lt;/b&gt;&lt;br&gt;&lt;br&gt;А это проблема, т.к. вызов из ChangeLongDocumentInternalState передает DocumentID (long)" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#9673a6;fillColor=#e1d5e7;" vertex="1" parent="1">
           <mxGeometry x="1260" y="190" width="290" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="UocfNX80_2cdvI--xIj--282" value="Как ведется History для Внешнего состояния у LongBase ??" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;opacity=70;" vertex="1" parent="1">
+        <mxCell id="UocfNX80_2cdvI--xIj--282" value="Как ведется History для Внешнего состояния у LongBase ??" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;opacity=90;" vertex="1" parent="1">
           <mxGeometry x="435" y="255" width="140" height="120" as="geometry" />
         </mxCell>
       </root>
