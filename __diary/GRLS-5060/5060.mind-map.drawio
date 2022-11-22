@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-22T10:07:58.214Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="6_lLUpaMCCqhtFhWPUeu" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-22T10:09:43.863Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="saZEPmdPtQzKyUZB65sQ" version="20.5.3" type="github">
   <diagram id="qM3AAim5_I2P72xAHU8p" name="Страница 1">
     <mxGraphModel dx="1532" dy="2796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -699,13 +699,13 @@
         <mxCell id="UocfNX80_2cdvI--xIj--240" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;opacity=70;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;connectable=0;" vertex="1" parent="UocfNX80_2cdvI--xIj--239">
           <mxGeometry x="90" y="200" width="10" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="UocfNX80_2cdvI--xIj--241" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;curved=1;entryX=-0.125;entryY=0.117;entryDx=0;entryDy=0;entryPerimeter=0;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;connectable=0;" edge="1" parent="1" source="UocfNX80_2cdvI--xIj--233" target="UocfNX80_2cdvI--xIj--240">
+        <mxCell id="UocfNX80_2cdvI--xIj--241" value="Run()" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;curved=1;entryX=-0.125;entryY=0.117;entryDx=0;entryDy=0;entryPerimeter=0;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;connectable=0;" edge="1" parent="1" source="UocfNX80_2cdvI--xIj--233" target="UocfNX80_2cdvI--xIj--240">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="2690" y="-1080" as="sourcePoint" />
             <mxPoint x="2770" y="-1080" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="UocfNX80_2cdvI--xIj--242" value="Изменяет внешнее состояние" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="UocfNX80_2cdvI--xIj--242" value="Изменяет внешнее состояние" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;movable=0;rotatable=0;deletable=0;editable=0;connectable=0;" vertex="1" parent="1">
           <mxGeometry x="2766" y="-1364" width="190" height="30" as="geometry" />
         </mxCell>
       </root>
