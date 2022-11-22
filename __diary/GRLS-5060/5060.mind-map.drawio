@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-22T07:34:04.698Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="Ldml6nlcAu4d5_JCl_bp" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-22T07:34:28.403Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="a1txMAbzMeXCITO8VLSK" version="20.5.3" type="github">
   <diagram id="qM3AAim5_I2P72xAHU8p" name="Страница 1">
     <mxGraphModel dx="1899" dy="1866" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -76,8 +76,8 @@
         <mxCell id="UocfNX80_2cdvI--xIj--26" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="UocfNX80_2cdvI--xIj--25" target="UocfNX80_2cdvI--xIj--23">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="UocfNX80_2cdvI--xIj--25" value="А та ли это?" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#9673a6;fillColor=#e1d5e7;" vertex="1" parent="1">
-          <mxGeometry x="-610" y="460" width="120" height="60" as="geometry" />
+        <mxCell id="UocfNX80_2cdvI--xIj--25" value="А так ли это?" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#9673a6;fillColor=#e1d5e7;" vertex="1" parent="1">
+          <mxGeometry x="-610" y="460" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="UocfNX80_2cdvI--xIj--28" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="UocfNX80_2cdvI--xIj--27" target="UocfNX80_2cdvI--xIj--12">
           <mxGeometry relative="1" as="geometry" />
@@ -161,13 +161,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="UocfNX80_2cdvI--xIj--55" value="Что такое Observer у транзакции?" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="60" y="390" width="190" height="50" as="geometry" />
+          <mxGeometry x="110" y="390" width="140" height="40" as="geometry" />
         </mxCell>
         <mxCell id="UocfNX80_2cdvI--xIj--57" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="UocfNX80_2cdvI--xIj--56" target="UocfNX80_2cdvI--xIj--55">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="UocfNX80_2cdvI--xIj--56" value="Что такое Triggers?" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="-50" y="490" width="190" height="50" as="geometry" />
+          <mxGeometry x="20" y="490" width="120" height="20" as="geometry" />
         </mxCell>
         <mxCell id="UocfNX80_2cdvI--xIj--60" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UocfNX80_2cdvI--xIj--59" target="UocfNX80_2cdvI--xIj--20">
           <mxGeometry relative="1" as="geometry" />
@@ -191,7 +191,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="UocfNX80_2cdvI--xIj--64" value="Когда вызывается Observer?&lt;br&gt;После выполнения транзакции?" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="200" y="530" width="190" height="50" as="geometry" />
+          <mxGeometry x="224" y="505" width="190" height="35" as="geometry" />
         </mxCell>
         <mxCell id="UocfNX80_2cdvI--xIj--69" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="UocfNX80_2cdvI--xIj--68" target="UocfNX80_2cdvI--xIj--12">
           <mxGeometry relative="1" as="geometry" />
