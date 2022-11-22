@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-22T08:13:20.238Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="THQBepT5eAMBUKfbyr3o" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-22T08:13:41.659Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="UjPYvZaK5Im3X7rvIi0L" version="20.5.3" type="github">
   <diagram id="qM3AAim5_I2P72xAHU8p" name="Страница 1">
-    <mxGraphModel dx="2125" dy="2012" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2724" dy="2401" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -131,7 +131,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="UocfNX80_2cdvI--xIj--37" value="Как ведется запись в HistoryRepository?" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#9673a6;fillColor=#e1d5e7;" vertex="1" parent="1">
-          <mxGeometry x="2020" y="-270" width="120" height="50" as="geometry" />
+          <mxGeometry x="2022.5" y="-260" width="137.5" height="50" as="geometry" />
         </mxCell>
         <mxCell id="UocfNX80_2cdvI--xIj--40" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="UocfNX80_2cdvI--xIj--39" target="UocfNX80_2cdvI--xIj--4">
           <mxGeometry relative="1" as="geometry" />
