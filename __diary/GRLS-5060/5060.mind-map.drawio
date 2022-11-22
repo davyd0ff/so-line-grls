@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-22T12:40:44.988Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="74NHcOEvAk5pqkG-12e_" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-22T12:49:53.469Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="peOd9asJau0NABafPWE6" version="20.5.3" type="github">
   <diagram id="qM3AAim5_I2P72xAHU8p" name="Страница 1">
-    <mxGraphModel dx="1855" dy="3006" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1677" dy="2890" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -747,7 +747,7 @@
         <mxCell id="UocfNX80_2cdvI--xIj--259" value="Что такое ChangeDocumentRequest.DocumentID (тип int) ?" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#9673a6;fillColor=#e1d5e7;" vertex="1" parent="1">
           <mxGeometry x="1060" y="40" width="270" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="UocfNX80_2cdvI--xIj--262" value="Разбираемся что такое DocumentID - это RequestID или это (int) DocumentId ???" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" vertex="1" parent="1">
+        <mxCell id="UocfNX80_2cdvI--xIj--262" value="Разбираемся что такое DocumentID - это RequestID или это (int) DocumentId ???&lt;br&gt;&lt;br&gt;по всей видимости это RequestID" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" vertex="1" parent="1">
           <mxGeometry x="1244.5" y="74" width="140" height="100" as="geometry" />
         </mxCell>
       </root>
