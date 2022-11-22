@@ -1,1 +1,19 @@
-<mxfile host="app.diagrams.net" modified="2022-11-22T07:00:45.979Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" version="20.5.3" etag="ct3PLf7VoxKSdAQUDF44" type="github"><diagram id="qM3AAim5_I2P72xAHU8p">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-11-22T07:03:40.358Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="4Wh1mq9Y5a1vK4s_S7tk" version="20.5.3" type="github">
+  <diagram id="qM3AAim5_I2P72xAHU8p" name="Страница 1">
+    <mxGraphModel dx="1233" dy="801" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="UocfNX80_2cdvI--xIj--1" value="Заменить сохранение состояний на LongBase" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="360" y="360" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UocfNX80_2cdvI--xIj--3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" edge="1" parent="1" source="UocfNX80_2cdvI--xIj--2" target="UocfNX80_2cdvI--xIj--1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UocfNX80_2cdvI--xIj--2" value="Как сохраняются состояния на данный момент?" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFCCFF;strokeColor=#FF66FF;" vertex="1" parent="1">
+          <mxGeometry x="560" y="240" width="140" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
