@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-22T12:18:12.826Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="-Y8AaL3PuE3qKf8rDRNA" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-22T12:18:19.033Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="bLLXQI--RGdTI5sC7rrK" version="20.5.3" type="github">
   <diagram id="qM3AAim5_I2P72xAHU8p" name="Страница 1">
     <mxGraphModel dx="2060" dy="3139" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -727,7 +727,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="UocfNX80_2cdvI--xIj--253" value="Как получить MedicamentRegistrationApplicantRequest с помощью DocumentId &amp;lt;&amp;lt;long&amp;gt;&amp;gt; ?" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#9673a6;fillColor=#e1d5e7;" vertex="1" parent="1">
-          <mxGeometry x="640" y="960" width="250" height="60" as="geometry" />
+          <mxGeometry x="620" y="920" width="250" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
