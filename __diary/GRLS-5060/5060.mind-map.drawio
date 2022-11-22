@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-22T12:57:53.472Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="wsUb2lfzJPXbSpmpkK32" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-22T12:58:26.667Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="O09dWpkP07o9f9LHZQtw" version="20.5.3" type="github">
   <diagram id="qM3AAim5_I2P72xAHU8p" name="Страница 1">
     <mxGraphModel dx="1855" dy="3006" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -753,11 +753,11 @@
         <mxCell id="UocfNX80_2cdvI--xIj--272" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;opacity=70;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;connectable=0;" vertex="1" parent="UocfNX80_2cdvI--xIj--269">
           <mxGeometry x="85" y="80" width="10" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="UocfNX80_2cdvI--xIj--270" value=":GetDocumentInternalState" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;connectable=0;" vertex="1" parent="1">
-          <mxGeometry x="710" y="-730" width="180" height="220" as="geometry" />
+        <mxCell id="UocfNX80_2cdvI--xIj--270" value=":DocumentToInternalStateBindingRepository" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="-730" width="250" height="220" as="geometry" />
         </mxCell>
-        <mxCell id="UocfNX80_2cdvI--xIj--273" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;opacity=70;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;connectable=0;" vertex="1" parent="UocfNX80_2cdvI--xIj--270">
-          <mxGeometry x="85.33" y="100" width="10" height="40" as="geometry" />
+        <mxCell id="UocfNX80_2cdvI--xIj--273" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;opacity=70;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;" vertex="1" parent="UocfNX80_2cdvI--xIj--270">
+          <mxGeometry x="120" y="100" width="10" height="40" as="geometry" />
         </mxCell>
         <mxCell id="UocfNX80_2cdvI--xIj--271" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;curved=1;entryX=-0.151;entryY=0.021;entryDx=0;entryDy=0;entryPerimeter=0;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;connectable=0;" edge="1" parent="1" source="UocfNX80_2cdvI--xIj--268" target="UocfNX80_2cdvI--xIj--272">
           <mxGeometry width="80" relative="1" as="geometry">
