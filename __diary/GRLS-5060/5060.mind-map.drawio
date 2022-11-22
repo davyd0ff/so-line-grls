@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-22T09:47:39.303Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="DJa5qo0lA5HQ7nPG95Th" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-22T09:47:57.020Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="t8P76TXzuJs00o3AoSb1" version="20.5.3" type="github">
   <diagram id="qM3AAim5_I2P72xAHU8p" name="Страница 1">
-    <mxGraphModel dx="2060" dy="3139" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2278" dy="3280" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -608,7 +608,7 @@
         <mxCell id="UocfNX80_2cdvI--xIj--213" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;exitX=0.667;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="UocfNX80_2cdvI--xIj--212" target="UocfNX80_2cdvI--xIj--178">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="UocfNX80_2cdvI--xIj--212" value="Где вызывается?" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#9673a6;fillColor=#e1d5e7;" vertex="1" parent="1">
+        <mxCell id="UocfNX80_2cdvI--xIj--212" value="Где вызывается?" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#9673a6;fillColor=#e1d5e7;textOpacity=50;" vertex="1" parent="1">
           <mxGeometry x="1254.5" y="600" width="120" height="35" as="geometry" />
         </mxCell>
         <mxCell id="UocfNX80_2cdvI--xIj--215" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="UocfNX80_2cdvI--xIj--214" target="UocfNX80_2cdvI--xIj--212">
