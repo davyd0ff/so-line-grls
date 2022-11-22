@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-22T10:00:45.973Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="FgjNkZalcpbq7FXRVBoe" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-22T10:03:17.795Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="_f8aIkkA9zpCrr7MT0gX" version="20.5.3" type="github">
   <diagram id="qM3AAim5_I2P72xAHU8p" name="Страница 1">
-    <mxGraphModel dx="1813" dy="2979" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1532" dy="2796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -579,7 +579,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="UocfNX80_2cdvI--xIj--202" value="&lt;div&gt;if ((documentType.Code == StatementTypeList.ApplicantRequestFgbu || documentType.Code == StatementTypeList.ApplicantRequestInspection) &amp;amp;&amp;amp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; !(new string[] { InnerStateCode.rejected, InnerStateCode.project }.Contains(_stateTransition.ToState.Code)) &amp;amp;&amp;amp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; !new ApplicantRequestCheckGrlsDoc(UnitOfWork).Do(_documentId))&lt;/div&gt;&lt;div&gt;{&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; var checkFile = new ApplicantRequestCheckEan(UnitOfWork).Do(_documentId);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; if (!checkFile &amp;amp;&amp;amp; !UnitOfWork.UserPermissions.Can(ActionsEnum.StatementSuperAdmin))&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; return ValidationResult.Fail(string.Format(&quot;Не указан фаил печатной формы запроса&quot;));&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="1460" y="-1260" width="820" height="170" as="geometry" />
+          <mxGeometry x="980" y="-1300" width="820" height="170" as="geometry" />
         </mxCell>
         <mxCell id="UocfNX80_2cdvI--xIj--208" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.661;entryY=0.991;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="UocfNX80_2cdvI--xIj--204" target="UocfNX80_2cdvI--xIj--2">
           <mxGeometry relative="1" as="geometry" />
@@ -634,6 +634,42 @@
         </mxCell>
         <mxCell id="UocfNX80_2cdvI--xIj--222" value="Меняет состояние родительского документа у запросов потока КИ (Клинических исследований)" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="1">
           <mxGeometry x="1962.5" y="-1020" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UocfNX80_2cdvI--xIj--224" value="CreateApplicantRequestBase" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="1962.5" y="-1340" width="177.5" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="UocfNX80_2cdvI--xIj--228" value="dispatch" style="html=1;verticalAlign=bottom;startArrow=circle;startFill=1;endArrow=open;startSize=6;endSize=8;rounded=0;curved=1;" edge="1" parent="UocfNX80_2cdvI--xIj--224" target="UocfNX80_2cdvI--xIj--224">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="13.75" y="80" as="sourcePoint" />
+            <mxPoint x="93.75" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UocfNX80_2cdvI--xIj--225" value="ChangeDocumentInternalState" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="2150" y="-1340" width="177.5" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="UocfNX80_2cdvI--xIj--230" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;opacity=70;" vertex="1" parent="UocfNX80_2cdvI--xIj--225">
+          <mxGeometry x="83.75" y="100" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="UocfNX80_2cdvI--xIj--226" value="ChangeInternalStateObserver" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="2340" y="-1340" width="177.5" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="UocfNX80_2cdvI--xIj--231" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;opacity=70;" vertex="1" parent="UocfNX80_2cdvI--xIj--226">
+          <mxGeometry x="83.75" y="115" width="10" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="UocfNX80_2cdvI--xIj--227" value="CreateApplicantRequestObserver" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="2530" y="-1340" width="190" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="UocfNX80_2cdvI--xIj--229" value="&amp;lt;&amp;lt; call &amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;curved=1;entryX=-0.092;entryY=0.002;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="UocfNX80_2cdvI--xIj--224" target="UocfNX80_2cdvI--xIj--230">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="2180" y="-1170" as="sourcePoint" />
+            <mxPoint x="2260" y="-1170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UocfNX80_2cdvI--xIj--232" value="Run()" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;curved=1;entryX=-0.032;entryY=0.005;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="UocfNX80_2cdvI--xIj--230" target="UocfNX80_2cdvI--xIj--231">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="2280" y="-1220" as="sourcePoint" />
+            <mxPoint x="2360" y="-1220" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
