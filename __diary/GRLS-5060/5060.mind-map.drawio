@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-22T13:24:44.300Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="6pdonm4-AEBczBBSX_Uv" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-22T14:16:44.267Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="-Ark99ri8v-w7ar8-Vte" version="20.5.3" type="github">
   <diagram id="qM3AAim5_I2P72xAHU8p" name="Страница 1">
-    <mxGraphModel dx="2060" dy="3139" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2278" dy="3280" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -794,6 +794,12 @@
         </mxCell>
         <mxCell id="UocfNX80_2cdvI--xIj--283" value="Как ведется OuterState (ExternalState) в GRLS ?" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;opacity=90;" vertex="1" parent="1">
           <mxGeometry x="920" y="90" width="140" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="UocfNX80_2cdvI--xIj--284" value="ChangeDocumentInternalState" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="-2120" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="UocfNX80_2cdvI--xIj--286" value="&amp;lt;&amp;lt; ChangeDocumentInternalStateObserver &amp;gt;&amp;gt;&lt;br&gt;&lt;br&gt;ChangeInternalState" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="-1960" width="280" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
