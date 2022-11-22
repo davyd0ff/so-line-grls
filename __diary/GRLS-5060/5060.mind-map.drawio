@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-22T13:08:30.625Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="BFZE_ga0wlnofGtj4ruT" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-22T13:09:11.977Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="3W9vtNpgAih8w4UqerEx" version="20.5.3" type="github">
   <diagram id="qM3AAim5_I2P72xAHU8p" name="Страница 1">
-    <mxGraphModel dx="1899" dy="3035" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2368" dy="3339" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -64,7 +64,7 @@
         <mxCell id="UocfNX80_2cdvI--xIj--13" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UocfNX80_2cdvI--xIj--12" target="UocfNX80_2cdvI--xIj--4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="UocfNX80_2cdvI--xIj--12" value="&amp;lt;&amp;lt; транзакция &amp;gt;&amp;gt;&lt;br&gt;Есть еще ChangeApplicantRequestInternalState" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="UocfNX80_2cdvI--xIj--12" value="&lt;b&gt;&amp;lt;&amp;lt; транзакция &amp;gt;&amp;gt;&lt;br&gt;&lt;/b&gt;Есть еще ChangeApplicantRequestInternalState" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="1220" y="-50" width="230" height="60" as="geometry" />
         </mxCell>
         <mxCell id="UocfNX80_2cdvI--xIj--15" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="UocfNX80_2cdvI--xIj--14" target="UocfNX80_2cdvI--xIj--1">
@@ -106,7 +106,7 @@
         <mxCell id="UocfNX80_2cdvI--xIj--28" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="UocfNX80_2cdvI--xIj--27" target="UocfNX80_2cdvI--xIj--12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="UocfNX80_2cdvI--xIj--27" value="&amp;lt;&amp;lt; метод &amp;gt;&amp;gt;&lt;br&gt;ValidateDossier()&lt;br&gt;Проверяет досье, если nextState ==&amp;nbsp;handled_applicant (Обработан заявителем)" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="1">
+        <mxCell id="UocfNX80_2cdvI--xIj--27" value="&lt;b&gt;&amp;lt;&amp;lt; метод &amp;gt;&amp;gt;&lt;br&gt;&lt;/b&gt;ValidateDossier()&lt;br&gt;Проверяет досье, если nextState ==&amp;nbsp;handled_applicant (Обработан заявителем)" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="1">
           <mxGeometry x="1530" y="-130" width="280" height="60" as="geometry" />
         </mxCell>
         <mxCell id="UocfNX80_2cdvI--xIj--30" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UocfNX80_2cdvI--xIj--29" target="UocfNX80_2cdvI--xIj--12">
