@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-22T07:18:18.916Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="btvd8_9AKsGvlHFhwnCU" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-22T07:18:42.099Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="pmHKwBxHgkP-XbkN3qgr" version="20.5.3" type="github">
   <diagram id="qM3AAim5_I2P72xAHU8p" name="Страница 1">
     <mxGraphModel dx="2060" dy="1970" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -138,6 +138,12 @@
         </mxCell>
         <mxCell id="UocfNX80_2cdvI--xIj--47" value="от чего необходимо избавиться" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="780" y="-250" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UocfNX80_2cdvI--xIj--50" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="UocfNX80_2cdvI--xIj--49" target="UocfNX80_2cdvI--xIj--6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UocfNX80_2cdvI--xIj--49" value="В какую таблицу сохраняется?" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="210" width="210" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
