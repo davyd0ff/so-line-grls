@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-22T12:49:53.469Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="peOd9asJau0NABafPWE6" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-22T12:50:59.914Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="uOKU3cX3-3mXfS5esb8V" version="20.5.3" type="github">
   <diagram id="qM3AAim5_I2P72xAHU8p" name="Страница 1">
-    <mxGraphModel dx="1677" dy="2890" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2060" dy="3139" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -560,14 +560,14 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="UocfNX80_2cdvI--xIj--195" value="Как получить текущее состояние документа" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="UocfNX80_2cdvI--xIj--195" value="Как получить текущее состояние GRLS.Entity" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="540" y="-970" width="120" height="50" as="geometry" />
         </mxCell>
         <mxCell id="UocfNX80_2cdvI--xIj--196" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="UocfNX80_2cdvI--xIj--197" target="UocfNX80_2cdvI--xIj--195">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="UocfNX80_2cdvI--xIj--197" value="docInnerStateRepo = new GetDocumentInternalState(unitOfWork);&lt;br&gt;&lt;div&gt;var doc = GetDocumentModel(documentType, _documentId);&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;var currenState = docInnerStateRepo.Do(doc);&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#d6b656;fillColor=#fff2cc;align=left;" vertex="1" parent="1">
-          <mxGeometry x="630" y="-1080" width="360" height="67.5" as="geometry" />
+          <mxGeometry x="620" y="-1088.75" width="360" height="67.5" as="geometry" />
         </mxCell>
         <mxCell id="UocfNX80_2cdvI--xIj--200" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="UocfNX80_2cdvI--xIj--199" target="UocfNX80_2cdvI--xIj--4">
           <mxGeometry relative="1" as="geometry" />
