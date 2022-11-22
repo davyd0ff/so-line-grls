@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-22T11:58:54.926Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="QKo393DMb1S9a0a4p3IR" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-22T12:17:13.847Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="2WwxRIF1BmG8OCQOJF-Y" version="20.5.3" type="github">
   <diagram id="qM3AAim5_I2P72xAHU8p" name="Страница 1">
     <mxGraphModel dx="2060" dy="3139" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -263,13 +263,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="UocfNX80_2cdvI--xIj--86" value="Как сохраняются переходы состояний?" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#9673a6;fillColor=#e1d5e7;" vertex="1" parent="1">
-          <mxGeometry x="870" y="630" width="130" height="35" as="geometry" />
+          <mxGeometry x="870" y="585" width="130" height="35" as="geometry" />
         </mxCell>
         <mxCell id="UocfNX80_2cdvI--xIj--89" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="UocfNX80_2cdvI--xIj--88" target="UocfNX80_2cdvI--xIj--84">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="UocfNX80_2cdvI--xIj--88" value="&amp;lt;&amp;lt; транзакция &amp;gt;&amp;gt;&lt;br&gt;Есть транзакция&amp;nbsp;&lt;br&gt;&lt;b&gt;GetAvailableTransactions &lt;/b&gt;вызывается транзакциями&amp;nbsp;&lt;br&gt;- ChangeLongDocumentInternalState&lt;br&gt;- ChangeDocumentInternalState&lt;br&gt;-ChangeLongDocumentExternalState&lt;br&gt;&lt;br&gt;Получает доступные переходы в State" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="380" y="665" width="290" height="155" as="geometry" />
+          <mxGeometry x="555" y="630" width="290" height="155" as="geometry" />
         </mxCell>
         <mxCell id="UocfNX80_2cdvI--xIj--95" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="UocfNX80_2cdvI--xIj--94" target="UocfNX80_2cdvI--xIj--51">
           <mxGeometry relative="1" as="geometry">
@@ -722,6 +722,12 @@
         </mxCell>
         <mxCell id="UocfNX80_2cdvI--xIj--251" value="Их может быть несколько" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;" vertex="1" parent="1">
           <mxGeometry x="150" y="800" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UocfNX80_2cdvI--xIj--254" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="UocfNX80_2cdvI--xIj--253" target="UocfNX80_2cdvI--xIj--1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UocfNX80_2cdvI--xIj--253" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#9673a6;fillColor=#e1d5e7;" vertex="1" parent="1">
+          <mxGeometry x="640" y="960" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
