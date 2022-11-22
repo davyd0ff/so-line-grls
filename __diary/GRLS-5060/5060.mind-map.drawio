@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-22T08:10:24.731Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="vac8MOHiyRLQqVV1KCFs" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-22T08:10:38.093Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="LTAMe4wI_HoOys4Fv2i_" version="20.5.3" type="github">
   <diagram id="qM3AAim5_I2P72xAHU8p" name="Страница 1">
     <mxGraphModel dx="1899" dy="1866" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -343,7 +343,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="UocfNX80_2cdvI--xIj--119" value="Создание решений" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;" vertex="1" parent="1">
-          <mxGeometry x="1540" y="-400" width="120" height="30" as="geometry" />
+          <mxGeometry x="1560" y="-400" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="UocfNX80_2cdvI--xIj--122" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="UocfNX80_2cdvI--xIj--121" target="UocfNX80_2cdvI--xIj--39">
           <mxGeometry relative="1" as="geometry" />
@@ -369,7 +369,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="UocfNX80_2cdvI--xIj--127" value="Возможно нужно просмотреть" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#9673a6;fillColor=#e1d5e7;" vertex="1" parent="1">
-          <mxGeometry x="1590" y="-490" width="120" height="40" as="geometry" />
+          <mxGeometry x="1560" y="-470" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="UocfNX80_2cdvI--xIj--130" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="UocfNX80_2cdvI--xIj--129" target="UocfNX80_2cdvI--xIj--39">
           <mxGeometry relative="1" as="geometry" />
@@ -381,7 +381,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="UocfNX80_2cdvI--xIj--131" value="Создание задания" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;" vertex="1" parent="1">
-          <mxGeometry x="1500" y="-550" width="120" height="30" as="geometry" />
+          <mxGeometry x="1570" y="-560" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="UocfNX80_2cdvI--xIj--134" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="UocfNX80_2cdvI--xIj--133" target="UocfNX80_2cdvI--xIj--39">
           <mxGeometry relative="1" as="geometry" />
