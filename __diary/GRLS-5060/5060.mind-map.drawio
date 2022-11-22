@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-22T12:54:27.222Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="yUYkww0hzYl1myplsdud" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-22T12:57:53.472Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="wsUb2lfzJPXbSpmpkK32" version="20.5.3" type="github">
   <diagram id="qM3AAim5_I2P72xAHU8p" name="Страница 1">
     <mxGraphModel dx="1855" dy="3006" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -744,11 +744,32 @@
         <mxCell id="UocfNX80_2cdvI--xIj--265" value="&amp;lt;&amp;lt; проблема &amp;gt;&amp;gt;&lt;br&gt;Проблема с получением currentState" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#9673a6;fillColor=#e1d5e7;" vertex="1" parent="1">
           <mxGeometry x="670" y="-400" width="210" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="UocfNX80_2cdvI--xIj--268" value=":ChangeDocumentInternalState" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="-50" y="-840" width="180" height="300" as="geometry" />
+        <mxCell id="UocfNX80_2cdvI--xIj--268" value=":ChangeDocumentInternalState" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="300" y="-730" width="180" height="220" as="geometry" />
         </mxCell>
-        <mxCell id="UocfNX80_2cdvI--xIj--269" value=":GetDocumentInternalState" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="150" y="-840" width="180" height="300" as="geometry" />
+        <mxCell id="UocfNX80_2cdvI--xIj--269" value=":GetDocumentInternalState" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="500" y="-730" width="180" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="UocfNX80_2cdvI--xIj--272" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;opacity=70;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;connectable=0;" vertex="1" parent="UocfNX80_2cdvI--xIj--269">
+          <mxGeometry x="85" y="80" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="UocfNX80_2cdvI--xIj--270" value=":GetDocumentInternalState" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;connectable=0;" vertex="1" parent="1">
+          <mxGeometry x="710" y="-730" width="180" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="UocfNX80_2cdvI--xIj--273" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;opacity=70;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;connectable=0;" vertex="1" parent="UocfNX80_2cdvI--xIj--270">
+          <mxGeometry x="85.33" y="100" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UocfNX80_2cdvI--xIj--271" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;curved=1;entryX=-0.151;entryY=0.021;entryDx=0;entryDy=0;entryPerimeter=0;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;connectable=0;" edge="1" parent="1" source="UocfNX80_2cdvI--xIj--268" target="UocfNX80_2cdvI--xIj--272">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="490" y="-650" as="sourcePoint" />
+            <mxPoint x="570" y="-650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UocfNX80_2cdvI--xIj--274" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;curved=1;entryX=-0.151;entryY=0.021;entryDx=0;entryDy=0;entryPerimeter=0;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;connectable=0;" edge="1" parent="1" target="UocfNX80_2cdvI--xIj--273" source="UocfNX80_2cdvI--xIj--272">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="599.9966666666666" y="-628.3200000000002" as="sourcePoint" />
+            <mxPoint x="780.33" y="-630" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
