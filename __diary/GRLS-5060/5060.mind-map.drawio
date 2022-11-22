@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-22T09:56:03.268Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="LKBESMo5CAl5oaqkAxOY" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-22T09:58:13.375Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="Pt9fyP5nGcHXSvY6lDQZ" version="20.5.3" type="github">
   <diagram id="qM3AAim5_I2P72xAHU8p" name="Страница 1">
     <mxGraphModel dx="1813" dy="2979" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -375,13 +375,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="UocfNX80_2cdvI--xIj--129" value="CreateApplicantRequestBase.cs" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="1">
-          <mxGeometry x="1230" y="-530" width="180" height="20" as="geometry" />
+          <mxGeometry x="1220" y="-940" width="180" height="20" as="geometry" />
         </mxCell>
         <mxCell id="UocfNX80_2cdvI--xIj--132" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UocfNX80_2cdvI--xIj--131" target="UocfNX80_2cdvI--xIj--129">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="UocfNX80_2cdvI--xIj--131" value="Создание задания" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;" vertex="1" parent="1">
-          <mxGeometry x="1570" y="-560" width="120" height="30" as="geometry" />
+          <mxGeometry x="1510" y="-1005" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="UocfNX80_2cdvI--xIj--134" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="UocfNX80_2cdvI--xIj--133" target="UocfNX80_2cdvI--xIj--39">
           <mxGeometry relative="1" as="geometry" />
@@ -480,7 +480,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="UocfNX80_2cdvI--xIj--167" value="Нужно посмотреть" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#9673a6;fillColor=#e1d5e7;" vertex="1" parent="1">
-          <mxGeometry x="1585" y="-930" width="120" height="20" as="geometry" />
+          <mxGeometry x="1585" y="-880" width="120" height="20" as="geometry" />
         </mxCell>
         <mxCell id="UocfNX80_2cdvI--xIj--170" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UocfNX80_2cdvI--xIj--169" target="UocfNX80_2cdvI--xIj--148">
           <mxGeometry relative="1" as="geometry" />
@@ -494,11 +494,11 @@
         <mxCell id="UocfNX80_2cdvI--xIj--171" value="Нужно посмотреть" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#9673a6;fillColor=#e1d5e7;" vertex="1" parent="1">
           <mxGeometry x="1570" y="-680" width="120" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="UocfNX80_2cdvI--xIj--174" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="UocfNX80_2cdvI--xIj--173" target="UocfNX80_2cdvI--xIj--131">
+        <mxCell id="UocfNX80_2cdvI--xIj--174" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="UocfNX80_2cdvI--xIj--173" target="UocfNX80_2cdvI--xIj--131">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="UocfNX80_2cdvI--xIj--173" value="Почему создание задания вызывает ChangeDocumentInternalState, а не ChangeApplicantRequestInternalState" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#9673a6;fillColor=#e1d5e7;" vertex="1" parent="1">
-          <mxGeometry x="1860" y="-520" width="235" height="50" as="geometry" />
+          <mxGeometry x="1695" y="-1071.25" width="235" height="50" as="geometry" />
         </mxCell>
         <mxCell id="UocfNX80_2cdvI--xIj--176" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="UocfNX80_2cdvI--xIj--175" target="UocfNX80_2cdvI--xIj--6">
           <mxGeometry relative="1" as="geometry" />
@@ -573,7 +573,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="UocfNX80_2cdvI--xIj--199" value="Зачем-то проверяет что еще является ApplicantRequest ... видимо кому-то было лень разбираться где это вызывается, где нужно заменить вызов на ChangeApplicantRequestInternalState и сделал тут&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;" vertex="1" parent="1">
-          <mxGeometry x="1110.5" y="-1040" width="309.5" height="80" as="geometry" />
+          <mxGeometry x="1070" y="-1070" width="309.5" height="80" as="geometry" />
         </mxCell>
         <mxCell id="UocfNX80_2cdvI--xIj--203" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="UocfNX80_2cdvI--xIj--202" target="UocfNX80_2cdvI--xIj--199">
           <mxGeometry relative="1" as="geometry" />
@@ -622,6 +622,12 @@
         </mxCell>
         <mxCell id="UocfNX80_2cdvI--xIj--216" value="&lt;div&gt;this.BindRepo&amp;lt;ITransactionObserver, ChangeInternalStateObserver&amp;gt;().Named(typeof(ChangeDocumentInternalState));&lt;/div&gt;&lt;div&gt;this.BindRepo&amp;lt;ITransactionObserver, ChangeInternalStateObserver&amp;gt;().Named(typeof(ChangeApplicantRequestInternalState));&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="950" y="800" width="680" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UocfNX80_2cdvI--xIj--221" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UocfNX80_2cdvI--xIj--220" target="UocfNX80_2cdvI--xIj--131">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UocfNX80_2cdvI--xIj--220" value="&amp;lt;&amp;lt; observer &amp;gt;&amp;gt;&lt;br&gt;Более того имеет еще&amp;nbsp;&lt;br&gt;CreateApplicantRequestObserver" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;" vertex="1" parent="1">
+          <mxGeometry x="1695" y="-1005" width="205" height="55" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
