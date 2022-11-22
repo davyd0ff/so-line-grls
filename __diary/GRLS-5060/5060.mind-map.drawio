@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-22T08:22:11.818Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="7ZtIJtAKXgDA8im0rkMS" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-22T08:23:31.063Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="w8_ls1Xk76Sn9tvxaMkq" version="20.5.3" type="github">
   <diagram id="qM3AAim5_I2P72xAHU8p" name="Страница 1">
-    <mxGraphModel dx="1899" dy="1866" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2724" dy="2401" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -512,17 +512,44 @@
         <mxCell id="UocfNX80_2cdvI--xIj--178" value="&amp;lt;&amp;lt; observer &amp;gt;&amp;gt;&lt;br&gt;ChangeInternalStateObserver" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="1510" y="370" width="210" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="UocfNX80_2cdvI--xIj--180" value=":ChangeApplicantRequestInternalState" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="1660" y="480" width="220" height="300" as="geometry" />
+        <mxCell id="UocfNX80_2cdvI--xIj--188" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1660" y="480" width="800" height="300" as="geometry" />
         </mxCell>
-        <mxCell id="UocfNX80_2cdvI--xIj--181" value=":ChangeDocumentInternalState" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="1902.5" y="480" width="187.5" height="300" as="geometry" />
+        <mxCell id="UocfNX80_2cdvI--xIj--180" value=":ChangeApplicantRequestInternalState" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="UocfNX80_2cdvI--xIj--188">
+          <mxGeometry width="220" height="300" as="geometry" />
         </mxCell>
-        <mxCell id="UocfNX80_2cdvI--xIj--182" value=":ChangeInternalStateObserver" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="2112.5" y="480" width="187.5" height="300" as="geometry" />
+        <mxCell id="UocfNX80_2cdvI--xIj--184" value="dispatch" style="html=1;verticalAlign=bottom;startArrow=circle;startFill=1;endArrow=open;startSize=6;endSize=8;rounded=0;curved=1;" edge="1" parent="UocfNX80_2cdvI--xIj--180" target="UocfNX80_2cdvI--xIj--180">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="10" y="75" as="sourcePoint" />
+            <mxPoint x="90" y="75" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="UocfNX80_2cdvI--xIj--183" value=":ChangeDocumentState" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="2310" y="480" width="150" height="300" as="geometry" />
+        <mxCell id="UocfNX80_2cdvI--xIj--181" value=":ChangeDocumentInternalState" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="UocfNX80_2cdvI--xIj--188">
+          <mxGeometry x="242.5" width="187.5" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="UocfNX80_2cdvI--xIj--182" value=":ChangeInternalStateObserver" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="UocfNX80_2cdvI--xIj--188">
+          <mxGeometry x="452.5" width="187.5" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="UocfNX80_2cdvI--xIj--183" value=":ChangeDocumentState" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="UocfNX80_2cdvI--xIj--188">
+          <mxGeometry x="650" width="150" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="UocfNX80_2cdvI--xIj--185" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;curved=1;" edge="1" parent="UocfNX80_2cdvI--xIj--188" source="UocfNX80_2cdvI--xIj--180" target="UocfNX80_2cdvI--xIj--181">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="310" y="10" as="sourcePoint" />
+            <mxPoint x="334" y="119" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UocfNX80_2cdvI--xIj--186" value="dispatch" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;rounded=0;curved=1;" edge="1" parent="UocfNX80_2cdvI--xIj--188" source="UocfNX80_2cdvI--xIj--181" target="UocfNX80_2cdvI--xIj--182">
+          <mxGeometry width="60" relative="1" as="geometry">
+            <mxPoint x="320" y="10" as="sourcePoint" />
+            <mxPoint x="380" y="10" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UocfNX80_2cdvI--xIj--187" value="dispatch" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;rounded=0;curved=1;" edge="1" parent="UocfNX80_2cdvI--xIj--188" source="UocfNX80_2cdvI--xIj--182" target="UocfNX80_2cdvI--xIj--183">
+          <mxGeometry width="60" relative="1" as="geometry">
+            <mxPoint x="545.8804347826081" y="169" as="sourcePoint" />
+            <mxPoint x="724.5" y="169" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
