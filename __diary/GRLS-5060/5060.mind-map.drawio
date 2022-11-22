@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-22T07:21:55.685Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="PP4pnCsFzhEOUQb_rWDt" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-22T07:23:43.303Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="dK3eErvbgf_ZgxaAAlnn" version="20.5.3" type="github">
   <diagram id="qM3AAim5_I2P72xAHU8p" name="Страница 1">
-    <mxGraphModel dx="1532" dy="1627" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1677" dy="1721" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -130,7 +130,7 @@
         <mxCell id="UocfNX80_2cdvI--xIj--46" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UocfNX80_2cdvI--xIj--45" target="UocfNX80_2cdvI--xIj--8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="UocfNX80_2cdvI--xIj--45" value="Сохраняется в таблицу&lt;br&gt;DocumentToInternalStateBinding" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="UocfNX80_2cdvI--xIj--45" value="&amp;lt;&amp;lt; таблица &amp;gt;&amp;gt;&lt;br&gt;Сохраняется в таблицу&lt;br&gt;DocumentToInternalStateBinding" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="700" y="-90" width="210" height="60" as="geometry" />
         </mxCell>
         <mxCell id="UocfNX80_2cdvI--xIj--48" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UocfNX80_2cdvI--xIj--47" target="UocfNX80_2cdvI--xIj--45">
@@ -180,6 +180,12 @@
             <mxPoint x="110" y="310" as="sourcePoint" />
             <mxPoint x="160" y="260" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="UocfNX80_2cdvI--xIj--63" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="UocfNX80_2cdvI--xIj--62" target="UocfNX80_2cdvI--xIj--59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UocfNX80_2cdvI--xIj--62" value="Изменение состояния сохраняется в двух местах для GRLS документов?&lt;br&gt;-&amp;nbsp;&lt;span style=&quot;color: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 14px; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;DocumentInnerState&lt;br&gt;-&lt;/span&gt;DocumentToInternalStateBinding&lt;span style=&quot;color: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 14px; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;" vertex="1" parent="1">
+          <mxGeometry x="-520" y="555" width="220" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
