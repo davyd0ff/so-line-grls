@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-22T10:09:43.863Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="saZEPmdPtQzKyUZB65sQ" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-22T11:58:00.240Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="MhGpypBhX6aPCyoESoKy" version="20.5.3" type="github">
   <diagram id="qM3AAim5_I2P72xAHU8p" name="Страница 1">
-    <mxGraphModel dx="1532" dy="2796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1677" dy="2890" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -187,11 +187,11 @@
         <mxCell id="UocfNX80_2cdvI--xIj--55" value="Что такое Observer у транзакции?" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="110" y="390" width="140" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="UocfNX80_2cdvI--xIj--57" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="UocfNX80_2cdvI--xIj--56" target="UocfNX80_2cdvI--xIj--55">
+        <mxCell id="UocfNX80_2cdvI--xIj--57" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="UocfNX80_2cdvI--xIj--56" target="UocfNX80_2cdvI--xIj--55">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="UocfNX80_2cdvI--xIj--56" value="Что такое Triggers?" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
-          <mxGeometry x="20" y="490" width="120" height="20" as="geometry" />
+          <mxGeometry x="-80" y="512.5" width="120" height="20" as="geometry" />
         </mxCell>
         <mxCell id="UocfNX80_2cdvI--xIj--60" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UocfNX80_2cdvI--xIj--59" target="UocfNX80_2cdvI--xIj--20">
           <mxGeometry relative="1" as="geometry" />
@@ -707,6 +707,21 @@
         </mxCell>
         <mxCell id="UocfNX80_2cdvI--xIj--242" value="Изменяет внешнее состояние" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;movable=0;rotatable=0;deletable=0;editable=0;connectable=0;" vertex="1" parent="1">
           <mxGeometry x="2766" y="-1364" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="UocfNX80_2cdvI--xIj--249" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="UocfNX80_2cdvI--xIj--247" target="UocfNX80_2cdvI--xIj--64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UocfNX80_2cdvI--xIj--250" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="UocfNX80_2cdvI--xIj--247" target="UocfNX80_2cdvI--xIj--55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UocfNX80_2cdvI--xIj--247" value="Существует несколько Observer, они реализуют различные интерфейсы&lt;br&gt;- ITransactionObserver (success)&lt;br&gt;- ITransactionFailObserver (fail)&lt;br&gt;&lt;br&gt;Дальше регистрируются (binding) в Ninject и извлекаются (резолвятся) в CoreUnitOfWork, который объявляет 2 метода&lt;br&gt;- OnTransactionFail() - который извлекает байндинги интерфейса&amp;nbsp;ITransactionFailObserver&lt;br&gt;- OnTransactionSuccess() - который извлекает байндинги ITransactionObserver&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;spacingLeft=11;" vertex="1" parent="1">
+          <mxGeometry x="-110" y="600" width="370" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="UocfNX80_2cdvI--xIj--252" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="UocfNX80_2cdvI--xIj--251" target="UocfNX80_2cdvI--xIj--247">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UocfNX80_2cdvI--xIj--251" value="Их может быть несколько" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;" vertex="1" parent="1">
+          <mxGeometry x="120" y="820" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
