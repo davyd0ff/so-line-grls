@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-23T11:37:39.631Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="VCkuCz8ObZHB5WTrj4tO" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-23T11:52:21.523Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="UyphgmPu_ZVTmtPvXlTy" version="20.5.3" type="github">
   <diagram id="qM3AAim5_I2P72xAHU8p" name="Страница 1">
     <mxGraphModel dx="3415" dy="4651" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -904,7 +904,7 @@
             <mxPoint x="1545" y="-2760" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="UocfNX80_2cdvI--xIj--310" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;&amp;lt;&amp;lt; transaction &amp;gt;&amp;gt;&lt;br&gt;&lt;/font&gt;&lt;br&gt;ChangeLongDocumentExternalState" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="UocfNX80_2cdvI--xIj--310" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;&amp;lt;&amp;lt; transaction &amp;gt;&amp;gt;&lt;br&gt;&lt;/font&gt;&lt;br&gt;ChangeLongDocumentExternalState" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="1480" y="-2890" width="360" height="80" as="geometry" />
         </mxCell>
         <mxCell id="UocfNX80_2cdvI--xIj--311" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;fontSize=16;curved=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="UocfNX80_2cdvI--xIj--288" target="UocfNX80_2cdvI--xIj--310">
