@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-23T05:42:48.007Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="r3XtUN4cLiwBPo1LJXGH" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-23T05:54:16.858Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="RZ58dUGXLGWdLXa7L8X8" version="20.5.3" type="github">
   <diagram id="qM3AAim5_I2P72xAHU8p" name="Страница 1">
     <mxGraphModel dx="2197" dy="3228" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -856,6 +856,15 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="348.6515679442509" y="-1823" as="sourcePoint" />
             <mxPoint x="450.3484320557495" y="-2030" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UocfNX80_2cdvI--xIj--299" value="&amp;lt;&amp;lt; answer &amp;gt;&amp;gt;&lt;br&gt;ChangeLongDocumentInternalState" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="600" y="-1620" width="360" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="UocfNX80_2cdvI--xIj--301" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;fontSize=16;curved=1;" edge="1" parent="1" source="UocfNX80_2cdvI--xIj--286" target="UocfNX80_2cdvI--xIj--299">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="469" y="-1823" as="sourcePoint" />
+            <mxPoint x="890" y="-2070" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
