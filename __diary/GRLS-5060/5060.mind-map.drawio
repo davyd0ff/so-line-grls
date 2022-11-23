@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-23T13:07:04.736Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="IHotJ-zXiCf-88PdwGfe" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-23T13:09:09.493Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="ZOXwT70LAEA0gYRIp2Kn" version="20.5.3" type="github">
   <diagram id="qM3AAim5_I2P72xAHU8p" name="Страница 1">
-    <mxGraphModel dx="2952" dy="4350" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3415" dy="4651" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -818,7 +818,7 @@
         <mxCell id="UocfNX80_2cdvI--xIj--286" value="&amp;lt;&amp;lt; observer &amp;gt;&amp;gt;&lt;br&gt;&amp;lt;&amp;lt; ChangeDocumentInternalStateObserver &amp;gt;&amp;gt;&lt;br&gt;&lt;br&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;ChangeInternalStateObserver&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="4" y="-2503" width="280" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="UocfNX80_2cdvI--xIj--287" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;&amp;lt;&amp;lt; transaction &amp;gt;&amp;gt;&lt;/font&gt;&lt;br&gt;&lt;br&gt;ChangeLongDocumentInternalState" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="UocfNX80_2cdvI--xIj--287" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;&amp;lt;&amp;lt; transaction &amp;gt;&amp;gt;&lt;/font&gt;&lt;br&gt;&lt;br&gt;ChangeLongDocumentInternalState" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="705" y="-2790" width="360" height="80" as="geometry" />
         </mxCell>
         <mxCell id="UocfNX80_2cdvI--xIj--288" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;&amp;lt;&amp;lt; observer &amp;gt;&amp;gt;&lt;/font&gt;&lt;br&gt;&lt;br&gt;ChangeLongDocumentInternalStateObserver" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
