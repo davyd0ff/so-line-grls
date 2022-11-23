@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-23T07:08:40.822Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="xGacRzxe3rkIcsDYF9du" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-23T08:45:17.875Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="vhS-iH8lKsWqG-w9JP2A" version="20.5.3" type="github">
   <diagram id="qM3AAim5_I2P72xAHU8p" name="Страница 1">
-    <mxGraphModel dx="2125" dy="4350" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2952" dy="4350" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -916,6 +916,15 @@
         </mxCell>
         <mxCell id="UocfNX80_2cdvI--xIj--318" value="" style="shape=umlDestroy;whiteSpace=wrap;html=1;strokeWidth=3;strokeColor=#b85450;fontSize=12;fillColor=#f8cecc;" vertex="1" parent="1">
           <mxGeometry x="1302.5" y="-2334" width="205" height="128" as="geometry" />
+        </mxCell>
+        <mxCell id="UocfNX80_2cdvI--xIj--319" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;&amp;lt;&amp;lt; transaction &amp;gt;&amp;gt;&lt;br&gt;&lt;/font&gt;&lt;br&gt;CreateApplicantRequestBase" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-910" y="-3010" width="360" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="UocfNX80_2cdvI--xIj--320" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;&amp;lt;&amp;lt; Observer&amp;gt;&amp;gt;&lt;br&gt;&lt;/font&gt;&lt;br&gt;CreateApplicantRequestObserver" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-880" y="-2206" width="360" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="UocfNX80_2cdvI--xIj--321" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;&amp;lt;&amp;lt; transaction &amp;gt;&amp;gt;&lt;br&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&amp;lt;&amp;lt; ChangeDocumentExternalState &amp;gt;&amp;gt;&lt;/font&gt;&lt;br&gt;&lt;br&gt;ChangeDocumentState" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-1160" y="-2050" width="360" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
