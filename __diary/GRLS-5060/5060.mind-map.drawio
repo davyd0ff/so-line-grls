@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-23T09:02:25.288Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="YuGEB5W99kYB6ZpU07Yd" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-23T09:02:47.000Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="PEPMcN1JVa8rqAw3glo-" version="20.5.3" type="github">
   <diagram id="qM3AAim5_I2P72xAHU8p" name="Страница 1">
     <mxGraphModel dx="2952" dy="4350" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -954,6 +954,9 @@
             <mxPoint x="-540" y="-2920.985221674877" as="sourcePoint" />
             <mxPoint x="155" y="-2770.344827586207" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="UocfNX80_2cdvI--xIj--331" value="" style="shape=umlDestroy;whiteSpace=wrap;html=1;strokeWidth=3;strokeColor=#b85450;fontSize=12;fillColor=#f8cecc;" vertex="1" parent="1">
+          <mxGeometry x="-300" y="-2920" width="40" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
