@@ -1,9 +1,21 @@
-<mxfile host="app.diagrams.net" modified="2022-11-23T11:03:01.392Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="_jPtdV43U90uGDLjnXYg" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-23T11:03:35.650Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="g-GYldr839xOIlcJ3ez1" version="20.5.3" type="github">
   <diagram id="qM3AAim5_I2P72xAHU8p" name="Страница 1">
-    <mxGraphModel dx="3105" dy="4449" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3709" dy="4842" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="UocfNX80_2cdvI--xIj--362" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;fontSize=16;curved=1;" edge="1" parent="1" source="UocfNX80_2cdvI--xIj--352" target="UocfNX80_2cdvI--xIj--339">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-318.71794871794873" y="-2290" as="sourcePoint" />
+            <mxPoint x="228.71794871794873" y="-2990" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UocfNX80_2cdvI--xIj--361" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;fontSize=16;curved=1;" edge="1" parent="1" source="UocfNX80_2cdvI--xIj--351" target="UocfNX80_2cdvI--xIj--338">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-325.16908212560384" y="-2493" as="sourcePoint" />
+            <mxPoint x="-309.83091787439616" y="-2620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="UocfNX80_2cdvI--xIj--90" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;curved=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="UocfNX80_2cdvI--xIj--88">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-103.07692307692332" y="410" as="sourcePoint" />
@@ -1031,7 +1043,7 @@
           <mxGeometry x="296" y="-2237" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="UocfNX80_2cdvI--xIj--351" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;&amp;lt;&amp;lt; observer &amp;gt;&amp;gt;&lt;br&gt;&lt;/font&gt;&lt;br&gt;ChangeGrlsFgbuApplicantRequestInternalStateObserver" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="-390" y="-2277" width="420" height="80" as="geometry" />
+          <mxGeometry x="-570" y="-2300" width="420" height="80" as="geometry" />
         </mxCell>
         <mxCell id="UocfNX80_2cdvI--xIj--352" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;&amp;lt;&amp;lt; observer &amp;gt;&amp;gt;&lt;br&gt;&lt;/font&gt;&lt;br&gt;ChangeGrlsApplicantRequestInternalStateObserver" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="-390" y="-2170" width="420" height="80" as="geometry" />
