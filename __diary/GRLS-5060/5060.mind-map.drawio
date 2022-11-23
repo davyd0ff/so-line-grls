@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-23T11:04:42.107Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="7kWifDJ93mYrpEmKTq0f" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-23T11:37:39.631Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="VCkuCz8ObZHB5WTrj4tO" version="20.5.3" type="github">
   <diagram id="qM3AAim5_I2P72xAHU8p" name="Страница 1">
     <mxGraphModel dx="3415" dy="4651" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -815,7 +815,7 @@
         <mxCell id="UocfNX80_2cdvI--xIj--284" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;&amp;lt;&amp;lt; transaction &amp;gt;&amp;gt;&lt;/font&gt;&lt;br&gt;&lt;br&gt;ChangeDocumentInternalState" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="145" y="-2790" width="280" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="UocfNX80_2cdvI--xIj--286" value="&amp;lt;&amp;lt; observer &amp;gt;&amp;gt;&lt;br&gt;&amp;lt;&amp;lt; ChangeDocumentInternalStateObserver &amp;gt;&amp;gt;&lt;br&gt;&lt;br&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;ChangeInternalStateObserver&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="UocfNX80_2cdvI--xIj--286" value="&amp;lt;&amp;lt; observer &amp;gt;&amp;gt;&lt;br&gt;&amp;lt;&amp;lt; ChangeDocumentInternalStateObserver &amp;gt;&amp;gt;&lt;br&gt;&lt;br&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;ChangeInternalStateObserver&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="4" y="-2503" width="280" height="80" as="geometry" />
         </mxCell>
         <mxCell id="UocfNX80_2cdvI--xIj--287" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;&amp;lt;&amp;lt; transaction &amp;gt;&amp;gt;&lt;/font&gt;&lt;br&gt;&lt;br&gt;ChangeLongDocumentInternalState" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
@@ -905,16 +905,16 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="UocfNX80_2cdvI--xIj--310" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;&amp;lt;&amp;lt; transaction &amp;gt;&amp;gt;&lt;br&gt;&lt;/font&gt;&lt;br&gt;ChangeLongDocumentExternalState" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="705" y="-2390" width="360" height="80" as="geometry" />
+          <mxGeometry x="1480" y="-2890" width="360" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="UocfNX80_2cdvI--xIj--311" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;fontSize=16;curved=1;" edge="1" parent="1" source="UocfNX80_2cdvI--xIj--288" target="UocfNX80_2cdvI--xIj--310">
+        <mxCell id="UocfNX80_2cdvI--xIj--311" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;fontSize=16;curved=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="UocfNX80_2cdvI--xIj--288" target="UocfNX80_2cdvI--xIj--310">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="978.0769230769233" y="-2540" as="sourcePoint" />
             <mxPoint x="1165" y="-2450" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="UocfNX80_2cdvI--xIj--312" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;&amp;lt;&amp;lt; observer &amp;gt;&amp;gt;&lt;br&gt;&lt;/font&gt;&lt;br&gt;ChangeLongDocumentExternalStateObserver" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="765" y="-2220" width="360" height="80" as="geometry" />
+          <mxGeometry x="1650" y="-2750" width="360" height="80" as="geometry" />
         </mxCell>
         <mxCell id="UocfNX80_2cdvI--xIj--313" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;&amp;lt;&amp;lt; observer &amp;gt;&amp;gt;&lt;br&gt;&lt;/font&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&amp;lt;&amp;lt; ChangeDocumentExternalState &amp;gt;&amp;gt;&lt;/font&gt;&lt;br&gt;&lt;br&gt;ChangeDocumentStateObserver" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="1225" y="-2310" width="360" height="80" as="geometry" />
