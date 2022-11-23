@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-23T06:44:06.992Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="iaK9DaImqysGqAZGQ8xE" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-23T06:44:19.332Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="bA9BuGVVFd0oWp0spaYP" version="20.5.3" type="github">
   <diagram id="qM3AAim5_I2P72xAHU8p" name="Страница 1">
     <mxGraphModel dx="2197" dy="3228" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -885,11 +885,6 @@
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="1232.0944625407164" y="-1823" as="sourcePoint" />
             <mxPoint x="1720" y="-2090" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="UocfNX80_2cdvI--xIj--309" value="answer" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" vertex="1" connectable="0" parent="UocfNX80_2cdvI--xIj--308">
-          <mxGeometry x="0.0591" y="1" relative="1" as="geometry">
-            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
