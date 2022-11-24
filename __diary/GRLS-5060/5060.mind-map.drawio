@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-24T10:46:38.131Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="Fn6CxwH2au4s2h3CnwUi" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-24T10:46:51.315Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="mAgEkJK8VU3ZWSmvUcgV" version="20.5.3" type="github">
   <diagram id="qM3AAim5_I2P72xAHU8p" name="Страница 1">
-    <mxGraphModel dx="2640" dy="4148" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3105" dy="4449" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -886,7 +886,7 @@
             <mxPoint x="-30" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="UocfNX80_2cdvI--xIj--304" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;&amp;lt;&amp;lt; transaction &amp;gt;&amp;gt;&lt;/font&gt;&lt;br&gt;&lt;br&gt;UpdateApplicantRequest" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="1" vertex="1">
+        <mxCell id="UocfNX80_2cdvI--xIj--304" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;&amp;lt;&amp;lt; transaction &amp;gt;&amp;gt;&lt;/font&gt;&lt;br&gt;&lt;br&gt;UpdateApplicantRequest" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="40" y="-1990" width="280" height="80" as="geometry" />
         </mxCell>
         <mxCell id="UocfNX80_2cdvI--xIj--305" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;fontSize=16;curved=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" source="UocfNX80_2cdvI--xIj--286" target="UocfNX80_2cdvI--xIj--304" edge="1">
