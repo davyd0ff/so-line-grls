@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-24T10:45:05.814Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="UUrexFbQt3oWxAVIoEay" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-24T10:45:19.512Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="FbKZeWNyrlwuITSHuoDS" version="20.5.3" type="github">
   <diagram id="qM3AAim5_I2P72xAHU8p" name="Страница 1">
     <mxGraphModel dx="2640" dy="4148" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1125,7 +1125,7 @@
           <mxGeometry x="810" y="-2180" width="370" height="230" as="geometry" />
         </mxCell>
         <mxCell id="Qs5j7JCSP7ARArpuH591-5" value="ПРОБЛЕМА&lt;br&gt;&lt;br&gt;Возможна следующая проблема" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="2490" y="-3480" width="140" height="160" as="geometry" />
+          <mxGeometry x="2490" y="-3502" width="140" height="160" as="geometry" />
         </mxCell>
         <mxCell id="Qs5j7JCSP7ARArpuH591-6" value="" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="2790" y="-3480" width="20" height="300" as="geometry" />
@@ -1143,7 +1143,7 @@
           <mxGeometry x="110" y="200" width="10" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Qs5j7JCSP7ARArpuH591-9" value="Запрос был случайно archived&amp;nbsp;&lt;br&gt;и его необходимо восстановить" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="2644" y="-3392" width="260" height="50" as="geometry" />
+          <mxGeometry x="2530" y="-3330" width="260" height="50" as="geometry" />
         </mxCell>
         <mxCell id="Qs5j7JCSP7ARArpuH591-10" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=16;curved=1;entryX=-0.094;entryY=0.007;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Qs5j7JCSP7ARArpuH591-6" target="Qs5j7JCSP7ARArpuH591-11">
           <mxGeometry width="80" relative="1" as="geometry">
