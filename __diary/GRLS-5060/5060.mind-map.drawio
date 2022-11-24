@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-24T13:17:44.231Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="W1EYeidCa_jdENxjmKKq" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-24T13:19:15.790Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="hMV3KqCAMGmxzeY-2cl-" version="20.5.3" type="github">
   <diagram id="qM3AAim5_I2P72xAHU8p" name="Страница 1">
     <mxGraphModel dx="2952" dy="4350" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1125,7 +1125,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Qs5j7JCSP7ARArpuH591-1" value="Где еще вызывается?&lt;br&gt;&lt;br&gt;Для request?" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#B3B3B3;fontSize=12;fillColor=#FFCCFF;" vertex="1" parent="1">
-          <mxGeometry x="1210" y="-3410" width="120" height="60" as="geometry" />
+          <mxGeometry x="1210" y="-3390" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Qs5j7JCSP7ARArpuH591-4" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;ПОСМОТРЕТЬ&lt;br&gt;&lt;br&gt;Как используется таблица core.DocumentInternalState&lt;br&gt;какая сущность отражает эту связь?&amp;nbsp;&lt;br&gt;&lt;br&gt;в Старой таблице&amp;nbsp; DocumentToInternalStateBindingRepository есть binding&lt;br&gt;&lt;br&gt;Интересует есть ли binding для этой таблицы&lt;br&gt;&lt;/font&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" vertex="1" parent="1">
           <mxGeometry x="810" y="-2180" width="370" height="230" as="geometry" />
@@ -1199,6 +1199,12 @@
         </mxCell>
         <mxCell id="Qs5j7JCSP7ARArpuH591-23" value="WTF?" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#B3B3B3;fontSize=12;fillColor=#FFCCFF;" vertex="1" parent="1">
           <mxGeometry x="2140" y="-2480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Qs5j7JCSP7ARArpuH591-26" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;fontSize=12;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Qs5j7JCSP7ARArpuH591-25" target="UocfNX80_2cdvI--xIj--373">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qs5j7JCSP7ARArpuH591-25" value="Необходимо избавиться" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#B3B3B3;fontSize=12;fillColor=#FFCCFF;" vertex="1" parent="1">
+          <mxGeometry x="1600" y="-3335" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
