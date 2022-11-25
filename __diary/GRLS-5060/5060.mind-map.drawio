@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-25T10:29:55.012Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="sCOxNC19vHSpmjeF_Z_q" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-25T10:31:16.580Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="xNwPmdESKhapFJVZwFeg" version="20.5.3" type="github">
   <diagram id="qM3AAim5_I2P72xAHU8p" name="Страница 1">
-    <mxGraphModel dx="2602" dy="5292" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2286" dy="5087" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1784,6 +1784,21 @@
         </mxCell>
         <mxCell id="Qs5j7JCSP7ARArpuH591-212" value="#1&lt;br&gt;&lt;br&gt;&quot;Алиасы для InternalState это плохо&quot; - Евгений © ... &lt;br&gt;&lt;br&gt;надо сверить состояния ПЦ, КИ и Регистрация, выделить отличающиеся, если отличаются в падеже, то уточнить у Маши, принципиально ли... или можно подогнать к одному...&lt;br&gt;&lt;br&gt;Если Оставить надо и какие-то формулировки сильно отличаются, то надо будет дублировать состояния, изменяя коды, что скорее всего вызовет ГРАНДИОЗНЫЕ изменения в бэке, т.к. много логики построено на кодах" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="-1640" y="-4640" width="415" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="Qs5j7JCSP7ARArpuH591-213" value=":ClinicalStudyApplicantRequestRepository" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="2000" y="-2440" width="240" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="Qs5j7JCSP7ARArpuH591-215" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=12;" vertex="1" parent="Qs5j7JCSP7ARArpuH591-213">
+          <mxGeometry x="115" y="80" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Qs5j7JCSP7ARArpuH591-214" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;:ChangeCSApplicantRequestState&lt;/font&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1720" y="-2440" width="240" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="Qs5j7JCSP7ARArpuH591-216" value="SetNewState()" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;strokeWidth=1;fontSize=12;curved=1;entryX=0.096;entryY=-0.001;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Qs5j7JCSP7ARArpuH591-214" target="Qs5j7JCSP7ARArpuH591-215">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1900" y="-2350" as="sourcePoint" />
+            <mxPoint x="1980" y="-2350" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
