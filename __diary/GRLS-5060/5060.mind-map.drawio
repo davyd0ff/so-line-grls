@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-25T09:42:22.354Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="AfmmNeBHTIx616eglpP9" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-25T09:42:56.253Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="zWD0yy0940LrAwmJkUdN" version="20.5.3" type="github">
   <diagram id="qM3AAim5_I2P72xAHU8p" name="Страница 1">
-    <mxGraphModel dx="2476" dy="5210" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2726" dy="5373" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1444,15 +1444,6 @@
             <mxPoint x="5510" y="-2770" as="sourcePoint" />
             <mxPoint x="5590" y="-2770" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="Qs5j7JCSP7ARArpuH591-88" value="&lt;div style=&quot;color: rgb(252, 252, 250); background-color: rgb(45, 42, 46); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #78dce8;&quot;&gt;TransitionsTableComponent&lt;/span&gt;&lt;/div&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="5010" y="-3940" width="210" height="300" as="geometry" />
-        </mxCell>
-        <mxCell id="Qs5j7JCSP7ARArpuH591-89" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=10;" vertex="1" parent="Qs5j7JCSP7ARArpuH591-88">
-          <mxGeometry x="100" y="164" width="10" height="13" as="geometry" />
-        </mxCell>
-        <mxCell id="Qs5j7JCSP7ARArpuH591-93" value="Отображает матрицу переходов" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="5070" y="-3970" width="200" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Qs5j7JCSP7ARArpuH591-98" value="dbo.DocumentInternalStateTransition" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;fontSize=12;" vertex="1" parent="1">
           <mxGeometry x="6560" y="-3280" width="280" height="210" as="geometry" />
