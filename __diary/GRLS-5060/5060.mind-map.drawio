@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-25T06:06:25.696Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="Wu35oDiZ8zSySjkkvFIS" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-25T06:07:08.284Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="LLgPagEl8JcmWaDi-v6N" version="20.5.3" type="github">
   <diagram id="qM3AAim5_I2P72xAHU8p" name="Страница 1">
     <mxGraphModel dx="2504" dy="4059" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1253,6 +1253,9 @@
         </mxCell>
         <mxCell id="Qs5j7JCSP7ARArpuH591-39" value=":admin/api/state-transition" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontSize=12;" vertex="1" parent="1">
           <mxGeometry x="4640" y="-3480" width="160" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="Qs5j7JCSP7ARArpuH591-40" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;&amp;lt;&amp;lt; portal/CS_Code/ &amp;gt;&amp;gt;&lt;/font&gt;&lt;br&gt;AdminWebApiController" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="4840" y="-3480" width="160" height="300" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
