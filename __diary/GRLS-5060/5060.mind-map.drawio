@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-25T10:38:53.529Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="YW5TsWWQqyQ_T1_wrKpC" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-25T10:39:35.294Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="M46eW3VVay2VA1qaVfdR" version="20.5.3" type="github">
   <diagram id="qM3AAim5_I2P72xAHU8p" name="Страница 1">
     <mxGraphModel dx="3195" dy="5677" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1136,7 +1136,7 @@
         <mxCell id="Qs5j7JCSP7ARArpuH591-1" value="Где еще вызывается?&lt;br&gt;&lt;br&gt;Для request?" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#B3B3B3;fontSize=12;fillColor=#FFCCFF;" vertex="1" parent="1">
           <mxGeometry x="1210" y="-3390" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="Qs5j7JCSP7ARArpuH591-4" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;ПОСМОТРЕТЬ&lt;br&gt;&lt;br&gt;Как используется таблица core.DocumentInternalState&lt;br&gt;какая сущность отражает эту связь?&amp;nbsp;&lt;br&gt;&lt;br&gt;в Старой таблице&amp;nbsp; DocumentToInternalStateBindingRepository есть binding&lt;br&gt;&lt;br&gt;Интересует есть ли binding для этой таблицы&lt;br&gt;&lt;/font&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" vertex="1" parent="1">
+        <mxCell id="Qs5j7JCSP7ARArpuH591-4" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;ПОСМОТРЕТЬ&lt;br&gt;&lt;br&gt;Как используется таблица core.DocumentInternalState&lt;br&gt;какая сущность отражает эту связь?&amp;nbsp;&lt;br&gt;&lt;br&gt;в Старой таблице&amp;nbsp; DocumentToInternalStateBindingRepository есть binding&lt;br&gt;&lt;br&gt;Интересует - есть ли binding для этой таблицы&lt;br&gt;&lt;/font&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" vertex="1" parent="1">
           <mxGeometry x="810" y="-2180" width="370" height="230" as="geometry" />
         </mxCell>
         <mxCell id="Qs5j7JCSP7ARArpuH591-5" value="ПРОБЛЕМА&lt;br&gt;&lt;br&gt;Возможна следующая проблема" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#f8cecc;strokeColor=#b85450;fillStyle=solid;direction=west;gradientDirection=north;shadow=1;size=20;pointerEvents=1;fontSize=16;" vertex="1" parent="1">
