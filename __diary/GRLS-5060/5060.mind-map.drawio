@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-25T05:33:39.885Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="tK9AjKqfM31pBj_hJgEI" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-25T05:34:37.890Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="I_Cs5_q7Mbp4Lg1B_c0t" version="20.5.3" type="github">
   <diagram id="qM3AAim5_I2P72xAHU8p" name="Страница 1">
     <mxGraphModel dx="3551" dy="4739" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1214,6 +1214,12 @@
         </mxCell>
         <mxCell id="Qs5j7JCSP7ARArpuH591-29" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;НЕ РЕАЛИЗОВАНО&lt;br&gt;&lt;br&gt;Переходы состояний для Запросов КИ и ПЦ&lt;br&gt;&lt;/font&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;fontSize=12;" vertex="1" parent="1">
           <mxGeometry x="1200" y="-2180" width="180" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="Qs5j7JCSP7ARArpuH591-31" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=16;" edge="1" parent="1" source="Qs5j7JCSP7ARArpuH591-30" target="UocfNX80_2cdvI--xIj--336">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qs5j7JCSP7ARArpuH591-30" value="Имею в виду модули Bmcp и EEC" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#B3B3B3;fontSize=12;fillColor=#FFCCFF;" vertex="1" parent="1">
+          <mxGeometry x="-1470" y="-2982" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
