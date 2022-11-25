@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-25T05:33:05.580Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="Odcoi76KisMx5Owi8R-c" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-25T05:33:19.026Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="AY4t8as3KSRFGNfmArXD" version="20.5.3" type="github">
   <diagram id="qM3AAim5_I2P72xAHU8p" name="Страница 1">
-    <mxGraphModel dx="2726" dy="4204" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2952" dy="4350" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1116,10 +1116,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="UocfNX80_2cdvI--xIj--378" value="НЕ ЗАБЫВАЙ&lt;br&gt;&lt;br&gt;Необходимо найти как ведется история переходов внешних состояний для&amp;nbsp; документов BaseLong&amp;nbsp;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="640" y="-1890" width="210" height="200" as="geometry" />
+          <mxGeometry x="810" y="-1930" width="210" height="200" as="geometry" />
         </mxCell>
         <mxCell id="UocfNX80_2cdvI--xIj--379" value="ТЕПЕРЬ&lt;br&gt;&lt;br&gt;Необходимо найти где используется&amp;nbsp;GetDocumentInternalState для всех запросов и заменить на получение текущего состояния из нужной таблицы" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="160" y="-1880" width="310" height="200" as="geometry" />
+          <mxGeometry x="1070" y="-1930" width="310" height="200" as="geometry" />
         </mxCell>
         <mxCell id="Qs5j7JCSP7ARArpuH591-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="1" source="Qs5j7JCSP7ARArpuH591-1" target="UocfNX80_2cdvI--xIj--373">
           <mxGeometry relative="1" as="geometry" />
@@ -1216,7 +1216,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Qs5j7JCSP7ARArpuH591-29" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;НЕ РЕАЛИЗОВАНО&lt;br&gt;&lt;br&gt;Переходы состояний для Запросов КИ и ПЦ&lt;br&gt;&lt;/font&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="1299" y="-2070" width="180" height="160" as="geometry" />
+          <mxGeometry x="1200" y="-2180" width="180" height="160" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
