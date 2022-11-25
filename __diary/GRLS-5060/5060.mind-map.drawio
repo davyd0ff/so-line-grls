@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-25T10:31:16.580Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="xNwPmdESKhapFJVZwFeg" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-25T10:32:08.746Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="60AdhHbsJthXinKEtJVR" version="20.5.3" type="github">
   <diagram id="qM3AAim5_I2P72xAHU8p" name="Страница 1">
-    <mxGraphModel dx="2286" dy="5087" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2094" dy="4962" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1798,6 +1798,18 @@
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="1900" y="-2350" as="sourcePoint" />
             <mxPoint x="1980" y="-2350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qs5j7JCSP7ARArpuH591-217" value=":DB" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="2399" y="-2440" width="82.5" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="Qs5j7JCSP7ARArpuH591-218" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=12;" vertex="1" parent="Qs5j7JCSP7ARArpuH591-217">
+          <mxGeometry x="36.25" y="102" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Qs5j7JCSP7ARArpuH591-219" value="[grls].[core].[update_CSApplicantRequest_State]" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;strokeWidth=1;fontSize=12;curved=1;entryX=-0.016;entryY=0.003;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Qs5j7JCSP7ARArpuH591-215" target="Qs5j7JCSP7ARArpuH591-218">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="2230" y="-2350" as="sourcePoint" />
+            <mxPoint x="2310" y="-2350" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
