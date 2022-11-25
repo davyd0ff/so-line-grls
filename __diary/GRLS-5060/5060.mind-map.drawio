@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-25T10:38:25.962Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="r_z1s2cl-RSymo-n4wj4" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-25T10:38:53.529Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="YW5TsWWQqyQ_T1_wrKpC" version="20.5.3" type="github">
   <diagram id="qM3AAim5_I2P72xAHU8p" name="Страница 1">
     <mxGraphModel dx="3195" dy="5677" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1207,7 +1207,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Qs5j7JCSP7ARArpuH591-23" value="WTF?" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#B3B3B3;fontSize=12;fillColor=#FFCCFF;" vertex="1" parent="1">
-          <mxGeometry x="2190" y="-2600" width="120" height="60" as="geometry" />
+          <mxGeometry x="2170" y="-2670" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Qs5j7JCSP7ARArpuH591-26" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;fontSize=12;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="Qs5j7JCSP7ARArpuH591-25" target="UocfNX80_2cdvI--xIj--373">
           <mxGeometry relative="1" as="geometry" />
@@ -1840,6 +1840,12 @@
         </mxCell>
         <mxCell id="Qs5j7JCSP7ARArpuH591-226" value="Дальше полная жесть ... переходы по х.п." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" vertex="1" parent="1">
           <mxGeometry x="2788" y="-2373" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Qs5j7JCSP7ARArpuH591-228" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;fontSize=12;" edge="1" parent="1" source="Qs5j7JCSP7ARArpuH591-227" target="Qs5j7JCSP7ARArpuH591-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qs5j7JCSP7ARArpuH591-227" value="Транзакция для сохранения внешнего состояния?" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#B3B3B3;fontSize=12;fillColor=#FFCCFF;" vertex="1" parent="1">
+          <mxGeometry x="2280" y="-2590" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
