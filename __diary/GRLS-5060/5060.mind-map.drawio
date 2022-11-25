@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-25T05:47:40.061Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="fPMHLCzRu-_Jy9YcnjuD" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-25T05:47:46.045Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="tjtN59JVr2F-dOVvjv11" version="20.5.3" type="github">
   <diagram id="qM3AAim5_I2P72xAHU8p" name="Страница 1">
     <mxGraphModel dx="4120" dy="5109" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1182,7 +1182,7 @@
         <mxCell id="Qs5j7JCSP7ARArpuH591-17" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;&amp;lt;&amp;lt; transaction &amp;gt;&amp;gt;&lt;/font&gt;&lt;br&gt;&lt;br&gt;DeleteDocument" style="html=1;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="-1300" y="-2450" width="240" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="Qs5j7JCSP7ARArpuH591-18" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;fontSize=12;curved=1;fillColor=#f8cecc;strokeColor=#b85450;opacity=70;" edge="1" parent="1" source="Qs5j7JCSP7ARArpuH591-17" target="UocfNX80_2cdvI--xIj--289">
+        <mxCell id="Qs5j7JCSP7ARArpuH591-18" value="" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;fontSize=12;curved=1;fillColor=#f8cecc;strokeColor=#b85450;opacity=50;" edge="1" parent="1" source="Qs5j7JCSP7ARArpuH591-17" target="UocfNX80_2cdvI--xIj--289">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="-850" y="-2660" as="sourcePoint" />
             <mxPoint x="-690" y="-2660" as="targetPoint" />
