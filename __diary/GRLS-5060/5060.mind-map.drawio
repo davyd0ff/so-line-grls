@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-25T06:45:35.849Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="VFFDTjCN6oVsdmgfy95J" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-25T06:46:42.387Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="Fzbjs9p5NKaYjpk1zadO" version="20.5.3" type="github">
   <diagram id="qM3AAim5_I2P72xAHU8p" name="Страница 1">
     <mxGraphModel dx="2504" dy="4059" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1333,12 +1333,13 @@
           <mxGeometry x="85" y="150" width="10" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Qs5j7JCSP7ARArpuH591-71" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=12;" vertex="1" parent="Qs5j7JCSP7ARArpuH591-61">
-          <mxGeometry x="85" y="100" width="10" height="20" as="geometry" />
+          <mxGeometry x="85" y="100" width="10" height="10" as="geometry" />
         </mxCell>
         <mxCell id="Qs5j7JCSP7ARArpuH591-64" value="GetByType(request.TypeId)" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;strokeWidth=1;fontSize=12;curved=1;entryX=0.075;entryY=0.008;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Qs5j7JCSP7ARArpuH591-59" target="Qs5j7JCSP7ARArpuH591-62">
-          <mxGeometry width="80" relative="1" as="geometry">
+          <mxGeometry x="-0.5153" width="80" relative="1" as="geometry">
             <mxPoint x="4810" y="-3190" as="sourcePoint" />
             <mxPoint x="4890" y="-3190" as="targetPoint" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Qs5j7JCSP7ARArpuH591-65" value="&lt;font style=&quot;&quot;&gt;DB&lt;br&gt;&lt;/font&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontSize=12;" vertex="1" parent="1">
@@ -1358,7 +1359,7 @@
           <mxGeometry x="5060" y="-3160" width="260" height="300" as="geometry" />
         </mxCell>
         <mxCell id="Qs5j7JCSP7ARArpuH591-69" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=10;" vertex="1" parent="Qs5j7JCSP7ARArpuH591-68">
-          <mxGeometry x="125" y="228" width="10" height="20" as="geometry" />
+          <mxGeometry x="125" y="228" width="10" height="12" as="geometry" />
         </mxCell>
         <mxCell id="Qs5j7JCSP7ARArpuH591-70" value="&amp;lt;&amp;lt; create by Ninject &amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;strokeWidth=1;fontSize=12;curved=1;entryX=-0.037;entryY=0.016;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Qs5j7JCSP7ARArpuH591-59" target="Qs5j7JCSP7ARArpuH591-71">
           <mxGeometry width="80" relative="1" as="geometry">
@@ -1381,6 +1382,13 @@
         <mxCell id="Qs5j7JCSP7ARArpuH591-74" value="GetStateRepository&amp;lt;IStateTransitionPremissionRepositiory&amp;gt;(&quot;internal&quot;)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="Qs5j7JCSP7ARArpuH591-73">
           <mxGeometry x="0.223" relative="1" as="geometry">
             <mxPoint x="-159" y="10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qs5j7JCSP7ARArpuH591-75" value="states" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;strokeWidth=1;fontSize=12;curved=1;exitX=0.006;exitY=1.006;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="Qs5j7JCSP7ARArpuH591-62" target="Qs5j7JCSP7ARArpuH591-59">
+          <mxGeometry x="-0.6854" relative="1" as="geometry">
+            <mxPoint x="4890" y="-2990" as="sourcePoint" />
+            <mxPoint x="4810" y="-2990" as="targetPoint" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
