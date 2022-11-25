@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-25T06:52:41.583Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="QpZhYzeKIgs3ffi6echf" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-25T06:55:39.943Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="YLw3gtsO2HRM4jW3pcLr" version="20.5.3" type="github">
   <diagram id="qM3AAim5_I2P72xAHU8p" name="Страница 1">
     <mxGraphModel dx="2682" dy="4175" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1437,6 +1437,12 @@
             <mxPoint x="4615" y="-2878.89" as="sourcePoint" />
             <mxPoint x="5195.159999999999" y="-2878.89" as="targetPoint" />
             <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qs5j7JCSP7ARArpuH591-87" value="[core].[select_DocumentInternalStateTransitionTrigger_ByTransitionId]" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;strokeWidth=1;fontSize=12;curved=1;" edge="1" parent="1" source="Qs5j7JCSP7ARArpuH591-81" target="Qs5j7JCSP7ARArpuH591-65">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="5510" y="-2770" as="sourcePoint" />
+            <mxPoint x="5590" y="-2770" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
