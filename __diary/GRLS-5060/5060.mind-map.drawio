@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-25T05:48:03.964Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="UPfVHmuxwl-aVilCaO7h" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-25T05:48:12.758Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="oXI6qXoh3gn7ac4T0KN5" version="20.5.3" type="github">
   <diagram id="qM3AAim5_I2P72xAHU8p" name="Страница 1">
     <mxGraphModel dx="4120" dy="5109" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -982,7 +982,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="UocfNX80_2cdvI--xIj--329" value="у созданного запроса" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;fontSize=12;curved=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.018;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" source="UocfNX80_2cdvI--xIj--319" target="UocfNX80_2cdvI--xIj--284" edge="1">
+        <mxCell id="UocfNX80_2cdvI--xIj--329" value="у созданного запроса" style="endArrow=open;endFill=1;endSize=12;html=1;rounded=0;fontSize=12;curved=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.018;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#f8cecc;strokeColor=#b85450;opacity=50;" parent="1" source="UocfNX80_2cdvI--xIj--319" target="UocfNX80_2cdvI--xIj--284" edge="1">
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="-540" y="-2920.985221674877" as="sourcePoint" />
             <mxPoint x="155" y="-2770.344827586207" as="targetPoint" />
