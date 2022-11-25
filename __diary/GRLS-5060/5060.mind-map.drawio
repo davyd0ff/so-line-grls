@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-25T08:58:40.050Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="7WwKwgz21Fyb7X6gKLP-" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-25T08:59:53.118Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="p2VVkODpIxF2QGoOzyj0" version="20.5.3" type="github">
   <diagram id="qM3AAim5_I2P72xAHU8p" name="Страница 1">
     <mxGraphModel dx="2682" dy="5344" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1536,7 +1536,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Qs5j7JCSP7ARArpuH591-117" value="dbo.StatementTypeList" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;fontSize=12;" vertex="1" parent="1">
-          <mxGeometry x="6840" y="-3440" width="250" height="120" as="geometry" />
+          <mxGeometry x="6920" y="-3410" width="250" height="120" as="geometry" />
         </mxCell>
         <mxCell id="Qs5j7JCSP7ARArpuH591-118" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;fontSize=12;" vertex="1" parent="Qs5j7JCSP7ARArpuH591-117">
           <mxGeometry y="30" width="250" height="30" as="geometry" />
@@ -1576,6 +1576,9 @@
           <mxGeometry x="30" width="220" height="30" as="geometry">
             <mxRectangle width="220" height="30" as="alternateBounds" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="Qs5j7JCSP7ARArpuH591-137" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=1;fontSize=12;" edge="1" parent="1" source="Qs5j7JCSP7ARArpuH591-102" target="Qs5j7JCSP7ARArpuH591-118">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
