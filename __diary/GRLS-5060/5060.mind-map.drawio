@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-25T05:46:09.869Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="df13pK4midItuFoUJwMA" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-25T05:46:56.244Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="RuJAUmTLVR4TEXo3k-fG" version="20.5.3" type="github">
   <diagram id="qM3AAim5_I2P72xAHU8p" name="Страница 1">
-    <mxGraphModel dx="3896" dy="4963" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4120" dy="5109" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1053,7 +1053,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="UocfNX80_2cdvI--xIj--351" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;&amp;lt;&amp;lt; observer &amp;gt;&amp;gt;&lt;br&gt;&lt;/font&gt;&lt;br&gt;ChangeGrlsFgbuApplicantRequestInternalStateObserver" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="-570" y="-2300" width="420" height="80" as="geometry" />
+          <mxGeometry x="-570" y="-2286" width="420" height="80" as="geometry" />
         </mxCell>
         <mxCell id="UocfNX80_2cdvI--xIj--352" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;&amp;lt;&amp;lt; observer &amp;gt;&amp;gt;&lt;br&gt;&lt;/font&gt;&lt;br&gt;ChangeGrlsApplicantRequestInternalStateObserver" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="-465" y="-2100" width="420" height="80" as="geometry" />
