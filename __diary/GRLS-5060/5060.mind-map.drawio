@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-25T11:08:53.786Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="iPTosdvp59XX7yzPyfNb" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-25T11:26:30.629Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="4SfXhWkgTSS8VIizJLTU" version="20.5.3" type="github">
   <diagram id="qM3AAim5_I2P72xAHU8p" name="Страница 1">
     <mxGraphModel dx="3105" dy="5618" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1852,6 +1852,12 @@
         </mxCell>
         <mxCell id="Qs5j7JCSP7ARArpuH591-229" value="Где еще используется?" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#B3B3B3;fontSize=12;fillColor=#FFCCFF;" vertex="1" parent="1">
           <mxGeometry x="2340" y="-2720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Qs5j7JCSP7ARArpuH591-233" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;fontSize=12;" edge="1" parent="1" source="Qs5j7JCSP7ARArpuH591-232" target="Qs5j7JCSP7ARArpuH591-212">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qs5j7JCSP7ARArpuH591-232" value="А они совпадают!" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="-1040" y="-4610" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
