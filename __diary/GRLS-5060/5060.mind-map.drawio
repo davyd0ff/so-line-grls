@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-25T06:11:28.542Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="IhUI4KoSFbERP8id5Bj7" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-25T06:12:25.840Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="S8EZQZuqnfZ6AFW7GUa0" version="20.5.3" type="github">
   <diagram id="qM3AAim5_I2P72xAHU8p" name="Страница 1">
     <mxGraphModel dx="2504" dy="4059" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1261,7 +1261,7 @@
           <mxGeometry x="4700" y="-3480" width="160" height="300" as="geometry" />
         </mxCell>
         <mxCell id="Qs5j7JCSP7ARArpuH591-46" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=10;" vertex="1" parent="Qs5j7JCSP7ARArpuH591-40">
-          <mxGeometry x="75" y="84" width="10" height="80" as="geometry" />
+          <mxGeometry x="75" y="84" width="10" height="106" as="geometry" />
         </mxCell>
         <mxCell id="Qs5j7JCSP7ARArpuH591-42" value="dispatch" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;rounded=0;strokeWidth=1;fontSize=10;curved=1;entryX=-0.089;entryY=-0.009;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Qs5j7JCSP7ARArpuH591-38" target="Qs5j7JCSP7ARArpuH591-43">
           <mxGeometry width="60" relative="1" as="geometry">
@@ -1298,6 +1298,19 @@
           <mxGeometry x="-0.5612" width="80" relative="1" as="geometry">
             <mxPoint x="4795" y="-3372.441" as="sourcePoint" />
             <mxPoint x="4965.69" y="-3372.441" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qs5j7JCSP7ARArpuH591-54" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;StateTransitionsConverter&lt;/font&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="5240" y="-3480" width="160" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="Qs5j7JCSP7ARArpuH591-55" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=10;" vertex="1" parent="Qs5j7JCSP7ARArpuH591-54">
+          <mxGeometry x="75" y="164" width="10" height="13" as="geometry" />
+        </mxCell>
+        <mxCell id="Qs5j7JCSP7ARArpuH591-56" value="ToMatrix()" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;strokeWidth=1;fontSize=12;curved=1;entryX=0.119;entryY=0.107;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="Qs5j7JCSP7ARArpuH591-46" target="Qs5j7JCSP7ARArpuH591-55">
+          <mxGeometry x="-0.5612" width="80" relative="1" as="geometry">
+            <mxPoint x="4795" y="-3337.7529999999997" as="sourcePoint" />
+            <mxPoint x="5136.85" y="-3337.7529999999997" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
