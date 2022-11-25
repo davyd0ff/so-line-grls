@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-25T10:26:45.878Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="K9IR0ti22jWZYsFm9HAf" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-25T10:26:54.727Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="nlTzTwW4JOQ2BnZsclmX" version="20.5.3" type="github">
   <diagram id="qM3AAim5_I2P72xAHU8p" name="Страница 1">
     <mxGraphModel dx="2303" dy="5098" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1783,7 +1783,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Qs5j7JCSP7ARArpuH591-212" value="#1&lt;br&gt;&lt;br&gt;&quot;Алиасы для InternalState это плохо&quot; - Евгений © ... &lt;br&gt;&lt;br&gt;надо сверить состояния ПЦ, КИ и Регистрация, выделить отличающиеся, если отличаются в падеже, то уточнить у Маши, принципиально ли... или можно подогнать к одному...&lt;br&gt;&lt;br&gt;Если Оставить надо и какие-то формулировки сильно отличаются, то надо будет дублировать состояния, изменяя коды, что скорее всего вызовет ГРАНДИОЗНЫЕ изменения в бэке, т.к. много логики построено на кодах" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="-1605" y="-4660" width="415" height="280" as="geometry" />
+          <mxGeometry x="-1640" y="-4640" width="415" height="280" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
