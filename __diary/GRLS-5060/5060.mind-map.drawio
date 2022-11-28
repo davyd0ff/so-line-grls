@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-28T07:27:41.995Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="NKRN2pIJI5rxy4U5fCT-" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-28T07:28:04.104Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="vi4KjIZ4sLD_UsaKWxGL" version="20.5.3" type="github">
   <diagram id="qM3AAim5_I2P72xAHU8p" name="Страница 1">
-    <mxGraphModel dx="2887" dy="6646" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3415" dy="6989" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2260,7 +2260,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Qs5j7JCSP7ARArpuH591-344" value="Новый запрос - это новая версия запросов МЗ" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#ffcccc;strokeColor=#36393d;fillStyle=solid;direction=west;gradientDirection=north;shadow=1;size=20;pointerEvents=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="311" y="-4314" width="195" height="90" as="geometry" />
+          <mxGeometry x="242.5" y="-4324" width="195" height="90" as="geometry" />
         </mxCell>
         <mxCell id="Qs5j7JCSP7ARArpuH591-345" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;fontSize=14;endArrow=block;endFill=1;" edge="1" parent="1" source="Qs5j7JCSP7ARArpuH591-344" target="Qs5j7JCSP7ARArpuH591-340">
           <mxGeometry relative="1" as="geometry">
@@ -2269,7 +2269,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Qs5j7JCSP7ARArpuH591-346" value="Как реализовать транзакции?" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="224" y="-4497" width="195" height="80.53" as="geometry" />
+          <mxGeometry x="187.5" y="-4514" width="195" height="80.53" as="geometry" />
         </mxCell>
         <mxCell id="Qs5j7JCSP7ARArpuH591-347" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;fontSize=14;endArrow=block;endFill=1;" edge="1" parent="1" source="Qs5j7JCSP7ARArpuH591-346" target="Qs5j7JCSP7ARArpuH591-340">
           <mxGeometry relative="1" as="geometry">
@@ -2281,19 +2281,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Qs5j7JCSP7ARArpuH591-348" value="Паттерн Декоратор?&lt;br&gt;&lt;br&gt;Каждую транзакцию оборачивать друг в друга?&amp;nbsp;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#cce5ff;strokeColor=#36393d;fillStyle=solid;direction=west;gradientDirection=north;shadow=1;size=20;pointerEvents=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="435" y="-4610" width="250" height="90" as="geometry" />
+          <mxGeometry x="350" y="-4640" width="250" height="90" as="geometry" />
         </mxCell>
         <mxCell id="Qs5j7JCSP7ARArpuH591-350" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;fontSize=14;endArrow=block;endFill=1;" edge="1" parent="1" source="Qs5j7JCSP7ARArpuH591-349" target="Qs5j7JCSP7ARArpuH591-348">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Qs5j7JCSP7ARArpuH591-349" value="Не возникнет ли ситуации - длинной цепочки декораторов?&lt;br&gt;&lt;br&gt;V1 -&amp;gt; V2 -&amp;gt; V3 -&amp;gt; ... -&amp;gt; Vn" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="688" y="-4736" width="226.5" height="80.53" as="geometry" />
+          <mxGeometry x="571.75" y="-4753" width="226.5" height="80.53" as="geometry" />
         </mxCell>
         <mxCell id="Qs5j7JCSP7ARArpuH591-355" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;fontSize=14;endArrow=block;endFill=1;" edge="1" parent="1" source="Qs5j7JCSP7ARArpuH591-354" target="Qs5j7JCSP7ARArpuH591-344">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Qs5j7JCSP7ARArpuH591-354" value="Для заявлений ЧС должны создаваться &quot;старые&quot; запросы" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="582" y="-4335" width="195" height="80.53" as="geometry" />
+          <mxGeometry x="500" y="-4319.27" width="195" height="80.53" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
