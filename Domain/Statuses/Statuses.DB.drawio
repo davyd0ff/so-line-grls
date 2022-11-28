@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-28T13:52:02.592Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="YeDDs3tTH1JSJCGyUZPh" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-28T13:55:26.873Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="nRdryyPof7x4aghJuXLQ" version="20.5.3" type="github">
   <diagram id="ILHaou0iku456T8hocgt" name="Страница 1">
-    <mxGraphModel dx="2378" dy="2012" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1457" dy="1858" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -459,7 +459,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="DyUEf33xcRlZPxyxMTB5-128" value="[dbo].[DocumentInernalStateDocumentTypeId]" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="1">
+        <mxCell id="DyUEf33xcRlZPxyxMTB5-128" value="[dbo].[DocumentInernalStateDocumentType]" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" vertex="1" parent="1">
           <mxGeometry x="800" y="-280" width="320" height="240" as="geometry" />
         </mxCell>
         <mxCell id="DyUEf33xcRlZPxyxMTB5-129" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="DyUEf33xcRlZPxyxMTB5-128">
