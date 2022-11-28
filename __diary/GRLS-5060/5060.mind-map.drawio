@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-28T07:41:05.206Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="TudLbPdAKtNCQJ3yiwSD" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-28T07:42:12.237Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="esDp9u8_U845dYfWouR5" version="20.5.3" type="github">
   <diagram id="qM3AAim5_I2P72xAHU8p" name="Страница 1">
     <mxGraphModel dx="3415" dy="6989" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2336,6 +2336,9 @@
         </mxCell>
         <mxCell id="Qs5j7JCSP7ARArpuH591-369" value="Где хранить эту версионность? &lt;br&gt;- К чему привязать? &lt;br&gt;- Хардкодить в коде?" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="-580" y="-5490" width="215.5" height="87" as="geometry" />
+        </mxCell>
+        <mxCell id="Qs5j7JCSP7ARArpuH591-371" value="Было бы круто использовать что-то типа&amp;nbsp;&lt;br&gt;/applicant-request/v3/&lt;br&gt;/applicant-request/v2/" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#f9f7ed;strokeColor=#36393d;fillStyle=solid;direction=west;gradientDirection=north;shadow=1;size=20;pointerEvents=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="-390" y="-5630" width="195" height="80.53" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
