@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-28T08:33:31.362Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="Pn2B9B6zWe6vdNOEyR4_" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-28T09:04:36.239Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="2z78YUnEPaL2g2gIziPd" version="20.5.3" type="github">
   <diagram id="qM3AAim5_I2P72xAHU8p" name="Страница 1">
-    <mxGraphModel dx="3105" dy="9125" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3415" dy="9327" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2212,7 +2212,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Qs5j7JCSP7ARArpuH591-319" value="Добавление нового типа документа? (StatementTypeList)&lt;br&gt;&lt;br&gt;тогда будет поле для нового URL" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#cce5ff;strokeColor=#36393d;fillStyle=solid;direction=west;gradientDirection=north;shadow=1;size=20;pointerEvents=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="-102" y="-4837" width="272" height="80.53" as="geometry" />
+          <mxGeometry x="870" y="-5049" width="272" height="80.53" as="geometry" />
         </mxCell>
         <mxCell id="Qs5j7JCSP7ARArpuH591-320" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;fontSize=14;endArrow=block;endFill=1;" edge="1" parent="1" source="Qs5j7JCSP7ARArpuH591-325" target="Qs5j7JCSP7ARArpuH591-308">
           <mxGeometry relative="1" as="geometry">
@@ -2221,7 +2221,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Qs5j7JCSP7ARArpuH591-321" value="Со временем все запросы могут переехать на новый процесс согласования" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="-70" y="-5102" width="195" height="80.53" as="geometry" />
+          <mxGeometry x="1072.5" y="-5260" width="195" height="80.53" as="geometry" />
         </mxCell>
         <mxCell id="Qs5j7JCSP7ARArpuH591-325" value="Добавление нового типа запроса?&lt;br&gt;&lt;br&gt;DefectApplicantRequest" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#cce5ff;strokeColor=#36393d;fillStyle=solid;direction=west;gradientDirection=north;shadow=1;size=20;pointerEvents=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="197" y="-4825" width="205.5" height="80.53" as="geometry" />
