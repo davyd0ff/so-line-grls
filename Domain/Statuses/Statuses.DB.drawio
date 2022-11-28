@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-28T13:49:48.062Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="c5Guz4npi_9PWAtRs7fz" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-28T13:50:44.218Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="pg6DgX01f4EekkhhsNhU" version="20.5.3" type="github">
   <diagram id="ILHaou0iku456T8hocgt" name="Страница 1">
     <mxGraphModel dx="2378" dy="2012" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -553,8 +553,8 @@
             <mxRectangle width="290" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="DyUEf33xcRlZPxyxMTB5-150" value="Внутренние состояния у типов документов" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="900" y="-320" width="260" height="30" as="geometry" />
+        <mxCell id="DyUEf33xcRlZPxyxMTB5-150" value="Внутренние состояния у типов документов&lt;br&gt;&lt;br&gt;Какие состояния есть у документов" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="850" y="-445" width="260" height="60" as="geometry" />
         </mxCell>
         <mxCell id="DyUEf33xcRlZPxyxMTB5-151" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1" source="DyUEf33xcRlZPxyxMTB5-150" target="DyUEf33xcRlZPxyxMTB5-128">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -653,8 +653,8 @@
             <mxRectangle width="250" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="DyUEf33xcRlZPxyxMTB5-178" value="Переходы внутренних состояний" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1220" y="-320" width="210" height="30" as="geometry" />
+        <mxCell id="DyUEf33xcRlZPxyxMTB5-178" value="Переходы внутренних состояний&lt;br&gt;&lt;br&gt;Из какого состояния и в какое возможен переход" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1155" y="-375" width="300" height="60" as="geometry" />
         </mxCell>
         <mxCell id="DyUEf33xcRlZPxyxMTB5-179" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1" source="DyUEf33xcRlZPxyxMTB5-178" target="DyUEf33xcRlZPxyxMTB5-156">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
