@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-28T13:58:05.423Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="WWaWVs_PbKD2_w3VP68u" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-28T13:58:32.807Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="zmMJ55q8Y__rLzpV4hys" version="20.5.3" type="github">
   <diagram id="ILHaou0iku456T8hocgt" name="Страница 1">
-    <mxGraphModel dx="1457" dy="1858" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1590" dy="2003" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -789,6 +789,18 @@
         </mxCell>
         <mxCell id="DyUEf33xcRlZPxyxMTB5-228" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="DyUEf33xcRlZPxyxMTB5-98" target="DyUEf33xcRlZPxyxMTB5-156">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DyUEf33xcRlZPxyxMTB5-229" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="DyUEf33xcRlZPxyxMTB5-135" target="DyUEf33xcRlZPxyxMTB5-205">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1490" y="-135" as="sourcePoint" />
+            <mxPoint x="1650" y="-329.9473684210525" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1160" y="-175" />
+              <mxPoint x="1160" y="-10" />
+              <mxPoint x="1580" y="-10" />
+              <mxPoint x="1580" y="-340" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
