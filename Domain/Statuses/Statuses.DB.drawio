@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-28T12:16:56.453Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="x7dFRFqxZRsyfBYQwxB8" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-28T12:18:14.596Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="mnQ07fEPwNUtnlEvf3KC" version="20.5.3" type="github">
   <diagram id="ILHaou0iku456T8hocgt" name="Страница 1">
     <mxGraphModel dx="1233" dy="801" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -58,6 +58,9 @@
           <mxGeometry x="30" width="250" height="30" as="geometry">
             <mxRectangle width="250" height="30" as="alternateBounds" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="DyUEf33xcRlZPxyxMTB5-14" value="Внешние состояния у типов документов" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="235" y="95" width="250" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
