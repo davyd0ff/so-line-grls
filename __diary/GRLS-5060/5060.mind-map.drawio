@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-28T07:30:38.970Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="5890rWg8kLQLsfGFc6bz" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-28T07:34:35.083Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="bouZ-URrnXbSRSTKO5eM" version="20.5.3" type="github">
   <diagram id="qM3AAim5_I2P72xAHU8p" name="Страница 1">
     <mxGraphModel dx="3415" dy="6989" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2143,7 +2143,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Qs5j7JCSP7ARArpuH591-307" value="Как отображать новый запрос?" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="-487" y="-4533" width="195" height="80.53" as="geometry" />
+          <mxGeometry x="-525" y="-4517" width="195" height="80.53" as="geometry" />
         </mxCell>
         <mxCell id="Qs5j7JCSP7ARArpuH591-308" value="Как отображать новый процесс согласования?" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="4" y="-4623.53" width="195" height="80.53" as="geometry" />
@@ -2321,6 +2321,9 @@
         </mxCell>
         <mxCell id="Qs5j7JCSP7ARArpuH591-361" value="Версионность типа документов?" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="-175" y="-5301" width="195" height="80.53" as="geometry" />
+        </mxCell>
+        <mxCell id="Qs5j7JCSP7ARArpuH591-365" value="Внешние состояния дублирую во внутренние состояния, чтобы заработал переход состояний" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#cdeb8b;strokeColor=#36393d;fillStyle=solid;direction=west;gradientDirection=north;shadow=1;size=20;pointerEvents=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="-852" y="-4346" width="195" height="80.53" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
