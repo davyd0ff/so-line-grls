@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-28T07:19:38.893Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="J3wGz9aqDLGRNS1DjrYh" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-28T07:22:10.983Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="7M8e9RFaangs7lJKp6MO" version="20.5.3" type="github">
   <diagram id="qM3AAim5_I2P72xAHU8p" name="Страница 1">
     <mxGraphModel dx="3105" dy="6787" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2261,6 +2261,24 @@
             <mxPoint x="188.89012605042035" y="-4495.47" as="sourcePoint" />
             <mxPoint x="61.109873949580106" y="-4219" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="Qs5j7JCSP7ARArpuH591-346" value="Как реализовать транзакции?" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="437" y="-4558" width="195" height="80.53" as="geometry" />
+        </mxCell>
+        <mxCell id="Qs5j7JCSP7ARArpuH591-347" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;fontSize=14;endArrow=block;endFill=1;" edge="1" parent="1" source="Qs5j7JCSP7ARArpuH591-346" target="Qs5j7JCSP7ARArpuH591-340">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="188.89012605042035" y="-4495.47" as="sourcePoint" />
+            <mxPoint x="61.109873949580106" y="-4219" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qs5j7JCSP7ARArpuH591-348" value="Паттерн Декоратор?&lt;br&gt;&lt;br&gt;Каждую транзакцию оборачивать друг в друга?&amp;nbsp;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#ffcccc;strokeColor=#36393d;fillStyle=solid;direction=west;gradientDirection=north;shadow=1;size=20;pointerEvents=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="750" y="-4610" width="250" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Qs5j7JCSP7ARArpuH591-350" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;fontSize=14;endArrow=block;endFill=1;" edge="1" parent="1" source="Qs5j7JCSP7ARArpuH591-349" target="Qs5j7JCSP7ARArpuH591-348">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qs5j7JCSP7ARArpuH591-349" value="Не возникнет ли ситуации - длинной цепочки декораторов?&lt;br&gt;&lt;br&gt;V1 -&amp;gt; V2 -&amp;gt; V3 -&amp;gt; ... -&amp;gt; Vn" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1097.5" y="-4748.47" width="195" height="80.53" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
