@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-28T07:11:22.841Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="t3MW9G9lB-guph0ZY2TJ" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-28T07:12:05.349Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="ZMSP9GMnt9IYvRLHvW40" version="20.5.3" type="github">
   <diagram id="qM3AAim5_I2P72xAHU8p" name="Страница 1">
     <mxGraphModel dx="3105" dy="6787" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2188,6 +2188,21 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-171.95913669064748" y="-4837" as="sourcePoint" />
             <mxPoint x="-251.04086330935252" y="-4895.47" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qs5j7JCSP7ARArpuH591-321" value="Со временем все запросы могут переехать на новый процесс согласования" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="-114.5" y="-5173" width="195" height="80.53" as="geometry" />
+        </mxCell>
+        <mxCell id="Qs5j7JCSP7ARArpuH591-322" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;fontSize=14;endArrow=none;endFill=0;" edge="1" parent="1" source="Qs5j7JCSP7ARArpuH591-319" target="Qs5j7JCSP7ARArpuH591-321">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-86.81529310344831" y="-4837" as="sourcePoint" />
+            <mxPoint x="-37.68470689655214" y="-4901.47" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qs5j7JCSP7ARArpuH591-323" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;fontSize=14;endArrow=none;endFill=0;" edge="1" parent="1" source="Qs5j7JCSP7ARArpuH591-309" target="Qs5j7JCSP7ARArpuH591-321">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="13.132500000000164" y="-4982" as="sourcePoint" />
+            <mxPoint x="77.36749999999984" y="-5110.47" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
