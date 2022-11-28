@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-28T07:30:25.185Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="kMCEfU9siYKx9CtWvojd" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-28T07:30:38.970Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="5890rWg8kLQLsfGFc6bz" version="20.5.3" type="github">
   <diagram id="qM3AAim5_I2P72xAHU8p" name="Страница 1">
     <mxGraphModel dx="3415" dy="6989" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2182,7 +2182,7 @@
           <mxGeometry x="197" y="-4825" width="205.5" height="80.53" as="geometry" />
         </mxCell>
         <mxCell id="Qs5j7JCSP7ARArpuH591-326" value="Может возникнуть ситуация когда будут актуальны версии 3 и 4, для каждого типа документа&amp;nbsp;&lt;br&gt;(StatementTypeList)&lt;br&gt;&lt;br&gt;например... для запросов КИ будет актуальна версия 3, для запросов ПЦ - 2, а для запросов МР - 4&lt;br&gt;(Может начаться путаница)" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="-540" y="-5084" width="295" height="153" as="geometry" />
+          <mxGeometry x="-678" y="-5062" width="295" height="153" as="geometry" />
         </mxCell>
         <mxCell id="Qs5j7JCSP7ARArpuH591-331" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;fontSize=14;endArrow=block;endFill=1;" edge="1" parent="1" source="Qs5j7JCSP7ARArpuH591-321" target="Qs5j7JCSP7ARArpuH591-325">
           <mxGeometry relative="1" as="geometry">
@@ -2304,14 +2304,23 @@
         <mxCell id="Qs5j7JCSP7ARArpuH591-356" value="Решение: Версионность?" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#cdeb8b;strokeColor=#36393d;fillStyle=solid;direction=west;gradientDirection=north;shadow=1;size=20;pointerEvents=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="379" y="-5139" width="221" height="69" as="geometry" />
         </mxCell>
+        <mxCell id="Qs5j7JCSP7ARArpuH591-362" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;fontSize=14;endArrow=block;endFill=1;" edge="1" parent="1" source="Qs5j7JCSP7ARArpuH591-359" target="Qs5j7JCSP7ARArpuH591-309">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Qs5j7JCSP7ARArpuH591-359" value="Версионность страницы?" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="-502" y="-5321" width="195" height="80.53" as="geometry" />
+          <mxGeometry x="-541" y="-5301" width="195" height="80.53" as="geometry" />
+        </mxCell>
+        <mxCell id="Qs5j7JCSP7ARArpuH591-363" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;fontSize=14;endArrow=block;endFill=1;" edge="1" parent="1" source="Qs5j7JCSP7ARArpuH591-360" target="Qs5j7JCSP7ARArpuH591-309">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Qs5j7JCSP7ARArpuH591-360" value="Версионность запросов?" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="-277" y="-5377" width="195" height="80.53" as="geometry" />
+          <mxGeometry x="-355" y="-5400" width="195" height="80.53" as="geometry" />
+        </mxCell>
+        <mxCell id="Qs5j7JCSP7ARArpuH591-364" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;fontSize=14;endArrow=block;endFill=1;" edge="1" parent="1" source="Qs5j7JCSP7ARArpuH591-361" target="Qs5j7JCSP7ARArpuH591-309">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Qs5j7JCSP7ARArpuH591-361" value="Версионность типа документов?" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="-42" y="-5324" width="195" height="80.53" as="geometry" />
+          <mxGeometry x="-175" y="-5301" width="195" height="80.53" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
