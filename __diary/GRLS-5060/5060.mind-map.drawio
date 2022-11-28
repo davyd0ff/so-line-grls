@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-28T07:14:16.733Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="v1gBoUOYXPlSr267yZ4x" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-28T07:15:14.520Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="NifwnUrWazdSo8dSApQA" version="20.5.3" type="github">
   <diagram id="qM3AAim5_I2P72xAHU8p" name="Страница 1">
     <mxGraphModel dx="3105" dy="6787" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2181,7 +2181,7 @@
             <mxPoint x="-165.49540791402023" y="-4756.47" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Qs5j7JCSP7ARArpuH591-319" value="Добавление нового типа документов? (StatementTypeList)&lt;br&gt;&lt;br&gt;тогда будет поле для нового URL" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#cce5ff;strokeColor=#36393d;fillStyle=solid;direction=west;gradientDirection=north;shadow=1;size=20;pointerEvents=1;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="Qs5j7JCSP7ARArpuH591-319" value="Добавление нового типа документа? (StatementTypeList)&lt;br&gt;&lt;br&gt;тогда будет поле для нового URL" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#cce5ff;strokeColor=#36393d;fillStyle=solid;direction=west;gradientDirection=north;shadow=1;size=20;pointerEvents=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="-153" y="-4992" width="272" height="80.53" as="geometry" />
         </mxCell>
         <mxCell id="Qs5j7JCSP7ARArpuH591-320" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;fontSize=14;endArrow=none;endFill=0;" edge="1" parent="1" source="Qs5j7JCSP7ARArpuH591-308" target="Qs5j7JCSP7ARArpuH591-319">
@@ -2211,16 +2211,22 @@
             <mxPoint x="-165.49540791402023" y="-4756.47" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Qs5j7JCSP7ARArpuH591-325" value="Добавление версионности запросов ?" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#cce5ff;strokeColor=#36393d;fillStyle=solid;direction=west;gradientDirection=north;shadow=1;size=20;pointerEvents=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="162" y="-4986" width="195" height="80.53" as="geometry" />
+        <mxCell id="Qs5j7JCSP7ARArpuH591-325" value="Добавление нового типа запроса?&lt;br&gt;&lt;br&gt;DefectApplicantRequest" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#cce5ff;strokeColor=#36393d;fillStyle=solid;direction=west;gradientDirection=north;shadow=1;size=20;pointerEvents=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="150" y="-4998" width="205.5" height="80.53" as="geometry" />
         </mxCell>
         <mxCell id="Qs5j7JCSP7ARArpuH591-326" value="Может возникнуть ситуация когда что будут актуальны версия 3 и версия 4, для каждого типа документа&amp;nbsp;&lt;br&gt;(StatementTypeList)" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="-765" y="-5062" width="220" height="94" as="geometry" />
+          <mxGeometry x="-728" y="-5049" width="220" height="94" as="geometry" />
         </mxCell>
         <mxCell id="Qs5j7JCSP7ARArpuH591-327" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;fontSize=14;endArrow=none;endFill=0;" edge="1" parent="1" source="Qs5j7JCSP7ARArpuH591-309" target="Qs5j7JCSP7ARArpuH591-326">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-183.15744534133773" y="-4837" as="sourcePoint" />
             <mxPoint x="-227.18454143511963" y="-4864" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qs5j7JCSP7ARArpuH591-328" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;fontSize=14;endArrow=none;endFill=0;" edge="1" parent="1" source="Qs5j7JCSP7ARArpuH591-325" target="Qs5j7JCSP7ARArpuH591-321">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-7.000000000000455" y="-4982" as="sourcePoint" />
+            <mxPoint x="-7.000000000000455" y="-5082.47" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
