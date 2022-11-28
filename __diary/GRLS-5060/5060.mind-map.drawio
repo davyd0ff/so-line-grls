@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-28T08:20:52.433Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="epkp0OU_ae-wVM6_1AZP" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-28T08:21:56.917Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="3wT1JdgK6T2lPwNCk1xH" version="20.5.3" type="github">
   <diagram id="qM3AAim5_I2P72xAHU8p" name="Страница 1">
-    <mxGraphModel dx="3551" dy="8246" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2952" dy="7857" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2227,7 +2227,7 @@
           <mxGeometry x="197" y="-4825" width="205.5" height="80.53" as="geometry" />
         </mxCell>
         <mxCell id="Qs5j7JCSP7ARArpuH591-326" value="Может возникнуть ситуация когда будут актуальны версии 3 и 4, для каждого типа документа&amp;nbsp;&lt;br&gt;(StatementTypeList)&lt;br&gt;&lt;br&gt;например... для запросов КИ будет актуальна версия 3, для запросов ПЦ - 2, а для запросов МР - 4&lt;br&gt;(Может начаться путаница)" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="-678" y="-5062" width="295" height="153" as="geometry" />
+          <mxGeometry x="-877" y="-5742" width="295" height="153" as="geometry" />
         </mxCell>
         <mxCell id="Qs5j7JCSP7ARArpuH591-331" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;fontSize=14;endArrow=block;endFill=1;" edge="1" parent="1" source="Qs5j7JCSP7ARArpuH591-321" target="Qs5j7JCSP7ARArpuH591-325">
           <mxGeometry relative="1" as="geometry">
@@ -2247,7 +2247,7 @@
             <mxPoint x="-7.000000000000455" y="-4982" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Qs5j7JCSP7ARArpuH591-334" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;fontSize=14;endArrow=block;endFill=1;" edge="1" parent="1" source="Qs5j7JCSP7ARArpuH591-326" target="Qs5j7JCSP7ARArpuH591-309">
+        <mxCell id="Qs5j7JCSP7ARArpuH591-334" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;fontSize=14;endArrow=block;endFill=1;" edge="1" parent="1" source="Qs5j7JCSP7ARArpuH591-326" target="Qs5j7JCSP7ARArpuH591-360">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-68.86671023750205" y="-5082.47" as="sourcePoint" />
             <mxPoint x="-232.45664290823015" y="-4976" as="targetPoint" />
@@ -2359,7 +2359,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Qs5j7JCSP7ARArpuH591-361" value="Версионность типа документов?&lt;br&gt;&lt;br&gt;(StatementTypeList)" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="-152" y="-5183" width="195" height="80.53" as="geometry" />
+          <mxGeometry x="90" y="-5691" width="195" height="80.53" as="geometry" />
         </mxCell>
         <mxCell id="Qs5j7JCSP7ARArpuH591-365" value="РЕШЕНИЕ&lt;br&gt;&lt;br&gt;Внешние состояния дублирую во внутренние состояния, чтобы&amp;nbsp;заработал переход состояний" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#cdeb8b;strokeColor=#36393d;fillStyle=solid;direction=west;gradientDirection=north;shadow=1;size=20;pointerEvents=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="-1177" y="-4889" width="288" height="117" as="geometry" />
@@ -2383,6 +2383,9 @@
           <mxGeometry x="-585" y="-6039" width="195" height="80.53" as="geometry" />
         </mxCell>
         <mxCell id="Qs5j7JCSP7ARArpuH591-375" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;fontSize=14;endArrow=block;endFill=1;" edge="1" parent="1" source="Qs5j7JCSP7ARArpuH591-374" target="Qs5j7JCSP7ARArpuH591-371">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qs5j7JCSP7ARArpuH591-427" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1;fontSize=14;endArrow=block;endFill=1;" edge="1" parent="1" source="Qs5j7JCSP7ARArpuH591-374" target="Qs5j7JCSP7ARArpuH591-361">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Qs5j7JCSP7ARArpuH591-374" value="Как реестр будет создавать запрос и указывать версионность?" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;fontSize=14;" vertex="1" parent="1">
