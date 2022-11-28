@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-28T07:16:56.691Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="4QsBB0jcEYRSqS7djPgx" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-28T07:17:44.020Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="aINRnQ2kXYqTOnWjdQJ-" version="20.5.3" type="github">
   <diagram id="qM3AAim5_I2P72xAHU8p" name="Страница 1">
     <mxGraphModel dx="3105" dy="6787" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2152,7 +2152,7 @@
           <mxGeometry x="-439" y="-4986" width="221" height="112" as="geometry" />
         </mxCell>
         <mxCell id="Qs5j7JCSP7ARArpuH591-312" value="Старый код отображения запросов должен сохраниться&lt;br&gt;&lt;br&gt;т.к. должен отображаться старый процесс согласования" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#ffcccc;strokeColor=#36393d;fillStyle=solid;direction=west;gradientDirection=north;shadow=1;size=20;pointerEvents=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="-895" y="-4268" width="228" height="124" as="geometry" />
+          <mxGeometry x="372.5" y="-4748.47" width="228" height="124" as="geometry" />
         </mxCell>
         <mxCell id="Qs5j7JCSP7ARArpuH591-313" value="Новая универсальная страница для всех запросов ?" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#cce5ff;strokeColor=#36393d;fillStyle=solid;direction=west;gradientDirection=north;shadow=1;size=20;pointerEvents=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="-399" y="-4699" width="177" height="91.58" as="geometry" />
@@ -2234,6 +2234,12 @@
             <mxPoint x="-335.37294693378226" y="-4597.42" as="sourcePoint" />
             <mxPoint x="-394.3348065453433" y="-4520" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="Qs5j7JCSP7ARArpuH591-340" value="Как отображать новый запрос?" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="-184" y="-4385" width="195" height="80.53" as="geometry" />
+        </mxCell>
+        <mxCell id="Qs5j7JCSP7ARArpuH591-341" value="Каким образом открывать старые страницы?" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="575" y="-4879" width="195" height="80.53" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
