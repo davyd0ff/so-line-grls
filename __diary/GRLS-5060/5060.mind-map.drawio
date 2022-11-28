@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-28T08:12:56.095Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="6CNT_fMrYleGxt1cFRDn" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-28T08:13:44.893Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="3F3PnhklaoMUFFXU1m4d" version="20.5.3" type="github">
   <diagram id="qM3AAim5_I2P72xAHU8p" name="Страница 1">
     <mxGraphModel dx="2726" dy="7711" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2467,6 +2467,12 @@
         </mxCell>
         <mxCell id="Qs5j7JCSP7ARArpuH591-409" value="Как кабинет эксперта будет знать про версионность задания? Ведь он получает Document? (вроде как...)" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="-24" y="-5958" width="215.5" height="87" as="geometry" />
+        </mxCell>
+        <mxCell id="Qs5j7JCSP7ARArpuH591-414" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1;fontSize=14;endArrow=block;endFill=1;" edge="1" parent="1" source="Qs5j7JCSP7ARArpuH591-413" target="Qs5j7JCSP7ARArpuH591-354">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Qs5j7JCSP7ARArpuH591-413" value="Получается ... что Заявление &quot;должно знать&quot; какой версии создавать запросы?" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="680" y="-4185" width="195" height="80.53" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
