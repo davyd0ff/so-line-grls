@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-28T07:22:15.726Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="4SKspMHZt5cNlvd9jnNz" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-28T07:22:46.531Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="kHW4gbQZYJlo9yZmDirW" version="20.5.3" type="github">
   <diagram id="qM3AAim5_I2P72xAHU8p" name="Страница 1">
-    <mxGraphModel dx="3105" dy="6787" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3415" dy="6989" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2151,8 +2151,11 @@
         <mxCell id="Qs5j7JCSP7ARArpuH591-309" value="Добавление версионности запросов ?&lt;br&gt;&lt;br&gt;тогда надо будет создавать отдельную таблицу для отображения URL" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#cce5ff;strokeColor=#36393d;fillStyle=solid;direction=west;gradientDirection=north;shadow=1;size=20;pointerEvents=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="-439" y="-4986" width="221" height="112" as="geometry" />
         </mxCell>
+        <mxCell id="Qs5j7JCSP7ARArpuH591-352" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;fontSize=14;endArrow=block;endFill=1;" edge="1" parent="1" source="Qs5j7JCSP7ARArpuH591-312" target="Qs5j7JCSP7ARArpuH591-307">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Qs5j7JCSP7ARArpuH591-312" value="Старый код отображения запросов должен сохраниться&lt;br&gt;&lt;br&gt;т.к. должен отображаться старый процесс согласования" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#ffcccc;strokeColor=#36393d;fillStyle=solid;direction=west;gradientDirection=north;shadow=1;size=20;pointerEvents=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="372.5" y="-4748.47" width="228" height="124" as="geometry" />
+          <mxGeometry x="-660" y="-4721.42" width="228" height="124" as="geometry" />
         </mxCell>
         <mxCell id="Qs5j7JCSP7ARArpuH591-313" value="Новая универсальная страница для всех запросов ?" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#cce5ff;strokeColor=#36393d;fillStyle=solid;direction=west;gradientDirection=north;shadow=1;size=20;pointerEvents=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="-300" y="-4689" width="177" height="91.58" as="geometry" />
@@ -2270,6 +2273,9 @@
             <mxPoint x="188.89012605042035" y="-4495.47" as="sourcePoint" />
             <mxPoint x="61.109873949580106" y="-4219" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="Qs5j7JCSP7ARArpuH591-351" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;fontSize=14;endArrow=block;endFill=1;" edge="1" parent="1" source="Qs5j7JCSP7ARArpuH591-348" target="Qs5j7JCSP7ARArpuH591-346">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Qs5j7JCSP7ARArpuH591-348" value="Паттерн Декоратор?&lt;br&gt;&lt;br&gt;Каждую транзакцию оборачивать друг в друга?&amp;nbsp;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#ffcccc;strokeColor=#36393d;fillStyle=solid;direction=west;gradientDirection=north;shadow=1;size=20;pointerEvents=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="750" y="-4610" width="250" height="90" as="geometry" />
