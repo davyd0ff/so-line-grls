@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-28T08:31:46.645Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="KL3Sni23qAl81n-XAnTb" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-28T08:32:20.491Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="VeeaJ7J110-0DRF0Tkda" version="20.5.3" type="github">
   <diagram id="qM3AAim5_I2P72xAHU8p" name="Страница 1">
     <mxGraphModel dx="3105" dy="9125" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2535,7 +2535,7 @@
         <mxCell id="Qs5j7JCSP7ARArpuH591-435" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1;fontSize=14;endArrow=block;endFill=1;" edge="1" parent="1" source="Qs5j7JCSP7ARArpuH591-434" target="Qs5j7JCSP7ARArpuH591-430">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Qs5j7JCSP7ARArpuH591-434" value="Либо должна быть таблица для связывания типа заявления с типом и версионностью запроса ..." style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#cce5ff;strokeColor=#36393d;fillStyle=solid;direction=west;gradientDirection=north;shadow=1;size=20;pointerEvents=1;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="Qs5j7JCSP7ARArpuH591-434" value="Либо должна быть таблица для связывания типа заявления (и версионностью) с типом и (версионностью) запроса ..." style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#cce5ff;strokeColor=#36393d;fillStyle=solid;direction=west;gradientDirection=north;shadow=1;size=20;pointerEvents=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="91" y="-6977" width="267" height="111" as="geometry" />
         </mxCell>
         <mxCell id="Qs5j7JCSP7ARArpuH591-437" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1;fontSize=14;endArrow=block;endFill=1;" edge="1" parent="1" source="Qs5j7JCSP7ARArpuH591-436" target="Qs5j7JCSP7ARArpuH591-434">
