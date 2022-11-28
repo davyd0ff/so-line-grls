@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-28T08:22:31.596Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="_zbrQbK7P1k2Jj8avANY" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-28T08:25:29.767Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="Af90VvrOp7ojZSq3VwoA" version="20.5.3" type="github">
   <diagram id="qM3AAim5_I2P72xAHU8p" name="Страница 1">
-    <mxGraphModel dx="2952" dy="7857" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2476" dy="7548" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2379,8 +2379,8 @@
         <mxCell id="Qs5j7JCSP7ARArpuH591-373" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;fontSize=14;endArrow=block;endFill=1;" edge="1" parent="1" source="Qs5j7JCSP7ARArpuH591-371" target="Qs5j7JCSP7ARArpuH591-360">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Qs5j7JCSP7ARArpuH591-371" value="Было бы круто использовать что-то типа&amp;nbsp;&lt;br&gt;.../applicant-request/v3/...&lt;br&gt;.../applicant-request/v2/..." style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#cce5ff;strokeColor=#36393d;fillStyle=solid;direction=west;gradientDirection=north;shadow=1;size=20;pointerEvents=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="-585" y="-6039" width="195" height="80.53" as="geometry" />
+        <mxCell id="Qs5j7JCSP7ARArpuH591-371" value="Было бы круто использовать что-то типа&amp;nbsp;&lt;br&gt;.../grls/mr/applicant-request/v3/...&lt;br&gt;.../grls/mr/applicant-request/v2/...&lt;br&gt;.../grls/ci/applicant-request/v2/...&lt;br&gt;.../grls/lp/applicant-request/v1/..." style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#cce5ff;strokeColor=#36393d;fillStyle=solid;direction=west;gradientDirection=north;shadow=1;size=20;pointerEvents=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="-585" y="-6039" width="334" height="93" as="geometry" />
         </mxCell>
         <mxCell id="Qs5j7JCSP7ARArpuH591-375" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;fontSize=14;endArrow=block;endFill=1;" edge="1" parent="1" source="Qs5j7JCSP7ARArpuH591-374" target="Qs5j7JCSP7ARArpuH591-371">
           <mxGeometry relative="1" as="geometry" />
