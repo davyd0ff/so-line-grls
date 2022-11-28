@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-28T07:09:31.305Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="3j1_Jqxp691RX9lrmNPH" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-28T07:09:47.974Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="tYKfPRjoG9DfoH5SFDBM" version="20.5.3" type="github">
   <diagram id="qM3AAim5_I2P72xAHU8p" name="Страница 1">
     <mxGraphModel dx="3105" dy="6787" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2149,7 +2149,7 @@
           <mxGeometry x="-532.5" y="-4530" width="195" height="80.53" as="geometry" />
         </mxCell>
         <mxCell id="Qs5j7JCSP7ARArpuH591-308" value="Как отображать новый процесс согласования?" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="-257" y="-4830" width="195" height="80.53" as="geometry" />
+          <mxGeometry x="-225" y="-4847" width="195" height="80.53" as="geometry" />
         </mxCell>
         <mxCell id="Qs5j7JCSP7ARArpuH591-309" value="Добавление версионности запросов ?" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="-570" y="-4371" width="195" height="80.53" as="geometry" />
@@ -2168,6 +2168,18 @@
         </mxCell>
         <mxCell id="Qs5j7JCSP7ARArpuH591-314" value="Универсальная страница запроса в рамках потока ?" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#cdeb8b;strokeColor=#36393d;fillStyle=solid;direction=west;gradientDirection=north;shadow=1;size=20;pointerEvents=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="-222" y="-4583.05" width="190" height="91.58" as="geometry" />
+        </mxCell>
+        <mxCell id="Qs5j7JCSP7ARArpuH591-316" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;fontSize=14;endArrow=none;endFill=0;" edge="1" parent="1" source="Qs5j7JCSP7ARArpuH591-307" target="Qs5j7JCSP7ARArpuH591-314">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-394.3348065453433" y="-4520" as="sourcePoint" />
+            <mxPoint x="-335.37294693378226" y="-4597.42" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qs5j7JCSP7ARArpuH591-317" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;fontSize=14;endArrow=none;endFill=0;" edge="1" parent="1" source="Qs5j7JCSP7ARArpuH591-313" target="Qs5j7JCSP7ARArpuH591-308">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-394.3348065453433" y="-4520" as="sourcePoint" />
+            <mxPoint x="-335.37294693378226" y="-4597.42" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
