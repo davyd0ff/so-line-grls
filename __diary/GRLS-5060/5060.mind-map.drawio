@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-28T08:19:44.672Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="ZgEoW3WPymF3TVH_e04D" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-28T08:20:52.433Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="epkp0OU_ae-wVM6_1AZP" version="20.5.3" type="github">
   <diagram id="qM3AAim5_I2P72xAHU8p" name="Страница 1">
-    <mxGraphModel dx="2952" dy="7857" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3551" dy="8246" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2338,7 +2338,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Qs5j7JCSP7ARArpuH591-354" value="Для заявлений ЧС должны создаваться &quot;старые&quot; запросы" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#ffcc99;strokeColor=#36393d;fillStyle=solid;direction=west;gradientDirection=north;shadow=1;size=20;pointerEvents=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="-251" y="-5905" width="195" height="80.53" as="geometry" />
+          <mxGeometry x="-307" y="-6547" width="195" height="80.53" as="geometry" />
         </mxCell>
         <mxCell id="Qs5j7JCSP7ARArpuH591-356" value="Решение: Версионность?&lt;br&gt;&lt;br&gt;Роутинг настроен на отображение страницы по версии запроса" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#cdeb8b;strokeColor=#36393d;fillStyle=solid;direction=west;gradientDirection=north;shadow=1;size=20;pointerEvents=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="382.5" y="-5309" width="379" height="112" as="geometry" />
@@ -2353,7 +2353,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Qs5j7JCSP7ARArpuH591-360" value="Версионность запросов?&lt;br&gt;&lt;br&gt;(DocRequestType)" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="-345" y="-5282" width="195" height="80.53" as="geometry" />
+          <mxGeometry x="-372" y="-5696" width="195" height="80.53" as="geometry" />
         </mxCell>
         <mxCell id="Qs5j7JCSP7ARArpuH591-364" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;fontSize=14;endArrow=block;endFill=1;" edge="1" parent="1" source="Qs5j7JCSP7ARArpuH591-361" target="Qs5j7JCSP7ARArpuH591-309">
           <mxGeometry relative="1" as="geometry" />
@@ -2368,43 +2368,43 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Qs5j7JCSP7ARArpuH591-366" value="Даст возможность запускать необходимую версию транзакции !" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#eeeeee;strokeColor=#36393d;fillStyle=solid;direction=west;gradientDirection=north;shadow=1;size=20;pointerEvents=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="-705" y="-5251" width="195" height="80.53" as="geometry" />
+          <mxGeometry x="-761" y="-5893" width="195" height="80.53" as="geometry" />
         </mxCell>
         <mxCell id="Qs5j7JCSP7ARArpuH591-372" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;fontSize=14;endArrow=block;endFill=1;" edge="1" parent="1" source="Qs5j7JCSP7ARArpuH591-369" target="Qs5j7JCSP7ARArpuH591-371">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Qs5j7JCSP7ARArpuH591-369" value="Где хранить эту версионность? &lt;br&gt;- К чему привязать? &lt;br&gt;- Хардкодить в коде?" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="-660" y="-5595" width="215.5" height="87" as="geometry" />
+          <mxGeometry x="-716" y="-6237" width="215.5" height="87" as="geometry" />
         </mxCell>
         <mxCell id="Qs5j7JCSP7ARArpuH591-373" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;fontSize=14;endArrow=block;endFill=1;" edge="1" parent="1" source="Qs5j7JCSP7ARArpuH591-371" target="Qs5j7JCSP7ARArpuH591-360">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Qs5j7JCSP7ARArpuH591-371" value="Было бы круто использовать что-то типа&amp;nbsp;&lt;br&gt;.../applicant-request/v3/...&lt;br&gt;.../applicant-request/v2/..." style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#cce5ff;strokeColor=#36393d;fillStyle=solid;direction=west;gradientDirection=north;shadow=1;size=20;pointerEvents=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="-529" y="-5397" width="195" height="80.53" as="geometry" />
+          <mxGeometry x="-585" y="-6039" width="195" height="80.53" as="geometry" />
         </mxCell>
         <mxCell id="Qs5j7JCSP7ARArpuH591-375" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;fontSize=14;endArrow=block;endFill=1;" edge="1" parent="1" source="Qs5j7JCSP7ARArpuH591-374" target="Qs5j7JCSP7ARArpuH591-371">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Qs5j7JCSP7ARArpuH591-374" value="Как реестр будет создавать запрос и указывать версионность?" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="-379" y="-5611" width="215.5" height="87" as="geometry" />
+          <mxGeometry x="-435" y="-6253" width="215.5" height="87" as="geometry" />
         </mxCell>
         <mxCell id="Qs5j7JCSP7ARArpuH591-377" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;fontSize=14;endArrow=block;endFill=1;" edge="1" parent="1" source="Qs5j7JCSP7ARArpuH591-376" target="Qs5j7JCSP7ARArpuH591-371">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Qs5j7JCSP7ARArpuH591-376" value="Чтобы так можно было отображать, моделька должна знать свою версию&lt;br&gt;- version" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#cce5ff;strokeColor=#36393d;fillStyle=solid;direction=west;gradientDirection=north;shadow=1;size=20;pointerEvents=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="-889" y="-5533" width="195" height="80.53" as="geometry" />
+          <mxGeometry x="-945" y="-6175" width="195" height="80.53" as="geometry" />
         </mxCell>
         <mxCell id="Qs5j7JCSP7ARArpuH591-379" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;fontSize=14;endArrow=block;endFill=1;" edge="1" parent="1" source="Qs5j7JCSP7ARArpuH591-378" target="Qs5j7JCSP7ARArpuH591-376">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Qs5j7JCSP7ARArpuH591-378" value="А это получается версионность должна быть на уровне данных из таблицы DocRequest" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#cce5ff;strokeColor=#36393d;fillStyle=solid;direction=west;gradientDirection=north;shadow=1;size=20;pointerEvents=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="-1161" y="-5502" width="195" height="80.53" as="geometry" />
+          <mxGeometry x="-1217" y="-6144" width="195" height="80.53" as="geometry" />
         </mxCell>
         <mxCell id="Qs5j7JCSP7ARArpuH591-381" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;fontSize=14;endArrow=block;endFill=1;" edge="1" parent="1" source="Qs5j7JCSP7ARArpuH591-380" target="Qs5j7JCSP7ARArpuH591-374">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Qs5j7JCSP7ARArpuH591-380" value="Тут получается что версионность должна быть на уровне типа документа (StatementType)" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#cce5ff;strokeColor=#36393d;fillStyle=solid;direction=west;gradientDirection=north;shadow=1;size=20;pointerEvents=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="-243" y="-5755" width="195" height="80.53" as="geometry" />
+          <mxGeometry x="-299" y="-6397" width="195" height="80.53" as="geometry" />
         </mxCell>
         <mxCell id="Qs5j7JCSP7ARArpuH591-382" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=195;exitDy=20;exitPerimeter=0;strokeWidth=1;fontSize=14;endArrow=block;endFill=1;" edge="1" parent="1" source="Qs5j7JCSP7ARArpuH591-380" target="Qs5j7JCSP7ARArpuH591-380">
           <mxGeometry relative="1" as="geometry" />
@@ -2416,63 +2416,67 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Qs5j7JCSP7ARArpuH591-383" value="Получается что уже должно быть 2 версионности ?&amp;nbsp;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="-799" y="-5816" width="215.5" height="87" as="geometry" />
+          <mxGeometry x="-855" y="-6458" width="215.5" height="87" as="geometry" />
         </mxCell>
         <mxCell id="Qs5j7JCSP7ARArpuH591-387" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;fontSize=14;endArrow=block;endFill=1;" edge="1" parent="1" source="Qs5j7JCSP7ARArpuH591-386" target="Qs5j7JCSP7ARArpuH591-360">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Qs5j7JCSP7ARArpuH591-386" value="Если добавлять столбец Version, то значения версионности можно взять из Заявления, к которому создается запрос" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#eeeeee;strokeColor=#36393d;fillStyle=solid;direction=west;gradientDirection=north;shadow=1;size=20;pointerEvents=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="-48" y="-5468" width="251" height="86" as="geometry" />
+          <mxGeometry x="-104" y="-6110" width="251" height="86" as="geometry" />
         </mxCell>
         <mxCell id="Qs5j7JCSP7ARArpuH591-396" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1;fontSize=14;endArrow=block;endFill=1;" edge="1" parent="1" source="Qs5j7JCSP7ARArpuH591-397" target="Qs5j7JCSP7ARArpuH591-376">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-938.0384325793041" y="-5374" as="sourcePoint" />
+            <mxPoint x="-994.0384325793041" y="-6016" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Qs5j7JCSP7ARArpuH591-397" value="Страница тоже должна знать про версионность ?" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="-1060" y="-5382" width="215.5" height="87" as="geometry" />
+          <mxGeometry x="-1116" y="-6024" width="215.5" height="87" as="geometry" />
         </mxCell>
         <mxCell id="Qs5j7JCSP7ARArpuH591-399" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1;fontSize=14;endArrow=block;endFill=1;" edge="1" parent="1" source="Qs5j7JCSP7ARArpuH591-398" target="Qs5j7JCSP7ARArpuH591-397">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1110.5068063895528" y="-5852.47" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="Qs5j7JCSP7ARArpuH591-398" value="Скорее всего нет... модельки будут содержать версионность внутри&amp;nbsp;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#cce5ff;strokeColor=#36393d;fillStyle=solid;direction=west;gradientDirection=north;shadow=1;size=20;pointerEvents=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="-1197" y="-5210.47" width="215.5" height="87" as="geometry" />
+          <mxGeometry x="-1262" y="-5848" width="215.5" height="87" as="geometry" />
         </mxCell>
         <mxCell id="Qs5j7JCSP7ARArpuH591-401" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1;fontSize=14;endArrow=block;endFill=1;" edge="1" parent="1" source="Qs5j7JCSP7ARArpuH591-400" target="Qs5j7JCSP7ARArpuH591-398">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1215.0185864278546" y="-5852.47" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="Qs5j7JCSP7ARArpuH591-400" value="А как страница будет менять поведение?&lt;br&gt;&lt;br&gt;Например, отображать согласование ... и соответственно вызывать нужные апи-методы" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="-1444" y="-5340" width="294" height="87" as="geometry" />
+          <mxGeometry x="-1500" y="-5982" width="294" height="87" as="geometry" />
         </mxCell>
         <mxCell id="Qs5j7JCSP7ARArpuH591-403" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1;fontSize=14;endArrow=block;endFill=1;" edge="1" parent="1" source="Qs5j7JCSP7ARArpuH591-402" target="Qs5j7JCSP7ARArpuH591-371">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Qs5j7JCSP7ARArpuH591-402" value="Даст возможность отключать сохранение изменения данных на уровне роутинга!" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#eeeeee;strokeColor=#36393d;fillStyle=solid;direction=west;gradientDirection=north;shadow=1;size=20;pointerEvents=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="-812" y="-5368" width="221" height="92.47" as="geometry" />
+          <mxGeometry x="-868" y="-6010" width="221" height="92.47" as="geometry" />
         </mxCell>
         <mxCell id="Qs5j7JCSP7ARArpuH591-406" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1;fontSize=14;endArrow=block;endFill=1;" edge="1" parent="1" source="Qs5j7JCSP7ARArpuH591-405" target="Qs5j7JCSP7ARArpuH591-400">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Qs5j7JCSP7ARArpuH591-405" value="Будут разные страницы" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#eeeeee;strokeColor=#36393d;fillStyle=solid;direction=west;gradientDirection=north;shadow=1;size=20;pointerEvents=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="-1499" y="-5448" width="215.5" height="61" as="geometry" />
+          <mxGeometry x="-1555" y="-6090" width="215.5" height="61" as="geometry" />
         </mxCell>
         <mxCell id="Qs5j7JCSP7ARArpuH591-408" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1;fontSize=14;endArrow=block;endFill=1;" edge="1" parent="1" source="Qs5j7JCSP7ARArpuH591-407" target="Qs5j7JCSP7ARArpuH591-360">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Qs5j7JCSP7ARArpuH591-407" value="А Версионность ли запросов? Может быть версионность документов? BaseLong?" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#ffcc99;strokeColor=#36393d;fillStyle=solid;direction=west;gradientDirection=north;shadow=1;size=20;pointerEvents=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="16" y="-5791" width="215.5" height="87" as="geometry" />
+          <mxGeometry x="-40" y="-6433" width="215.5" height="87" as="geometry" />
         </mxCell>
         <mxCell id="Qs5j7JCSP7ARArpuH591-410" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1;fontSize=14;endArrow=block;endFill=1;" edge="1" parent="1" source="Qs5j7JCSP7ARArpuH591-409" target="Qs5j7JCSP7ARArpuH591-407">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Qs5j7JCSP7ARArpuH591-409" value="Как кабинет эксперта будет знать про версионность задания? Ведь он получает Document? (вроде как...)" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="-24" y="-5958" width="215.5" height="87" as="geometry" />
+          <mxGeometry x="-80" y="-6600" width="215.5" height="87" as="geometry" />
         </mxCell>
         <mxCell id="Qs5j7JCSP7ARArpuH591-414" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1;fontSize=14;endArrow=block;endFill=1;" edge="1" parent="1" source="Qs5j7JCSP7ARArpuH591-413" target="Qs5j7JCSP7ARArpuH591-354">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Qs5j7JCSP7ARArpuH591-413" value="Получается ... что Заявление &quot;должно знать&quot; какой версии создавать запросы?" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="-352.5" y="-6038.53" width="195" height="80.53" as="geometry" />
+          <mxGeometry x="-408.5" y="-6680.53" width="195" height="80.53" as="geometry" />
         </mxCell>
         <mxCell id="Qs5j7JCSP7ARArpuH591-416" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1;fontSize=14;endArrow=block;endFill=1;" edge="1" parent="1" source="Qs5j7JCSP7ARArpuH591-415" target="Qs5j7JCSP7ARArpuH591-413">
           <mxGeometry relative="1" as="geometry" />
@@ -2481,10 +2485,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Qs5j7JCSP7ARArpuH591-415" value="Значит при создании запроса из реестра, Реестр должен делегировать заявлению запрос на создание ApplicanRequest?" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="-612" y="-5951.53" width="226" height="80.53" as="geometry" />
+          <mxGeometry x="-668" y="-6593.53" width="226" height="80.53" as="geometry" />
         </mxCell>
         <mxCell id="Qs5j7JCSP7ARArpuH591-418" value="StatementController" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="-606" y="-6132" width="186" height="138" as="geometry" />
+          <mxGeometry x="-662" y="-6774" width="186" height="138" as="geometry" />
         </mxCell>
         <mxCell id="Qs5j7JCSP7ARArpuH591-419" value="+ ..." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=14;" vertex="1" parent="Qs5j7JCSP7ARArpuH591-418">
           <mxGeometry y="26" width="186" height="26" as="geometry" />
@@ -2505,7 +2509,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Qs5j7JCSP7ARArpuH591-425" value="А откуда оно должно знать?&lt;br&gt;&lt;br&gt;Где это нужно хранить?" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#ffcc99;strokeColor=#36393d;fillStyle=solid;direction=west;gradientDirection=north;shadow=1;size=20;pointerEvents=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="-288" y="-6181" width="211" height="80.53" as="geometry" />
+          <mxGeometry x="-344" y="-6823" width="211" height="80.53" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
