@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-28T08:04:46.654Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="_YwJ_-s0euDv7B4IOmMz" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-28T08:05:14.129Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="r1ewn8xEaG11WCT3SFNC" version="20.5.3" type="github">
   <diagram id="qM3AAim5_I2P72xAHU8p" name="Страница 1">
     <mxGraphModel dx="2828" dy="6608" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2344,7 +2344,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Qs5j7JCSP7ARArpuH591-359" value="Версионность страницы?" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="-563" y="-5245" width="195" height="80.53" as="geometry" />
+          <mxGeometry x="-489" y="-5176" width="195" height="80.53" as="geometry" />
         </mxCell>
         <mxCell id="Qs5j7JCSP7ARArpuH591-363" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;fontSize=14;endArrow=block;endFill=1;" edge="1" parent="1" source="Qs5j7JCSP7ARArpuH591-360" target="Qs5j7JCSP7ARArpuH591-309">
           <mxGeometry relative="1" as="geometry" />
@@ -2361,11 +2361,11 @@
         <mxCell id="Qs5j7JCSP7ARArpuH591-365" value="РЕШЕНИЕ&lt;br&gt;&lt;br&gt;Внешние состояния дублирую во внутренние состояния, чтобы&amp;nbsp;заработал переход состояний" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#cdeb8b;strokeColor=#36393d;fillStyle=solid;direction=west;gradientDirection=north;shadow=1;size=20;pointerEvents=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="-1177" y="-4889" width="288" height="117" as="geometry" />
         </mxCell>
-        <mxCell id="Qs5j7JCSP7ARArpuH591-367" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;fontSize=14;endArrow=block;endFill=1;" edge="1" parent="1" source="Qs5j7JCSP7ARArpuH591-366" target="Qs5j7JCSP7ARArpuH591-359">
+        <mxCell id="Qs5j7JCSP7ARArpuH591-367" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;fontSize=14;endArrow=block;endFill=1;" edge="1" parent="1" source="Qs5j7JCSP7ARArpuH591-366" target="Qs5j7JCSP7ARArpuH591-371">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Qs5j7JCSP7ARArpuH591-366" value="Даст возможность запускать необходимую версию транзакции !" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#f9f7ed;strokeColor=#36393d;fillStyle=solid;direction=west;gradientDirection=north;shadow=1;size=20;pointerEvents=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="-812" y="-5171" width="195" height="80.53" as="geometry" />
+          <mxGeometry x="-705" y="-5251" width="195" height="80.53" as="geometry" />
         </mxCell>
         <mxCell id="Qs5j7JCSP7ARArpuH591-372" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;fontSize=14;endArrow=block;endFill=1;" edge="1" parent="1" source="Qs5j7JCSP7ARArpuH591-369" target="Qs5j7JCSP7ARArpuH591-371">
           <mxGeometry relative="1" as="geometry" />
@@ -2445,7 +2445,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Qs5j7JCSP7ARArpuH591-402" value="Даст возможность отключать сохранение изменения данных на уровне роутинга!" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#f9f7ed;strokeColor=#36393d;fillStyle=solid;direction=west;gradientDirection=north;shadow=1;size=20;pointerEvents=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="-812" y="-5362.47" width="221" height="92.47" as="geometry" />
+          <mxGeometry x="-812" y="-5368" width="221" height="92.47" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
