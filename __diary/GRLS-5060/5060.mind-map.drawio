@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-28T08:16:54.833Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="NVVi1k4hiPDnXYGFE5W7" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-28T08:17:21.733Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="GvA5pSCpdIU-j4PxEwVJ" version="20.5.3" type="github">
   <diagram id="qM3AAim5_I2P72xAHU8p" name="Страница 1">
     <mxGraphModel dx="2726" dy="7711" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2484,7 +2484,7 @@
           <mxGeometry x="-560" y="-6548" width="100" height="300" as="geometry" />
         </mxCell>
         <mxCell id="Qs5j7JCSP7ARArpuH591-418" value="StatementController" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="-580" y="-6729" width="186" height="112" as="geometry" />
+          <mxGeometry x="-560" y="-6725" width="186" height="138" as="geometry" />
         </mxCell>
         <mxCell id="Qs5j7JCSP7ARArpuH591-419" value="+ ..." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=14;" vertex="1" parent="Qs5j7JCSP7ARArpuH591-418">
           <mxGeometry y="26" width="186" height="26" as="geometry" />
@@ -2497,6 +2497,9 @@
         </mxCell>
         <mxCell id="Qs5j7JCSP7ARArpuH591-422" value="+ CreateResolutionAction()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=14;" vertex="1" parent="Qs5j7JCSP7ARArpuH591-418">
           <mxGeometry y="86" width="186" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Qs5j7JCSP7ARArpuH591-423" value="+ ..." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=14;" vertex="1" parent="Qs5j7JCSP7ARArpuH591-418">
+          <mxGeometry y="112" width="186" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
