@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-28T08:32:51.025Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="MIYxG02WCFYugeUumSZi" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-28T08:33:02.897Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="uXWWTWVueb27nG8bD_np" version="20.5.3" type="github">
   <diagram id="qM3AAim5_I2P72xAHU8p" name="Страница 1">
     <mxGraphModel dx="3105" dy="9125" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2530,7 +2530,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Qs5j7JCSP7ARArpuH591-432" value="Почему бы в заявлении не создать новую версию ? и продолжать создавать запросы от версии заявления?" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="420" y="-6820" width="250" height="96" as="geometry" />
+          <mxGeometry x="322" y="-6787" width="250" height="96" as="geometry" />
         </mxCell>
         <mxCell id="Qs5j7JCSP7ARArpuH591-435" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;strokeWidth=1;fontSize=14;endArrow=block;endFill=1;" edge="1" parent="1" source="Qs5j7JCSP7ARArpuH591-434" target="Qs5j7JCSP7ARArpuH591-430">
           <mxGeometry relative="1" as="geometry" />
