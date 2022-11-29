@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-29T07:11:05.776Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="NdC3VVzlhUcs4Cc2mWQk" version="20.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-29T07:11:27.066Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="ong7uuVp2xzVTPpTVLrE" version="20.6.0" type="github">
   <diagram id="qM3AAim5_I2P72xAHU8p" name="Страница 1">
     <mxGraphModel dx="3298" dy="9251" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2263,7 +2263,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Qs5j7JCSP7ARArpuH591-344" value="Новый запрос - это новая версия запросов МЗ" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#ffcccc;strokeColor=#36393d;fillStyle=solid;direction=west;gradientDirection=north;shadow=1;size=20;pointerEvents=1;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="365" y="-4314.53" width="195" height="90" as="geometry" />
+          <mxGeometry x="382.5" y="-4330" width="195" height="90" as="geometry" />
         </mxCell>
         <mxCell id="Qs5j7JCSP7ARArpuH591-345" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;fontSize=14;endArrow=block;endFill=1;" parent="1" source="Qs5j7JCSP7ARArpuH591-344" target="Qs5j7JCSP7ARArpuH591-340" edge="1">
           <mxGeometry relative="1" as="geometry">
