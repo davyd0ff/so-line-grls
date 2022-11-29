@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-29T07:51:05.475Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="aBq7TK5KZaYCnTwNR5qw" version="20.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-29T08:46:31.383Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="cN53JsrKk5ViLlUPTDd1" version="20.6.0" type="github">
   <diagram id="qM3AAim5_I2P72xAHU8p" name="Страница 1">
     <mxGraphModel dx="3105" dy="9125" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2546,6 +2546,15 @@
         </mxCell>
         <mxCell id="8-5orFtUDY3dYQEZbQvz-10" value="А как решается проблема - когда некоторые документы нельзя создавать в зависимости от состояния подчиненного документа или самого заявления?" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#ffcc99;strokeColor=#36393d;fillStyle=solid;direction=west;gradientDirection=north;shadow=1;size=20;pointerEvents=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="462" y="-7805" width="250" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="8-5orFtUDY3dYQEZbQvz-12" value="Как это решит проблему когда у одного заявления может быть несколько документов, например запросов, разной версии" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#ffcc99;strokeColor=#36393d;fillStyle=solid;direction=west;gradientDirection=north;shadow=1;size=20;pointerEvents=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1116" y="-7901" width="250" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="8-5orFtUDY3dYQEZbQvz-13" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8-5orFtUDY3dYQEZbQvz-12" target="8-5orFtUDY3dYQEZbQvz-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="701.2931937172771" y="-7699" as="sourcePoint" />
+            <mxPoint x="794" y="-7656.332530120482" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
