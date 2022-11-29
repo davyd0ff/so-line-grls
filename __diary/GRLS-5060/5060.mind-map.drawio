@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-29T07:08:10.529Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="XHTpaluByItt0l15Z-5I" version="20.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-29T07:09:35.672Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="e-PP2dlBT61vKubCGIMD" version="20.6.0" type="github">
   <diagram id="qM3AAim5_I2P72xAHU8p" name="Страница 1">
     <mxGraphModel dx="3298" dy="9251" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2145,8 +2145,8 @@
         <mxCell id="Qs5j7JCSP7ARArpuH591-306" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=1;fontSize=14;" parent="1" source="Qs5j7JCSP7ARArpuH591-263" target="Qs5j7JCSP7ARArpuH591-285" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Qs5j7JCSP7ARArpuH591-307" value="Как отображать новый запрос?" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="-525" y="-4517" width="195" height="80.53" as="geometry" />
+        <mxCell id="Qs5j7JCSP7ARArpuH591-307" value="Как отображать новый запрос?" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#e1d5e7;strokeColor=#9673a6;fillStyle=solid;direction=west;gradientDirection=north;shadow=1;size=20;pointerEvents=1;fontSize=26;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="-620" y="-4433.47" width="268" height="157" as="geometry" />
         </mxCell>
         <mxCell id="Qs5j7JCSP7ARArpuH591-308" value="Как отображать новый процесс согласования?" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="4" y="-4623.53" width="195" height="80.53" as="geometry" />
