@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-29T05:58:18.144Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" version="20.6.0" etag="I-MuAmOqaUok4I-w2bKh" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-29T06:00:35.577Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" version="20.6.0" etag="V63VZgjVx4Ry9HFLI_z5" type="github">
   <diagram id="ssKycrtSMsemJ2zY77Yj" name="Страница 1">
-    <mxGraphModel dx="504" dy="320" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="720" dy="458" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -26,13 +26,25 @@
           <mxGeometry x="1110" y="40" width="100" height="3440" as="geometry" />
         </mxCell>
         <mxCell id="WKu-Oy1HrpZxNEacMhId-9" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=12;" vertex="1" parent="WKu-Oy1HrpZxNEacMhId-7">
-          <mxGeometry x="44.99999999999977" y="90" width="10" height="80" as="geometry" />
+          <mxGeometry x="45" y="90" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="WKu-Oy1HrpZxNEacMhId-11" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=12;" vertex="1" parent="WKu-Oy1HrpZxNEacMhId-7">
+          <mxGeometry x="45" y="120" width="10" height="70" as="geometry" />
         </mxCell>
         <mxCell id="WKu-Oy1HrpZxNEacMhId-8" value="SELECT TOP 1 inNumber FROM GRLS.dbo.StatementIncoming WHERE StatementIncomingGUID = &#39;{0}&#39;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=12;entryX=-0.082;entryY=0.021;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="WKu-Oy1HrpZxNEacMhId-5" target="WKu-Oy1HrpZxNEacMhId-9">
           <mxGeometry width="80" relative="1" as="geometry">
             <mxPoint x="640" y="50" as="sourcePoint" />
             <mxPoint x="720" y="50" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="WKu-Oy1HrpZxNEacMhId-10" value="&amp;lt;&amp;lt; get status &amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=12;entryX=-0.084;entryY=0.008;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="WKu-Oy1HrpZxNEacMhId-5" target="WKu-Oy1HrpZxNEacMhId-11">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="460" y="200" as="sourcePoint" />
+            <mxPoint x="540" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WKu-Oy1HrpZxNEacMhId-12" value="&lt;div style=&quot;font-size: 8px;&quot;&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;select stat.Code&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 8px;&quot;&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;from grls..StatementIncoming si&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 8px;&quot;&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; inner join grls..statement s on s.idstatement=si.idStatement&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 8px;&quot;&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; INNER JOIN grls.dbo.DocumentStatus stat ON stat.id=s.status&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 8px;&quot;&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;where si.inNumber={0}&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="869" y="164" width="280" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
