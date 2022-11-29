@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-29T06:54:03.485Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="uEGnUlz6xNYtndm3eTVm" version="20.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-29T06:59:20.046Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="9p7dYQPuWQt1Pm09lgTO" version="20.6.0" type="github">
   <diagram id="qM3AAim5_I2P72xAHU8p" name="Страница 1">
-    <mxGraphModel dx="3024" dy="9073" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3551" dy="9415" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2513,6 +2513,9 @@
         </mxCell>
         <mxCell id="8-5orFtUDY3dYQEZbQvz-1" value="Такой таблицы нет&lt;br&gt;&lt;br&gt;вместо этого выполняется х.п.&lt;br&gt;[core].[select_DocumentTypeList_ByIncoming], которая исключает документы в зависимости от типа заявления&lt;br&gt;&lt;br&gt;Документы извлекаются из таблицы dbo.StatementTypeList" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#333333;darkOpacity=0.05;fillColor=#f5f5f5;strokeColor=#666666;fillStyle=solid;direction=west;gradientDirection=north;shadow=1;size=20;pointerEvents=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="546" y="-7262" width="352" height="179" as="geometry" />
+        </mxCell>
+        <mxCell id="8-5orFtUDY3dYQEZbQvz-3" value="&lt;b&gt;&amp;lt;&amp;lt; МЫСЛЬ &amp;gt;&amp;gt;&lt;/b&gt;&lt;br&gt;P.S. как бы сделал я ...&amp;nbsp;&lt;br&gt;&lt;br&gt;Я бы создал таблицу, где для каждого типа документа (родительского) есть список связанных документов (дочерние) ...&amp;nbsp;&lt;br&gt;&lt;br&gt;И, наверное, еще 1 таблица, где список дочерних документов был бы для каждого объекта (записи, идентификатора) родительского документа.&amp;nbsp;&lt;br&gt;&lt;br&gt;А первая таблица была бы что-то типа шаблона поведения, которое наследовал бы каждый объект родительского документа.&lt;br&gt;&lt;br&gt;- куча записей&amp;nbsp;&lt;br&gt;+ для каждого документа можно было бы вручную настроить &lt;br&gt;версионность зависимых документов" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#b0e3e6;strokeColor=#0e8088;fillStyle=solid;direction=west;gradientDirection=north;shadow=1;size=20;pointerEvents=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="390" y="-8007" width="436" height="348" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
