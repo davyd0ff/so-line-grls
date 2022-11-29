@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-29T06:10:36.272Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" version="20.6.0" etag="kMx2m0Ok1IzIU5j4yy8s" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-29T06:13:41.890Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" version="20.6.0" etag="S52hUsWzPvPewSudC3qp" type="github">
   <diagram id="ssKycrtSMsemJ2zY77Yj" name="Страница 1">
-    <mxGraphModel dx="869" dy="552" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="720" dy="458" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -55,13 +55,32 @@
           <mxGeometry x="440" y="40" width="160" height="3440" as="geometry" />
         </mxCell>
         <mxCell id="WKu-Oy1HrpZxNEacMhId-15" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="WKu-Oy1HrpZxNEacMhId-14">
-          <mxGeometry x="75" y="70" width="10" height="490" as="geometry" />
+          <mxGeometry x="75" y="90" width="10" height="490" as="geometry" />
         </mxCell>
         <mxCell id="WKu-Oy1HrpZxNEacMhId-16" value=":uc/TaskZoom.ascx.cs" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="640" y="40" width="160" height="3440" as="geometry" />
         </mxCell>
         <mxCell id="WKu-Oy1HrpZxNEacMhId-17" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="WKu-Oy1HrpZxNEacMhId-16">
           <mxGeometry x="75" y="70" width="10" height="490" as="geometry" />
+        </mxCell>
+        <mxCell id="WKu-Oy1HrpZxNEacMhId-18" value=":js/full/TaskZoom_common.js" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="827" y="40" width="160" height="3440" as="geometry" />
+        </mxCell>
+        <mxCell id="WKu-Oy1HrpZxNEacMhId-19" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="WKu-Oy1HrpZxNEacMhId-18">
+          <mxGeometry x="75" y="103" width="10" height="490" as="geometry" />
+        </mxCell>
+        <mxCell id="WKu-Oy1HrpZxNEacMhId-20" value="&amp;lt;&amp;lt; include &amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=12;entryX=-0.061;entryY=0.001;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="WKu-Oy1HrpZxNEacMhId-5" target="WKu-Oy1HrpZxNEacMhId-15">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="620" y="290" as="sourcePoint" />
+            <mxPoint x="700" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WKu-Oy1HrpZxNEacMhId-21" value="&amp;lt;&amp;lt; include &amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=12;entryX=0.044;entryY=0.001;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="WKu-Oy1HrpZxNEacMhId-15" target="WKu-Oy1HrpZxNEacMhId-19">
+          <mxGeometry x="-0.6026" width="80" relative="1" as="geometry">
+            <mxPoint x="570.61" y="170" as="sourcePoint" />
+            <mxPoint x="799.9999999999999" y="170" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
