@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-29T10:03:07.749Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="IeW01onqiP1ff-J0vQmx" version="20.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-29T10:04:01.329Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="eVI6tHWMnYpZhYAvUMIP" version="20.6.0" type="github">
   <diagram id="XoZ3P9HmxM1zG5Is6Aeg" name="Страница 1">
     <mxGraphModel dx="1048" dy="2270" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -827,6 +827,9 @@
         </mxCell>
         <mxCell id="soj6KYI1mXwnSoPFOXn5-22" value="меняет состояние, т.к. при возврате у заявления может быть состояние &quot;Сформирован запрос МЗ&quot;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1920" y="-570" width="580" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="soj6KYI1mXwnSoPFOXn5-23" value="Ответ на запрос не поступил" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1850" y="-280" width="200" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
