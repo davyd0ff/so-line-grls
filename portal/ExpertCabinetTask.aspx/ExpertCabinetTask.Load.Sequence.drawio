@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-29T06:19:00.015Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" version="20.6.0" etag="-pDZTTsvY0GTqbrGadC1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-29T06:19:03.254Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" version="20.6.0" etag="AiTXe5P-5njEtBHMq55l" type="github">
   <diagram id="ssKycrtSMsemJ2zY77Yj" name="Страница 1">
     <mxGraphModel dx="1260" dy="801" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -61,7 +61,7 @@
           <mxGeometry x="640" y="40" width="160" height="3440" as="geometry" />
         </mxCell>
         <mxCell id="WKu-Oy1HrpZxNEacMhId-17" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="WKu-Oy1HrpZxNEacMhId-16">
-          <mxGeometry x="75" y="320" width="10" height="90" as="geometry" />
+          <mxGeometry x="75" y="320" width="10" height="120" as="geometry" />
         </mxCell>
         <mxCell id="WKu-Oy1HrpZxNEacMhId-18" value=":js/full/TaskZoom_common.js" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="827" y="40" width="160" height="3440" as="geometry" />
