@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-29T06:24:05.985Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" version="20.6.0" etag="qlud07O0aZVM_cjPc7sO" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-29T06:26:06.243Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" version="20.6.0" etag="hZT7syO8o2q6WtQzBOL_" type="github">
   <diagram id="ssKycrtSMsemJ2zY77Yj" name="Страница 1">
-    <mxGraphModel dx="720" dy="458" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1260" dy="801" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -108,7 +108,7 @@
         <mxCell id="WKu-Oy1HrpZxNEacMhId-27" value="new CoreUnitOfWork(CurrentUser.DbUser, useTransaction = false)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=8;" vertex="1" parent="1">
           <mxGeometry x="824" y="381" width="260" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="WKu-Oy1HrpZxNEacMhId-28" value="GetDocumentTypeByIncoming" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="WKu-Oy1HrpZxNEacMhId-28" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;&amp;lt;&amp;lt;&amp;nbsp;DataAcquisitionOperationBase &amp;gt;&amp;gt;&lt;/font&gt;&lt;br&gt;GetDocumentTypeByIncoming" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="1190" y="40" width="170" height="3440" as="geometry" />
         </mxCell>
         <mxCell id="WKu-Oy1HrpZxNEacMhId-29" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="WKu-Oy1HrpZxNEacMhId-28">
@@ -131,7 +131,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WKu-Oy1HrpZxNEacMhId-36" value="GetDocumentTypeByIncoming" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="WKu-Oy1HrpZxNEacMhId-36" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;&amp;lt;&amp;lt; repository &amp;gt;&amp;gt;&lt;/font&gt;&lt;br&gt;DocumentTypeRepository" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="1435" y="40" width="170" height="3440" as="geometry" />
         </mxCell>
         <mxCell id="WKu-Oy1HrpZxNEacMhId-37" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="WKu-Oy1HrpZxNEacMhId-36">
