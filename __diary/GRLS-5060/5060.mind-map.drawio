@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-29T07:06:39.520Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="bj0OlqWKtNW48rn2zZ0m" version="20.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-29T07:08:10.529Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="XHTpaluByItt0l15Z-5I" version="20.6.0" type="github">
   <diagram id="qM3AAim5_I2P72xAHU8p" name="Страница 1">
-    <mxGraphModel dx="2640" dy="8824" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3298" dy="9251" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2242,7 +2242,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Qs5j7JCSP7ARArpuH591-340" value="Новый запрос по 593 заявлению" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;fontSize=14;" parent="1" vertex="1">
-          <mxGeometry x="-33" y="-4394.53" width="195" height="80.53" as="geometry" />
+          <mxGeometry y="-4314.53" width="195" height="80.53" as="geometry" />
         </mxCell>
         <mxCell id="Qs5j7JCSP7ARArpuH591-353" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;fontSize=14;endArrow=block;endFill=1;" parent="1" source="Qs5j7JCSP7ARArpuH591-341" target="Qs5j7JCSP7ARArpuH591-312" edge="1">
           <mxGeometry relative="1" as="geometry" />
