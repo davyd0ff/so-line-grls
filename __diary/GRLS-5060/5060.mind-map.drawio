@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-29T08:46:31.383Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="cN53JsrKk5ViLlUPTDd1" version="20.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-29T08:50:36.672Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="iAXINO1Dczd2TofgEZRh" version="20.6.0" type="github">
   <diagram id="qM3AAim5_I2P72xAHU8p" name="Страница 1">
     <mxGraphModel dx="3105" dy="9125" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2554,6 +2554,15 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="701.2931937172771" y="-7699" as="sourcePoint" />
             <mxPoint x="794" y="-7656.332530120482" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8-5orFtUDY3dYQEZbQvz-14" value="Например... был создан запрос у заявления ... Затем был разработан новый запрос и связан с заявлением ... а потом эксперт пытается создать новый запрос у заявления, у которого в таблице соответствий - прописана старая версия запроса" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;fillColor=#ffcc99;strokeColor=#36393d;fillStyle=solid;direction=west;gradientDirection=north;shadow=1;size=20;pointerEvents=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="-8049" width="338" height="121" as="geometry" />
+        </mxCell>
+        <mxCell id="8-5orFtUDY3dYQEZbQvz-15" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="8-5orFtUDY3dYQEZbQvz-14" target="8-5orFtUDY3dYQEZbQvz-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1211.02787456446" y="-7795" as="sourcePoint" />
+            <mxPoint x="1156.8989547038327" y="-7730" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
