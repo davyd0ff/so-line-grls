@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-29T06:16:57.484Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" version="20.6.0" etag="NcRCtNjQzwFHhE9x0h1_" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-29T06:17:54.470Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" version="20.6.0" etag="sYq9DPo8JIg2fMM2q5I0" type="github">
   <diagram id="ssKycrtSMsemJ2zY77Yj" name="Страница 1">
-    <mxGraphModel dx="1482" dy="942" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1050" dy="668" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -86,6 +86,19 @@
           <mxGeometry x="-0.4674" width="80" relative="1" as="geometry">
             <mxPoint x="560" y="360" as="sourcePoint" />
             <mxPoint x="640" y="360" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WKu-Oy1HrpZxNEacMhId-24" value="CoreUnitOfWork" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="40" width="160" height="3440" as="geometry" />
+        </mxCell>
+        <mxCell id="WKu-Oy1HrpZxNEacMhId-25" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="WKu-Oy1HrpZxNEacMhId-24">
+          <mxGeometry x="75" y="340" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="WKu-Oy1HrpZxNEacMhId-26" value="&amp;lt;&amp;lt; create &amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=12;entryX=0.076;entryY=0.027;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="WKu-Oy1HrpZxNEacMhId-17" target="WKu-Oy1HrpZxNEacMhId-25">
+          <mxGeometry x="-0.5842" width="80" relative="1" as="geometry">
+            <mxPoint x="770" y="250" as="sourcePoint" />
+            <mxPoint x="850" y="250" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
