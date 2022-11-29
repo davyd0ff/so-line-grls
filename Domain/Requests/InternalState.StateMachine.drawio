@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-29T10:08:56.712Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="lN952dw9VgA6vTR2Iw9s" version="20.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-29T10:09:11.242Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="qr0XBPDnvdEdpqD8liKb" version="20.6.0" type="github">
   <diagram id="XoZ3P9HmxM1zG5Is6Aeg" name="Страница 1">
     <mxGraphModel dx="1048" dy="2270" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -823,13 +823,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="soj6KYI1mXwnSoPFOXn5-12" value="Поступил" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="1840" y="-550" width="120" height="20" as="geometry" />
+          <mxGeometry x="1840" y="-550" width="200" height="20" as="geometry" />
         </mxCell>
         <mxCell id="soj6KYI1mXwnSoPFOXn5-15" value="Сформирован запрос МЗ" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="1840" y="-460" width="200" height="20" as="geometry" />
         </mxCell>
         <mxCell id="soj6KYI1mXwnSoPFOXn5-22" value="меняет состояние, т.к. при возврате у заявления может быть состояние &quot;Сформирован запрос МЗ&quot;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1920" y="-570" width="580" height="30" as="geometry" />
+          <mxGeometry x="1940" y="-570" width="580" height="30" as="geometry" />
         </mxCell>
         <mxCell id="soj6KYI1mXwnSoPFOXn5-23" value="Ответ на запрос МЗ не поступил" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="1840" y="-190" width="200" height="20" as="geometry" />
