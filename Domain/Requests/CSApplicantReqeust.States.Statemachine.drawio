@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-29T10:10:27.528Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" version="20.6.0" etag="uS0RBgLkE12VzVzcEjGs" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-29T10:11:21.726Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" version="20.6.0" etag="xE-DI_d0BBSMilfddaTd" type="github">
   <diagram id="DtH2Y51N2P6LpI5TNhch" name="Страница 1">
-    <mxGraphModel dx="1607" dy="1131" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1469" dy="932" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -34,7 +34,7 @@
         <mxCell id="Z5EfccPca7Q9Xv_PAJAf-18" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="Z5EfccPca7Q9Xv_PAJAf-3" target="Z5EfccPca7Q9Xv_PAJAf-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Z5EfccPca7Q9Xv_PAJAf-26" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Z5EfccPca7Q9Xv_PAJAf-3">
+        <mxCell id="Z5EfccPca7Q9Xv_PAJAf-26" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="Z5EfccPca7Q9Xv_PAJAf-3" target="Z5EfccPca7Q9Xv_PAJAf-21">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="580" y="410.0000000000002" as="targetPoint" />
           </mxGeometry>
@@ -54,8 +54,14 @@
         <mxCell id="Z5EfccPca7Q9Xv_PAJAf-16" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="Z5EfccPca7Q9Xv_PAJAf-6" target="Z5EfccPca7Q9Xv_PAJAf-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="Z5EfccPca7Q9Xv_PAJAf-32" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Z5EfccPca7Q9Xv_PAJAf-5" target="Z5EfccPca7Q9Xv_PAJAf-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Z5EfccPca7Q9Xv_PAJAf-5" value="Ответ получен" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="210" y="710" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Z5EfccPca7Q9Xv_PAJAf-31" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Z5EfccPca7Q9Xv_PAJAf-6" target="Z5EfccPca7Q9Xv_PAJAf-23">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Z5EfccPca7Q9Xv_PAJAf-6" value="Ответ не получен" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="390" y="650" width="120" height="60" as="geometry" />
@@ -72,20 +78,23 @@
         <mxCell id="Z5EfccPca7Q9Xv_PAJAf-17" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="Z5EfccPca7Q9Xv_PAJAf-8" target="Z5EfccPca7Q9Xv_PAJAf-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="Z5EfccPca7Q9Xv_PAJAf-28" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="Z5EfccPca7Q9Xv_PAJAf-8" target="Z5EfccPca7Q9Xv_PAJAf-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Z5EfccPca7Q9Xv_PAJAf-8" value="Обработан заявителем" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="410" y="510" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="Z5EfccPca7Q9Xv_PAJAf-21" value="Сформирован запрос МЗ" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="670" y="520" width="200" height="20" as="geometry" />
+          <mxGeometry x="640" y="460" width="200" height="20" as="geometry" />
         </mxCell>
         <mxCell id="Z5EfccPca7Q9Xv_PAJAf-22" value="Поступил" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="660" y="230" width="200" height="20" as="geometry" />
+          <mxGeometry x="640" y="230" width="200" height="20" as="geometry" />
         </mxCell>
         <mxCell id="Z5EfccPca7Q9Xv_PAJAf-23" value="Ответ на запрос МЗ не поступил" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="660" y="650" width="200" height="20" as="geometry" />
+          <mxGeometry x="640" y="670" width="200" height="20" as="geometry" />
         </mxCell>
         <mxCell id="Z5EfccPca7Q9Xv_PAJAf-24" value="Ответ на запрос МЗ поступил" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="660" y="723" width="200" height="20" as="geometry" />
+          <mxGeometry x="640" y="730" width="200" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
