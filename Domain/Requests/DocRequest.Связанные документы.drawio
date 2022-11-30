@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-11-30T13:20:08.717Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="r-ydcPmWWDkLwVfsoYfM" version="20.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-30T13:20:17.068Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="fyCppgdyMRBGOliTKTI9" version="20.6.0" type="github">
   <diagram id="saAoNNfvjhwFS-k0Hx0o" name="Страница 1">
-    <mxGraphModel dx="342" dy="453" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="856" dy="1131" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -53,24 +53,24 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="YCjbTtOZEJtfuDZi-5gX-1" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;&amp;lt;&amp;lt; id = 34 &amp;gt;&amp;gt;&lt;br&gt;&lt;/font&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;&amp;lt;&amp;lt; Request &amp;gt;&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;br&gt;Запрос МЗ РФ" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="450" y="750" width="120" height="60" as="geometry" />
+          <mxGeometry x="450" y="830" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="YCjbTtOZEJtfuDZi-5gX-2" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;&amp;lt;&amp;lt; id = 3 &amp;gt;&amp;gt; &lt;br&gt;&amp;lt;&amp;lt; Statement &amp;gt;&amp;gt;&lt;/font&gt;&lt;br&gt;ЗКИ&lt;br&gt;&lt;br&gt;[ЗКИ] Заявление на получение РКИ" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="40" y="680" width="310" height="80" as="geometry" />
+          <mxGeometry x="40" y="760" width="310" height="80" as="geometry" />
         </mxCell>
         <mxCell id="YCjbTtOZEJtfuDZi-5gX-3" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;fontSize=8;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="YCjbTtOZEJtfuDZi-5gX-1" target="YCjbTtOZEJtfuDZi-5gX-2">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="180" y="750" as="sourcePoint" />
-            <mxPoint x="340" y="750" as="targetPoint" />
+            <mxPoint x="180" y="830" as="sourcePoint" />
+            <mxPoint x="340" y="830" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="YCjbTtOZEJtfuDZi-5gX-4" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;&amp;lt;&amp;lt; id = 21 &amp;gt;&amp;gt;&amp;nbsp;&lt;br&gt;&lt;/font&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;&amp;lt;&amp;lt; Statement &amp;gt;&amp;gt;&lt;/span&gt;&lt;br&gt;ЗВИРКИ&lt;br&gt;&lt;br&gt;[ЗВИРКИ] Заявление на внесение изменений в РКИ" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="40" y="780" width="310" height="80" as="geometry" />
+          <mxGeometry x="40" y="860" width="310" height="80" as="geometry" />
         </mxCell>
         <mxCell id="YCjbTtOZEJtfuDZi-5gX-5" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;fontSize=8;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="YCjbTtOZEJtfuDZi-5gX-1" target="YCjbTtOZEJtfuDZi-5gX-4">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="450" y="820" as="sourcePoint" />
-            <mxPoint x="360" y="740" as="targetPoint" />
+            <mxPoint x="450" y="900" as="sourcePoint" />
+            <mxPoint x="360" y="820" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
