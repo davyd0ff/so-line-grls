@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-05T06:21:15.006Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" version="20.6.0" etag="DE0U0QDOhXcRUvwH4_cj" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-05T06:21:42.875Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" version="20.6.0" etag="F-kbA-RPyg7U9VvaabNX" type="github">
   <diagram id="jES25nI6x1tEsbas6y1H" name="Страница 1">
     <mxGraphModel dx="599" dy="792" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -278,7 +278,7 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yxQ8aafldbQSkZm1OKoE-62" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="yxQ8aafldbQSkZm1OKoE-60">
+        <mxCell id="yxQ8aafldbQSkZm1OKoE-62" value="abr" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;" vertex="1" parent="yxQ8aafldbQSkZm1OKoE-60">
           <mxGeometry x="30" width="190" height="30" as="geometry">
             <mxRectangle width="190" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -606,6 +606,12 @@
         </mxCell>
         <mxCell id="yxQ8aafldbQSkZm1OKoE-146" value="Отчет ?" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="860" y="385" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yxQ8aafldbQSkZm1OKoE-149" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yxQ8aafldbQSkZm1OKoE-148" target="yxQ8aafldbQSkZm1OKoE-60">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yxQ8aafldbQSkZm1OKoE-148" value="&lt;div&gt;гос рег&amp;nbsp; ЛП&lt;/div&gt;&lt;div&gt;отк в рег ЛП&lt;/div&gt;&lt;div&gt;NULL&lt;/div&gt;&lt;div&gt;вкл фарм.субст&lt;/div&gt;&lt;div&gt;отк о включении фарм.субст&lt;/div&gt;&lt;div&gt;отмена рег&amp;nbsp;&lt;/div&gt;&lt;div&gt;приост применения ЛП&lt;/div&gt;&lt;div&gt;приказ о государственной регистрации&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="840" y="430" width="240" height="130" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
