@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-05T06:24:31.499Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" version="20.6.0" etag="Q1FyZx-ln2taizpkwiju" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-05T06:25:29.660Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" version="20.6.0" etag="Qvc1x11ljDy_7g-H7z4f" type="github">
   <diagram id="jES25nI6x1tEsbas6y1H" name="Страница 1">
     <mxGraphModel dx="705" dy="932" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -414,7 +414,7 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="yxQ8aafldbQSkZm1OKoE-103" value="idResolutionType" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;" vertex="1" parent="yxQ8aafldbQSkZm1OKoE-101">
+        <mxCell id="yxQ8aafldbQSkZm1OKoE-103" value="ResolutionKindID" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;" vertex="1" parent="yxQ8aafldbQSkZm1OKoE-101">
           <mxGeometry x="30" width="190" height="30" as="geometry">
             <mxRectangle width="190" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -643,6 +643,9 @@
         </mxCell>
         <mxCell id="yxQ8aafldbQSkZm1OKoE-155" value="&lt;div&gt;resolution_mr_qexp_reject&lt;/div&gt;&lt;div&gt;resolution_mr_riskexp_reject&lt;/div&gt;&lt;div&gt;resolution_mr_etexp&lt;/div&gt;&lt;div&gt;resolution_mr_addexp&lt;/div&gt;&lt;div&gt;resolution_mr_allow&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1110" y="539" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="yxQ8aafldbQSkZm1OKoE-157" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yxQ8aafldbQSkZm1OKoE-44" target="yxQ8aafldbQSkZm1OKoE-101">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
