@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-13T12:19:41.070Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.6.0" etag="u2JdCF0q-m6yRybz8xrE" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-13T12:20:25.970Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.6.0" etag="Q2uQWw2rckp6vZ7yTlJD" type="github">
   <diagram id="FbtvG5ja3MR5aEfaAjsH" name="Страница 1">
     <mxGraphModel dx="1233" dy="801" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -51,6 +51,24 @@
         </mxCell>
         <mxCell id="low-MrS_bK9RDzKWT8P9-16" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="low-MrS_bK9RDzKWT8P9-13">
           <mxGeometry y="60" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="low-MrS_bK9RDzKWT8P9-18" value="" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="low-MrS_bK9RDzKWT8P9-9" target="low-MrS_bK9RDzKWT8P9-13">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="330" y="410" as="sourcePoint" />
+            <mxPoint x="490" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="low-MrS_bK9RDzKWT8P9-19" value="" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="low-MrS_bK9RDzKWT8P9-1" target="low-MrS_bK9RDzKWT8P9-13">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="180" y="380" as="sourcePoint" />
+            <mxPoint x="424" y="176" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="low-MrS_bK9RDzKWT8P9-20" value="" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="low-MrS_bK9RDzKWT8P9-5" target="low-MrS_bK9RDzKWT8P9-13">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="456.75" y="380" as="sourcePoint" />
+            <mxPoint x="424" y="176" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
