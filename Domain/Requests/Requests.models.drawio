@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-13T12:23:01.583Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.6.0" etag="qVNfdUh-r0_kGsS9XeeR" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-13T12:23:21.856Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.6.0" etag="vn5RUFt7Y9mNK08s6oT6" type="github">
   <diagram id="FbtvG5ja3MR5aEfaAjsH" name="Страница 1">
     <mxGraphModel dx="342" dy="453" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -55,10 +55,10 @@
         <mxCell id="low-MrS_bK9RDzKWT8P9-27" value="+ PerformerId : int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="low-MrS_bK9RDzKWT8P9-9">
           <mxGeometry y="208" width="280" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="low-MrS_bK9RDzKWT8P9-28" value="+ QRCode : byte[]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="low-MrS_bK9RDzKWT8P9-9">
+        <mxCell id="low-MrS_bK9RDzKWT8P9-28" value="+ ApplicantTransferDate : DateTime?" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="low-MrS_bK9RDzKWT8P9-9">
           <mxGeometry y="234" width="280" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="low-MrS_bK9RDzKWT8P9-29" value="+ QRCode : byte[]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="low-MrS_bK9RDzKWT8P9-9">
+        <mxCell id="low-MrS_bK9RDzKWT8P9-29" value="+ DtEndPlan : DateTime?" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="low-MrS_bK9RDzKWT8P9-9">
           <mxGeometry y="260" width="280" height="26" as="geometry" />
         </mxCell>
         <mxCell id="low-MrS_bK9RDzKWT8P9-30" value="+ QRCode : byte[]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="low-MrS_bK9RDzKWT8P9-9">
