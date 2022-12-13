@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-12-13T12:27:38.625Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.6.0" etag="yyIuBAxPmWZ8FfFud365" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-13T12:27:51.810Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.6.0" etag="qaH8E0Nu1cWLukdbs_bV" type="github">
   <diagram id="FbtvG5ja3MR5aEfaAjsH" name="Страница 1">
-    <mxGraphModel dx="285" dy="377" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="413" dy="546" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -158,6 +158,12 @@
         </mxCell>
         <mxCell id="low-MrS_bK9RDzKWT8P9-38" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="low-MrS_bK9RDzKWT8P9-35">
           <mxGeometry y="60" width="246.5" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="low-MrS_bK9RDzKWT8P9-50" value="" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="low-MrS_bK9RDzKWT8P9-35" target="low-MrS_bK9RDzKWT8P9-13">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="456.7500000000001" y="380.0000000000001" as="sourcePoint" />
+            <mxPoint x="423.9655172413793" y="175.9999999999999" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
