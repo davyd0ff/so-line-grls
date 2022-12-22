@@ -1,0 +1,85 @@
+<mxfile host="app.diagrams.net" modified="2022-11-30T13:21:08.220Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="daPeFUxLNetvP3HdirDn" version="20.6.0" type="github">
+  <diagram id="saAoNNfvjhwFS-k0Hx0o" name="Страница 1">
+    <mxGraphModel dx="1397" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2wlWGYxxJUrvrBXpbSvd-1" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;&amp;lt;&amp;lt; id = 94 &amp;gt;&amp;gt;&lt;br&gt;&lt;/font&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;&amp;lt;&amp;lt; Request &amp;gt;&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;br&gt;Запрос МЗ РФ" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="450" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2wlWGYxxJUrvrBXpbSvd-2" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;&amp;lt;&amp;lt; id = 1 &amp;gt;&amp;gt; &lt;br&gt;&amp;lt;&amp;lt; Statement &amp;gt;&amp;gt;&lt;/font&gt;&lt;br&gt;ЗРЛП&lt;br&gt;&lt;br&gt;Заявление на регистрацию лекарственного препарата" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="120" width="310" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="2wlWGYxxJUrvrBXpbSvd-3" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;fontSize=8;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;" parent="1" source="2wlWGYxxJUrvrBXpbSvd-1" target="2wlWGYxxJUrvrBXpbSvd-2" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="180" y="190" as="sourcePoint" />
+            <mxPoint x="340" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2wlWGYxxJUrvrBXpbSvd-4" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;&amp;lt;&amp;lt; id = 2 &amp;gt;&amp;gt;&amp;nbsp;&lt;br&gt;&lt;/font&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;&amp;lt;&amp;lt; Statement &amp;gt;&amp;gt;&lt;/span&gt;&lt;br&gt;ВИЛП&lt;br&gt;&lt;br&gt;Внесение изменений в регистрационное досье" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="220" width="310" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="2wlWGYxxJUrvrBXpbSvd-5" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;fontSize=8;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;" parent="1" source="2wlWGYxxJUrvrBXpbSvd-1" target="2wlWGYxxJUrvrBXpbSvd-4" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="450" y="260" as="sourcePoint" />
+            <mxPoint x="360" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2wlWGYxxJUrvrBXpbSvd-6" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;&amp;lt;&amp;lt; id = 6 &amp;gt;&amp;gt;&amp;nbsp;&lt;br&gt;&lt;/font&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;&amp;lt;&amp;lt; Statement &amp;gt;&amp;gt;&lt;/span&gt;&lt;br&gt;Подтверждение гос. рег.&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="320" width="310" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="2wlWGYxxJUrvrBXpbSvd-7" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;&amp;lt;&amp;lt; id = 167 &amp;gt;&amp;gt;&amp;nbsp;&lt;br&gt;&lt;/font&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;&amp;lt;&amp;lt; Statement &amp;gt;&amp;gt;&lt;br&gt;&lt;/span&gt;ЗРЛПЧС&lt;br&gt;&lt;br&gt;Регистрация лекарственных препаратов, которые предназначены для применения в условиях чрезвычайной ситуации" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="410" width="310" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="2wlWGYxxJUrvrBXpbSvd-8" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;&amp;lt;&amp;lt; id = 219 &amp;gt;&amp;gt;&amp;nbsp;&lt;br&gt;&lt;/font&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;&amp;lt;&amp;lt; Statement &amp;gt;&amp;gt;&lt;br&gt;&lt;/span&gt;ЗРЛП (593 ПП)&lt;br&gt;&lt;br&gt;Заявление о государственной регистрации лекарственного препарата (593 ПП)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="540" width="310" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="2wlWGYxxJUrvrBXpbSvd-9" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;fontSize=8;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;" parent="1" source="2wlWGYxxJUrvrBXpbSvd-1" target="2wlWGYxxJUrvrBXpbSvd-6" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="450" y="260" as="sourcePoint" />
+            <mxPoint x="360" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2wlWGYxxJUrvrBXpbSvd-10" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;fontSize=8;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;" parent="1" source="2wlWGYxxJUrvrBXpbSvd-1" target="2wlWGYxxJUrvrBXpbSvd-7" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="450" y="260" as="sourcePoint" />
+            <mxPoint x="360" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2wlWGYxxJUrvrBXpbSvd-11" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;fontSize=8;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;" parent="1" source="2wlWGYxxJUrvrBXpbSvd-1" target="2wlWGYxxJUrvrBXpbSvd-8" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="460" y="270" as="sourcePoint" />
+            <mxPoint x="370" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YCjbTtOZEJtfuDZi-5gX-1" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;&amp;lt;&amp;lt; id = 34 &amp;gt;&amp;gt;&lt;br&gt;&lt;/font&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;&amp;lt;&amp;lt; Request &amp;gt;&amp;gt;&lt;/span&gt;&lt;br&gt;&lt;br&gt;Запрос МЗ РФ" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="830" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YCjbTtOZEJtfuDZi-5gX-2" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;&amp;lt;&amp;lt; id = 3 &amp;gt;&amp;gt; &lt;br&gt;&amp;lt;&amp;lt; Statement &amp;gt;&amp;gt;&lt;/font&gt;&lt;br&gt;ЗКИ&lt;br&gt;&lt;br&gt;[ЗКИ] Заявление на получение РКИ" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="760" width="310" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YCjbTtOZEJtfuDZi-5gX-3" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;fontSize=8;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="YCjbTtOZEJtfuDZi-5gX-1" target="YCjbTtOZEJtfuDZi-5gX-2">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="180" y="830" as="sourcePoint" />
+            <mxPoint x="340" y="830" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YCjbTtOZEJtfuDZi-5gX-4" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;&amp;lt;&amp;lt; id = 21 &amp;gt;&amp;gt;&amp;nbsp;&lt;br&gt;&lt;/font&gt;&lt;span style=&quot;font-size: 8px;&quot;&gt;&amp;lt;&amp;lt; Statement &amp;gt;&amp;gt;&lt;/span&gt;&lt;br&gt;ЗВИРКИ&lt;br&gt;&lt;br&gt;[ЗВИРКИ] Заявление на внесение изменений в РКИ" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="860" width="310" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="YCjbTtOZEJtfuDZi-5gX-5" value="" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;fontSize=8;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="YCjbTtOZEJtfuDZi-5gX-1" target="YCjbTtOZEJtfuDZi-5gX-4">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="450" y="900" as="sourcePoint" />
+            <mxPoint x="360" y="820" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YCjbTtOZEJtfuDZi-5gX-12" value="flowId = 1 (MR)" style="shape=umlFrame;whiteSpace=wrap;html=1;width=110;height=40;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="80" width="760" height="600" as="geometry" />
+        </mxCell>
+        <mxCell id="YCjbTtOZEJtfuDZi-5gX-13" value="flowId = 2 (CS)" style="shape=umlFrame;whiteSpace=wrap;html=1;width=110;height=40;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="720" width="760" height="240" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

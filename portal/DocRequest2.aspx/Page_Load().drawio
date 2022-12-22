@@ -1,0 +1,132 @@
+<mxfile host="app.diagrams.net" modified="2022-10-31T10:33:35.273Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="SCDdUDucvuoHVhvQxUjR" version="20.5.1" type="github">
+  <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
+    <mxGraphModel dx="1487" dy="815" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="3nuBFxr9cyL0pnOWT2aG-1" value=":DocRequest2.aspx.cs" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;sketch=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="80" width="140" height="960" as="geometry" />
+        </mxCell>
+        <mxCell id="3nuBFxr9cyL0pnOWT2aG-2" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;sketch=1;" parent="3nuBFxr9cyL0pnOWT2aG-1" vertex="1">
+          <mxGeometry x="65" y="65" width="10" height="335" as="geometry" />
+        </mxCell>
+        <mxCell id="3nuBFxr9cyL0pnOWT2aG-3" value="Page_Load()" style="verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;shadow=0;strokeWidth=1;sketch=1;entryX=0.185;entryY=-0.002;entryDx=0;entryDy=0;entryPerimeter=0;" parent="3nuBFxr9cyL0pnOWT2aG-1" target="3nuBFxr9cyL0pnOWT2aG-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-58" y="66" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="foolkbOFwzQNOnHuT_NG-22" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;sketch=1;hachureGap=4;strokeColor=default;fontFamily=Verdana;fontSize=10;" parent="3nuBFxr9cyL0pnOWT2aG-1" vertex="1">
+          <mxGeometry x="75" y="290" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="foolkbOFwzQNOnHuT_NG-1" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;sketch=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" parent="1" vertex="1">
+          <mxGeometry x="150" y="197" width="10" height="233" as="geometry" />
+        </mxCell>
+        <mxCell id="3nuBFxr9cyL0pnOWT2aG-5" value="DB" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;sketch=1;" parent="1" vertex="1">
+          <mxGeometry x="1175" y="80" width="100" height="960" as="geometry" />
+        </mxCell>
+        <mxCell id="3nuBFxr9cyL0pnOWT2aG-6" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;sketch=1;" parent="3nuBFxr9cyL0pnOWT2aG-5" vertex="1">
+          <mxGeometry x="45" y="80" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="foolkbOFwzQNOnHuT_NG-3" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;sketch=1;" parent="3nuBFxr9cyL0pnOWT2aG-5" vertex="1">
+          <mxGeometry x="45" y="145" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="foolkbOFwzQNOnHuT_NG-14" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;sketch=1;" parent="3nuBFxr9cyL0pnOWT2aG-5" vertex="1">
+          <mxGeometry x="45" y="210" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="foolkbOFwzQNOnHuT_NG-20" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;sketch=1;" parent="3nuBFxr9cyL0pnOWT2aG-5" vertex="1">
+          <mxGeometry x="45" y="250" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="foolkbOFwzQNOnHuT_NG-25" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;sketch=1;" parent="3nuBFxr9cyL0pnOWT2aG-5" vertex="1">
+          <mxGeometry x="45" y="310" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="3nuBFxr9cyL0pnOWT2aG-8" value="select id as RequestType, [Name] as RequestTypeNm from dbo.DocRequestTypeList where Code in (&#39;grls_mp_mz&#39;, &#39;grls_mp_fgbu&#39;, &#39;grls_mp_inspect&#39;)" style="verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;shadow=0;strokeWidth=1;sketch=1;align=left;" parent="1" source="3nuBFxr9cyL0pnOWT2aG-2" target="3nuBFxr9cyL0pnOWT2aG-6" edge="1">
+          <mxGeometry x="-0.9323" relative="1" as="geometry">
+            <mxPoint x="275" y="160" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="foolkbOFwzQNOnHuT_NG-2" value="&lt;font style=&quot;font-size: 10px;&quot; face=&quot;Verdana&quot;&gt;InitDocRequest()&lt;/font&gt;" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;sketch=1;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;curved=1;" parent="1" source="3nuBFxr9cyL0pnOWT2aG-2" target="foolkbOFwzQNOnHuT_NG-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="155" y="177" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="185" y="177" />
+              <mxPoint x="185" y="197" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="foolkbOFwzQNOnHuT_NG-4" value="[dbo].[GetDocRequest2] @guid=&#39;{0}" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;sketch=1;hachureGap=4;fontFamily=Verdana;fontSize=10;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;curved=1;entryX=-0.009;entryY=-0.093;entryDx=0;entryDy=0;entryPerimeter=0;align=left;" parent="1" source="foolkbOFwzQNOnHuT_NG-1" target="foolkbOFwzQNOnHuT_NG-3" edge="1">
+          <mxGeometry x="-0.9514" width="80" relative="1" as="geometry">
+            <mxPoint x="180" y="190" as="sourcePoint" />
+            <mxPoint x="260" y="190" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="foolkbOFwzQNOnHuT_NG-8" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;RequestStatementTypeId&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;inNumber&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;inNumberGuid&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;inNumberDate&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;incStateCode {isAnnulated = incStateCode == &quot;canceled&quot;}&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;subTypeId&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;{hfSubTypeID}&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;outNumber&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;outDate&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;dtEndPlan&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;dtHandledFact&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;idDocRequest&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;idStatementType&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;ApplicationFirstSeen&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;Request&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; {requestDesc}&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;idStatement&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;StatementGuid&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;StatementType&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;idSigner&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;SignerName&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;idSigner_exec&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;{performerId}&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;SignerNameExec&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;{perfomerName}&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;RequestType&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;{listRequestType.SelectedValue}&lt;/div&gt;" style="text;html=1;strokeColor=default;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;sketch=1;hachureGap=4;fontFamily=Verdana;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="1300" y="80" width="320" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="foolkbOFwzQNOnHuT_NG-9" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;sketch=1;hachureGap=4;fontFamily=Verdana;fontSize=10;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;curved=1;" parent="1" source="foolkbOFwzQNOnHuT_NG-3" target="foolkbOFwzQNOnHuT_NG-8" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="800" y="390" as="sourcePoint" />
+            <mxPoint x="850" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="foolkbOFwzQNOnHuT_NG-10" value="unit.CreateBindindableRepository(typeof(RequestAnswerBaseLong)).GetByParentId(documentId)" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;sketch=1;hachureGap=4;fontFamily=Verdana;fontSize=10;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;curved=1;entryX=0;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;align=left;" parent="1" source="foolkbOFwzQNOnHuT_NG-1" target="foolkbOFwzQNOnHuT_NG-13" edge="1">
+          <mxGeometry x="-0.8861" width="80" relative="1" as="geometry">
+            <mxPoint x="178" y="234.07000000000016" as="sourcePoint" />
+            <mxPoint x="960" y="280" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="foolkbOFwzQNOnHuT_NG-11" value="RequestAnswerBaseLongRepository" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;sketch=1;" parent="1" vertex="1">
+          <mxGeometry x="630" y="80" width="210" height="960" as="geometry" />
+        </mxCell>
+        <mxCell id="foolkbOFwzQNOnHuT_NG-13" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;sketch=1;" parent="foolkbOFwzQNOnHuT_NG-11" vertex="1">
+          <mxGeometry x="100" y="200" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="foolkbOFwzQNOnHuT_NG-15" value="[grls].[core].[select_RequestAnswer_ByParentId]" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;sketch=1;hachureGap=4;fontFamily=Verdana;fontSize=10;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;curved=1;entryX=-0.003;entryY=0.028;entryDx=0;entryDy=0;entryPerimeter=0;align=left;" parent="1" source="foolkbOFwzQNOnHuT_NG-13" target="foolkbOFwzQNOnHuT_NG-14" edge="1">
+          <mxGeometry x="-0.9048" width="80" relative="1" as="geometry">
+            <mxPoint x="1060" y="280" as="sourcePoint" />
+            <mxPoint x="1140" y="280" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="foolkbOFwzQNOnHuT_NG-16" value="ReportFileRepository" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;sketch=1;" parent="1" vertex="1">
+          <mxGeometry x="880" y="80" width="160" height="960" as="geometry" />
+        </mxCell>
+        <mxCell id="foolkbOFwzQNOnHuT_NG-17" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;sketch=1;" parent="foolkbOFwzQNOnHuT_NG-16" vertex="1">
+          <mxGeometry x="75" y="240" width="10" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="foolkbOFwzQNOnHuT_NG-18" value="new GetByLongId&amp;lt;ReportFile&amp;gt;(unit).Do(Formatter.fmtNumLong(hfDocumentID.Value))" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;sketch=1;hachureGap=4;fontFamily=Verdana;fontSize=10;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;curved=1;entryX=-0.073;entryY=0.073;entryDx=0;entryDy=0;entryPerimeter=0;align=left;" parent="1" source="foolkbOFwzQNOnHuT_NG-1" target="foolkbOFwzQNOnHuT_NG-17" edge="1">
+          <mxGeometry x="-0.9231" width="80" relative="1" as="geometry">
+            <mxPoint x="178" y="290" as="sourcePoint" />
+            <mxPoint x="740" y="290" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="foolkbOFwzQNOnHuT_NG-19" value="[core].[select_ReportFile_ByID]" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;sketch=1;hachureGap=4;fontFamily=Verdana;fontSize=10;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;curved=1;align=left;entryX=0.016;entryY=0.089;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="foolkbOFwzQNOnHuT_NG-17" target="foolkbOFwzQNOnHuT_NG-20" edge="1">
+          <mxGeometry x="-0.8929" width="80" relative="1" as="geometry">
+            <mxPoint x="1100" y="350" as="sourcePoint" />
+            <mxPoint x="1180" y="350" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="foolkbOFwzQNOnHuT_NG-23" value="InitLinks()" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;sketch=1;hachureGap=4;fontFamily=Verdana;fontSize=10;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;curved=1;" parent="1" source="foolkbOFwzQNOnHuT_NG-1" target="foolkbOFwzQNOnHuT_NG-22" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="160" y="350" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="190" y="350" />
+              <mxPoint x="190" y="370" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="foolkbOFwzQNOnHuT_NG-24" value="recType = SELECT TOP 1 recType FROM [grls].[dbo].[StatementText] WHERE idStatement = {0}" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;sketch=1;hachureGap=4;fontFamily=Verdana;fontSize=10;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;curved=1;entryX=-0.114;entryY=0.039;entryDx=0;entryDy=0;entryPerimeter=0;align=left;" parent="1" source="foolkbOFwzQNOnHuT_NG-22" target="foolkbOFwzQNOnHuT_NG-25" edge="1">
+          <mxGeometry x="-0.9588" width="80" relative="1" as="geometry">
+            <mxPoint x="210" y="200" as="sourcePoint" />
+            <mxPoint x="1480" y="390" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

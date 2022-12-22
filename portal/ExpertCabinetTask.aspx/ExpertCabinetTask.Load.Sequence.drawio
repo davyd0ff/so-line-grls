@@ -1,0 +1,168 @@
+<mxfile host="app.diagrams.net" modified="2022-11-29T06:27:37.051Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" version="20.6.0" etag="lIOTMNQ-ZVW_JYQf9O5R" type="github">
+  <diagram id="ssKycrtSMsemJ2zY77Yj" name="Страница 1">
+    <mxGraphModel dx="869" dy="552" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="WKu-Oy1HrpZxNEacMhId-40" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;CreateConcreteRepository&amp;lt;IDocumentTypeRepository&amp;gt;()&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1290" y="440" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WKu-Oy1HrpZxNEacMhId-12" value="&lt;div style=&quot;font-size: 8px;&quot;&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;select stat.Code&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 8px;&quot;&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;from grls..StatementIncoming si&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 8px;&quot;&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; inner join grls..statement s on s.idstatement=si.idStatement&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 8px;&quot;&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; INNER JOIN grls.dbo.DocumentStatus stat ON stat.id=s.status&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 8px;&quot;&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;where si.inNumber={0}&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1840" y="280" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WKu-Oy1HrpZxNEacMhId-13" value="&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;&lt;font style=&quot;font-size: 8px;&quot;&gt;SELECT TOP 1 inNumber &lt;br&gt;FROM GRLS.dbo.StatementIncoming &lt;br&gt;WHERE StatementIncomingGUID = &#39;{0}&#39;&lt;/font&gt;&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="1950" y="200" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WKu-Oy1HrpZxNEacMhId-6" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;IncGUID=5cb453b3-aed7-4e85-9de1-d02432593c27&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="75" y="113" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WKu-Oy1HrpZxNEacMhId-2" value="" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="40" width="20" height="3440" as="geometry" />
+        </mxCell>
+        <mxCell id="WKu-Oy1HrpZxNEacMhId-3" value=":ExpertCabinetTask.aspx.cs" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="40" width="160" height="3440" as="geometry" />
+        </mxCell>
+        <mxCell id="WKu-Oy1HrpZxNEacMhId-5" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="WKu-Oy1HrpZxNEacMhId-3">
+          <mxGeometry x="75" y="70" width="10" height="490" as="geometry" />
+        </mxCell>
+        <mxCell id="WKu-Oy1HrpZxNEacMhId-4" value="&amp;lt;&amp;lt; load &amp;gt;&amp;gt;&lt;br&gt;Page_Load()" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;entryX=0.052;entryY=0.001;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="WKu-Oy1HrpZxNEacMhId-2" target="WKu-Oy1HrpZxNEacMhId-5">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="330" y="100" as="sourcePoint" />
+            <mxPoint x="410" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WKu-Oy1HrpZxNEacMhId-7" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;:DB&lt;/font&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="2070" y="40" width="100" height="3440" as="geometry" />
+        </mxCell>
+        <mxCell id="WKu-Oy1HrpZxNEacMhId-9" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=12;" vertex="1" parent="WKu-Oy1HrpZxNEacMhId-7">
+          <mxGeometry x="45" y="160" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WKu-Oy1HrpZxNEacMhId-11" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=12;" vertex="1" parent="WKu-Oy1HrpZxNEacMhId-7">
+          <mxGeometry x="45" y="240" width="10" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="WKu-Oy1HrpZxNEacMhId-47" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=8;" vertex="1" parent="WKu-Oy1HrpZxNEacMhId-7">
+          <mxGeometry x="45" y="480" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WKu-Oy1HrpZxNEacMhId-8" value="&amp;lt;&amp;lt; get InNumber &amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=12;entryX=-0.082;entryY=0.021;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="WKu-Oy1HrpZxNEacMhId-5" target="WKu-Oy1HrpZxNEacMhId-9">
+          <mxGeometry x="-0.7354" width="80" relative="1" as="geometry">
+            <mxPoint x="640" y="50" as="sourcePoint" />
+            <mxPoint x="720" y="50" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WKu-Oy1HrpZxNEacMhId-10" value="&amp;lt;&amp;lt; get status &amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=12;entryX=-0.084;entryY=0.008;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="WKu-Oy1HrpZxNEacMhId-5" target="WKu-Oy1HrpZxNEacMhId-11">
+          <mxGeometry x="-0.7354" width="80" relative="1" as="geometry">
+            <mxPoint x="460" y="200" as="sourcePoint" />
+            <mxPoint x="540" y="200" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WKu-Oy1HrpZxNEacMhId-14" value=":uc/TaskZoom.ascx" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="440" y="40" width="160" height="3440" as="geometry" />
+        </mxCell>
+        <mxCell id="WKu-Oy1HrpZxNEacMhId-15" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="WKu-Oy1HrpZxNEacMhId-14">
+          <mxGeometry x="75" y="90" width="10" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WKu-Oy1HrpZxNEacMhId-16" value=":uc/TaskZoom.ascx.cs" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="640" y="40" width="160" height="3440" as="geometry" />
+        </mxCell>
+        <mxCell id="WKu-Oy1HrpZxNEacMhId-17" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="WKu-Oy1HrpZxNEacMhId-16">
+          <mxGeometry x="75" y="320" width="10" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="WKu-Oy1HrpZxNEacMhId-18" value=":js/full/TaskZoom_common.js" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="827" y="40" width="160" height="3440" as="geometry" />
+        </mxCell>
+        <mxCell id="WKu-Oy1HrpZxNEacMhId-19" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="WKu-Oy1HrpZxNEacMhId-18">
+          <mxGeometry x="75" y="103" width="10" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="WKu-Oy1HrpZxNEacMhId-20" value="&amp;lt;&amp;lt; include &amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=12;entryX=-0.061;entryY=0.001;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="WKu-Oy1HrpZxNEacMhId-5" target="WKu-Oy1HrpZxNEacMhId-15">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="620" y="290" as="sourcePoint" />
+            <mxPoint x="700" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WKu-Oy1HrpZxNEacMhId-21" value="&amp;lt;&amp;lt; include &amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=12;entryX=0.044;entryY=0.001;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="WKu-Oy1HrpZxNEacMhId-15" target="WKu-Oy1HrpZxNEacMhId-19">
+          <mxGeometry x="-0.6026" width="80" relative="1" as="geometry">
+            <mxPoint x="570.61" y="170" as="sourcePoint" />
+            <mxPoint x="799.9999999999999" y="170" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WKu-Oy1HrpZxNEacMhId-23" value="&amp;lt;&amp;lt; load &amp;gt;&amp;gt;&lt;br&gt;Page_Load()" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=12;entryX=0.182;entryY=-0.005;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="WKu-Oy1HrpZxNEacMhId-5" target="WKu-Oy1HrpZxNEacMhId-17">
+          <mxGeometry x="-0.4674" width="80" relative="1" as="geometry">
+            <mxPoint x="560" y="360" as="sourcePoint" />
+            <mxPoint x="640" y="360" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WKu-Oy1HrpZxNEacMhId-24" value="CoreUnitOfWork" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="40" width="160" height="3440" as="geometry" />
+        </mxCell>
+        <mxCell id="WKu-Oy1HrpZxNEacMhId-25" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="WKu-Oy1HrpZxNEacMhId-24">
+          <mxGeometry x="75" y="340" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="WKu-Oy1HrpZxNEacMhId-26" value="&amp;lt;&amp;lt; create &amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=12;entryX=0.076;entryY=0.027;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="WKu-Oy1HrpZxNEacMhId-17" target="WKu-Oy1HrpZxNEacMhId-25">
+          <mxGeometry x="-0.5842" width="80" relative="1" as="geometry">
+            <mxPoint x="770" y="250" as="sourcePoint" />
+            <mxPoint x="850" y="250" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WKu-Oy1HrpZxNEacMhId-27" value="new CoreUnitOfWork(CurrentUser.DbUser, useTransaction = false)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="824" y="381" width="260" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WKu-Oy1HrpZxNEacMhId-28" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;&amp;lt;&amp;lt;&amp;nbsp;DataAcquisitionOperationBase &amp;gt;&amp;gt;&lt;/font&gt;&lt;br&gt;GetDocumentTypeByIncoming" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="1190" y="40" width="170" height="3440" as="geometry" />
+        </mxCell>
+        <mxCell id="WKu-Oy1HrpZxNEacMhId-29" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="WKu-Oy1HrpZxNEacMhId-28">
+          <mxGeometry x="80" y="375" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="WKu-Oy1HrpZxNEacMhId-34" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=8;" vertex="1" parent="WKu-Oy1HrpZxNEacMhId-28">
+          <mxGeometry x="80" y="400" width="10" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="WKu-Oy1HrpZxNEacMhId-30" value="&amp;lt;&amp;lt; create &amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=12;entryX=0.01;entryY=0.029;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="WKu-Oy1HrpZxNEacMhId-17" target="WKu-Oy1HrpZxNEacMhId-29">
+          <mxGeometry x="-0.7236" width="80" relative="1" as="geometry">
+            <mxPoint x="735" y="390.2700000000001" as="sourcePoint" />
+            <mxPoint x="1095.76" y="390.2700000000001" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WKu-Oy1HrpZxNEacMhId-33" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Do(inNumber).ToList()&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=8;entryX=0.036;entryY=-0.002;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="WKu-Oy1HrpZxNEacMhId-17" target="WKu-Oy1HrpZxNEacMhId-34">
+          <mxGeometry x="-0.7248" width="80" relative="1" as="geometry">
+            <mxPoint x="940" y="400" as="sourcePoint" />
+            <mxPoint x="1160" y="442" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WKu-Oy1HrpZxNEacMhId-36" value="&lt;font style=&quot;font-size: 8px;&quot;&gt;&amp;lt;&amp;lt; repository &amp;gt;&amp;gt;&lt;/font&gt;&lt;br&gt;DocumentTypeRepository" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="1435" y="40" width="170" height="3440" as="geometry" />
+        </mxCell>
+        <mxCell id="WKu-Oy1HrpZxNEacMhId-37" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="WKu-Oy1HrpZxNEacMhId-36">
+          <mxGeometry x="80" y="410" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="WKu-Oy1HrpZxNEacMhId-38" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;fontSize=8;" vertex="1" parent="WKu-Oy1HrpZxNEacMhId-36">
+          <mxGeometry x="80" y="450" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WKu-Oy1HrpZxNEacMhId-39" value="&amp;lt;&amp;lt; create via Ninject &amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=12;entryX=0;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="WKu-Oy1HrpZxNEacMhId-34" target="WKu-Oy1HrpZxNEacMhId-37">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1340" y="440" as="sourcePoint" />
+            <mxPoint x="1420" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WKu-Oy1HrpZxNEacMhId-41" value="FindByIncoming(InNumber)" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=12;entryX=-0.002;entryY=0.253;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="WKu-Oy1HrpZxNEacMhId-34" target="WKu-Oy1HrpZxNEacMhId-38">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="1380" y="420" as="sourcePoint" />
+            <mxPoint x="1460" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WKu-Oy1HrpZxNEacMhId-46" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;[grls].[core].[select_DocumentTypeList_ByIncoming]&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;fontSize=8;entryX=0.125;entryY=0.009;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="WKu-Oy1HrpZxNEacMhId-38" target="WKu-Oy1HrpZxNEacMhId-47">
+          <mxGeometry x="0.4715" width="80" relative="1" as="geometry">
+            <mxPoint x="1760" y="390" as="sourcePoint" />
+            <mxPoint x="1840" y="390" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

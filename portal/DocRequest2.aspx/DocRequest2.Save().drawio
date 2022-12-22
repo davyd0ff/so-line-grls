@@ -1,0 +1,31 @@
+<mxfile host="app.diagrams.net" modified="2022-10-31T10:51:25.876Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36" etag="IAawFif7_UOrvS1Is2nb" version="20.5.1" type="github">
+  <diagram id="ESB7JyxYeQET72yzLlRy" name="Страница 1">
+    <mxGraphModel dx="1343" dy="272" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="g_nUXbkKunnwgk4_lB-h-1" value=":DocRequest2.aspx" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="160" height="680" as="geometry" />
+        </mxCell>
+        <mxCell id="g_nUXbkKunnwgk4_lB-h-2" value=":DocRequest2.aspx.cs" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="40" width="160" height="680" as="geometry" />
+        </mxCell>
+        <mxCell id="g_nUXbkKunnwgk4_lB-h-4" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="g_nUXbkKunnwgk4_lB-h-2">
+          <mxGeometry x="75" y="100" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="g_nUXbkKunnwgk4_lB-h-3" value="&amp;lt;&amp;lt; Save &amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;rounded=0;" edge="1" parent="1" target="g_nUXbkKunnwgk4_lB-h-1">
+          <mxGeometry width="60" relative="1" as="geometry">
+            <mxPoint y="120" as="sourcePoint" />
+            <mxPoint x="60" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="g_nUXbkKunnwgk4_lB-h-5" value="bSave_Click()" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;entryX=0.032;entryY=0.013;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="g_nUXbkKunnwgk4_lB-h-1" target="g_nUXbkKunnwgk4_lB-h-4">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="400" y="330" as="sourcePoint" />
+            <mxPoint x="480" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

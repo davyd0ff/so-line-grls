@@ -1,0 +1,115 @@
+<mxfile host="app.diagrams.net" modified="2022-12-05T07:04:44.197Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" version="20.6.0" etag="3z1GKfhlN0GCSwvQ2zql" type="github">
+  <diagram id="Nkeg9CZlpKfOZv1np2-i" name="Страница 1">
+    <mxGraphModel dx="2510" dy="1131" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="IMVqpX4EKPAHTBsNYRfy-1" value="Есть два ENUM&amp;nbsp;&lt;br&gt;-&amp;nbsp;ResolutionKindList&lt;br&gt;-&amp;nbsp;ResolutionTypeList&lt;br&gt;&lt;br&gt;Евгений говорит что между ними связь &quot;&lt;b&gt;1:*&lt;/b&gt;&quot;, что говорит что это разные вещи... в коде часто втречаю либо путаницу&amp;nbsp;&lt;br&gt;kind = ResolutionTypeList. ...&lt;br&gt;либо это один справочник который имеет одни и те же значения что для Kind, что для Type" style="rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=4;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="350" y="380" width="310" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="IMVqpX4EKPAHTBsNYRfy-4" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="IMVqpX4EKPAHTBsNYRfy-3" target="IMVqpX4EKPAHTBsNYRfy-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IMVqpX4EKPAHTBsNYRfy-3" value="Возможно это реализовано отношением Parent - Chlidren" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="150" y="230" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IMVqpX4EKPAHTBsNYRfy-6" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IMVqpX4EKPAHTBsNYRfy-5" target="IMVqpX4EKPAHTBsNYRfy-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IMVqpX4EKPAHTBsNYRfy-5" value="В БД" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="490" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IMVqpX4EKPAHTBsNYRfy-8" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IMVqpX4EKPAHTBsNYRfy-7" target="IMVqpX4EKPAHTBsNYRfy-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IMVqpX4EKPAHTBsNYRfy-7" value="https://app.diagrams.net/#Hdavyd0ff%2Fso-line-grls%2Fmain%2FDomain%2FResolutions%2FreSolution.DB.drawio" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-440" y="435" width="430" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IMVqpX4EKPAHTBsNYRfy-14" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IMVqpX4EKPAHTBsNYRfy-9" target="IMVqpX4EKPAHTBsNYRfy-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IMVqpX4EKPAHTBsNYRfy-9" value="Модели" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="660" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IMVqpX4EKPAHTBsNYRfy-11" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IMVqpX4EKPAHTBsNYRfy-10" target="IMVqpX4EKPAHTBsNYRfy-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IMVqpX4EKPAHTBsNYRfy-10" value="&amp;lt;&amp;lt; model &amp;gt;&amp;gt;&lt;br&gt;&lt;br&gt;RegistrationResolution" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-110" y="700" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IMVqpX4EKPAHTBsNYRfy-13" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IMVqpX4EKPAHTBsNYRfy-12" target="IMVqpX4EKPAHTBsNYRfy-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IMVqpX4EKPAHTBsNYRfy-12" value="&amp;lt;&amp;lt; model &amp;gt;&amp;gt;&lt;br&gt;&lt;br&gt;ResolutionBaseLong" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="820" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IMVqpX4EKPAHTBsNYRfy-16" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IMVqpX4EKPAHTBsNYRfy-15" target="IMVqpX4EKPAHTBsNYRfy-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IMVqpX4EKPAHTBsNYRfy-15" value="х.п." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="710" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IMVqpX4EKPAHTBsNYRfy-18" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IMVqpX4EKPAHTBsNYRfy-17" target="IMVqpX4EKPAHTBsNYRfy-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IMVqpX4EKPAHTBsNYRfy-17" value="&amp;lt;&amp;lt; х.п. &amp;gt;&amp;gt;&lt;br&gt;&lt;br&gt;[dbo].[GetRpResolutionGRLS]" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="850" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IMVqpX4EKPAHTBsNYRfy-20" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IMVqpX4EKPAHTBsNYRfy-19" target="IMVqpX4EKPAHTBsNYRfy-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IMVqpX4EKPAHTBsNYRfy-19" value="&amp;lt;&amp;lt; х.п. &amp;gt;&amp;gt;&lt;br&gt;&lt;br&gt;[grls].[dbo].[StoreReSolution]" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="890" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IMVqpX4EKPAHTBsNYRfy-22" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IMVqpX4EKPAHTBsNYRfy-21" target="IMVqpX4EKPAHTBsNYRfy-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IMVqpX4EKPAHTBsNYRfy-21" value="&amp;lt;&amp;lt; х.п. &amp;gt;&amp;gt;&lt;br&gt;&lt;br&gt;[core].[select_Resolution_byId]" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="870" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IMVqpX4EKPAHTBsNYRfy-24" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IMVqpX4EKPAHTBsNYRfy-23" target="IMVqpX4EKPAHTBsNYRfy-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IMVqpX4EKPAHTBsNYRfy-23" value="&amp;lt;&amp;lt; х.п. &amp;gt;&amp;gt;&lt;br&gt;&lt;br&gt;[core].[select_ResolutionTemplate_byType]" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="770" y="740" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IMVqpX4EKPAHTBsNYRfy-26" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IMVqpX4EKPAHTBsNYRfy-25" target="IMVqpX4EKPAHTBsNYRfy-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IMVqpX4EKPAHTBsNYRfy-25" value="&amp;lt;&amp;lt; domain model &amp;gt;&amp;gt;&lt;br&gt;https://app.diagrams.net/#Hdavyd0ff%2Fso-line-grls%2Fmain%2FDomain%2FResolutions%2FRegistrationResolution.DO.drawio" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-660" y="770" width="440" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="IMVqpX4EKPAHTBsNYRfy-28" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IMVqpX4EKPAHTBsNYRfy-27" target="IMVqpX4EKPAHTBsNYRfy-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IMVqpX4EKPAHTBsNYRfy-27" value="TemplateDocument содержит поле ResolutionKindId и ResolutionKindCode ..&lt;br&gt;а RegistrationResolution содержит ResolutionTypeId и ResolutionTypeCode" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1080" y="800" width="230" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="IMVqpX4EKPAHTBsNYRfy-31" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IMVqpX4EKPAHTBsNYRfy-30" target="IMVqpX4EKPAHTBsNYRfy-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IMVqpX4EKPAHTBsNYRfy-30" value="Запутанные связи между таблицами" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-710" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IMVqpX4EKPAHTBsNYRfy-33" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IMVqpX4EKPAHTBsNYRfy-32" target="IMVqpX4EKPAHTBsNYRfy-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IMVqpX4EKPAHTBsNYRfy-32" value="&amp;lt;&amp;lt; х.п. &amp;gt;&amp;gt;&lt;br&gt;&lt;br&gt;[grls].[core].[insert_ResolutionBase]" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="990" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IMVqpX4EKPAHTBsNYRfy-35" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IMVqpX4EKPAHTBsNYRfy-34" target="IMVqpX4EKPAHTBsNYRfy-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IMVqpX4EKPAHTBsNYRfy-34" value="&amp;lt;&amp;lt; х.п. &amp;gt;&amp;gt;&lt;br&gt;&lt;br&gt;[core].[select_ResolutionBase_byId]" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="950" y="870" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IMVqpX4EKPAHTBsNYRfy-38" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IMVqpX4EKPAHTBsNYRfy-36" target="IMVqpX4EKPAHTBsNYRfy-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IMVqpX4EKPAHTBsNYRfy-36" value="&amp;lt;&amp;lt; х.п. &amp;gt;&amp;gt;&lt;br&gt;&lt;br&gt;[dbo].[GetRpResolutionEEC]" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="990" width="210" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
