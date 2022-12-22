@@ -1,15 +1,26 @@
-﻿using Core.Infrastructure.Context.Abstract;
+﻿using Core.BusinessTransactions.ChangeDocumentExternalStateTransactions;
+using Core.BusinessTransactions.ChangeDocumentInternalStateTransactions;
+using Core.BusinessTransactions;
+using Core.Infrastructure.Context.Abstract;
+using Core.Models.BusinessTransactions;
+using Core.Models.CommunicationModels.State;
 using Grls.Sync.Tests.Helpers.GRLS.ApplicantRequests;
 using Grls.Sync.Tests.Helpers.GRLS.Statements;
 using Grls.Sync.Tests.Helpers.Models;
 using Grls.Sync.Tests.Helpers.Models.Common;
+using grlsSync.Observers;
 using Moq;
+using Core.Models.Documents;
+using Core.Repositories;
+using Core.BusinessTransactions.Abstract;
+using Core.Models.Common;
 
 namespace Grls.Sync.Tests.Helpers.GRLS
 {
     public partial class Create
     {
         private Mock<ICoreUnitOfWork> unitOfWork = new Mock<ICoreUnitOfWork>();
+        private Mock<IDbContext> dbContext = new Mock<IDbContext>();
 
         public Create()
         {
@@ -17,6 +28,7 @@ namespace Grls.Sync.Tests.Helpers.GRLS
                 .Returns(this.User);
         }
 
+        public RequestAnswerBaseLongBuilder RequestAnswerBaseLong => new RequestAnswerBaseLongBuilder(unitOfWork);
         public GrlsMrApplicantRequestMZBuilder GrlsMrApplicantRequestMZ => new GrlsMrApplicantRequestMZBuilder(unitOfWork);
         public GrlsMrApplicantRequestFGBUBuilder GrlsMrApplicantRequestFGBU => new GrlsMrApplicantRequestFGBUBuilder(unitOfWork);
         public GrlsMrApplicantRequestInspectBuilder GrlsMrApplicantRequestInspect => new GrlsMrApplicantRequestInspectBuilder(unitOfWork);
@@ -27,5 +39,160 @@ namespace Grls.Sync.Tests.Helpers.GRLS
         public StateTransitionBuilder StateTransition => new StateTransitionBuilder();
 
         public TriggerBuilder Trigger => new TriggerBuilder(this.unitOfWork);
+
+        public ChangeLongDocumentInternalStateObserverBuilder ChangeLongDocumentInternalStateObserver =>
+            new ChangeLongDocumentInternalStateObserverBuilder(this.unitOfWork);
+
+        public ChangeGrlsApplicantRequestInternalStateObserverBuilder ChangeGrlsApplicantRequestInternalStateObserver =>
+            new ChangeGrlsApplicantRequestInternalStateObserverBuilder(this.unitOfWork, this.dbContext);
     }
+
+    internal sealed class Mock_Successed_ChangeLongDocumentInternalState : ChangeLongDocumentInternalState
+    {
+        private Mock<ICoreUnitOfWork> _unitOfWork;
+
+        public Mock_Successed_ChangeLongDocumentInternalState(Mock<ICoreUnitOfWork> unitOfWork) : base(unitOfWork.Object)
+        {
+            this._unitOfWork = unitOfWork;
+        }
+
+        protected override ValidationResult Validate(ChangeStateInfo info, bool withTriggers)
+        {
+            return ValidationResult.Succeeded();
+        }
+
+        protected override TransactionResult PerformTransaction(ChangeStateInfo info, bool withTriggers)
+        {
+            return this._unitOfWork.Object.Get<IBinaryBusinessTransaction<ChangeStateInfo, bool>>().Run(info, withTriggers);
+
+            //return TransactionResult.Succeeded();
+        }
+    }
+    internal sealed class Mock_Successed_ChangeLongDocumentInternalStateObserver : ChangeLongDocumentInternalStateObserver
+    {
+        private Mock<ICoreUnitOfWork> _unitOfWork;
+
+        public Mock_Successed_ChangeLongDocumentInternalStateObserver(Mock<ICoreUnitOfWork> unitOfWork)
+        {
+            this._unitOfWork = unitOfWork;
+        }
+
+        public void Execute(ICoreUnitOfWork unitOfWork, object[] incomingParams)
+        {
+            incomingParams = incomingParams;
+        }
+    }
+    internal sealed class MockChangeDocumentInternalState : ChangeDocumentInternalState
+    {
+        private Mock<ICoreUnitOfWork> _unitOfWork;
+
+        public MockChangeDocumentInternalState(Mock<ICoreUnitOfWork> unitOfWork) : base(unitOfWork.Object)
+        {
+            this._unitOfWork = unitOfWork;
+        }
+
+        protected override ValidationResult Validate(ChangeStateRequest request)
+        {
+            return ValidationResult.Succeeded();
+        }
+        protected override TransactionResult PerformTransaction(ChangeStateRequest request)
+        {
+            return TransactionResult.Succeeded();
+        }
+    }
+    internal sealed class MockChangeGrlsApplicantRequestInternalState : ChangeGrlsApplicantRequestInternalState
+    {
+        private Mock<ICoreUnitOfWork> _unitOfWork;
+        public MockChangeGrlsApplicantRequestInternalState(Mock<ICoreUnitOfWork> unitOfWork) : base(unitOfWork.Object)
+        {
+            this._unitOfWork = unitOfWork;
+        }
+
+        protected override ValidationResult Validate(ChangeStateInfo changeStateInfo, bool withTriggers)
+        {
+            return ValidationResult.Succeeded();
+        }
+
+        protected override TransactionResult PerformTransaction(ChangeStateInfo info, bool withTriggers)
+        {
+            return TransactionResult.Succeeded();
+        }
+    }
+    internal sealed class Mock_Successed_ChangeLongDocumentExternalState : ChangeLongDocumentExternalState
+    {
+        private Mock<ICoreUnitOfWork> _unitOfWork;
+        public Mock_Successed_ChangeLongDocumentExternalState(Mock<ICoreUnitOfWork> unitOfWork) : base(unitOfWork.Object)
+        {
+            this._unitOfWork = unitOfWork;
+        }
+
+        protected override ValidationResult Validate(ChangeStateInfo info)
+        {
+            return ValidationResult.Succeeded();
+        }
+
+        protected override TransactionResult PerformTransaction(ChangeStateInfo info)
+        {
+            return TransactionResult.Succeeded();
+        }
+    }
+    internal sealed class MockChangeGrlsApplicantRequestExternalState : ChangeGrlsApplicantRequestExternalState
+    {
+        private Mock<ICoreUnitOfWork> _unitOfWork;
+
+        public MockChangeGrlsApplicantRequestExternalState(Mock<ICoreUnitOfWork> unitOfWork) : base(unitOfWork.Object)
+        {
+            this._unitOfWork = unitOfWork;
+        }
+
+        protected override ValidationResult Validate(ChangeStateInfo changeExternalStateInfo)
+        {
+            return ValidationResult.Succeeded();
+        }
+
+        protected override TransactionResult PerformTransaction(ChangeStateInfo changeExternalStateInfo)
+        {
+            return TransactionResult.Succeeded();
+        }
+    }
+
+    internal sealed class Mock_Successed_CreateRequestAnswer : CreateRequestAnswer
+    {
+        private Mock<ICoreUnitOfWork> _unitOfWork;
+
+        public Mock_Successed_CreateRequestAnswer(Mock<ICoreUnitOfWork> unitOfWork) : base(unitOfWork.Object) {
+            this._unitOfWork = unitOfWork;
+        }
+
+        protected override ValidationResult Validate(long requestId, int documentTypeId)
+        {
+            return ValidationResult.Succeeded();
+        }
+
+        protected override TransactionResult PerformTransaction(long requestId, int documentTypeId)
+        {
+            return TransactionResult.Succeeded();
+        }
+    }
+
+    internal sealed class MockRequestAnswerBaseLongRepository : RequestAnswerBaseLongRepository
+    {
+        private Mock<ICoreUnitOfWork> _unitOfWork;
+        private Mock<IDbContext> _context;
+        private RequestAnswerBaseLong _answer;
+
+        public MockRequestAnswerBaseLongRepository(Mock<ICoreUnitOfWork> unitOfWork, Mock<IDbContext> context, RequestAnswerBaseLong answer) 
+            : base(unitOfWork.Object, context.Object)
+        {
+            this._unitOfWork = unitOfWork;
+            this._context = context;
+            this._answer = answer;
+        }
+
+        public override RequestAnswerBaseLong GetByRequestId(int id)
+        {
+            return this._answer;
+        }
+    }
+
 }
