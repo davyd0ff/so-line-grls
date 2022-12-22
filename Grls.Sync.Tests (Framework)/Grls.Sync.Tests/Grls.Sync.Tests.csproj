@@ -92,9 +92,14 @@
     <Compile Include="Helpers\Models\Common\StateTransitionPermissionBuilder.cs" />
     <Compile Include="Helpers\Models\Common\StateTransitionTriggerBuilder.cs" />
     <Compile Include="Helpers\Models\Common\TriggerBuilder.cs" />
+    <Compile Include="Helpers\Models\RequestAnswerBaseLongBuilder.cs" />
     <Compile Include="Helpers\Models\UserBuilder.cs" />
+    <Compile Include="Helpers\Observers\ChangeGrlsApplicantRequestInternalStateObserverBuilder.cs" />
+    <Compile Include="Helpers\Observers\ChangeLongDocumentInternalStateObserverBuilder.cs" />
     <Compile Include="Observers\ChangeDocumentInternalStateObservers\ChangeGrlsApplicantRequestInternalStateObserverTest.cs" />
+    <Compile Include="Observers\ChangeLongDocumentInternalStateObserverTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TestService.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />

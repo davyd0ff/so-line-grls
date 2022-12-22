@@ -1,6 +1,9 @@
 ﻿using Core.Infrastructure;
+using Core.Infrastructure.Context.Abstract;
 using Core.Models.Common;
 using Core.Models.Common.Abstract;
+using Grls.Common.Abstract;
+using Moq;
 using System.Collections.Generic;
 using System.Linq;
 
@@ -28,6 +31,12 @@ namespace Grls.Sync.Tests.Helpers.Models.Common
 
         public static InternalStateBuilder RequestFormed =>
             new InternalStateBuilder(InnerStateCode.request_formed);
+
+        public static InternalStateBuilder Formated =>
+            new InternalStateBuilder(InnerStateCode.formated);
+
+        public static InternalStateBuilder HandledApplicant =>
+            new InternalStateBuilder(InnerStateCode.handled_applicant);
     }
 
     public class InternalStateBuilder
@@ -35,6 +44,7 @@ namespace Grls.Sync.Tests.Helpers.Models.Common
         private static int InternalStateCount = 0;
         private static Dictionary<string, InternalState> Hash = new Dictionary<string, InternalState>();
         private InternalState _state;
+        //private Mock<ICoreUnitOfWork> _mockedCoreUnitOfWork;
 
         public InternalStateBuilder(string stateCode)
         {
@@ -67,5 +77,17 @@ namespace Grls.Sync.Tests.Helpers.Models.Common
         {
             return builder.Please();
         }
+        public static implicit operator int(InternalStateBuilder builder)
+        {
+            return builder.Please().Id;
+        }
+        public static implicit operator string(InternalStateBuilder bulder)
+        {
+            return bulder.Please().Code;
+        }
+        //public static implicit operator IThesaurusBase(InternalStateBuilder builder)
+        //{
+        //    return builder.Please() as IThesaurusBase;
+        //}
     }
 }

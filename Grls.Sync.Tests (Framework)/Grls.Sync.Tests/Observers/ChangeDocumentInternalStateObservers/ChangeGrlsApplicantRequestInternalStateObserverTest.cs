@@ -2,6 +2,7 @@
 using Core.BusinessTransactions.ChangeDocumentExternalStateTransactions;
 using Core.BusinessTransactions.ChangeDocumentInternalStateTransactions;
 using Core.Entity.Models;
+using Core.Enums;
 using Core.Infrastructure.Context.Abstract;
 using Core.Models.BusinessTransactions;
 using Core.Models.Common;
@@ -30,249 +31,94 @@ namespace Grls.Sync.Tests.Observers.ChangeDocumentInternalStateObservers
 
 
         [TestMethod]
-        public void Test_ChangeLongDocumentInternalStateObserver_RunTrigger_InternalState()
+        public void Test_GrlsMRApplicantRequestMZ_ToSending_AndUserHasPermissions_CreateRequestAnswerWasCalled()
         {
-            var statement = Create.StatementMR.WithInternalState(InternalStates.Entered);
-
             var applicantRequest = Create.GrlsMrApplicantRequestMZ
-                                         .ToStatement(statement)
+                                         .ToStatement(Create.StatementMR.WithInternalState(InternalStates.Entered))
                                          .WithInternalState(InternalStates.Signed)
                                          .Please();
 
-            var (observer, incomingParams, spy_UnitOfWork) =
-                           Create.ChangeLongDocumentInternalStateObserver
-                                 .WithDocument(applicantRequest)
-                                 .WithInternalStateTransitions(
-                                        Create.StateTransition
-                                              .ForDocumentType(applicantRequest.DocumentType)
-                                              .From(InternalStates.Signed)
-                                              .To(InternalStates.Sending)
-                                              .HasPermissions(Actions.InternalStateChange)
-                                              .WithTriggers(
-                                                    Create.Trigger
-                                                          .ForDocument(statement)
-                                                          .ToInternalState(InternalStates.RequestFormed)
-                                               )
-                                  )
-                                 .PleaseWitIncomingParamsAndSpies();
+            var (observer, testService) =
+                                     Create.ChangeGrlsApplicantRequestInternalStateObserver
+                                           .WithUser(Create.User.WithPermissions(Actions.InternalStateChange))
+                                           .WithRequest(applicantRequest)
+                                           .WithNextInternalState(InternalStates.Sending)
+                                           .PleaseWithTestService();
 
 
-
-            observer.Execute(spy_UnitOfWork.Object, incomingParams);
-
+            observer.Execute(testService.ICoreUnitOfWork.Object, testService.IncomingParams);
 
 
-            Assert.IsNotNull(spy_UnitOfWork);
-            spy_UnitOfWork.Verify(u => u.Get<ChangeGrlsApplicantRequestInternalState>(), Times.Never());
-            spy_UnitOfWork.Verify(u => u.Get<ChangeDocumentInternalState>(), Times.Once());
+            testService.ICoreUnitOfWork.Verify(u => u.Get<CreateRequestAnswer>(), Times.Once());
         }
-
 
         [TestMethod]
-        public void Test_ChangeLongDocumentInternalStateObserver_RunTrigger_ExternalState()
+        public void Test_GrlsMRApplicantRequestMZWithAnswer_ToSending_CreateRequestAnswerWasNotCalledAndAnswerChangeStateToProject()
         {
-            var statement = Create.StatementMR.WithInternalState(InternalStates.Entered);
-
             var applicantRequest = Create.GrlsMrApplicantRequestMZ
-                                         .ToStatement(statement)
+                                         .ToStatement(Create.StatementMR.WithInternalState(InternalStates.Entered))
                                          .WithInternalState(InternalStates.Signed)
                                          .Please();
 
-            var (observer, incomingParams, spy_UnitOfWork) = 
-                           Create.ChangeLongDocumentInternalStateObserver
-                                 .WithDocument(applicantRequest)
-                                 .WithInternalStateTransitions(
-                                        Create.StateTransition
-                                              .ForDocumentType(applicantRequest.DocumentType)
-                                              .From(InternalStates.Signed)
-                                              .To(InternalStates.Sending)
-                                              .HasPermissions(Actions.InternalStateChange)
-                                              .WithTriggers(
-                                                    Create.Trigger
-                                                          .ForDocument(applicantRequest)
-                                                          .ToOuterState(OuterStates.SendApplicant)
-                                               )
-                                  )
-                                 .PleaseWitIncomingParamsAndSpies();
+            var answer = Create.RequestAnswerBaseLong
+                               .WithRequest(applicantRequest)
+                               .Please();
+
+            var (observer, testService) =
+                                     Create.ChangeGrlsApplicantRequestInternalStateObserver
+                                           .WithUser(Create.User.WithPermissions(Actions.InternalStateChange))
+                                           .WithRequest(applicantRequest)
+                                           .WithRequestAnswer(answer)
+                                           .WithNextInternalState(InternalStates.Sending)
+                                           .PleaseWithTestService();
+
+            // TODO надо проинициализировать DocumentType в RequestAnswer
 
 
-
-            observer.Execute(spy_UnitOfWork.Object, incomingParams);
-
+            observer.Execute(testService.ICoreUnitOfWork.Object, testService.IncomingParams);
 
 
-            Assert.IsNotNull(spy_UnitOfWork);
-            spy_UnitOfWork.Verify(u => u.Get<ChangeLongDocumentExternalState>(), Times.Once());
-            spy_UnitOfWork.Verify(u => u.Get<ChangeGrlsApplicantRequestExternalState>(), Times.Once());
-        }
-    }
-}
-
-namespace Grls.Sync.Tests.Helpers.GRLS
-{
-    public partial class Create
-    {
-        public ChangeLongDocumentInternalStateObserverBuilder ChangeLongDocumentInternalStateObserver =>
-            new ChangeLongDocumentInternalStateObserverBuilder(this.unitOfWork);
-    }
-}
-namespace Grls.Sync.Tests.Helpers
-{
-    public class ChangeLongDocumentInternalStateObserverBuilder
-    {
-        private Mock<ICoreUnitOfWork> _unitOfWork;
-        private ChangeStateInfo changeStateInfo;
-
-        public ChangeLongDocumentInternalStateObserverBuilder(Mock<ICoreUnitOfWork> unitOfWork)
-        {
-            this._unitOfWork = unitOfWork;
-            this.changeStateInfo = new ChangeStateInfo();
-
-            this._unitOfWork.Setup(u => u.Get<ChangeDocumentInternalState>())
-                            .Returns(new MockChangeDocumentInternalState(this._unitOfWork));
-
-            this._unitOfWork.Setup(u => u.Get<ChangeLongDocumentExternalState>())
-                            .Returns(new MockChangeLongDocumentExternalState(this._unitOfWork));
-
-            this._unitOfWork.Setup(u => u.Get<ChangeGrlsApplicantRequestInternalState>())
-                            .Returns(new MockChangeGrlsApplicantRequestInternalState(this._unitOfWork));
-
-            this._unitOfWork.Setup(u => u.Get<ChangeGrlsApplicantRequestExternalState>())
-                            .Returns(new MockChangeGrlsApplicantRequestExternalState(this._unitOfWork));
+            testService.ICoreUnitOfWork.Verify(u => u.Get<CreateRequestAnswer>(), Times.Never());
+            testService.ChangeLongDocumentInternalState.Verify(t => t.Run(It.Is<ChangeStateInfo>(
+                csi => csi.Id == answer.Id 
+                    && csi.StateId == InternalStates.Project
+                    && csi.TypeId == answer.DocumentType.Id
+            ), true));
         }
 
-
-        public ChangeLongDocumentInternalStateObserverBuilder WithDocument(MedicamentRegistrationApplicantRequest applicantRequest)
+        [TestMethod]
+        public void Test_GrlsMRApplicantRequestMZWithAnswer_ToHandledApplicant_CreateRequestAnswerWasNotCalledAndAnswerChangeStateToFormated()
         {
+            var applicantRequest = Create.GrlsMrApplicantRequestMZ
+                                         .ToStatement(Create.StatementMR.WithInternalState(InternalStates.Entered))
+                                         //.WithInternalState(InternalStates.Signed)
+                                         .Please();
 
-            this.changeStateInfo.Id = applicantRequest.DocumentId;
-            this.changeStateInfo.TypeId = applicantRequest.DocumentType.Id;
-            this.changeStateInfo.Guid = applicantRequest.RoutingGuid;
+            var answer = Create.RequestAnswerBaseLong
+                               .WithRequest(applicantRequest)
+                               .Please();
 
-            var mockIIdentifiedLongRepositoryForDocument = new Mock<IIdentifiedLongRepository<Document>>();
-            mockIIdentifiedLongRepositoryForDocument
-                .Setup(r => r.GetById(applicantRequest.DocumentId))
-                .Returns(new Document
-                {
-                    Id = applicantRequest.DocumentId,
-                    DocumentType = applicantRequest.DocumentType,
-                    DocumentTypeId = applicantRequest.DocumentType.Id,
-                    //IncomingPackage = applicantRequest.IncomingPackage,
-                    RoutingGuid = applicantRequest.RoutingGuid
-                });
+            var (observer, testService) =
+                                     Create.ChangeGrlsApplicantRequestInternalStateObserver
+                                           .WithUser(Create.User.WithPermissions(Actions.InternalStateChange))
+                                           .WithRequest(applicantRequest)
+                                           .WithRequestAnswer(answer)
+                                           .WithNextInternalState(InternalStates.HandledApplicant)
+                                           .PleaseWithTestService();
 
-            this._unitOfWork.Setup(u => u.Get(typeof(IIdentifiedLongRepository<Document>)))
-                            .Returns(mockIIdentifiedLongRepositoryForDocument.Object);  
-
-            return this;
-        }
-
-        public ChangeLongDocumentInternalStateObserverBuilder WithInternalStateTransitions(StateTransition transition)
-        {
-            this.changeStateInfo.Transition = transition;
-            this.changeStateInfo.IsChanged = true;
-            this.changeStateInfo.StateId = transition.ToStateId;
+            // TODO надо проинициализировать DocumentType в RequestAnswer
 
 
-            var IIdentifiedRepositoryMock = new Mock<IIdentifiedRepository>();
-            IIdentifiedRepositoryMock
-                .Setup(r => r.FindById(It.IsAny<int>()))
-                .Returns(transition.ToState);
-
-            this._unitOfWork
-                .Setup(u => u.Get<IIdentifiedRepository>(It.Is<string>(p => p.Equals(typeof(InternalState).Name))))
-                .Returns(IIdentifiedRepositoryMock.Object);
+            observer.Execute(testService.ICoreUnitOfWork.Object, testService.IncomingParams);
 
 
-            return this;
-        }
-
-        public ChangeLongDocumentInternalStateObserver Please()
-        {
-            return new ChangeLongDocumentInternalStateObserver();
-        }
-
-        public (ChangeLongDocumentInternalStateObserver, object[], Mock<ICoreUnitOfWork>) PleaseWitIncomingParamsAndSpies()
-        {
-            return (
-                this.Please(),
-                new object[] { this.changeStateInfo },
-                this._unitOfWork
-            );
-        }
-
-        internal sealed class MockChangeDocumentInternalState : ChangeDocumentInternalState
-        {
-            private Mock<ICoreUnitOfWork> _unitOfWork;
-
-            public MockChangeDocumentInternalState(Mock<ICoreUnitOfWork> unitOfWork) : base(unitOfWork.Object)
-            {
-                this._unitOfWork = unitOfWork;
-            }
-
-            protected override ValidationResult Validate(ChangeStateRequest request)
-            {
-                return ValidationResult.Succeeded();
-            }
-            protected override TransactionResult PerformTransaction(ChangeStateRequest request)
-            {
-                return TransactionResult.Succeeded();
-            }
-        }
-        internal sealed class MockChangeGrlsApplicantRequestInternalState : ChangeGrlsApplicantRequestInternalState
-        {
-            private Mock<ICoreUnitOfWork> _unitOfWork;
-            public MockChangeGrlsApplicantRequestInternalState(Mock<ICoreUnitOfWork> unitOfWork) : base(unitOfWork.Object)
-            {
-                this._unitOfWork = unitOfWork;
-            }
-
-            protected override ValidationResult Validate(ChangeStateInfo changeStateInfo, bool withTriggers)
-            {
-                return ValidationResult.Succeeded();
-            }
-
-            protected override TransactionResult PerformTransaction(ChangeStateInfo info, bool withTriggers)
-            {
-                return TransactionResult.Succeeded();
-            }
-        }
-        
-        internal sealed class MockChangeLongDocumentExternalState : ChangeLongDocumentExternalState
-        {
-            private Mock<ICoreUnitOfWork> _unitOfWork;
-            public MockChangeLongDocumentExternalState(Mock<ICoreUnitOfWork> unitOfWork) : base(unitOfWork.Object){ 
-                this._unitOfWork = unitOfWork;
-            }
-
-            protected override ValidationResult Validate(ChangeStateInfo info)
-            {
-                return ValidationResult.Succeeded();
-            }
-
-            protected override TransactionResult PerformTransaction(ChangeStateInfo info)
-            {
-                return TransactionResult.Succeeded();
-            }
-        }
-        internal sealed class MockChangeGrlsApplicantRequestExternalState : ChangeGrlsApplicantRequestExternalState
-        {
-            private Mock<ICoreUnitOfWork> _unitOfWork;
-
-            public MockChangeGrlsApplicantRequestExternalState(Mock<ICoreUnitOfWork> unitOfWork) : base(unitOfWork.Object)
-            {
-                this._unitOfWork = unitOfWork;
-            }
-
-            protected override ValidationResult Validate(ChangeStateInfo changeExternalStateInfo)
-            {
-                return ValidationResult.Succeeded();
-            }
-
-            protected override TransactionResult PerformTransaction(ChangeStateInfo changeExternalStateInfo)
-            {
-                return TransactionResult.Succeeded();
-            }
+            testService.ICoreUnitOfWork.Verify(u => u.Get<CreateRequestAnswer>(), Times.Never());
+            testService.ChangeLongDocumentInternalState.Verify(t => t.Run(It.Is<ChangeStateInfo>(
+                csi => csi.Id == answer.Id
+                    && csi.StateId == InternalStates.Formated
+                    && csi.TypeId == answer.DocumentType.Id
+            ), true));
+            testService.IDocumentRepository.Verify(r => r.SaveQrCode(answer.Id, It.IsAny<BarCodeQr>()), Times.Once());
         }
     }
 }
