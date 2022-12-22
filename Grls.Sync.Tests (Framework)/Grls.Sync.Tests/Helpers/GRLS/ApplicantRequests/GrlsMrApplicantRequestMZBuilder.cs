@@ -1,4 +1,5 @@
-﻿using Core.Enums;
+﻿using Core.Entity.Models;
+using Core.Enums;
 using Core.Infrastructure;
 using Core.Infrastructure.Context.Abstract;
 using Core.Models.Common;
@@ -22,6 +23,7 @@ namespace Grls.Sync.Tests.Helpers.GRLS.ApplicantRequests
             {
                 Id = 94,
                 Code = this._code,
+                FlowId = 1,
                 Flow = new DocumentFlow
                 {
                     Id = 1,
@@ -38,29 +40,45 @@ namespace Grls.Sync.Tests.Helpers.GRLS.ApplicantRequests
                 RoutingGuid = this.RoutingGuid,
             };
 
-            var MockIdentifiedRepository = new Mock<IIdentifiedRepository>();
-            MockIdentifiedRepository.Setup(r => r.FindById(It.IsAny<int>()))
-                                    .Returns(this.ApplicantRequest);
+            this.Document = new Document
+            {
+                Id = this.DocumentId,
+                DocumentType = DocumentType,
+                RoutingGuid = this.RoutingGuid,
+            };
 
+
+            var mockIdentifiedRepository = new Mock<IIdentifiedRepository>();
+            mockIdentifiedRepository.Setup(r => r.FindById(It.IsAny<int>()))
+                                    .Returns(this.ApplicantRequest);
             unitOfWork.Setup(u => u.Get<IIdentifiedRepository>(
                             It.Is<string>(p => p.Equals(typeof(MedicamentRegistrationApplicantRequest).Name))))
-                      .Returns(MockIdentifiedRepository.Object);
-
+                      .Returns(mockIdentifiedRepository.Object);
 
             var mockRoutableRepository = new Mock<IRoutableRepository>();
             mockRoutableRepository
                 .Setup(r => r.FindByGuid(It.Is<Guid>(p => p.Equals(this.RoutingGuid))))
                 .Returns(this.ApplicantRequest);
-
             unitOfWork
                 .Setup(u => u.Get<IRoutableRepository>(
-                    It.Is<string>(p => p.Equals(typeof(MedicamentRegistrationApplicantRequest).Name))))
+                    It.Is<string>(p => p.Equals(typeof(MedicamentRegistrationApplicantRequest).Name) 
+                                    || p.Equals(typeof(ApplicantRequestBase).Name)
+                                    || p.Equals(this._code))))
                 .Returns(mockRoutableRepository.Object);
 
             unitOfWork
                 .Setup(u => u.GetDocumentTypeByTypeCode(
                     It.Is<string>(p => p.Equals(this.DocumentType.Code))))
                 .Returns(typeof(MedicamentRegistrationApplicantRequest));
+
+
+            var mockDocumentIdentifiedLongRepository = new Mock<IIdentifiedLongRepository<Document>>();
+            mockDocumentIdentifiedLongRepository
+                    .Setup(r => r.GetById(It.Is<long>(p => p.Equals(this.DocumentId))))
+                    .Returns(this.Document);
+            unitOfWork
+                .Setup(u => u.Get<IIdentifiedLongRepository<Document>>())
+                .Returns(mockDocumentIdentifiedLongRepository.Object);
         }
 
         public GrlsMrApplicantRequestMZBuilder ToStatement(IncomingPackageBase incoming)
