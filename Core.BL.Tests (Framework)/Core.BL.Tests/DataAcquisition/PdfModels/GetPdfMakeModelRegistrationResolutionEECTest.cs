@@ -518,7 +518,7 @@ namespace Core.BL.Tests.GRLS
     public partial class Create
     {
         public GetPdfMakeModelRegistrationResolutionEECBuilder GetPdfMakeModelRegistrationResolutionEEC =>
-            new GetPdfMakeModelRegistrationResolutionEECBuilder(unitOfWork);
+            new GetPdfMakeModelRegistrationResolutionEECBuilder(mockedUnitOfWork);
     }
 
 

@@ -25,6 +25,8 @@ namespace Core.BL.Tests.GRLS.ApplicantRequests
         {
             var requestId = ApplicantRequestsIdGeneator.Next();
             var documentId = DocumentIdGenerator.Next();
+            var requestGuid = Guid.NewGuid();
+            
             var documentType = new DocumentType
             {
                 Id = 94,
@@ -42,21 +44,29 @@ namespace Core.BL.Tests.GRLS.ApplicantRequests
                 Id = requestId,
                 DocumentId = documentId,
                 DocumentType = documentType,
+                RoutingGuid = requestGuid,
             };
 
-            DocumentTypes.DocumentTypeList.Add(documentType);
 
-
-            var MockIdentifiedRepository = new Mock<IIdentifiedRepository>();
-            MockIdentifiedRepository.Setup(r => r.FindById(It.IsAny<int>()))
-                                    .Returns(this.request);
+            var mockedIdentifiedRepository = new Mock<IIdentifiedRepository>();
+            mockedIdentifiedRepository.Setup(r => r.FindById(It.Is<int>(p => p.Equals(requestId))))
+                                      .Returns(this.request);
+            var mockedIRoutableRepository = new Mock<IRoutableRepository>();
+            mockedIRoutableRepository.Setup(r => r.FindByGuid(It.Is<Guid>(p => p.Equals(requestGuid))))
+                                     .Returns(this.request);
 
 
             unitOfWork.Setup(u => u.GetDocumentTypeByTypeCode(It.Is<string>(p => p.Equals(this._code))))
                       .Returns(typeof(MedicamentRegistrationApplicantRequest));
 
             unitOfWork.Setup(u => u.Get<IIdentifiedRepository>(It.Is<string>(p => p.Equals(typeof(MedicamentRegistrationApplicantRequest).Name))))
-                      .Returns(MockIdentifiedRepository.Object);
+                      .Returns(mockedIdentifiedRepository.Object);
+
+            unitOfWork.Setup(u => u.Get<IRoutableRepository>(It.Is<string>(p => p.Equals(this._code))))
+                      .Returns(mockedIRoutableRepository.Object);
+
+
+            DocumentTypes.DocumentTypeList.Add(documentType);
         }
 
         public GrlsMrApplicantRequestMZBuilder ToStatement(IncomingPackageBase incoming)
@@ -70,6 +80,13 @@ namespace Core.BL.Tests.GRLS.ApplicantRequests
         {
             this.request.InternalState = Core.Models.Common.State.FromBase(state);
 
+            return this;
+        }
+
+        public GrlsMrApplicantRequestMZBuilder WithOuterState(StateBase state)
+        {
+            this.request.State = Core.Models.Common.State.FromBase(state);
+            
             return this;
         }
 

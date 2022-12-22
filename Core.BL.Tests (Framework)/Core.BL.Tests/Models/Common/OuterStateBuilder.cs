@@ -14,6 +14,9 @@ namespace Core.BL.Tests.Models.Common
     {
         public static OuterStateBuilder SendApplicant =>
             new OuterStateBuilder(OuterStateCode.send_applicant);
+
+        public static OuterStateBuilder Project =>
+            new OuterStateBuilder(OuterStateCode.project);
     }
 
     public class OuterStateBuilder
@@ -52,6 +55,10 @@ namespace Core.BL.Tests.Models.Common
         public static implicit operator State(OuterStateBuilder builder)
         {
             return builder.Please();
+        }
+        public static implicit operator int (OuterStateBuilder builder)
+        {
+            return builder.Please().Id;
         }
     }
 }
