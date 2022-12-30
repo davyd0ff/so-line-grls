@@ -8,14 +8,19 @@ using Core.Infrastructure.Context.Abstract;
 using Core.Models;
 using Core.Models.BusinessTransactions;
 using Core.Models.Common;
+using Core.Models.CommunicationModels;
 using Core.Models.Documents;
+using Core.Models.Documents.ClinicalStudies;
+using Core.Models.Documents.LimitedPrice;
 using Core.Models.Documents.MedicamentRegistration;
 using Core.Repositories;
 using Core.Repositories.Abstract;
+using Grls.Common.Abstract;
 using Grls.Sync.Tests.Helpers.GRLS;
 using Grls.Sync.Tests.Helpers.IDGenerator;
 using Grls.Sync.Tests.Helpers.Models.Common;
 using grlsSync.Observers;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Moq;
 using System;
 
@@ -26,6 +31,8 @@ namespace Grls.Sync.Tests.Helpers
         private Mock<ICoreUnitOfWork> _mockedCoreUnitOfWork;
         private Mock<IDbContext> _mockedDbContext;
         private Mock<IBinaryBusinessTransaction<ChangeStateInfo, bool>> _mockedChangeLongDocumentInternalState;
+        private Mock<IBusinessTransaction<IIdentifiedBase>> _mockedUpdateApplicantRequest;
+        private Mock<IBusinessTransaction<AddMaterialsReceivedCreateParams>> _mockedCreateAddMaterialsReceived;
         private Mock<IDocumentRepository> _mockedIDocumentRepository;
 
 
@@ -88,8 +95,48 @@ namespace Grls.Sync.Tests.Helpers
                 .Returns(new MockRequestAnswerBaseLongRepository(this._mockedCoreUnitOfWork, this._mockedDbContext, null));
 
 
+            this.MockCreateAddMaterialsReceived();
+            this.MockUpdateApplicantRequest();
             this.MockInternalStates();
             this.MockIDocumentRepository();
+        }
+
+        private void MockCreateAddMaterialsReceived()
+        {
+            this._mockedCreateAddMaterialsReceived = new Mock<IBusinessTransaction<AddMaterialsReceivedCreateParams>>();
+            this._mockedCreateAddMaterialsReceived
+                .Setup(tran => tran.Run(It.IsAny<AddMaterialsReceivedCreateParams>()))
+                .Returns(TransactionResult.Succeeded());
+
+            this._mockedCoreUnitOfWork
+                .Setup(u => u.Get<IBusinessTransaction<AddMaterialsReceivedCreateParams>>())
+                .Returns(this._mockedCreateAddMaterialsReceived.Object);
+
+            this._mockedCoreUnitOfWork
+                .Setup(u => u.Get<CreateAddMaterialsReceived>())
+                .Returns(new Mock_CreateAddMaterialsReceived(this._mockedCoreUnitOfWork));
+        }
+
+
+        private void MockUpdateApplicantRequest()
+        {
+            _mockedUpdateApplicantRequest = new Mock<IBusinessTransaction<IIdentifiedBase>>();
+            _mockedUpdateApplicantRequest
+                .Setup(tran => tran.Run(
+                    It.Is<IIdentifiedBase>(
+                        entity => entity.GetType().Name == typeof(MedicamentRegistrationApplicantRequest).Name
+                               || entity.GetType().Name == typeof(ClinicalStudyApplicantRequest).Name
+                               || entity.GetType().Name == typeof(ApplicantRequestLimitedPrice).Name
+                    )))
+                .Returns(TransactionResult.Succeeded());
+
+            this._mockedCoreUnitOfWork
+                .Setup(u => u.Get<IBusinessTransaction<IIdentifiedBase>>())
+                .Returns(_mockedUpdateApplicantRequest.Object);
+
+            this._mockedCoreUnitOfWork
+                .Setup(u => u.Get<UpdateApplicantRequest>())
+                .Returns(new Mock_UpdateApplicantRequest(this._mockedCoreUnitOfWork));
         }
 
         private void MockIDocumentRepository()
@@ -225,6 +272,8 @@ namespace Grls.Sync.Tests.Helpers
                 IncomingParams = new object[] { this.changeStateInfo },
                 ChangeLongDocumentInternalState = this._mockedChangeLongDocumentInternalState,
                 IDocumentRepository = this._mockedIDocumentRepository,
+                UpdateApplicantRequest = this._mockedUpdateApplicantRequest,
+                CreateAddMaterialsReceived = this._mockedCreateAddMaterialsReceived,
             });
         }
     }

@@ -1,7 +1,9 @@
 ﻿using Core.BusinessTransactions;
 using Core.BusinessTransactions.Abstract;
 using Core.Infrastructure.Context.Abstract;
+using Core.Models.CommunicationModels;
 using Core.Repositories.Abstract;
+using Grls.Common.Abstract;
 using Moq;
 using System;
 using System.Collections.Generic;
@@ -17,6 +19,8 @@ namespace Grls.Sync.Tests
         public Mock<IDocumentStateRepository> IDocumentStateRepository { get; set; }
         public Mock<IBinaryBusinessTransaction<ChangeStateInfo, bool>> ChangeLongDocumentInternalState { get; set; }
         public Mock<IDocumentRepository> IDocumentRepository { get; set; }
+        public Mock<IBusinessTransaction<IIdentifiedBase>> UpdateApplicantRequest { get; set; }
+        public Mock<IBusinessTransaction<AddMaterialsReceivedCreateParams>> CreateAddMaterialsReceived { get; set; }
 
 
         public object[] IncomingParams { get; set; }

@@ -29,6 +29,9 @@ namespace Grls.Sync.Tests.Helpers.Models.Common
         public static InternalStateBuilder Sending =>
             new InternalStateBuilder(InnerStateCode.sending);
 
+        public static InternalStateBuilder SendApplicant =>
+            new InternalStateBuilder(InnerStateCode.send_applicant);
+
         public static InternalStateBuilder RequestFormed =>
             new InternalStateBuilder(InnerStateCode.request_formed);
 
@@ -37,6 +40,9 @@ namespace Grls.Sync.Tests.Helpers.Models.Common
 
         public static InternalStateBuilder HandledApplicant =>
             new InternalStateBuilder(InnerStateCode.handled_applicant);
+
+        public static InternalStateBuilder ResponseReceived =>
+            new InternalStateBuilder(InnerStateCode.response_received);
     }
 
     public class InternalStateBuilder
