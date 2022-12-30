@@ -54,6 +54,11 @@ namespace Core.BL.Tests.BusinessTransactions
         //public void Test_GrlsMRApplicantRequestMZ_To
 
 
+        [TestMethod]
+        public void Test_GrlsCSApplicantRequestMZ_ToSending()
+        {
+            
+        }
 
         [TestMethod]
         public void Test_GrlsMRApplicantRequestMZ_ToSending_AndUserHasPermissions()
@@ -120,7 +125,7 @@ namespace Core.BL.Tests.BusinessTransactions
         }
 
         [TestMethod]
-        public void Test_GrlsMRApplicantRequestMZ_Level3_ToCanceled_AndUserHasPermissions()
+        public void Test_GrlsMRApplicantRequestMZ_ToCanceled()
         {
             var user = Create.User
                              .WithPermissions(Actions.InternalStateChange)

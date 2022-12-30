@@ -26,7 +26,7 @@ namespace Core.BL.Tests.GRLS.ApplicantRequests
             var requestId = ApplicantRequestsIdGeneator.Next();
             var documentId = DocumentIdGenerator.Next();
             var requestGuid = Guid.NewGuid();
-            
+
             var documentType = new DocumentType
             {
                 Id = 94,
@@ -86,7 +86,7 @@ namespace Core.BL.Tests.GRLS.ApplicantRequests
         public GrlsMrApplicantRequestMZBuilder WithOuterState(StateBase state)
         {
             this.request.State = Core.Models.Common.State.FromBase(state);
-            
+
             return this;
         }
 
@@ -98,6 +98,11 @@ namespace Core.BL.Tests.GRLS.ApplicantRequests
         public MedicamentRegistrationApplicantRequest Please()
         {
             return request;
+        }
+
+        public static implicit operator MedicamentRegistrationApplicantRequest(GrlsMrApplicantRequestMZBuilder builder)
+        {
+            return builder.Please();
         }
     }
 }

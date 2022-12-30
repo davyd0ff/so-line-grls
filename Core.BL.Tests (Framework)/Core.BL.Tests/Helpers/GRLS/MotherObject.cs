@@ -10,13 +10,20 @@ using Core.BL.Tests.Helpers;
 using Core.Models;
 using Core.BL.Tests.Helpers.GRLS.Statements;
 using Core.BL.Tests.Helpers.BusinessTransactions;
+using Core.BusinessTransactions.ApplicantRequests.grls;
+using Core.DataAcquisition;
+using Core.Models.Documents.Abstract;
+using Core.DataAcquisition.Abstract;
+using Grls.Common.Abstract;
+using Core.Models.CommunicationModels;
+using Core.Entity.Models;
 
 namespace Core.BL.Tests.GRLS
 {
     public partial class Create
     {
         private Mock<ICoreUnitOfWork> mockedUnitOfWork = new Mock<ICoreUnitOfWork>();
-        
+
 
         public Create()
         {
@@ -42,13 +49,13 @@ namespace Core.BL.Tests.GRLS
         public GrlsCSApplicantRequestFGBUBuilder GrlsCSApplicantRequestFGBU =>
             new GrlsCSApplicantRequestFGBUBuilder(mockedUnitOfWork);
 
-        public GrlsMrApplicantRequestMZBuilder GrlsMrApplicantRequestMZ => 
+        public GrlsMrApplicantRequestMZBuilder GrlsMrApplicantRequestMZ =>
             new GrlsMrApplicantRequestMZBuilder(mockedUnitOfWork);
 
-        public GrlsMrApplicantRequestFGBUBuilder GrlsMrApplicantRequestFGBU => 
+        public GrlsMrApplicantRequestFGBUBuilder GrlsMrApplicantRequestFGBU =>
             new GrlsMrApplicantRequestFGBUBuilder(mockedUnitOfWork);
 
-        public GrlsMrApplicantRequestInspectBuilder GrlsMrApplicantRequestInspect => 
+        public GrlsMrApplicantRequestInspectBuilder GrlsMrApplicantRequestInspect =>
             new GrlsMrApplicantRequestInspectBuilder(mockedUnitOfWork);
 
         public UserBuilder User => new UserBuilder(mockedUnitOfWork);
@@ -66,5 +73,13 @@ namespace Core.BL.Tests.GRLS
 
         public ChangeGrlsApplicantRequestInternalStateBuilder ChangeGrlsApplicantRequestInternalState =>
             new ChangeGrlsApplicantRequestInternalStateBuilder(mockedUnitOfWork);
+
+        public ChangeGrlsApplicantRequestExternalStateBuilder ChangeGrlsApplicantRequestExternalState =>
+            new ChangeGrlsApplicantRequestExternalStateBuilder(this.mockedUnitOfWork);
+
+        public CreateMedicamentRegistrationApplicantRequestBuilder CreateMedicamentRegistrationApplicantRequest =>
+            new CreateMedicamentRegistrationApplicantRequestBuilder(this.mockedUnitOfWork);
+
+
     }
 }

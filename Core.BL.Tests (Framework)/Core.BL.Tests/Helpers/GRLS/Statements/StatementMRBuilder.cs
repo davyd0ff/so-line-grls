@@ -128,6 +128,11 @@ namespace Core.BL.Tests.GRLS.Statements
             return this;
         }
 
+        public MedicamentRegistrationStatement Please()
+        {
+            return this._statement;
+        }
+
         public static implicit operator IncomingPackageBase(StatementMRBuilder builder)
         {
             return builder._incoming;

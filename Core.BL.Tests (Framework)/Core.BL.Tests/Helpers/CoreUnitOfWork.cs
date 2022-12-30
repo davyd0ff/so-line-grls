@@ -20,8 +20,10 @@ namespace Core.BL.Tests.Helpers
             kernel.Load(new CommonBindings());
             kernel.Load(new EECBindings());
             kernel.Load(new BMCPBindings());
+            kernel.Load(new IdentifiedRepositories());
+            kernel.Load(new ThesaurusRepositories());
 
-            _unitOfWork = new CoreUnitOfWork(new Mock<IDbContext>().Object, new Mock<OldUser>().Object);
+            _unitOfWork = new CoreUnitOfWork("grls", new Core.Models.OldUser { Id = 0 });
         }
 
         public static ICoreUnitOfWork Instance => _unitOfWork;
