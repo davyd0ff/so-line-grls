@@ -13,7 +13,6 @@ using Core.Models.Documents.Abstract;
 using Core.Models.Documents.ClinicalStudies;
 using Core.Models.Documents.LimitedPrice;
 using Core.Models.Documents.MedicamentRegistration;
-using Core.Repositories;
 using Core.Repositories.Abstract;
 using Grls.Common.Abstract;
 using Grls.Sync.Tests.Helpers.GRLS;

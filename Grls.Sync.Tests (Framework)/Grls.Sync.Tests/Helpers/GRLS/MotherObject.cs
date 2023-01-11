@@ -263,25 +263,4 @@ namespace Grls.Sync.Tests.Helpers.GRLS
             }
         }
     #endregion
-    //#region Mock of RequestAnswerBaseLongRepository
-    //internal sealed class MockRequestAnswerBaseLongRepository : RequestAnswerBaseLongRepository
-    //{
-    //    private Mock<ICoreUnitOfWork> _unitOfWork;
-    //    private Mock<IDbContext> _context;
-    //    private RequestAnswerBaseLong _answer;
-
-    //    public MockRequestAnswerBaseLongRepository(Mock<ICoreUnitOfWork> unitOfWork, Mock<IDbContext> context, RequestAnswerBaseLong answer) 
-    //        : base(unitOfWork.Object, context.Object)
-    //    {
-    //        this._unitOfWork = unitOfWork;
-    //        this._context = context;
-    //        this._answer = answer;
-    //    }
-
-    //    public override RequestAnswerBaseLong GetByRequestId(int id)
-    //    {
-    //        return this._answer;
-    //    }
-    //}
-    //#endregion
 }

@@ -6,11 +6,8 @@ using Core.Models.Documents.Abstract;
 using Core.Models.Documents.LimitedPrice;
 using Grls.Sync.Tests.Helpers.IDGenerator;
 using Moq;
-using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace Grls.Sync.Tests.Helpers.GRLS.Statements
 {
@@ -39,7 +36,6 @@ namespace Grls.Sync.Tests.Helpers.GRLS.Statements
                     Flow = new DocumentFlow
                     {
                         Id = 3,
-                        Module = Enums.ModuleEnum.grls,
                         Code = "flow_lom_price"
                     }
                 };
