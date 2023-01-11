@@ -33,14 +33,17 @@ namespace Core.BL.Tests.Helpers.BusinessTransactions
         {
             this._documentType = applicantRequest.DocumentType;
 
-            this._documentStateRepository
-                .Setup(r => r.GetState(It.Is<long>(p => p.Equals(applicantRequest.DocumentId))))
-                .Returns(new State
-                {
-                    Id = applicantRequest.State.Id,
-                    Code = applicantRequest.State.Code
-                });
-
+            if(applicantRequest.State != null)
+            {
+                this._documentStateRepository
+                    .Setup(r => r.GetState(It.Is<long>(p => p.Equals(applicantRequest.DocumentId))))
+                    .Returns(new State
+                    {
+                        Id = applicantRequest.State.Id,
+                        Code = applicantRequest.State.Code
+                    });
+            }
+       
 
             var mockIIdentifiedLongRepositoryForDocument = new Mock<IIdentifiedLongRepository<Document>>();
             mockIIdentifiedLongRepositoryForDocument

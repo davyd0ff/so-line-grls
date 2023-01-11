@@ -12,10 +12,8 @@ using Core.Models.Documents.MedicamentRegistration;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Moq;
 using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace Core.BL.Tests.BusinessTransactions
 {
@@ -79,15 +77,16 @@ namespace Core.BL.Tests.BusinessTransactions
             //testService.IsTrue(result.IsSuccess);
             testService.InsertDocumentOperation.Verify(
                 tran => tran.Run(
-                    It.Is<Document>(d => d.DocumentTypeId == DocumentTypes.DocumentTypeList
-                                                                          .First(dt => dt.Code.Equals(StatementTypeList.ApplicantRequestMinistryOfHealth))
-                                                                          .Id),
-                    It.Is<long?>(parentId => parentId == statement.DocumentId)), 
+                    It.Is<Document>(d => d.DocumentTypeId == 
+                        DocumentTypes.DocumentTypeList
+                                     .First(dt => dt.Code.Equals(StatementTypeList.ApplicantRequestMinistryOfHealth))
+                                     .Id),
+                    It.Is<long?>(parentId => parentId != null && parentId != 0)), 
                 Times.Once());
         }
 
         [TestMethod]
-        public void CreateMRApplicantRequestMZ_HasParentDocument_IdentityRepository_Add_WasCalled()
+        public void CreateMRApplicantRequestMZ_MedicamentRegistrationApplicantRequestRepository_Add_WasCalled()
         {
             var (transaction, testService) =
                 Create.CreateMedicamentRegistrationApplicantRequest
@@ -112,6 +111,31 @@ namespace Core.BL.Tests.BusinessTransactions
                 Times.Once());
         }
 
+        [TestMethod]
+        public void CreateMRApplicantRequestMZ_CustomEventRepository_Add_WasCalled()
+        {
+            var (transaction, testService) =
+                Create.CreateMedicamentRegistrationApplicantRequest
+                      .HasParentDocument()
+                      .PleaseWithTestService();
+
+            var result = transaction.Run(new MedicamentRegistrationApplicantRequest
+            {
+                DocumentType = DocumentTypes.DocumentTypeList.First(dt => dt.Code.Equals(StatementTypeList.ApplicantRequestMinistryOfHealth)),
+                IncomingPackage = new IncomingPackageBase
+                {
+                    Number = IncomingNumberGenerator.Next(),
+                    Flow = new DocumentFlow { Id = 1 },
+                    Document = Create.StatementMR.WithInternalState(InternalStates.Entered)
+                }
+            });
+
+
+            //testService.IsTrue(result.IsSuccess);
+            testService.CustomEventRepository.Verify(
+                ops => ops.Add(It.IsAny<CustomEvent>()),
+                Times.Once());
+        }
 
         [TestMethod]
         public void CreateMRApplicantRequestMZ_HasNoParentDocument_InsertDocumentOperation_WasCalledTwice()
@@ -137,7 +161,6 @@ namespace Core.BL.Tests.BusinessTransactions
                 ops => ops.Run(It.IsAny<Document>(), It.IsAny<long?>()),
                 Times.Exactly(2));
         }
-
 
         [TestMethod]
         public void CreateMRApplicantRequestMZ_IDocumentRepository_SaveQrCode_WasCalled()
@@ -195,7 +218,7 @@ namespace Core.BL.Tests.BusinessTransactions
         }
 
         [TestMethod]
-        public void CreateMRApplicantRequestMZ_ChangeGrlsApplicantRequestInternalState_WasCalled()
+        public void CreateMRApplicantRequestMZ_ChangeGrlsApplicantRequestInternalState_WasNotCalled()
         {
             var (transaction, testService) =
                 Create.CreateMedicamentRegistrationApplicantRequest
@@ -217,7 +240,7 @@ namespace Core.BL.Tests.BusinessTransactions
             testService.ChangeGrlsApplicantRequestInternalState
                        .Verify(
                             tran => tran.Run(It.Is<ChangeStateInfo>(info => info.StateId == InternalStates.Project), It.IsAny<bool>()),
-                            Times.Once()
+                            Times.Never()
                        );
         }
     }

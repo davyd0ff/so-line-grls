@@ -20,26 +20,26 @@ namespace Core.BL.Tests.BusinessTransactions
 
 
 
-        [TestMethod]
-        public void Test_CreateApplicantRequest_ForCSApplicantRequestFGBUWithClinicalStudyChangeResolutionStatement()
-        {
-            //var changeStatement = Create.ChangeResolutionStatementCS
-            //                            .WithParentStatement(Create.StatementPermissionCS)
-            //                            .Please();
+        //[TestMethod]
+        //public void Test_CreateApplicantRequest_ForCSApplicantRequestFGBUWithClinicalStudyChangeResolutionStatement()
+        //{
+        //    //var changeStatement = Create.ChangeResolutionStatementCS
+        //    //                            .WithParentStatement(Create.StatementPermissionCS)
+        //    //                            .Please();
 
-            //var applicantReqeustModel = Create.GrlsCSApplicantRequestFGBU
-            //                                  .ToStatement(changeStatement)
-            //                                  .Please();
+        //    //var applicantReqeustModel = Create.GrlsCSApplicantRequestFGBU
+        //    //                                  .ToStatement(changeStatement)
+        //    //                                  .Please();
 
-            //var (transaction, spyOfUnit) = 
-            //                  Create.CreateApplicantRequestBase
-            //                        .WithDocument()
-            //                        .PleaseWithSpy();
+        //    //var (transaction, spyOfUnit) = 
+        //    //                  Create.CreateApplicantRequestBase
+        //    //                        .WithDocument()
+        //    //                        .PleaseWithSpy();
 
 
-            //var result = transaction.Run();
+        //    //var result = transaction.Run();
 
-        }
+        //}
 
     }
 }

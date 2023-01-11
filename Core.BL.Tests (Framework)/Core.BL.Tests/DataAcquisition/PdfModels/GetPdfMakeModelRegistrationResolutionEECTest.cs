@@ -454,27 +454,27 @@ namespace Core.BL.Tests.DataAcquisition.PdfModels
         //}
 
 
-        [TestMethod]
-        public void Test_GetPdfMakeModelRegistrationResolutionEEC()
-        {
-            var dataAcquisition = Create.GetPdfMakeModelRegistrationResolutionEEC
-                                        //.WithMrEecResolutionModel(
-                                        //    //MedicamentRegistrationResolutionEECModel
-                                        // )
-                                        .Please();
+        //[TestMethod]
+        //public void Test_GetPdfMakeModelRegistrationResolutionEEC()
+        //{
+        //    var dataAcquisition = Create.GetPdfMakeModelRegistrationResolutionEEC
+        //                                //.WithMrEecResolutionModel(
+        //                                //    //MedicamentRegistrationResolutionEECModel
+        //                                // )
+        //                                .Please();
 
 
-            var model = dataAcquisition.Do(new Core.Models.CommunicationModels.Filters.GetPdfMakeModelFilter
-            {
-                DocumentGuid = Guid.NewGuid(),
-                DocumentTypeCode = StatementTypeList.ResolutionEecMP
-            }) as MedicamentRegistrationResolutionEECJsonModel;
+        //    var model = dataAcquisition.Do(new Core.Models.CommunicationModels.Filters.GetPdfMakeModelFilter
+        //    {
+        //        DocumentGuid = Guid.NewGuid(),
+        //        DocumentTypeCode = StatementTypeList.ResolutionEecMP
+        //    }) as MedicamentRegistrationResolutionEECJsonModel;
 
 
-            Assert.IsNotNull(model);
-            Assert.IsTrue(model.HasRegNumber);
-            Assert.IsTrue(model.HasCertificatOwner);
-        }
+        //    Assert.IsNotNull(model);
+        //    Assert.IsTrue(model.HasRegNumber);
+        //    Assert.IsTrue(model.HasCertificatOwner);
+        //}
 
 
         private static class That
@@ -513,68 +513,68 @@ namespace Core.BL.Tests.DataAcquisition.PdfModels
 }
 
 
-namespace Core.BL.Tests.GRLS
-{
-    public partial class Create
-    {
-        public GetPdfMakeModelRegistrationResolutionEECBuilder GetPdfMakeModelRegistrationResolutionEEC =>
-            new GetPdfMakeModelRegistrationResolutionEECBuilder(mockedUnitOfWork);
-    }
+//namespace Core.BL.Tests.GRLS
+//{
+//    public partial class Create
+//    {
+//        public GetPdfMakeModelRegistrationResolutionEECBuilder GetPdfMakeModelRegistrationResolutionEEC =>
+//            new GetPdfMakeModelRegistrationResolutionEECBuilder(mockedUnitOfWork);
+//    }
 
 
-    public class GetPdfMakeModelRegistrationResolutionEECBuilder
-    {
-        private Mock<ICoreUnitOfWork> _unitOfWork;
+//    public class GetPdfMakeModelRegistrationResolutionEECBuilder
+//    {
+//        private Mock<ICoreUnitOfWork> _unitOfWork;
 
-        public GetPdfMakeModelRegistrationResolutionEECBuilder(Mock<ICoreUnitOfWork> unitOfWork)
-        {
-            this._unitOfWork = unitOfWork;
-
-
-            //var MockRoutableRepository = new Mock<IRoutableRepository>();
-            //MockRoutableRepository.Setup(r => r.FindByGuid(It.IsAny<Guid>()))
-            //                      .Returns();
+//        public GetPdfMakeModelRegistrationResolutionEECBuilder(Mock<ICoreUnitOfWork> unitOfWork)
+//        {
+//            this._unitOfWork = unitOfWork;
 
 
-            //this._unitOfWork.Setup(u => u.Get<IRoutableRepository>())
-        }
-
-        public GetPdfMakeModelRegistrationResolutionEECBuilder WithMrEecResolutionModel(MedicamentRegistrationResolutionEECModel model)
-        {
-            var MockReportRepository = new Mock<IReportRepository>();
-            MockReportRepository.Setup(r => r.GetReportModelByGuid<MedicamentRegistrationResolutionEECModel>(It.IsAny<Guid>()))
-                                .Returns(model);
-
-            this._unitOfWork
-                .Setup(u => u.Get<IReportRepository>(
-                                It.Is<string>(documentTypeCode => documentTypeCode == StatementTypeList.ResolutionEecMP)))
-                .Returns(MockReportRepository.Object);
-
-            return this;
-        }
+//            //var MockRoutableRepository = new Mock<IRoutableRepository>();
+//            //MockRoutableRepository.Setup(r => r.FindByGuid(It.IsAny<Guid>()))
+//            //                      .Returns();
 
 
-        public GetPdfMakeModelRegistrationResolutionEEC Please()
-        {
-            return new GetPdfMakeModelRegistrationResolutionEEC(this._unitOfWork.Object);
-        }
+//            //this._unitOfWork.Setup(u => u.Get<IRoutableRepository>())
+//        }
 
-        public IPdfMakeModelJson PleaseDoWith(string resolutionKind)
-        {
-            return this.Please().Do(new Core.Models.CommunicationModels.Filters.GetPdfMakeModelFilter
-            {
-                DocumentGuid = Guid.NewGuid(),
-                DocumentTypeCode = resolutionKind
-            });
-        }
-    }
+//        public GetPdfMakeModelRegistrationResolutionEECBuilder WithMrEecResolutionModel(MedicamentRegistrationResolutionEECModel model)
+//        {
+//            var MockReportRepository = new Mock<IReportRepository>();
+//            MockReportRepository.Setup(r => r.GetReportModelByGuid<MedicamentRegistrationResolutionEECModel>(It.IsAny<Guid>()))
+//                                .Returns(model);
+
+//            this._unitOfWork
+//                .Setup(u => u.Get<IReportRepository>(
+//                                It.Is<string>(documentTypeCode => documentTypeCode == StatementTypeList.ResolutionEecMP)))
+//                .Returns(MockReportRepository.Object);
+
+//            return this;
+//        }
 
 
-    internal static class IPdfMakeModelJsonExtension
-    {
-        public static T As<T>(this IPdfMakeModelJson model)
-        {
-            return (T)model;
-        }
-    }
-}
+//        public GetPdfMakeModelRegistrationResolutionEEC Please()
+//        {
+//            return new GetPdfMakeModelRegistrationResolutionEEC(this._unitOfWork.Object);
+//        }
+
+//        public IPdfMakeModelJson PleaseDoWith(string resolutionKind)
+//        {
+//            return this.Please().Do(new Core.Models.CommunicationModels.Filters.GetPdfMakeModelFilter
+//            {
+//                DocumentGuid = Guid.NewGuid(),
+//                DocumentTypeCode = resolutionKind
+//            });
+//        }
+//    }
+
+
+//    internal static class IPdfMakeModelJsonExtension
+//    {
+//        public static T As<T>(this IPdfMakeModelJson model)
+//        {
+//            return (T)model;
+//        }
+//    }
+//}

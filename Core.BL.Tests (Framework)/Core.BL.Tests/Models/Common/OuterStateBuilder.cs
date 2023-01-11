@@ -17,6 +17,9 @@ namespace Core.BL.Tests.Models.Common
 
         public static OuterStateBuilder Project =>
             new OuterStateBuilder(OuterStateCode.project);
+
+        public static OuterStateBuilder Accepted =>
+            new OuterStateBuilder(OuterStateCode.accepted);
     }
 
     public class OuterStateBuilder

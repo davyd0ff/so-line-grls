@@ -46,6 +46,7 @@ namespace Core.BL.Tests.Helpers.BusinessTransactions
 
             this.GetNewOutgoingNumberOfApplicantRequest();
             this.GetDocumentBaseByNumber();
+            this.GetDocumentBaseByGuid();
             this.GetDocumentByCode();
             this.InsertDocumentOperation();
             this.CheckFinalResolution(false);
@@ -55,6 +56,7 @@ namespace Core.BL.Tests.Helpers.BusinessTransactions
             this.IQrCodeOldRepository();
             this.ChangeGrlsApplicantRequestInternalState();
             this.IThesaurusRepository_InternalState();
+            this.CustomEventRepository();
         }
         private void ChangeGrlsApplicantRequestInternalState()
         {
@@ -153,6 +155,25 @@ namespace Core.BL.Tests.Helpers.BusinessTransactions
 
             this.testService.InsertDocumentOperation = mockedIBinaryBusinessTransaction;
         }
+        private void GetDocumentBaseByGuid()
+        {
+            var mock = new Mock<IDataAcquisition<Document, Guid>>();
+            mock.Setup(ops => ops.Do(It.IsAny<Guid>()))
+                .Returns(new Document
+                {
+                    Id = DocumentIdGenerator.Next(),
+                    RoutingGuid = Guid.NewGuid(),
+                });
+
+            this.mockedCoreUnitOfWork
+                .Setup(u => u.Get<IDataAcquisition<Document,Guid>>())
+                .Returns(mock.Object);
+
+
+            this.mockedCoreUnitOfWork
+                .Setup(u => u.Get<GetDocumentBaseByGuid<Document>>())
+                .Returns(new Mock_GetDocumentBaseByGuid<Document>(this.mockedCoreUnitOfWork));
+        }
         private void GetApplicantRequestTypesByStatementType()
         {
             this.mockedCoreUnitOfWork
@@ -219,6 +240,18 @@ namespace Core.BL.Tests.Helpers.BusinessTransactions
             this.mockedCoreUnitOfWork
                 .Setup(u => u.Get<IThesaurusRepository>(typeof(InternalState).Name))
                 .Returns(mockedRepository.Object);
+        }
+        private void CustomEventRepository()
+        {
+            var mockRepository = new Mock<IIdentifiedRepository>();
+            mockRepository.Setup(repo => repo.Add(It.IsAny<CustomEvent>()))
+                          .Returns(1);
+
+            this.mockedCoreUnitOfWork
+                .Setup(u => u.Get<IIdentifiedRepository>(It.Is<string>(code => code.Equals(typeof(CustomEvent).Name))))
+                .Returns(mockRepository.Object);
+
+            this.testService.CustomEventRepository = mockRepository;
         }
 
 
@@ -408,6 +441,25 @@ namespace Core.BL.Tests.Helpers.BusinessTransactions
             }
         }
         #endregion
+        #region GetDocumentBaseByGuid
+        internal sealed class Mock_GetDocumentBaseByGuid<TModel> : GetDocumentBaseByGuid<TModel>
+            where TModel : Document
+        {
+            private readonly Mock<ICoreUnitOfWork> mockedCoreUnitOfWork;
 
+            public Mock_GetDocumentBaseByGuid(Mock<ICoreUnitOfWork> mockedCoreUnitOfWork) : base(mockedCoreUnitOfWork.Object)
+            {
+                this.mockedCoreUnitOfWork = mockedCoreUnitOfWork;
+            }
+
+            protected override TModel InternalDo(Guid guid)
+            {
+                return this.mockedCoreUnitOfWork
+                           .Object
+                           .Get<IDataAcquisition<TModel, Guid>>()
+                           .Do(guid);
+            }
+        }
+        #endregion
     }
 }

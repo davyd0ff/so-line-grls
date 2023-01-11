@@ -17,6 +17,8 @@ using Core.DataAcquisition.Abstract;
 using Grls.Common.Abstract;
 using Core.Models.CommunicationModels;
 using Core.Entity.Models;
+using Core.BusinessTransactions;
+using Core.BL.Tests.Helpers.GRLS.ApplicantRequests;
 
 namespace Core.BL.Tests.GRLS
 {
@@ -37,9 +39,8 @@ namespace Core.BL.Tests.GRLS
                             .Returns(new Mock<OldUser>().Object);
         }
 
-        //public static GetProducersAsStringByStatementIdBuilder GetProducersAsStringByStatementId =>
-        //    new GetProducersAsStringByStatementIdBuilder();
-
+        public UserBuilder User => new UserBuilder(mockedUnitOfWork);
+        #region ApplicantRequests
         public ClinicalStudyPermissionBuilder StatementPermissionCS =>
             new ClinicalStudyPermissionBuilder(mockedUnitOfWork);
 
@@ -58,10 +59,13 @@ namespace Core.BL.Tests.GRLS
         public GrlsMrApplicantRequestInspectBuilder GrlsMrApplicantRequestInspect =>
             new GrlsMrApplicantRequestInspectBuilder(mockedUnitOfWork);
 
-        public UserBuilder User => new UserBuilder(mockedUnitOfWork);
-
+        public GrlsLPApplicantRequestUsualBuilder GrlsLPApplicantRequestUsual =>
+            new GrlsLPApplicantRequestUsualBuilder(mockedUnitOfWork);
+        #endregion
+        #region Statements
         public StatementMRBuilder StatementMR => new StatementMRBuilder(mockedUnitOfWork);
-
+        public StatementRegLimPriceBuilder StatementRegLimPrice => new StatementRegLimPriceBuilder(mockedUnitOfWork);
+        #endregion
 
         public StateTransitionBuilder StateTransition => new StateTransitionBuilder();
 
@@ -71,6 +75,7 @@ namespace Core.BL.Tests.GRLS
 
         public TriggerBuilder Trigger = new TriggerBuilder();
 
+        #region Transactions
         public ChangeGrlsApplicantRequestInternalStateBuilder ChangeGrlsApplicantRequestInternalState =>
             new ChangeGrlsApplicantRequestInternalStateBuilder(mockedUnitOfWork);
 
@@ -80,6 +85,12 @@ namespace Core.BL.Tests.GRLS
         public CreateMedicamentRegistrationApplicantRequestBuilder CreateMedicamentRegistrationApplicantRequest =>
             new CreateMedicamentRegistrationApplicantRequestBuilder(this.mockedUnitOfWork);
 
+        public UpdateApplicantRequestBuilder UpdateApplicantRequest => 
+            new UpdateApplicantRequestBuilder(this.mockedUnitOfWork);
 
+        public UpdateLimitedPriceApplicantRequestBuilder UpdateLimitedPriceApplicantRequest =>
+            new UpdateLimitedPriceApplicantRequestBuilder(this.mockedUnitOfWork);
+
+        #endregion
     }
 }

@@ -2,19 +2,12 @@
 using Core.BL.Tests.Models;
 using Core.BL.Tests.Models.Common;
 using Core.BusinessTransactions;
-using Core.BusinessTransactions.ChangeDocumentInternalStateTransactions;
-using Core.Infrastructure.Context.Abstract;
-using Core.Models;
-using Core.Models.Common;
-using Core.Models.Documents.MedicamentRegistration;
-using Core.Repositories.Abstract;
 using Moq;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using System;
 using Core.PortalConfiguration;
 using Core.Enums;
-using Core.Models.BusinessTransactions;
 using Core.Infrastructure;
+
 
 namespace Core.BL.Tests.BusinessTransactions
 {

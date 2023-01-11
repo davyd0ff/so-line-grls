@@ -24,8 +24,40 @@ namespace Core.BL.Tests.BusinessTransactions.ChangeDocumentExternalStateTransact
             this.Create = new Create();
         }
 
+
         [TestMethod]
-        public void Test_ChangeGrlsApplicantRequestExternalState_()
+        public void Test_ChangeGrlsApplicantRequestExternalState_MrApplicantRequestMZ_WithEmptyStateToProjectState()
+        {
+            var applicantRequest = Create.GrlsMrApplicantRequestMZ
+                                         .Please();
+
+            var (transaction, testService) =
+                    Create.ChangeGrlsApplicantRequestExternalState
+                          .WithUser(Create.User.WithPermissions(Actions.InternalStateChange))
+                          .WithDocument(applicantRequest)
+                          .WithNextOuterState(OuterStates.Project)
+                          .PleaseWithTestService();
+
+
+
+            var result = transaction.Run(new ChangeStateInfo
+            {
+                Id = applicantRequest.DocumentId,
+                StateId = OuterStates.Project,
+                TypeId = applicantRequest.DocumentType.Id,
+            });
+
+
+
+            testService.IsTrue(result.IsSuccess);
+            testService.IDocumentStateRepository.Verify(
+                r => r.SetState(applicantRequest.DocumentId, It.Is<int>(stateId => stateId.Equals(OuterStates.Project)), It.IsAny<int?>()),
+                Times.Once());
+        }
+
+
+        [TestMethod]
+        public void Test_ChangeGrlsApplicantRequestExternalState_MrApplicantRequestMZ_FromProjectToSendApplicant()
         {
             var applicantRequest = Create.GrlsMrApplicantRequestMZ
                                          .WithOuterState(OuterStates.Project)

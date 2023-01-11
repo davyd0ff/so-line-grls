@@ -26,18 +26,22 @@ namespace Core.BL.Tests.GRLS.ApplicantRequests
             var requestId = ApplicantRequestsIdGeneator.Next();
             var documentId = DocumentIdGenerator.Next();
             var requestGuid = Guid.NewGuid();
-
-            var documentType = new DocumentType
+            var documentType = DocumentTypes.DocumentTypeList.FirstOrDefault(dt => dt.Code.Equals(this._code));
+            if (documentType == null)
             {
-                Id = 94,
-                Code = this._code,
-                Flow = new DocumentFlow
+                documentType = new DocumentType
                 {
-                    Id = 1,
-                    Module = Enums.ModuleEnum.grls,
-                    Code = "flow_reg"
-                }
-            };
+                    Id = 94,
+                    Code = this._code,
+                    Flow = new DocumentFlow
+                    {
+                        Id = 1,
+                        Module = Enums.ModuleEnum.grls,
+                        Code = "flow_reg"
+                    }
+                };
+            }
+
 
             this.request = new MedicamentRegistrationApplicantRequest
             {

@@ -34,6 +34,8 @@ namespace Core.BL.Tests
         public Mock<IDocumentStateRepository> IDocumentStateRepository { get; set; }
         public Mock<IQrCodeOldRepository> IQrCodeOldRepository { get; set; }
         public Mock<IIdentifiedRepository> MedicamentRegistrationApplicantRequestRepository { get; set; }
+        public Mock<IIdentifiedRepository> LimitedPriceApplicantRequestRepository { get; set; }
+        public Mock<IIdentifiedRepository> CustomEventRepository { get; set; }
 
         public Mock<IBinaryBusinessTransaction<Document, long?>> InsertDocumentOperation { get; set; }
 
