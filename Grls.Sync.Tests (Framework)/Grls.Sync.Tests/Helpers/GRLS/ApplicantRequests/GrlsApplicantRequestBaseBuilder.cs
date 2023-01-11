@@ -27,10 +27,10 @@ namespace Grls.Sync.Tests.Helpers.GRLS.ApplicantRequests
             this.Id = ApplicantRequestsIdGeneator.Next();
             this.RoutingGuid = Guid.NewGuid();           
             
-            if(DocumentTypes.DocumentTypeList.FirstOrDefault(dt => dt.Code == this.DocumentType.Code) == null)
-            {
-                DocumentTypes.DocumentTypeList.Add(this.DocumentType);
-            }
+            //if(DocumentTypes.DocumentTypeList.FirstOrDefault(dt => dt.Code == this.DocumentType.Code) == null)
+            //{
+            //    DocumentTypes.DocumentTypeList.Add(this.DocumentType);
+            //}
         }
     }
 }

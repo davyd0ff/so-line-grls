@@ -37,6 +37,8 @@ namespace Grls.Sync.Tests.Helpers.GRLS.ApplicantRequests
                         Code = "flow_lom_price"
                     },
                 };
+
+                DocumentTypes.DocumentTypeList.Add(this.DocumentType);
             }
 
             this.ApplicantRequest = new ApplicantRequestLimitedPrice

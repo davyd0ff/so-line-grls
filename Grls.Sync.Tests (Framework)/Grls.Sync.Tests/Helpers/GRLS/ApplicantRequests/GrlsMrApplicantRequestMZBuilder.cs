@@ -37,6 +37,8 @@ namespace Grls.Sync.Tests.Helpers.GRLS.ApplicantRequests
                         Code = "flow_reg"
                     },
                 };
+
+                DocumentTypes.DocumentTypeList.Add(this.DocumentType);
             }
 
             this.ApplicantRequest = new MedicamentRegistrationApplicantRequest

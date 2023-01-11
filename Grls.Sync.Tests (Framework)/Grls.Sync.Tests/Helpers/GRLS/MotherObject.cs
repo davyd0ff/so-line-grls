@@ -61,8 +61,10 @@ namespace Grls.Sync.Tests.Helpers.GRLS
         #endregion
 
         #region Statements
-        public StatementMRBuilder StatementMR => new StatementMRBuilder(this.unitOfWork);
-        public StatementLPRegLimPriceBuidler StatementLPRegLimPrice => StatementLPRegLimPriceBuidler(this.unitOfWork);
+        public StatementMRBuilder StatementMR => 
+            new StatementMRBuilder(this.unitOfWork);
+        public StatementLPRegLimPriceBuidler StatementLPRegLimPrice => 
+            new StatementLPRegLimPriceBuidler(this.unitOfWork);
         #endregion
 
 
