@@ -3,13 +3,13 @@ using Core.BusinessTransactions.Abstract;
 using Core.BusinessTransactions.ChangeDocumentExternalStateTransactions;
 using Core.BusinessTransactions.ChangeDocumentInternalStateTransactions;
 using Core.Entity.Models;
-using Core.Infrastructure;
 using Core.Infrastructure.Context.Abstract;
 using Core.Models;
 using Core.Models.BusinessTransactions;
 using Core.Models.Common;
 using Core.Models.CommunicationModels;
 using Core.Models.Documents;
+using Core.Models.Documents.Abstract;
 using Core.Models.Documents.ClinicalStudies;
 using Core.Models.Documents.LimitedPrice;
 using Core.Models.Documents.MedicamentRegistration;
@@ -17,12 +17,10 @@ using Core.Repositories;
 using Core.Repositories.Abstract;
 using Grls.Common.Abstract;
 using Grls.Sync.Tests.Helpers.GRLS;
-using Grls.Sync.Tests.Helpers.IDGenerator;
 using Grls.Sync.Tests.Helpers.Models.Common;
 using grlsSync.Observers;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Moq;
-using System;
+
 
 namespace Grls.Sync.Tests.Helpers
 {
@@ -34,6 +32,7 @@ namespace Grls.Sync.Tests.Helpers
         private Mock<IBusinessTransaction<IIdentifiedBase>> _mockedUpdateApplicantRequest;
         private Mock<IBusinessTransaction<AddMaterialsReceivedCreateParams>> _mockedCreateAddMaterialsReceived;
         private Mock<IDocumentRepository> _mockedIDocumentRepository;
+        private Mock<IRequestAnswerBaseLongRepository> _mockedRequestAnswerBaseLongRepository;
 
 
         private ChangeStateInfo changeStateInfo;
@@ -90,9 +89,16 @@ namespace Grls.Sync.Tests.Helpers
                 .Setup(u => u.Get<CreateRequestAnswer>())
                 .Returns(new Mock_Successed_CreateRequestAnswer(this._mockedCoreUnitOfWork));
 
+            //this._mockedCoreUnitOfWork
+            //    .Setup(u => u.Get<RequestAnswerBaseLongRepository>())
+            //    .Returns(new MockRequestAnswerBaseLongRepository(this._mockedCoreUnitOfWork, this._mockedDbContext, null));
+
+            this._mockedRequestAnswerBaseLongRepository = new Mock<IRequestAnswerBaseLongRepository>();
+            this._mockedRequestAnswerBaseLongRepository
+                .Setup(repo => repo.GetByRequestId(It.IsAny<int>()));
             this._mockedCoreUnitOfWork
-                .Setup(u => u.Get<RequestAnswerBaseLongRepository>())
-                .Returns(new MockRequestAnswerBaseLongRepository(this._mockedCoreUnitOfWork, this._mockedDbContext, null));
+                .Setup(u => u.Get<IRequestAnswerBaseLongRepository>())
+                .Returns(this._mockedRequestAnswerBaseLongRepository.Object);
 
 
             this.MockCreateAddMaterialsReceived();
@@ -184,17 +190,15 @@ namespace Grls.Sync.Tests.Helpers
 
             return this;
         }
-
-        public ChangeGrlsApplicantRequestInternalStateObserverBuilder WithRequest(MedicamentRegistrationApplicantRequest applicantRequest)
+        public ChangeGrlsApplicantRequestInternalStateObserverBuilder WithRequest(ApplicantRequestBase applicantRequest)
         {
-
             this.changeStateInfo.Id = applicantRequest.DocumentId;
             this.changeStateInfo.TypeId = applicantRequest.DocumentType.Id;
             this.changeStateInfo.Guid = applicantRequest.RoutingGuid;
 
-            var mockIIdentifiedLongRepositoryForDocument = new Mock<IIdentifiedLongRepository<Document>>();
-            mockIIdentifiedLongRepositoryForDocument
-                .Setup(r => r.GetById(applicantRequest.DocumentId))
+            var mockRepository = new Mock<IIdentifiedLongRepository<Document>>();
+            mockRepository
+                .Setup(repo => repo.GetById(applicantRequest.DocumentId))
                 .Returns(new Document
                 {
                     Id = applicantRequest.DocumentId,
@@ -204,17 +208,37 @@ namespace Grls.Sync.Tests.Helpers
                     RoutingGuid = applicantRequest.RoutingGuid
                 });
 
-            this._mockedCoreUnitOfWork.Setup(u => u.Get(typeof(IIdentifiedLongRepository<Document>)))
-                                      .Returns(mockIIdentifiedLongRepositoryForDocument.Object);
+            this._mockedCoreUnitOfWork
+                .Setup(u => u.Get(typeof(IIdentifiedLongRepository<Document>)))
+                .Returns(mockRepository.Object);
 
             return this;
         }
 
+        public ChangeGrlsApplicantRequestInternalStateObserverBuilder WithRequest(MedicamentRegistrationApplicantRequest applicantRequest)
+        {
+            return this.WithRequest((ApplicantRequestBase) applicantRequest);
+        }
+
+        public ChangeGrlsApplicantRequestInternalStateObserverBuilder WithRequest(ApplicantRequestLimitedPrice applicantRequest)
+        {
+            return this.WithRequest((ApplicantRequestBase)applicantRequest);
+        }
+
         public ChangeGrlsApplicantRequestInternalStateObserverBuilder WithRequestAnswer(RequestAnswerBaseLong answer)
         {
+            //this._mockedCoreUnitOfWork
+            //    .Setup(u => u.Get<RequestAnswerBaseLongRepository>())
+            //    .Returns(new MockRequestAnswerBaseLongRepository(this._mockedCoreUnitOfWork, this._mockedDbContext, answer));
+
+            this._mockedRequestAnswerBaseLongRepository = new Mock<IRequestAnswerBaseLongRepository>();
+            this._mockedRequestAnswerBaseLongRepository
+                .Setup(repo => repo.GetByRequestId(It.IsAny<int>()))
+                .Returns(answer);
             this._mockedCoreUnitOfWork
-                .Setup(u => u.Get<RequestAnswerBaseLongRepository>())
-                .Returns(new MockRequestAnswerBaseLongRepository(this._mockedCoreUnitOfWork, this._mockedDbContext, answer));
+                .Setup(u => u.Get<IRequestAnswerBaseLongRepository>())
+                .Returns(this._mockedRequestAnswerBaseLongRepository.Object);
+
 
             return this;
         }

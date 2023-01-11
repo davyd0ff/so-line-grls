@@ -75,10 +75,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Helpers\GRLS\ApplicantRequests\GrlsApplicantRequestBaseBuilder.cs" />
+    <Compile Include="Helpers\GRLS\ApplicantRequests\GrlsLPApplicantRequestUsualBuilder.cs" />
     <Compile Include="Helpers\GRLS\ApplicantRequests\GrlsMrApplicantRequestFGBUBuilder.cs" />
     <Compile Include="Helpers\GRLS\ApplicantRequests\GrlsMrApplicantRequestInspectBuilder.cs" />
     <Compile Include="Helpers\GRLS\ApplicantRequests\GrlsMrApplicantRequestMZBuilder.cs" />
     <Compile Include="Helpers\GRLS\MotherObject.cs" />
+    <Compile Include="Helpers\GRLS\Statements\StatementLPRegLimPriceBuidler.cs" />
     <Compile Include="Helpers\GRLS\Statements\StatementMRBuilder.cs" />
     <Compile Include="Helpers\IDGenerators\ApplicantRequestsIdGenerator.cs" />
     <Compile Include="Helpers\IDGenerators\DocumentIdGenerator.cs" />

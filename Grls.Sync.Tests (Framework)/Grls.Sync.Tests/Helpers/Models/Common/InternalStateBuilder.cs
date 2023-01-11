@@ -1,11 +1,9 @@
 ﻿using Core.Infrastructure;
-using Core.Infrastructure.Context.Abstract;
 using Core.Models.Common;
 using Core.Models.Common.Abstract;
-using Grls.Common.Abstract;
-using Moq;
 using System.Collections.Generic;
 using System.Linq;
+
 
 namespace Grls.Sync.Tests.Helpers.Models.Common
 {
@@ -31,6 +29,9 @@ namespace Grls.Sync.Tests.Helpers.Models.Common
 
         public static InternalStateBuilder SendApplicant =>
             new InternalStateBuilder(InnerStateCode.send_applicant);
+
+        public static InternalStateBuilder Transferred =>
+            new InternalStateBuilder(InnerStateCode.transferred);
 
         public static InternalStateBuilder RequestFormed =>
             new InternalStateBuilder(InnerStateCode.request_formed);

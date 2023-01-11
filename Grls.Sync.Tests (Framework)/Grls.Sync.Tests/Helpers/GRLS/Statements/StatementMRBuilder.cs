@@ -1,5 +1,4 @@
 ﻿using Core.Entity.Models;
-using Core.Enums;
 using Core.Helpers;
 using Core.Infrastructure;
 using Core.Infrastructure.Context.Abstract;
@@ -8,12 +7,12 @@ using Core.Models.Common.Abstract;
 using Core.Models.Documents;
 using Core.Models.Documents.Abstract;
 using Core.Models.Documents.MedicamentRegistration;
-using Core.Repositories;
 using Core.Repositories.Abstract;
 using Grls.Sync.Tests.Helpers.IDGenerator;
 using Moq;
+using System;
 using System.Collections.Generic;
-
+using System.Linq;
 
 namespace Grls.Sync.Tests.Helpers.GRLS.Statements
 {
@@ -24,46 +23,26 @@ namespace Grls.Sync.Tests.Helpers.GRLS.Statements
         private Mock<ICoreUnitOfWork> _unitOfWork;
         private IncomingPackageBase _incoming;
         private MedicamentRegistrationStatement _statement;
-        private class MyMockRegistrationResolutionRepository : RegistrationResolutionRepository
-        {
-            private IEnumerable<RegistrationResolution> _registrationResolutions = new List<RegistrationResolution>();
 
-            public MyMockRegistrationResolutionRepository(ICoreUnitOfWork unitOfWork, IDbContext context)
-                : base(unitOfWork, context) { }
-
-            public MyMockRegistrationResolutionRepository()
-                : this(new Mock<ICoreUnitOfWork>().Object, new Mock<IDbContext>().Object) { }
-
-            public MyMockRegistrationResolutionRepository(IEnumerable<RegistrationResolution> resolutions) : this()
-            {
-                _registrationResolutions = resolutions;
-            }
-
-            public MyMockRegistrationResolutionRepository(RegistrationResolution resolution) : this()
-
-            {
-                _registrationResolutions = new List<RegistrationResolution> { resolution };
-            }
-
-            public override IEnumerable<RegistrationResolution> GetByIncoming(long number)
-            {
-                return new List<RegistrationResolution>();
-            }
-        }
+        private Mock<IRegistrationResolutionRepository> mockedRegistrationResolutionRepository;
 
         public StatementMRBuilder(Mock<ICoreUnitOfWork> unitOfWork)
         {
-            var statementDocumentType = new DocumentType
+            var statementDocumentType = DocumentTypes.DocumentTypeList.FirstOrDefault(dt => dt.Code.Equals(this._code));
+            if (statementDocumentType == null)
             {
-                Id = 1,
-                Code = this._code,
-                Flow = new DocumentFlow
+                statementDocumentType = new DocumentType
                 {
                     Id = 1,
-                    Module = ModuleEnum.grls,
-                    Code = "flow_reg"
-                }
-            };
+                    Code = this._code,
+                    Flow = new DocumentFlow
+                    {
+                        Id = 1,
+                        Code = "flow_reg"
+                    }
+                };
+                DocumentTypes.DocumentTypeList.Add(statementDocumentType);
+            }
 
             var statamenentId = StatementIdGenerator.Next();
             var incomingNumber = IncomingNumberGenerator.Next();
@@ -82,23 +61,20 @@ namespace Grls.Sync.Tests.Helpers.GRLS.Statements
 
 
 
-            // TODO возможна ошибка, если вызвать еще метод WithFinalResolution()
-            // TODO SOLUTION: тогда нужно быдет выносить Mock<RegistrationResolutionRepository> как атрибут класса 
-            //                для Incoming и Statement вызывать отдельные методы Please(), которые бы вызывали метод "регистрации"
-            //                НО скорее всего если вызвать Please() дважды, то будет ошибка, т.к. опять таки будет дважды 
-            //                регистрироваться замоканная зависимость
-
-            this._unitOfWork.Setup(u => u.Get<RegistrationResolutionRepository>())
-                            .Returns(new MyMockRegistrationResolutionRepository());
+            this.mockedRegistrationResolutionRepository = new Mock<IRegistrationResolutionRepository>();
+            this.mockedRegistrationResolutionRepository
+                .Setup(repo => repo.GetByIncoming(It.Is<long>(number => number.Equals(this._incoming.Number))))
+                .Returns(new List<RegistrationResolution>());
 
 
-            unitOfWork.Setup(u => u.GetDocumentTypeByTypeCode(It.Is<string>(p => p.Equals(this._code))))
-                      .Returns(typeof(MedicamentRegistrationStatement));
-
+            this._unitOfWork
+                .Setup(u => u.GetDocumentTypeByTypeCode(It.Is<string>(p => p.Equals(this._code))))
+                .Returns(typeof(MedicamentRegistrationStatement));
+            this._unitOfWork
+                .Setup(u => u.Get<IRegistrationResolutionRepository>())
+                .Returns(mockedRegistrationResolutionRepository.Object);
 
             this.MockIncomingRepositories();
-
-            DocumentTypes.DocumentTypeList.Add(statementDocumentType);
         }
 
         private void MockIncomingRepositories()
@@ -138,8 +114,13 @@ namespace Grls.Sync.Tests.Helpers.GRLS.Statements
 
         public StatementMRBuilder WithFinalResolution(RegistrationResolution finalResolution)
         {
-            this._unitOfWork.Setup(u => u.Get<RegistrationResolutionRepository>())
-                            .Returns(new MyMockRegistrationResolutionRepository(finalResolution));
+            this.mockedRegistrationResolutionRepository
+                .Setup(repo => repo.GetByIncoming(It.Is<long>(number => number.Equals(this._incoming.Number))))
+                .Returns(new List<RegistrationResolution> { finalResolution });
+
+            this._unitOfWork
+                .Setup(u => u.Get<IRegistrationResolutionRepository>())
+                .Returns(mockedRegistrationResolutionRepository.Object);
 
             return this;
         }

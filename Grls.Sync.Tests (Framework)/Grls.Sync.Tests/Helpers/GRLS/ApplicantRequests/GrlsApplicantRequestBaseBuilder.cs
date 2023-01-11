@@ -2,15 +2,11 @@
 using Core.Helpers;
 using Core.Infrastructure.Context.Abstract;
 using Core.Models.Common;
-using Core.Models.Documents.MedicamentRegistration;
-using Core.Repositories.Abstract;
 using Grls.Sync.Tests.Helpers.IDGenerator;
 using Moq;
 using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace Grls.Sync.Tests.Helpers.GRLS.ApplicantRequests
 {
@@ -21,8 +17,7 @@ namespace Grls.Sync.Tests.Helpers.GRLS.ApplicantRequests
         protected long DocumentId { get; private set; }
 
         protected Guid RoutingGuid { get; private set; }
-
-        protected MedicamentRegistrationApplicantRequest ApplicantRequest { get; set; }
+        
         protected Document Document { get; set; }
 
 
@@ -32,10 +27,10 @@ namespace Grls.Sync.Tests.Helpers.GRLS.ApplicantRequests
             this.Id = ApplicantRequestsIdGeneator.Next();
             this.RoutingGuid = Guid.NewGuid();           
             
-            
-            DocumentTypes.DocumentTypeList.Add(this.DocumentType);
+            if(DocumentTypes.DocumentTypeList.FirstOrDefault(dt => dt.Code == this.DocumentType.Code) == null)
+            {
+                DocumentTypes.DocumentTypeList.Add(this.DocumentType);
+            }
         }
-
-
     }
 }

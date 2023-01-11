@@ -18,6 +18,7 @@ using Core.Helpers;
 using Core.Enums;
 using Grls.Common.Abstract;
 using Core.Models.CommunicationModels;
+using System.Linq;
 
 namespace Grls.Sync.Tests.Helpers.GRLS
 {
@@ -28,41 +29,54 @@ namespace Grls.Sync.Tests.Helpers.GRLS
 
         public Create()
         {
-            DocumentTypes.DocumentTypeList.Add(new DocumentType
+            if(DocumentTypes.DocumentTypeList.FirstOrDefault(dt => dt.Code == "add_materials_received") == null)
             {
-                Code = "add_materials_received",
-                Id = 154,
-                FlowId = 1,
-                Flow = new DocumentFlow
+                DocumentTypes.DocumentTypeList.Add(new DocumentType
                 {
-                    Id = 1,
-                    Module = ModuleEnum.grls,
-                    Code = "flow_reg"
-                }
-            });
+                    Code = "add_materials_received",
+                    Id = 154,
+                    FlowId = 1,
+                    Flow = new DocumentFlow
+                    {
+                        Id = 1,
+                        Module = ModuleEnum.grls,
+                        Code = "flow_reg"
+                    }
+                });
+            }
 
 
             this.unitOfWork.Setup(u => u.User)
                 .Returns(this.User);
         }
 
+        public UserBuilder User => new UserBuilder(this.unitOfWork);
+        #region ApplicantRequests
         public RequestAnswerBaseLongBuilder RequestAnswerBaseLong => new RequestAnswerBaseLongBuilder(unitOfWork);
         public GrlsMrApplicantRequestMZBuilder GrlsMrApplicantRequestMZ => new GrlsMrApplicantRequestMZBuilder(unitOfWork);
         public GrlsMrApplicantRequestFGBUBuilder GrlsMrApplicantRequestFGBU => new GrlsMrApplicantRequestFGBUBuilder(unitOfWork);
         public GrlsMrApplicantRequestInspectBuilder GrlsMrApplicantRequestInspect => new GrlsMrApplicantRequestInspectBuilder(unitOfWork);
-        public UserBuilder User => new UserBuilder(this.unitOfWork);
+
+        public GrlsLPApplicantRequestUsualBuilder GrlsLPApplicantRequestUsual => new GrlsLPApplicantRequestUsualBuilder(unitOfWork);
+        #endregion
+
+        #region Statements
         public StatementMRBuilder StatementMR => new StatementMRBuilder(this.unitOfWork);
+        public StatementLPRegLimPriceBuidler StatementLPRegLimPrice => StatementLPRegLimPriceBuidler(this.unitOfWork);
+        #endregion
 
 
         public StateTransitionBuilder StateTransition => new StateTransitionBuilder();
 
         public TriggerBuilder Trigger => new TriggerBuilder(this.unitOfWork);
 
+        #region Observers
         public ChangeLongDocumentInternalStateObserverBuilder ChangeLongDocumentInternalStateObserver =>
             new ChangeLongDocumentInternalStateObserverBuilder(this.unitOfWork);
 
         public ChangeGrlsApplicantRequestInternalStateObserverBuilder ChangeGrlsApplicantRequestInternalStateObserver =>
             new ChangeGrlsApplicantRequestInternalStateObserverBuilder(this.unitOfWork, this.dbContext);
+        #endregion
     }
 
     internal sealed class Mock_Successed_ChangeLongDocumentInternalState : ChangeLongDocumentInternalState
@@ -249,26 +263,25 @@ namespace Grls.Sync.Tests.Helpers.GRLS
             }
         }
     #endregion
-    #region Mock of RequestAnswerBaseLongRepository
-    internal sealed class MockRequestAnswerBaseLongRepository : RequestAnswerBaseLongRepository
-    {
-        private Mock<ICoreUnitOfWork> _unitOfWork;
-        private Mock<IDbContext> _context;
-        private RequestAnswerBaseLong _answer;
+    //#region Mock of RequestAnswerBaseLongRepository
+    //internal sealed class MockRequestAnswerBaseLongRepository : RequestAnswerBaseLongRepository
+    //{
+    //    private Mock<ICoreUnitOfWork> _unitOfWork;
+    //    private Mock<IDbContext> _context;
+    //    private RequestAnswerBaseLong _answer;
 
-        public MockRequestAnswerBaseLongRepository(Mock<ICoreUnitOfWork> unitOfWork, Mock<IDbContext> context, RequestAnswerBaseLong answer) 
-            : base(unitOfWork.Object, context.Object)
-        {
-            this._unitOfWork = unitOfWork;
-            this._context = context;
-            this._answer = answer;
-        }
+    //    public MockRequestAnswerBaseLongRepository(Mock<ICoreUnitOfWork> unitOfWork, Mock<IDbContext> context, RequestAnswerBaseLong answer) 
+    //        : base(unitOfWork.Object, context.Object)
+    //    {
+    //        this._unitOfWork = unitOfWork;
+    //        this._context = context;
+    //        this._answer = answer;
+    //    }
 
-        public override RequestAnswerBaseLong GetByRequestId(int id)
-        {
-            return this._answer;
-        }
-    }
-    #endregion
-
+    //    public override RequestAnswerBaseLong GetByRequestId(int id)
+    //    {
+    //        return this._answer;
+    //    }
+    //}
+    //#endregion
 }

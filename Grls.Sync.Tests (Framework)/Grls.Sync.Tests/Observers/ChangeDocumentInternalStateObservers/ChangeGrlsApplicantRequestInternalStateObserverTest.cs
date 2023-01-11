@@ -32,76 +32,98 @@ namespace Grls.Sync.Tests.Observers.ChangeDocumentInternalStateObservers
         }
 
         #region Создание "Ответа заявителя"
-            [TestMethod]
-            public void Test_GrlsMRApplicantRequestMZ_ToSending_CreateRequestAnswerWasCalled()
-            {
-                var applicantRequest = Create.GrlsMrApplicantRequestMZ
-                                             .ToStatement(Create.StatementMR.WithInternalState(InternalStates.Entered))
-                                             .WithInternalState(InternalStates.Signed)
-                                             .Please();
+        [TestMethod]
+        public void Test_GrlsLPApplicantRequestUsual_ToSending_CreateRequestAnswerWasCalled()
+        {
+            var applicantRequest = Create.GrlsLPApplicantRequestUsual
+                                         .ToStatement(Create.StatementLPRegLimPrice)
+                                         .WithInternalState(InternalStates.Formated)
+                                         .Please();
 
-                var (observer, testService) =
-                                         Create.ChangeGrlsApplicantRequestInternalStateObserver
-                                               .WithUser(Create.User.WithPermissions(Actions.InternalStateChange))
-                                               .WithRequest(applicantRequest)
-                                               .WithNextInternalState(InternalStates.Sending)
-                                               .PleaseWithTestService();
-
-
-                observer.Execute(testService.ICoreUnitOfWork.Object, testService.IncomingParams);
+            var (observer, testService) =
+                                    Create.ChangeGrlsApplicantRequestInternalStateObserver
+                                          .WithUser(Create.User.WithPermissions(Actions.InternalStateChange))
+                                          .WithRequest(applicantRequest)
+                                          .WithNextInternalState(InternalStates.Transferred)
+                                          .PleaseWithTestService();
 
 
-                testService.ICoreUnitOfWork.Verify(u => u.Get<CreateRequestAnswer>(), Times.Once());
-            }
-
-            [TestMethod]
-            public void Test_GrlsMRApplicantRequestMZ_ToProject_CreateRequestAnswerWasNotCalled()
-            {
-                var applicantRequest = Create.GrlsMrApplicantRequestMZ
-                                             .ToStatement(Create.StatementMR.WithInternalState(InternalStates.Entered))
-                                             .WithInternalState(InternalStates.Signed)
-                                             .Please();
-
-                var (observer, testService) =
-                                         Create.ChangeGrlsApplicantRequestInternalStateObserver
-                                               .WithUser(Create.User.WithPermissions(Actions.InternalStateChange))
-                                               .WithRequest(applicantRequest)
-                                               .WithNextInternalState(InternalStates.Project)
-                                               .PleaseWithTestService();
+            observer.Execute(testService.ICoreUnitOfWork.Object, testService.IncomingParams);
 
 
-                observer.Execute(testService.ICoreUnitOfWork.Object, testService.IncomingParams);
+            testService.ICoreUnitOfWork.Verify(u => u.Get<CreateRequestAnswer>(), Times.Once());
+        }
+
+        [TestMethod]
+        public void Test_GrlsMRApplicantRequestMZ_ToSending_CreateRequestAnswerWasCalled()
+        {
+            var applicantRequest = Create.GrlsMrApplicantRequestMZ
+                                         .ToStatement(Create.StatementMR.WithInternalState(InternalStates.Entered))
+                                         .WithInternalState(InternalStates.Signed)
+                                         .Please();
+
+            var (observer, testService) =
+                                     Create.ChangeGrlsApplicantRequestInternalStateObserver
+                                           .WithUser(Create.User.WithPermissions(Actions.InternalStateChange))
+                                           .WithRequest(applicantRequest)
+                                           .WithNextInternalState(InternalStates.Sending)
+                                           .PleaseWithTestService();
 
 
-                testService.ICoreUnitOfWork.Verify(u => u.Get<CreateRequestAnswer>(), Times.Never());
-            }
-
-            [TestMethod]
-            public void Test_GrlsMRApplicantRequestMZWithAnswer_ToSending_CreateRequestAnswerWasNotCalled()
-            {
-                var applicantRequest = Create.GrlsMrApplicantRequestMZ
-                                             .ToStatement(Create.StatementMR.WithInternalState(InternalStates.Entered))
-                                             .WithInternalState(InternalStates.Signed)
-                                             .Please();
-
-                var answer = Create.RequestAnswerBaseLong
-                                   .WithRequest(applicantRequest)
-                                   .Please();
-
-                var (observer, testService) =
-                                         Create.ChangeGrlsApplicantRequestInternalStateObserver
-                                               .WithUser(Create.User.WithPermissions(Actions.InternalStateChange))
-                                               .WithRequest(applicantRequest)
-                                               .WithRequestAnswer(answer)
-                                               .WithNextInternalState(InternalStates.Sending)
-                                               .PleaseWithTestService();
-
-            
-                observer.Execute(testService.ICoreUnitOfWork.Object, testService.IncomingParams);
+            observer.Execute(testService.ICoreUnitOfWork.Object, testService.IncomingParams);
 
 
-                testService.ICoreUnitOfWork.Verify(u => u.Get<CreateRequestAnswer>(), Times.Never());
-            }
+            testService.ICoreUnitOfWork.Verify(u => u.Get<CreateRequestAnswer>(), Times.Once());
+        }
+
+        [TestMethod]
+        public void Test_GrlsMRApplicantRequestMZ_ToProject_CreateRequestAnswerWasNotCalled()
+        {
+            var applicantRequest = Create.GrlsMrApplicantRequestMZ
+                                         .ToStatement(Create.StatementMR.WithInternalState(InternalStates.Entered))
+                                         .WithInternalState(InternalStates.Signed)
+                                         .Please();
+
+            var (observer, testService) =
+                                     Create.ChangeGrlsApplicantRequestInternalStateObserver
+                                           .WithUser(Create.User.WithPermissions(Actions.InternalStateChange))
+                                           .WithRequest(applicantRequest)
+                                           .WithNextInternalState(InternalStates.Project)
+                                           .PleaseWithTestService();
+
+
+            observer.Execute(testService.ICoreUnitOfWork.Object, testService.IncomingParams);
+
+
+            testService.ICoreUnitOfWork.Verify(u => u.Get<CreateRequestAnswer>(), Times.Never());
+        }
+
+        [TestMethod]
+        public void Test_GrlsMRApplicantRequestMZWithAnswer_ToSending_CreateRequestAnswerWasNotCalled()
+        {
+            var applicantRequest = Create.GrlsMrApplicantRequestMZ
+                                         .ToStatement(Create.StatementMR.WithInternalState(InternalStates.Entered))
+                                         .WithInternalState(InternalStates.Signed)
+                                         .Please();
+
+            var answer = Create.RequestAnswerBaseLong
+                               .WithRequest(applicantRequest)
+                               .Please();
+
+            var (observer, testService) =
+                                     Create.ChangeGrlsApplicantRequestInternalStateObserver
+                                           .WithUser(Create.User.WithPermissions(Actions.InternalStateChange))
+                                           .WithRequest(applicantRequest)
+                                           .WithRequestAnswer(answer)
+                                           .WithNextInternalState(InternalStates.Sending)
+                                           .PleaseWithTestService();
+
+        
+            observer.Execute(testService.ICoreUnitOfWork.Object, testService.IncomingParams);
+
+
+            testService.ICoreUnitOfWork.Verify(u => u.Get<CreateRequestAnswer>(), Times.Never());
+        }
         #endregion
         #region "Ответ заявителя" меняет состояние
             [TestMethod]

@@ -1,45 +1,45 @@
-﻿using Core.Entity.Models;
-using Core.Enums;
+﻿using Core.Enums;
 using Core.Helpers;
 using Core.Infrastructure;
 using Core.Infrastructure.Context.Abstract;
-using Core.Models.Common;
 using Core.Models.Common.Abstract;
+using Core.Models.Common;
 using Core.Models.Documents.Abstract;
-using Core.Models.Documents.MedicamentRegistration;
 using Core.Repositories.Abstract;
 using Moq;
 using System;
 using System.Linq;
+using Core.Models.Documents.LimitedPrice;
+using Core.Entity.Models;
+
 
 namespace Grls.Sync.Tests.Helpers.GRLS.ApplicantRequests
 {
-    public class GrlsMrApplicantRequestMZBuilder : GrlsApplicantRequestBaseBuilder
+    public class GrlsLPApplicantRequestUsualBuilder : GrlsApplicantRequestBaseBuilder
     {
-        private readonly string _code = StatementTypeList.ApplicantRequestMinistryOfHealth;
-        private MedicamentRegistrationApplicantRequest ApplicantRequest { get; set; }
-        //private MedicamentRegistrationApplicantRequest request = null;
+        private readonly string _code = StatementTypeList.ApplicantRequestUsual;
+        private ApplicantRequestLimitedPrice ApplicantRequest { get; set; }
 
-        public GrlsMrApplicantRequestMZBuilder(Mock<ICoreUnitOfWork> unitOfWork) : base(unitOfWork)
+        public GrlsLPApplicantRequestUsualBuilder(Mock<ICoreUnitOfWork> unitOfWork) : base(unitOfWork)
         {
             this.DocumentType = DocumentTypes.DocumentTypeList.FirstOrDefault(dt => dt.Code == this._code);
-            if(this.DocumentType == null)
+            if (this.DocumentType == null)
             {
                 this.DocumentType = new DocumentType
                 {
-                    Id = 94,
+                    Id = 95,
                     Code = this._code,
-                    FlowId = 1,
+                    FlowId = 3,
                     Flow = new DocumentFlow
                     {
-                        Id = 1,
+                        Id = 3,
                         Module = ModuleEnum.grls,
-                        Code = "flow_reg"
+                        Code = "flow_lom_price"
                     },
                 };
             }
 
-            this.ApplicantRequest = new MedicamentRegistrationApplicantRequest
+            this.ApplicantRequest = new ApplicantRequestLimitedPrice
             {
                 Id = this.Id,
                 DocumentId = this.DocumentId,
@@ -56,19 +56,22 @@ namespace Grls.Sync.Tests.Helpers.GRLS.ApplicantRequests
 
 
             var mockIdentifiedRepository = new Mock<IIdentifiedRepository>();
-            mockIdentifiedRepository.Setup(r => r.FindById(It.Is<int>(id => id.Equals(this.Id))))
-                                    .Returns(this.ApplicantRequest);
-            unitOfWork.Setup(u => u.Get<IIdentifiedRepository>(
-                            It.Is<string>(p => p.Equals(typeof(MedicamentRegistrationApplicantRequest).Name))))
-                      .Returns(mockIdentifiedRepository.Object);
+            mockIdentifiedRepository
+                .Setup(repo => repo.FindById(It.Is<int>(id => id.Equals(this.Id))))
+                .Returns(this.ApplicantRequest);
+
+            unitOfWork
+                .Setup(u => u.Get<IIdentifiedRepository>(
+                    It.Is<string>(p => p.Equals(typeof(ApplicantRequestLimitedPrice).Name))))
+                .Returns(mockIdentifiedRepository.Object);
 
             var mockRoutableRepository = new Mock<IRoutableRepository>();
             mockRoutableRepository
-                .Setup(r => r.FindByGuid(It.Is<Guid>(p => p.Equals(this.RoutingGuid))))
+                .Setup(repo => repo.FindByGuid(It.Is<Guid>(p => p.Equals(this.RoutingGuid))))
                 .Returns(this.ApplicantRequest);
             unitOfWork
                 .Setup(u => u.Get<IRoutableRepository>(
-                    It.Is<string>(p => p.Equals(typeof(MedicamentRegistrationApplicantRequest).Name) 
+                    It.Is<string>(p => p.Equals(typeof(ApplicantRequestLimitedPrice).Name)
                                     || p.Equals(typeof(ApplicantRequestBase).Name)
                                     || p.Equals(this._code))))
                 .Returns(mockRoutableRepository.Object);
@@ -76,7 +79,7 @@ namespace Grls.Sync.Tests.Helpers.GRLS.ApplicantRequests
             unitOfWork
                 .Setup(u => u.GetDocumentTypeByTypeCode(
                     It.Is<string>(p => p.Equals(this.DocumentType.Code))))
-                .Returns(typeof(MedicamentRegistrationApplicantRequest));
+                .Returns(typeof(ApplicantRequestLimitedPrice));
 
 
             var mockDocumentIdentifiedLongRepository = new Mock<IIdentifiedLongRepository<Document>>();
@@ -88,28 +91,29 @@ namespace Grls.Sync.Tests.Helpers.GRLS.ApplicantRequests
                 .Returns(mockDocumentIdentifiedLongRepository.Object);
         }
 
-        public GrlsMrApplicantRequestMZBuilder ToStatement(IncomingPackageBase incoming)
+        public GrlsLPApplicantRequestUsualBuilder ToStatement(IncomingPackageBase incoming)
         {
             this.ApplicantRequest.IncomingPackage = incoming;
 
             return this;
         }
 
-        public GrlsMrApplicantRequestMZBuilder WithInternalState(StateBase state)
+        public GrlsLPApplicantRequestUsualBuilder WithInternalState(StateBase state)
         {
             this.ApplicantRequest.InternalState = Core.Models.Common.State.FromBase(state);
 
             return this;
         }
 
-        public GrlsMrApplicantRequestMZBuilder WithQRCode()
+        public GrlsLPApplicantRequestUsualBuilder WithQRCode()
         {
             return this;
         }
 
-        public MedicamentRegistrationApplicantRequest Please()
+        public ApplicantRequestLimitedPrice Please()
         {
             return ApplicantRequest;
         }
+
     }
 }
