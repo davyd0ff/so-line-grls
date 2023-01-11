@@ -2,6 +2,7 @@
 using Core.BusinessTransactions.Abstract;
 using Core.BusinessTransactions.ChangeDocumentExternalStateTransactions;
 using Core.BusinessTransactions.ChangeDocumentInternalStateTransactions;
+using Core.DataAcquisition.Abstract;
 using Core.Entity.Models;
 using Core.Infrastructure.Context.Abstract;
 using Core.Models;
@@ -19,7 +20,7 @@ using Grls.Sync.Tests.Helpers.GRLS;
 using Grls.Sync.Tests.Helpers.Models.Common;
 using grlsSync.Observers;
 using Moq;
-
+using System;
 
 namespace Grls.Sync.Tests.Helpers
 {
@@ -206,17 +207,35 @@ namespace Grls.Sync.Tests.Helpers
                     //IncomingPackage = applicantRequest.IncomingPackage,
                     RoutingGuid = applicantRequest.RoutingGuid
                 });
+            var mockedRoutableRepository = new Mock<IRoutableRepository>();
+            mockedRoutableRepository
+                .Setup(repo => repo.FindByGuid(It.Is<Guid>(rGuid => rGuid.Equals(applicantRequest.RoutingGuid))))
+                .Returns(applicantRequest);
+
+            var mockedOperation = new Mock<IDataAcquisition<ApplicantRequestBase, long>>();
+            mockedOperation
+                .Setup(ops => ops.Do(applicantRequest.DocumentId))
+                .Returns((ApplicantRequestBase) applicantRequest);
+            this._mockedCoreUnitOfWork
+                .Setup(u => u.Get<IDataAcquisition<ApplicantRequestBase, long>>())
+                .Returns(mockedOperation.Object);
 
             this._mockedCoreUnitOfWork
                 .Setup(u => u.Get(typeof(IIdentifiedLongRepository<Document>)))
                 .Returns(mockRepository.Object);
+            this._mockedCoreUnitOfWork
+                .Setup(u => u.Get<IRoutableRepository>(typeof(ApplicantRequestBase).Name))
+                .Returns(mockedRoutableRepository.Object);
+            this._mockedCoreUnitOfWork
+                .Setup(u => u.Get<GetApplicantRequestBaseByDocumentId>())
+                .Returns(new Mock_GetApplicantRequestBaseByDocumentId(this._mockedCoreUnitOfWork));
 
             return this;
         }
 
         public ChangeGrlsApplicantRequestInternalStateObserverBuilder WithRequest(MedicamentRegistrationApplicantRequest applicantRequest)
         {
-            return this.WithRequest((ApplicantRequestBase) applicantRequest);
+            return this.WithRequest((ApplicantRequestBase)applicantRequest);
         }
 
         public ChangeGrlsApplicantRequestInternalStateObserverBuilder WithRequest(ApplicantRequestLimitedPrice applicantRequest)
@@ -299,5 +318,26 @@ namespace Grls.Sync.Tests.Helpers
                 CreateAddMaterialsReceived = this._mockedCreateAddMaterialsReceived,
             });
         }
+
+
+        #region Operations
+        internal sealed class Mock_GetApplicantRequestBaseByDocumentId : GetApplicantRequestBaseByDocumentId
+        {
+            private Mock<ICoreUnitOfWork> mockedCoreUnitOfWork;
+
+            public Mock_GetApplicantRequestBaseByDocumentId(Mock<ICoreUnitOfWork> mockedCoreUnitOfWork) : base(mockedCoreUnitOfWork.Object)
+            {
+                this.mockedCoreUnitOfWork = mockedCoreUnitOfWork;
+            }
+
+            protected override ApplicantRequestBase InternalDo(long documentID)
+            {
+                return this.mockedCoreUnitOfWork
+                           .Object
+                           .Get<IDataAcquisition<ApplicantRequestBase, long>>()
+                           .Do(documentID);
+            }
+        }
+        #endregion
     }
 }
