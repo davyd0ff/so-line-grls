@@ -10,8 +10,6 @@ using Grls.Sync.Tests.Helpers.Models;
 using Grls.Sync.Tests.Helpers.Models.Common;
 using grlsSync.Observers;
 using Moq;
-using Core.Models.Documents;
-using Core.Repositories;
 using Core.BusinessTransactions.Abstract;
 using Core.Models.Common;
 using Core.Helpers;
@@ -111,17 +109,17 @@ namespace Grls.Sync.Tests.Helpers.GRLS
             _mockedCoreUnitOfWork = mockedCoreUnitOfWork;
         }
 
-        protected override ValidationResult Validate(IIdentifiedBase applicantRequest)
+        protected override ValidationResult Validate(Core.Models.Common.Abstract.IIdentifiedBase applicantRequest)
         {
             return ValidationResult.Succeeded();
         }
 
-        protected override TransactionResult PerformTransaction(IIdentifiedBase applicantRequest)
+        protected override TransactionResult PerformTransaction(Core.Models.Common.Abstract.IIdentifiedBase applicantRequest)
         {
             return this._mockedCoreUnitOfWork
                        .Object
                        .Get<IBusinessTransaction<IIdentifiedBase>>()
-                       .Run(applicantRequest);
+                       .Run((IIdentifiedBase) applicantRequest);
         }
     }
     #region Mock of CreateAddMaterialsReceived

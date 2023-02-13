@@ -1,20 +1,10 @@
 ﻿using Core.BusinessTransactions;
-using Core.BusinessTransactions.ChangeDocumentExternalStateTransactions;
-using Core.BusinessTransactions.ChangeDocumentInternalStateTransactions;
-using Core.Entity.Models;
-using Core.Enums;
-using Core.Infrastructure.Context.Abstract;
-using Core.Models.BusinessTransactions;
 using Core.Models.Common;
+using Core.Models.Common.Abstract;
 using Core.Models.CommunicationModels;
-using Core.Models.CommunicationModels.State;
-using Core.Models.Documents.MedicamentRegistration;
-using Core.Repositories.Abstract;
-using Grls.Common.Abstract;
 using Grls.Sync.Tests.Helpers.GRLS;
 using Grls.Sync.Tests.Helpers.Models;
 using Grls.Sync.Tests.Helpers.Models.Common;
-using grlsSync.Observers;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Moq;
 
