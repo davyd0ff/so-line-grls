@@ -1,16 +1,17 @@
-﻿using Core.BL.Tests.Helpers.IDGenerator;
-using Core.Infrastructure;
+﻿using Core.BL.Tests.Helpers.GRLS.Statements;
+using Core.BL.Tests.Helpers.IDGenerator;
 using Core.Infrastructure.Context.Abstract;
 using Core.Models.Common;
 using Core.Models.Documents.Abstract;
 using Core.Models.Documents.ClinicalStudies;
 using Moq;
-using Ninject.Syntax;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
+
+internal partial class Create
+{
+    public ClinicalStudyPermissionBuilder StatementPermissionCS =>
+        new ClinicalStudyPermissionBuilder(mockedUnitOfWork);
+}
 
 namespace Core.BL.Tests.Helpers.GRLS.Statements
 {

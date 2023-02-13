@@ -13,6 +13,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Core.Models.Documents.ClinicalStudies;
+using Core.BL.Tests.GRLS.ApplicantRequests;
+
+internal partial class Create
+{
+    public GrlsCSApplicantRequestFGBUBuilder GrlsCSApplicantRequestFGBU =>
+    new GrlsCSApplicantRequestFGBUBuilder(mockedUnitOfWork);
+}
 
 namespace Core.BL.Tests.GRLS.ApplicantRequests
 {
@@ -22,7 +29,6 @@ namespace Core.BL.Tests.GRLS.ApplicantRequests
         private readonly string _code1 = StatementTypeList.ApplicantRequestCSCPFGBU;
         // Запрос ФГБУ о предоставлении дополнительных данных (КИ)
         private readonly string _code2 = StatementTypeList.ApplicantRequestCSFGBU;
-
 
         private MedicamentRegistrationApplicantRequest mrRequest = null;
         private ClinicalStudyApplicantRequest csRequest = null;
@@ -121,12 +127,12 @@ namespace Core.BL.Tests.GRLS.ApplicantRequests
             where T : ApplicantRequestBase
         {
             // костыль: чтобы работали старые транзакции
-            if(typeof(T) == typeof(MedicamentRegistrationApplicantRequest))
+            if (typeof(T) == typeof(MedicamentRegistrationApplicantRequest))
                 return mrRequest as T;
-            
-            if(typeof(T) == typeof(ClinicalStudyApplicantRequest))
+
+            if (typeof(T) == typeof(ClinicalStudyApplicantRequest))
                 return csRequest as T;
-           
+
 
             throw new InvalidOperationException();
         }

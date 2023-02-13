@@ -23,7 +23,7 @@ namespace Core.BL.Tests.Helpers
             kernel.Load(new IdentifiedRepositories());
             kernel.Load(new ThesaurusRepositories());
 
-            _unitOfWork = new CoreUnitOfWork("grls", new Core.Models.OldUser { Id = 0 });
+            _unitOfWork = new CoreUnitOfWork("grls", CoreUnitOfWorkUser.Create(0));
         }
 
         public static ICoreUnitOfWork Instance => _unitOfWork;

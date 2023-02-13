@@ -1,4 +1,5 @@
-﻿using Core.BL.Tests.Helpers.IDGenerator;
+﻿using Core.BL.Tests.GRLS.Statements;
+using Core.BL.Tests.Helpers.IDGenerator;
 using Core.Helpers;
 using Core.Infrastructure;
 using Core.Infrastructure.Context.Abstract;
@@ -10,6 +11,11 @@ using Core.Repositories.Abstract;
 using Moq;
 using System.Collections.Generic;
 using System.Linq;
+
+internal partial class Create
+{
+    public StatementMRBuilder StatementMR => new StatementMRBuilder(mockedUnitOfWork);
+}
 
 
 namespace Core.BL.Tests.GRLS.Statements

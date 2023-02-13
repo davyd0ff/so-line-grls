@@ -1,4 +1,5 @@
-﻿using Core.BL.Tests.Models.Common;
+﻿using Core.BL.Tests.Helpers.BusinessTransactions;
+using Core.BL.Tests.Models.Common;
 using Core.BusinessTransactions;
 using Core.Infrastructure.Context.Abstract;
 using Core.Models.Common;
@@ -8,6 +9,12 @@ using Core.Models.Documents.MedicamentRegistration;
 using Core.Repositories.Abstract;
 using Moq;
 
+
+internal partial class Create
+{
+    public UpdateApplicantRequestBuilder UpdateApplicantRequest =>
+        new UpdateApplicantRequestBuilder(this.mockedUnitOfWork);
+}
 
 namespace Core.BL.Tests.Helpers.BusinessTransactions
 {

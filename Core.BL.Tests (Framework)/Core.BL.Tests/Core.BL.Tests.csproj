@@ -86,33 +86,50 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BusinessTransactions\ChangeDocumentExternalStateTransactions\ChangeGrlsApplicantRequestExternalStateTest.cs" />
-    <Compile Include="BusinessTransactions\ChangeDocumentInternalStateTransactions\ChangeGrlsApplicantRequestInternalStateTest.cs" />
-    <Compile Include="BusinessTransactions\CreateApplicantRequestTest.cs" />
-    <Compile Include="BusinessTransactions\CreateMedicamentRegistrationApplicantRequestTest.cs" />
-    <Compile Include="BusinessTransactions\UpdateApplicantRequestTest.cs" />
-    <Compile Include="BusinessTransactions\UpdateLimitedPriceApplicantRequestTest.cs" />
-    <Compile Include="DataAcquisition\PdfModels\GetPdfMakeModelRegistrationResolutionEECTest.cs" />
-    <Compile Include="DataAcquisition\PdfModels\GetPdfMakeModelRegistrationTaskTest.cs" />
-    <Compile Include="Helpers\BusinessTransactions\ChangeGrlsApplicantRequestExternalState\ChangeGrlsApplicantRequestExternalStateBuilder.cs" />
-    <Compile Include="Helpers\BusinessTransactions\ChangeGrlsApplicantRequestInternalState\ChangeGrlsApplicantRequestInternalStateBuilder.cs" />
-    <Compile Include="Helpers\BusinessTransactions\CreateMedicamentRegistrationApplicantRequestBuilder.cs" />
+    <AdditionalFiles Include="BusinessTransactions\dbo\ApplicantRequests\json\ApplicantRequestDefect_Canceled.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </AdditionalFiles>
+    <None Include="BusinessTransactions\dbo\ApplicantRequests\json\ApplicantRequestDefect_Project.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="BusinessTransactions\dbo\ApplicantRequests\json\ApplicantRequestDefect_IndorseWithApproved.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="BusinessTransactions\dbo\ApplicantRequests\json\ApplicantRequestDefect_ProjectWithSigners.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="BusinessTransactions\dbo\ApplicantRequests\json\ApplicantRequestDefect_ProjectWithoutSigners.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="BusinessTransactions\dbo\ApplicantRequests\json\ApplicantRequestDefect_Empty.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <Compile Include="BusinessTransactions\dbo\ApplicantRequests\UpdateApplicantRequestDefectTest.cs" />
+    <Compile Include="BusinessTransactions\dbo\ResetApplicantRequestDefectAppointedSignersTest.cs" />
+    <Compile Include="BusinessTransactions\dbo\SaveApplicantRequestDefectAppointedSignersTest.cs" />
+    <Compile Include="BusinessTransactions\States\ChangeApplicantRequesDefectInternalStateTest.cs" />
+    <Compile Include="DataAcquisition\dbo\ApplicantRequests\GetApplicantRequestDefectByGuid.cs" />
+    <Compile Include="Helpers\IDGenerator\SignerIdGenerator.cs" />
+    <Compile Include="Models\Common\ApprovingSignerBuilder.cs" />
+    <Compile Include="Helpers\BusinessTransactions\SaveApplicantRequestDefectAppointedSignersBuilder.cs" />
+    <Compile Include="Helpers\BusinessTransactions\States\ChangeApplicantRequesDefectInternalStateBuilder.cs" />
     <Compile Include="Helpers\BusinessTransactions\UpdateApplicantRequestBuilder.cs" />
-    <Compile Include="Helpers\BusinessTransactions\UpdateLimitedPriceApplicantRequestBuilder.cs" />
+    <Compile Include="Helpers\BusinessTransactions\UpdateApplicantRequestDefectBuilder.cs" />
     <Compile Include="Helpers\CoreUnitOfWork.cs" />
+    <Compile Include="Helpers\DeepClone\Cloner.cs" />
+    <Compile Include="Helpers\Extensions\ApprovingSignersList.cs" />
     <Compile Include="Helpers\GRLS\ApplicantRequests\GrlsCSApplicantRequestFGBUBuilder.cs" />
     <Compile Include="Helpers\GRLS\ApplicantRequests\GrlsLPApplicantRequestUsualBuilder.cs" />
+    <Compile Include="Helpers\GRLS\ApplicantRequests\GrlsMPApplicantRequestDefectBuilder.cs" />
     <Compile Include="Helpers\GRLS\ApplicantRequests\GrlsMrApplicantRequestFGBUBuilder.cs" />
     <Compile Include="Helpers\GRLS\ApplicantRequests\GrlsMrApplicantRequestInspectBuilder.cs" />
-    <Compile Include="Helpers\GRLS\Statements\ChangeResolutionStatementCSBuilder.cs" />
     <Compile Include="Helpers\GRLS\Statements\ClinicalStudyPermissionBuilder.cs" />
-    <Compile Include="Helpers\GRLS\Statements\StatementMRBuilder.cs" />
     <Compile Include="Helpers\GRLS\Statements\StatementRegLimPriceBuilder.cs" />
     <Compile Include="Helpers\IDGenerator\ApplicantRequestsIdGenerator.cs" />
     <Compile Include="Helpers\GRLS\ApplicantRequests\GrlsMrApplicantRequestMZBuilder.cs" />
     <Compile Include="Helpers\IDGenerator\DocumentIdGenerator.cs" />
     <Compile Include="Helpers\GRLS\Mocks.cs" />
-    <Compile Include="Helpers\GRLS\MotherObject.cs" />
+    <Compile Include="MotherObject.cs" />
     <Compile Include="Helpers\GRLS\Producers\ProducerBuilder.cs" />
     <Compile Include="Helpers\IDGenerator\IncomingNumberGenerator.cs" />
     <Compile Include="Helpers\IDGenerator\StatementIdGenerator.cs" />
@@ -169,6 +186,10 @@
     <ProjectReference Include="..\..\..\grls\Grls.Security\Grls.Security.csproj">
       <Project>{96c5f10f-aa6b-4e92-8148-6428ff8ef000}</Project>
       <Name>Grls.Security</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\grls\grlsSecurity\grlsSecurity.csproj">
+      <Project>{79F9E5F5-AFAC-4ECD-9446-F049D1203D4A}</Project>
+      <Name>grlsSecurity</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup />

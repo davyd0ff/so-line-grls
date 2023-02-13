@@ -1,30 +1,37 @@
 ﻿using Core.BL.Tests.GRLS;
-using Core.BL.Tests.GRLS.ApplicantRequests;
-using Core.BL.Tests.Models.Common;
-using Core.BMCP.Models;
-using Core.BusinessTransactions;
-using Core.BusinessTransactions.Abstract;
-using Core.BusinessTransactions.ApplicantRequests.grls;
-using Core.BusinessTransactions.ChangeDocumentInternalStateTransactions;
 using Core.DataAcquisition;
 using Core.DataAcquisition.Abstract;
-using Core.DataAcquisition.eec;
 using Core.Entity.Models;
-using Core.Helpers;
-using Core.Infrastructure;
 using Core.Infrastructure.Context.Abstract;
-using Core.Models.BusinessTransactions;
-using Core.Models.Common;
 using Core.Models.CommunicationModels;
 using Core.Models.Documents.Abstract;
-using Core.Models.Documents.MedicamentRegistration;
-using Core.Repositories;
-using Core.Repositories.Abstract;
-using Grls.Common.Abstract;
 using Moq;
 using System;
+using Core.BusinessTransactions.ApplicantRequests.grls;
+using Core.DataAcquisition.eec;
 using System.Collections.Generic;
+using Core.BMCP.Models;
+using Core.Infrastructure;
+using Core.BusinessTransactions;
+using Core.Models.BusinessTransactions;
+using Core.BusinessTransactions.Abstract;
+using Core.BusinessTransactions.ChangeDocumentInternalStateTransactions;
+using EntityBase = Core.Models.Common.Abstract.EntityBase;
 using System.Linq;
+using Core.Helpers;
+using Core.BL.Tests.GRLS.ApplicantRequests;
+using Core.Repositories.Abstract;
+using Core.Models.Documents.MedicamentRegistration;
+using Core.Models.Common;
+using Core.Repositories;
+using Core.BL.Tests.Models.Common;
+
+
+internal partial class Create
+{
+    public CreateMedicamentRegistrationApplicantRequestBuilder CreateMedicamentRegistrationApplicantRequest =>
+        new CreateMedicamentRegistrationApplicantRequestBuilder(this.mockedUnitOfWork);
+}
 
 
 namespace Core.BL.Tests.Helpers.BusinessTransactions
@@ -420,6 +427,8 @@ namespace Core.BL.Tests.Helpers.BusinessTransactions
         #region ChangeGrlsApplicantRequestInternalState
         internal sealed class Mock_ChangeGrlsApplicantRequestInternalState : ChangeGrlsApplicantRequestInternalState {
             private readonly Mock<ICoreUnitOfWork> mockedCoreUnitOfWork;
+
+            //protected override IRoutableRepository ApplicantRequestRoutableRepository => throw new NotImplementedException();
 
             public Mock_ChangeGrlsApplicantRequestInternalState(Mock<ICoreUnitOfWork> mockedCoreUnitOfWork)
                 : base(mockedCoreUnitOfWork.Object)

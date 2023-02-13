@@ -2,23 +2,18 @@
 using Core.BusinessTransactions.Abstract;
 using Core.DataAcquisition.Abstract;
 using Core.Entity.Models;
-using Core.Infrastructure;
 using Core.Infrastructure.Context.Abstract;
-using Core.Models.Common.CommunicationModels;
+using Core.Models.Common;
+using Core.Models.Common.Abstract;
+using Core.Models.Common.Documents.ApplicantRequest;
 using Core.Models.Documents.Abstract;
 using Core.Repositories;
 using Core.Repositories.Abstract;
+using Core.Repositories.Abstracts.core;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Moq;
-using Newtonsoft.Json.Linq;
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Linq.Expressions;
-using System.Runtime.CompilerServices;
-using System.Runtime.InteropServices.WindowsRuntime;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace Core.BL.Tests
 {
@@ -28,6 +23,11 @@ namespace Core.BL.Tests
         {
             Assert.IsTrue(expression);
         }
+        public void IsFalse(bool expression)
+        {
+            Assert.IsFalse(expression);
+        }
+
         public Mock<ICoreUnitOfWork> ICoreUnitOfWork { get; set; }
 
         public Mock<IDocumentRepository> IDocumentRepository { get; set; }
@@ -36,11 +36,17 @@ namespace Core.BL.Tests
         public Mock<IIdentifiedRepository> MedicamentRegistrationApplicantRequestRepository { get; set; }
         public Mock<IIdentifiedRepository> LimitedPriceApplicantRequestRepository { get; set; }
         public Mock<IIdentifiedRepository> CustomEventRepository { get; set; }
+        public Mock<IDocumentSignersRepository> IDocumentSignersRepository { get; set; }
+
+        public Mock<IBusinessTransaction<IIdentifiedBase>> UpdateApplicantRequest { get; set; }
 
         public Mock<IBinaryBusinessTransaction<Document, long?>> InsertDocumentOperation { get; set; }
-
+        public Mock<IBinaryBusinessTransaction<ApplicantRequestDefect, State>> ChangeApplicantRequesDefectInternalState { get; set; }
+        public Mock<IBinaryBusinessTransaction<ApplicantRequestDefect, IEnumerable<ApprovingSigner>>> SaveApplicantRequestDefectAppointedSigners { get; set; }
         public Mock<IBinaryBusinessTransaction<ChangeStateInfo, bool>> ChangeGrlsApplicantRequestInternalState { get; set; }
         public Mock<IDataAcquisition<string, ApplicantRequestBase>> GetNewOutgoingNumberOfApplicantRequest { get; set; }
+        public Mock<IBusinessTransaction<IMailSenderModel>> MailSenderApplicantRequestDefectWasApproved { get; set; }
+
         //public void Verify_That_IDocumentStateRepository_SetState_WasCalledOnceWith(long documentId, int stateId, int? any)
         //{
         //    this.IDocumentStateRepositoryMock.Verify(repo => repo.SetState(documentId, stateId, any), Times.Once());

@@ -11,6 +11,13 @@ using System.Text;
 using System.Threading.Tasks;
 using Core.BusinessTransactions.ChangeDocumentInternalStateTransactions;
 
+
+internal partial class Create
+{
+    public ChangeGrlsApplicantRequestInternalStateBuilder ChangeGrlsApplicantRequestInternalState =>
+        new ChangeGrlsApplicantRequestInternalStateBuilder(mockedUnitOfWork);
+}
+
 namespace Core.BL.Tests.Helpers.BusinessTransactions
 {
     public class ChangeGrlsApplicantRequestInternalStateBuilder
@@ -64,7 +71,7 @@ namespace Core.BL.Tests.Helpers.BusinessTransactions
             return this;
         }
 
-        public ChangeGrlsApplicantRequestInternalStateBuilder WithUser(OldUser user)
+        public ChangeGrlsApplicantRequestInternalStateBuilder WithUser(CoreUnitOfWorkUser user)
         {
             this._unitOfWork.Setup(u => u.User)
                             .Returns(user);

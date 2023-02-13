@@ -1,0 +1,89 @@
+﻿{
+    "documentId": 879410,
+    "guid": "e273bdd0-a5f0-4761-9b7c-aad419e4bb1c",
+    "statement": {
+        "documentType": {
+            "code": "mp_defect_reg_statement",
+            "title": ""
+        },
+        "IsSigned": false,
+        "number": 106843,
+        "guid": "cef9f7ef-9eb3-4e92-a8fb-5666b9d25037"
+    },
+    "incoming": {
+        "number": 4098512,
+        "guid": "f97e3539-8e1c-4ba8-af31-6f588b5cc43a"
+    },
+    "outgoingNumber": "25-5-4098512(2)/Д/МЗ-З",
+    "outgoingDate": "2023-02-09T00:00:00+03:00",
+    "transferingDate": "",
+    "organization": {
+        "title": "Министерство здравоохранения Российской Федерации",
+        "address": "127994, г Москва, г Москва, пер Рахмановский, дом 3/25, строение 1,2,3,4",
+        "inn": ""
+    },
+    "request": "",
+    "enclosure": "",
+    "messageId": null,
+    "dossierId": 0,
+    "application": null,
+    "requestFileMZ": null,
+    "renewalDate": null,
+    "tradeName": "Торговое",
+    "inn": "",
+    "documentType": {
+        "code": "applicant_request_mp_defect",
+        "title": "Запрос МЗ РФ по недостоверности"
+    },
+    "requestType": {
+        "shortTitle": "",
+        "code": "grls_mp_mz_def",
+        "title": "Запрос о представлении недостающих дополнительных сведений по результатам оценки полноты, комплектности и правильности оформления документов"
+    },
+    "innerState": {
+        "id": 12,
+        "code": "indorse"
+    },
+    "outerState": null,
+    "author": {
+        "id": 16479,
+        "name": "",
+        "approved": true,
+        "signerType": {
+            "id": 0,
+            "code": null,
+            "name": "Автор"
+        }
+    },
+    "signers": [
+        {
+            "id": 2,
+            "name": "user2",
+            "signerType": {
+                "id": 3,
+                "code": "performer",
+                "name": "Исполнитель"
+            },
+            "position": "position of user",
+            "approved": true
+        },
+        {
+            "id": 3,
+            "name": "user3",
+            "signerType": {
+                "id": 6,
+                "code": "approver_2",
+                "name": "Согласующий-2"
+            },
+            "position": "position of user",
+            "approved": true
+        }
+    ],
+    "signatory": {
+        "id": 4,
+        "name": "user4",
+        "position": "position of user"
+    },
+    "firstSeenDate": "",
+    "handledFactDate": ""
+}

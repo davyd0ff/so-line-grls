@@ -1,5 +1,6 @@
 ﻿using Core.BL.Tests.GRLS;
 using Core.BL.Tests.GRLS.ApplicantRequests;
+using Core.BL.Tests.Helpers.GRLS.ApplicantRequests;
 using Core.Helpers;
 using Core.Infrastructure;
 using Core.Infrastructure.Context.Abstract;
@@ -10,6 +11,12 @@ using Moq;
 using System;
 using System.Linq;
 
+
+internal partial class Create
+{
+    public GrlsLPApplicantRequestUsualBuilder GrlsLPApplicantRequestUsual =>
+        new GrlsLPApplicantRequestUsualBuilder(mockedUnitOfWork);
+}
 
 namespace Core.BL.Tests.Helpers.GRLS.ApplicantRequests
 {

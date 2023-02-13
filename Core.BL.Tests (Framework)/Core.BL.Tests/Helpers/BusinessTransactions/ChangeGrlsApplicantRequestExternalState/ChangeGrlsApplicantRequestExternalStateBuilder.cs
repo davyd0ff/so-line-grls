@@ -12,6 +12,14 @@ using System.Threading.Tasks;
 using Core.BusinessTransactions.ChangeDocumentExternalStateTransactions;
 using Core.Entity.Models;
 
+
+internal partial class Create
+{
+    public ChangeGrlsApplicantRequestExternalStateBuilder ChangeGrlsApplicantRequestExternalState =>
+        new ChangeGrlsApplicantRequestExternalStateBuilder(this.mockedUnitOfWork);
+}
+
+
 namespace Core.BL.Tests.Helpers.BusinessTransactions
 {
     public class ChangeGrlsApplicantRequestExternalStateBuilder

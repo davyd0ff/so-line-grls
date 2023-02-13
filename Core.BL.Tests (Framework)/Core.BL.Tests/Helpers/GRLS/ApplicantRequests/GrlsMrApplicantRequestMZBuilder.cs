@@ -1,4 +1,5 @@
-﻿using Core.Enums;
+﻿using Core.BL.Tests.GRLS.ApplicantRequests;
+using Core.Enums;
 using Core.Helpers;
 using Core.Infrastructure;
 using Core.Infrastructure.Context.Abstract;
@@ -9,10 +10,14 @@ using Core.Models.Documents.MedicamentRegistration;
 using Core.Repositories.Abstract;
 using Moq;
 using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
+
+internal partial class Create
+{
+    public GrlsMrApplicantRequestMZBuilder GrlsMrApplicantRequestMZ =>
+        new GrlsMrApplicantRequestMZBuilder(mockedUnitOfWork);
+}
 
 namespace Core.BL.Tests.GRLS.ApplicantRequests
 {

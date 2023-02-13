@@ -1,58 +1,65 @@
-﻿using Core.Infrastructure;
-using Core.Models.Common;
+﻿using Core.Models.Common;
 using Core.Models.Common.Abstract;
-using System.Collections.Generic;
-using System.Linq;
+using Core.Models.Common.Enums.States;
+
 
 namespace Core.BL.Tests.Models.Common
 {
     public static class InternalStates
     {
         public static InternalStateBuilder Project =>
-            new InternalStateBuilder(InnerStateCode.project);
+            new InternalStateBuilder(DocumentInternalStateEnum.project);
 
         public static InternalStateBuilder Canceled =>
-            new InternalStateBuilder(InnerStateCode.canceled);
+            new InternalStateBuilder(DocumentInternalStateEnum.canceled);
 
         public static InternalStateBuilder Entered =>
-            new InternalStateBuilder(InnerStateCode.entered);
+            new InternalStateBuilder(DocumentInternalStateEnum.entered);
 
         public static InternalStateBuilder Signed =>
-            new InternalStateBuilder(InnerStateCode.signed);
+            new InternalStateBuilder(DocumentInternalStateEnum.signed);
 
         public static InternalStateBuilder Signing =>
-            new InternalStateBuilder(InnerStateCode.signing);
+            new InternalStateBuilder(DocumentInternalStateEnum.signing);
 
         public static InternalStateBuilder Sending =>
-            new InternalStateBuilder(InnerStateCode.sending);
+            new InternalStateBuilder(DocumentInternalStateEnum.sending);
 
         public static InternalStateBuilder RequestFormed =>
-            new InternalStateBuilder(InnerStateCode.request_formed);
+            new InternalStateBuilder(DocumentInternalStateEnum.request_formed);
+
+        public static InternalStateBuilder Indorse =>
+            new InternalStateBuilder(DocumentInternalStateEnum.indorse);
     }
 
     public class InternalStateBuilder
     {
-        private static int InternalStateCount = 0;
-        private static Dictionary<string, InternalState> Hash = new Dictionary<string, InternalState>();
         private InternalState _state;
 
-        public InternalStateBuilder(string stateCode)
+        public InternalStateBuilder(DocumentInternalStateEnum state)
         {
-            if (Hash.Keys.Contains(stateCode))
-            {
-                this._state = Hash[stateCode];
-            }
-            else
-            {
-                InternalStateCount += 1;
-
-                this._state = new InternalState();
-                this._state.Id = InternalStateCount;
-                this._state.Code = stateCode;
-
-                Hash.Add(stateCode, this._state);
-            }
+            this._state = new InternalState();
+            this._state.Id = (int)state;
+            this._state.Code = state.ToString();
         }
+
+        //public InternalStateBuilder(string stateCode)
+        //{
+        //    if (Hash.Keys.Contains(stateCode))
+        //    {
+        //        this._state = Hash[stateCode];
+        //    }
+        //    else
+        //    {
+        //        InternalStateCount += 1;
+
+        //        this._state = new InternalState();
+        //        this._state.Id = InternalStateCount;
+        //        this._state.Code = stateCode;
+
+        //        Hash.Add(stateCode, this._state);
+        //    }
+        //}
 
         public InternalState Please()
         {

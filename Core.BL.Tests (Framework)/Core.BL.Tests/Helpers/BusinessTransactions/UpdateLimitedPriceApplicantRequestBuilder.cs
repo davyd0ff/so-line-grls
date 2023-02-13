@@ -1,4 +1,5 @@
-﻿using Core.BL.Tests.Models.Common;
+﻿using Core.BL.Tests.Helpers.BusinessTransactions;
+using Core.BL.Tests.Models.Common;
 using Core.BusinessTransactions.ApplicantRequests.grls;
 using Core.Infrastructure.Context.Abstract;
 using Core.Models.Common;
@@ -7,6 +8,11 @@ using Core.Models.Documents.LimitedPrice;
 using Core.Repositories.Abstract;
 using Moq;
 
+internal partial class Create
+{
+    public UpdateLimitedPriceApplicantRequestBuilder UpdateLimitedPriceApplicantRequest =>
+       new UpdateLimitedPriceApplicantRequestBuilder(this.mockedUnitOfWork);
+}
 
 namespace Core.BL.Tests.Helpers.BusinessTransactions
 {

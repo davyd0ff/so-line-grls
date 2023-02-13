@@ -1,4 +1,5 @@
-﻿using Core.BL.Tests.Helpers;
+﻿using Core.BL.Tests.GRLS.Statements;
+using Core.BL.Tests.Helpers;
 using Core.BL.Tests.Helpers.IDGenerator;
 using Core.Helpers;
 using Core.Infrastructure;
@@ -13,6 +14,13 @@ using Moq;
 using System.Collections.Generic;
 using System.Linq;
 
+
+public partial class Create
+{
+    public ChangeResolutionStatementCSBuilder ChangeResolutionStatementCS =>
+        new ChangeResolutionStatementCSBuilder(mockedUnitOfWork);
+}
+
 namespace Core.BL.Tests.GRLS.Statements
 {
     public class ChangeResolutionStatementCSBuilder
@@ -25,32 +33,6 @@ namespace Core.BL.Tests.GRLS.Statements
 
         private Mock<IRegistrationResolutionRepository> mockedRegistrationResolutionRepository;
 
-        //private class MyMockRegistrationResolutionRepository : RegistrationResolutionRepository
-        //{
-        //    private IEnumerable<RegistrationResolution> _registrationResolutions = new List<RegistrationResolution>();
-
-        //    public MyMockRegistrationResolutionRepository(ICoreUnitOfWork unitOfWork, IDbContext context)
-        //        : base(unitOfWork, context) { }
-
-        //    public MyMockRegistrationResolutionRepository()
-        //        : this(new Mock<ICoreUnitOfWork>().Object, new Mock<IDbContext>().Object) { }
-
-        //    public MyMockRegistrationResolutionRepository(IEnumerable<RegistrationResolution> resolutions) : this()
-        //    {
-        //        _registrationResolutions = resolutions;
-        //    }
-
-        //    public MyMockRegistrationResolutionRepository(RegistrationResolution resolution) : this()
-
-        //    {
-        //        _registrationResolutions = new List<RegistrationResolution> { resolution };
-        //    }
-
-        //    public override IEnumerable<RegistrationResolution> GetByIncoming(long number)
-        //    {
-        //        return new List<RegistrationResolution>();
-        //    }
-        //}
 
         public ChangeResolutionStatementCSBuilder(Mock<ICoreUnitOfWork> unitOfWork)
         {

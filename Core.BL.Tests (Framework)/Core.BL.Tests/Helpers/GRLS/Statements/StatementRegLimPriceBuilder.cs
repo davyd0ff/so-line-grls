@@ -1,4 +1,5 @@
-﻿using Core.BL.Tests.Helpers.IDGenerator;
+﻿using Core.BL.Tests.Helpers.GRLS.Statements;
+using Core.BL.Tests.Helpers.IDGenerator;
 using Core.Helpers;
 using Core.Infrastructure;
 using Core.Infrastructure.Context.Abstract;
@@ -6,12 +7,13 @@ using Core.Models.Common;
 using Core.Models.Documents.Abstract;
 using Core.Models.Documents.LimitedPrice;
 using Moq;
-using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Runtime.CompilerServices;
-using System.Text;
-using System.Threading.Tasks;
+
+
+internal partial class Create
+{
+    public StatementRegLimPriceBuilder StatementRegLimPrice => new StatementRegLimPriceBuilder(mockedUnitOfWork);
+}
 
 namespace Core.BL.Tests.Helpers.GRLS.Statements
 {

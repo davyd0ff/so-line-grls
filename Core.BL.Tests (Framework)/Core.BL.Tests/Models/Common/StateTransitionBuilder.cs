@@ -1,6 +1,14 @@
-﻿using Core.Models.Common;
+﻿using Core.BL.Tests.Models.Common;
+using Core.Models.Common;
 using Core.Models.Common.Abstract;
 using System.Linq;
+
+
+internal partial class Create
+{
+    public StateTransitionBuilder OuterStateTransition => new StateTransitionBuilder();
+    public StateTransitionBuilder StateTransition => new StateTransitionBuilder();
+}
 
 
 namespace Core.BL.Tests.Models.Common

@@ -7,11 +7,13 @@ using Core.Models.Documents.Abstract;
 using Core.Models.Documents.MedicamentRegistration;
 using Core.Repositories.Abstract;
 using Moq;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using Core.BL.Tests.GRLS.ApplicantRequests;
+
+internal partial class Create
+{
+    public GrlsMrApplicantRequestInspectBuilder GrlsMrApplicantRequestInspect =>
+        new GrlsMrApplicantRequestInspectBuilder(mockedUnitOfWork);
+}
 
 namespace Core.BL.Tests.GRLS.ApplicantRequests
 {

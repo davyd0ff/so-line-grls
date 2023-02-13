@@ -1,16 +1,13 @@
-﻿using Core.Enums;
-using Core.Models.Common;
-using System;
+﻿using Core.Models.Common;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace Core.BL.Tests.Models
 {
     public static class Actions
     {
         public static ActionBuilder InternalStateChange => new ActionBuilder("InternalStateChange");
+        public static ActionBuilder ApprovingAdministrator => new ActionBuilder(Enums.ActionsEnum.ApproovingAdministrator);
     }
 
 
@@ -21,6 +18,12 @@ namespace Core.BL.Tests.Models
 
         private int _actionId;
         private string _actionCode;
+
+        public ActionBuilder(Enums.ActionsEnum action)
+        {
+            this._actionCode = action.ToString();
+            this._actionId = (int)action;
+        }
 
         public ActionBuilder(string actionCode)
         {

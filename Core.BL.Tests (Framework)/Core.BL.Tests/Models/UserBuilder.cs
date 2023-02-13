@@ -1,13 +1,17 @@
-﻿using Core.Infrastructure.Context.Abstract;
+﻿using Core.BL.Tests.Models;
+using Core.Enums;
+using Core.Infrastructure.Context.Abstract;
 using Core.Models;
 using Grls.Security;
-using Grls.Security.Models;
+using grlsWebSecurity;
 using Moq;
-using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
+
+internal partial class Create
+{
+    public UserBuilder User => new UserBuilder(mockedUnitOfWork);
+}
 
 namespace Core.BL.Tests.Models
 {
@@ -15,6 +19,7 @@ namespace Core.BL.Tests.Models
     {
         private static int UserCount = 2; // т.к. 1 - это будет id у app (есть пользователь который представляет систему)
         private OldUser _user;
+        private CoreUnitOfWorkUser _coreUnitOfWorkUser;
         private Mock<ICoreUnitOfWork> _unitOfWork;
 
 
@@ -29,33 +34,77 @@ namespace Core.BL.Tests.Models
             this._user.Fio = $"TestUser_{this._user.Id}";
             this._user.Actual = true;
             this._user.Email = $"test@localhost.com";
+
+            this._coreUnitOfWorkUser = CoreUnitOfWorkUser.Create(UserCount);
+            this._coreUnitOfWorkUser.Username = $"TestUser_{this._user.Id}";
+            this._coreUnitOfWorkUser.Fio = $"TestUser_{this._user.Id}";
+            this._coreUnitOfWorkUser.Email = $"test@localhost.com";
         }
 
-        public OldUser Please()
+        public OldUser PleaseOldUser()
         {
             return this._user;
         }
 
+        public CoreUnitOfWorkUser Please()
+        {
+            return this._coreUnitOfWorkUser;
+        }
+
         public static implicit operator OldUser(UserBuilder builder)
+        {
+            return builder.PleaseOldUser();
+        }
+
+        public static implicit operator CoreUnitOfWorkUser(UserBuilder builder)
         {
             return builder.Please();
         }
 
 
+        public UserBuilder WithPermissions(params Enums.ActionsEnum[] permissions)
+        {
+            return this.WithPermissions(permissions.Select(p => (int)p).ToArray());
+        }
+
         public UserBuilder WithPermissions(params int[] permissions)
         {
-            var MockRequestPermissions = new Mock<IRequestPermissions>();
-            MockRequestPermissions
+
+            var mockedActiveSession = new Mock<IActiveSession>();
+            mockedActiveSession
+                .Setup(session => session.Authenticated)
+                .Returns(true);
+
+            var mockedRequestPermission = new Mock<IRequestPermissions>();
+            mockedRequestPermission
                 .Setup(s => s.HasAny(
                     It.Is<int[]>(paramPermissions => paramPermissions.Any(pp => permissions.Contains(pp)))
                  ))
                 .Returns(true);
-
-            //var IRequestPermissionsMock = new Mock<IRequestPermissions>
+            mockedRequestPermission
+                .Setup(s => s.Has(
+                    It.Is<int>(paramPermissions => permissions.Contains(paramPermissions))
+                 ))
+                .Returns(true);
 
             this._unitOfWork
                 .Setup(u => u.UserPermissions)
-                .Returns(MockRequestPermissions.Object);
+                .Returns(mockedRequestPermission.Object);
+
+            var mockedRequestSecuruty = new Mock<IRequestSecurity>();
+            mockedRequestSecuruty
+                .Setup(security => security.Session)
+                .Returns(mockedActiveSession.Object);
+            mockedRequestSecuruty
+                .Setup(security => security.Permissions)
+                .Returns(_unitOfWork.Object?.UserPermissions);
+
+            var mockedRequestSecurityProvider = new Mock<IRequestSecurityProvider>();
+            mockedRequestSecurityProvider
+                .Setup(provider => provider.Current)
+                .Returns(mockedRequestSecuruty.Object);
+
+            CurrentUser.Configure(mockedRequestSecurityProvider.Object);
 
             return this;
         }

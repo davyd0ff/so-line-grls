@@ -1,12 +1,14 @@
 ﻿using Core.BL.Tests.Helpers.IDGenerator;
+using Core.BL.Tests.Models.Common;
 using Core.Models.Common;
 using Core.Models.Common.Abstract;
 using Core.Models.Documents.MedicamentRegistration;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
+
+internal partial class Create
+{
+    public TriggerBuilder Trigger = new TriggerBuilder();
+}
 
 namespace Core.BL.Tests.Models.Common
 {

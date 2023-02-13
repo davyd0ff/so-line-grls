@@ -1,5 +1,12 @@
-﻿using Core.Models;
+﻿using Core.BL.Tests.GRLS.Producers;
+using Core.Models;
 using Core.Models.Medicaments;
+
+
+internal partial class Create
+{
+    public ProducerBuilder Producer => new ProducerBuilder();
+}
 
 namespace Core.BL.Tests.GRLS.Producers
 {
