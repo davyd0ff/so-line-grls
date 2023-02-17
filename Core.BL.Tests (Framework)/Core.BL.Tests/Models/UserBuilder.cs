@@ -1,4 +1,5 @@
-﻿using Core.BL.Tests.Models;
+﻿using Core.BL.Tests.Helpers.IDGenerator;
+using Core.BL.Tests.Models;
 using Core.Enums;
 using Core.Infrastructure.Context.Abstract;
 using Core.Models;
@@ -17,28 +18,40 @@ namespace Core.BL.Tests.Models
 {
     public class UserBuilder
     {
-        private static int UserCount = 2; // т.к. 1 - это будет id у app (есть пользователь который представляет систему)
         private OldUser _user;
         private CoreUnitOfWorkUser _coreUnitOfWorkUser;
         private Mock<ICoreUnitOfWork> _unitOfWork;
+        private Mock<IActiveSession> _mockedSession;
+        private Mock<IRequestSecurity> _mockedRequestSecurity;
 
 
         public UserBuilder(Mock<ICoreUnitOfWork> unitOfWork)
         {
             this._unitOfWork = unitOfWork;
 
-            UserCount += 1;
-
             this._user = new OldUser();
-            this._user.Id = UserCount;
+            this._user.Id = UserIdGenerator.Next();
             this._user.Fio = $"TestUser_{this._user.Id}";
             this._user.Actual = true;
             this._user.Email = $"test@localhost.com";
 
-            this._coreUnitOfWorkUser = CoreUnitOfWorkUser.Create(UserCount);
+            this._coreUnitOfWorkUser = CoreUnitOfWorkUser.Create(this._user.Id);
             this._coreUnitOfWorkUser.Username = $"TestUser_{this._user.Id}";
             this._coreUnitOfWorkUser.Fio = $"TestUser_{this._user.Id}";
             this._coreUnitOfWorkUser.Email = $"test@localhost.com";
+
+            this._mockedSession = new Mock<IActiveSession>();
+            this._mockedSession
+                .Setup(session => session.Authenticated)
+                .Returns(true);
+            this._mockedSession
+                .Setup(session => session.UserId)
+                .Returns(this._user.Id);
+
+            this._mockedRequestSecurity = new Mock<IRequestSecurity>();
+            this._mockedRequestSecurity
+                .Setup(security => security.Session)
+                .Returns(this._mockedSession.Object);
         }
 
         public OldUser PleaseOldUser()
@@ -48,6 +61,13 @@ namespace Core.BL.Tests.Models
 
         public CoreUnitOfWorkUser Please()
         {
+            var mockedRequestSecurityProvider = new Mock<IRequestSecurityProvider>();
+            mockedRequestSecurityProvider
+                .Setup(provider => provider.Current)
+                .Returns(this._mockedRequestSecurity.Object);
+
+            CurrentUser.Configure(mockedRequestSecurityProvider.Object);
+
             return this._coreUnitOfWorkUser;
         }
 
@@ -70,11 +90,6 @@ namespace Core.BL.Tests.Models
         public UserBuilder WithPermissions(params int[] permissions)
         {
 
-            var mockedActiveSession = new Mock<IActiveSession>();
-            mockedActiveSession
-                .Setup(session => session.Authenticated)
-                .Returns(true);
-
             var mockedRequestPermission = new Mock<IRequestPermissions>();
             mockedRequestPermission
                 .Setup(s => s.HasAny(
@@ -91,20 +106,10 @@ namespace Core.BL.Tests.Models
                 .Setup(u => u.UserPermissions)
                 .Returns(mockedRequestPermission.Object);
 
-            var mockedRequestSecuruty = new Mock<IRequestSecurity>();
-            mockedRequestSecuruty
-                .Setup(security => security.Session)
-                .Returns(mockedActiveSession.Object);
-            mockedRequestSecuruty
+
+            this._mockedRequestSecurity
                 .Setup(security => security.Permissions)
                 .Returns(_unitOfWork.Object?.UserPermissions);
-
-            var mockedRequestSecurityProvider = new Mock<IRequestSecurityProvider>();
-            mockedRequestSecurityProvider
-                .Setup(provider => provider.Current)
-                .Returns(mockedRequestSecuruty.Object);
-
-            CurrentUser.Configure(mockedRequestSecurityProvider.Object);
 
             return this;
         }

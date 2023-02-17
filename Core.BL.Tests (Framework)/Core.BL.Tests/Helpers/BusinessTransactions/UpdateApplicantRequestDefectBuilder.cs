@@ -32,7 +32,7 @@ namespace Core.BL.Tests.Helpers.BusinessTransactions
 
         private Mock<IBusinessTransaction<IIdentifiedBase>> UpdateApplicantRequest;
         private Mock<IDataAcquisition<ApplicantRequestDefect, Guid>> GetApplicantRequestDefectByGuid;
-        private Mock<IBinaryBusinessTransaction<ApplicantRequestDefect, State>> ChangeApplicantRequesDefectInternalState;
+        private Mock<IBinaryBusinessTransaction<ApplicantRequestDefect, InternalState>> ChangeApplicantRequesDefectInternalState;
         private Mock<IBinaryBusinessTransaction<ApplicantRequestDefect, IEnumerable<ApprovingSigner>>> SaveApplicantRequestDefectAppointedSigners;
 
         public UpdateApplicantRequestDefectBuilder(Mock<ICoreUnitOfWork> mockedCoreUnitOfWork)
@@ -70,17 +70,24 @@ namespace Core.BL.Tests.Helpers.BusinessTransactions
             #endregion
             #region Mock<ChangeApplicantRequesDefectInternalState>
             
-            this.ChangeApplicantRequesDefectInternalState = new Mock<IBinaryBusinessTransaction<ApplicantRequestDefect, State>>();
+            this.ChangeApplicantRequesDefectInternalState = new Mock<IBinaryBusinessTransaction<ApplicantRequestDefect, InternalState>>();
             this.ChangeApplicantRequesDefectInternalState
                 .Setup(tran => tran.Run(
                     It.Is<ApplicantRequestDefect>(request => request.RoutingGuid.Equals(applicantRequest.RoutingGuid)),
-                    It.IsAny<State>()
+                    It.IsAny<InternalState>()
                  ))
-                .Callback<ApplicantRequestDefect, State>((request, state) => { changedApplicantRequest = request; changedApplicantRequest.InternalState = state; })
+                .Callback<ApplicantRequestDefect, InternalState>((request, state) => { 
+                        changedApplicantRequest = request; 
+                        changedApplicantRequest.InternalState = new State { 
+                            Id = state.Id,
+                            Code = state.Code,
+                            Name = state.Name,
+                        }; 
+                })
                 .Returns(TransactionResult.Succeeded(changedApplicantRequest));
 
             this.mockedCoreUnitOfWork
-                .Setup(unit => unit.Get<IBinaryBusinessTransaction<ApplicantRequestDefect, State>>())
+                .Setup(unit => unit.Get<IBinaryBusinessTransaction<ApplicantRequestDefect, InternalState>>())
                 .Returns(this.ChangeApplicantRequesDefectInternalState.Object);
 
             this.mockedCoreUnitOfWork
@@ -199,18 +206,18 @@ namespace Core.BL.Tests.Helpers.BusinessTransactions
             {
                 this.mockedUnitOfWork = mockedUnitOfWork;
             }
-            protected override ValidationResult Validate(ApplicantRequestDefect applicantRequest, State newState)
+            protected override ValidationResult Validate(ApplicantRequestDefect applicantRequest, InternalState newState)
             {
                 return ValidationResult.Succeeded();
             }
-            protected override TransactionResult PerformTransaction(ApplicantRequestDefect applicantRequest, State newState)
+            protected override TransactionResult PerformTransaction(ApplicantRequestDefect applicantRequest, InternalState newState)
             {
                 return this.mockedUnitOfWork
                     .Object
-                    .Get<IBinaryBusinessTransaction<ApplicantRequestDefect, State>>()
+                    .Get<IBinaryBusinessTransaction<ApplicantRequestDefect, InternalState>>()
                     .Run(applicantRequest, newState);
             }
-            protected override void OnConcreteTransactionSuccess(ApplicantRequestDefect applicantRequest, State newState, TransactionResult result)
+            protected override void OnConcreteTransactionSuccess(ApplicantRequestDefect applicantRequest, InternalState newState, TransactionResult result)
             {
 
             }

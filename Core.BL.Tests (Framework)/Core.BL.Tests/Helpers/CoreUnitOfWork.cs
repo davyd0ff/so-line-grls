@@ -19,7 +19,7 @@ namespace Core.BL.Tests.Helpers
             var kernel = KernelManager.Instance;
             kernel.Load(new CommonBindings());
             kernel.Load(new EECBindings());
-            kernel.Load(new BMCPBindings());
+            //kernel.Load(new BMCPBindings());
             kernel.Load(new IdentifiedRepositories());
             kernel.Load(new ThesaurusRepositories());
 

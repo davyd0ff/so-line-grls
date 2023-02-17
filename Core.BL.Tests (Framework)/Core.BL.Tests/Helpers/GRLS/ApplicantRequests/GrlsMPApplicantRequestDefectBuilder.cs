@@ -275,6 +275,9 @@ namespace Core.BL.Tests.Helpers.GRLS.ApplicantRequests
                 var signer = applicantRequest.Signers.GetPerformer();
                 signer.Id = performer.Id;
                 signer.Approved = performer.Approved;
+                signer.UserId = performer.UserId;
+
+                return this;
             }
 
             return this.WithSigner(performer);
@@ -287,6 +290,9 @@ namespace Core.BL.Tests.Helpers.GRLS.ApplicantRequests
                 var signer = applicantRequest.Signers.GetApprover();
                 signer.Id = approver.Id;
                 signer.Approved = approver.Approved;
+                signer.UserId = approver.UserId;
+
+                return this;
             }
 
             return this.WithSigner(approver);
@@ -313,6 +319,27 @@ namespace Core.BL.Tests.Helpers.GRLS.ApplicantRequests
         public GrlsMPApplicantRequestDefectBuilder PerformerSetApproved()
         {
             applicantRequest.Signers.SetPerformerApprivedValue(true);
+
+            return this;
+        }
+
+        public GrlsMPApplicantRequestDefectBuilder PerformerUnsetApproved()
+        {
+            applicantRequest.Signers.SetPerformerApprivedValue(false);
+
+            return this;
+        }
+
+        public GrlsMPApplicantRequestDefectBuilder ApproverSetApproved()
+        {
+            applicantRequest.Signers.SetApproverApprivedValue(true);
+
+            return this;
+        }
+
+        public GrlsMPApplicantRequestDefectBuilder ApproverUnsetApproved()
+        {
+            applicantRequest.Signers.SetApproverApprivedValue(false);
 
             return this;
         }

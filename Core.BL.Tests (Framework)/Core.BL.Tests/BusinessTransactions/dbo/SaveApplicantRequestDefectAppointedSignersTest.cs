@@ -1,4 +1,5 @@
-﻿using Core.Models.Common;
+﻿using Core.BusinessTransactions;
+using Core.Models.Common;
 using Core.Models.Common.Abstract;
 using Core.Models.Common.Enums.States;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
@@ -43,14 +44,15 @@ namespace Core.BL.Tests.BusinessTransactions.dbo
         }
 
         /// <summary>
-        /// Попытка сохранить пустой список согласующих
+        /// Попытка сохранить пустой список согласующих (project)
         /// </summary>
         [TestMethod]
-        public void Test_TransactionIsFailure_EmptySigners()
+        public void Test_TransactionIsSucess_EmptySigners_RequestHasProjectState()
         {
             var applicantRequest = Create
                 .GrlsMPApplicantRequestDefect
                 .FromJSONFile("./BusinessTransactions/dbo/ApplicantRequests/json/ApplicantRequestDefect_Empty.json")
+                .InnerState(DocumentInternalStateEnum.project)
                 .Please();
 
             var (transaction, testService) = Create.SaveApplicantRequestDefectAppointedSigners
@@ -285,7 +287,8 @@ namespace Core.BL.Tests.BusinessTransactions.dbo
         [TestMethod]
         public void Test_PerformerSetApprove_MailSenderApplicantRequestDefectWasApproved_WasCalled()
         {
-            var performer = Create.ApprovingSigners.Performer.WithId();
+            var currentUser = Create.User;
+            var performer = Create.ApprovingSigners.Performer.WithId().WithUser(currentUser);
             var approver = Create.ApprovingSigners.Approver.WithId();
             var signatory = Create.ApprovingSigners.Signatory.WithId();
 
@@ -301,6 +304,7 @@ namespace Core.BL.Tests.BusinessTransactions.dbo
                 .Please();
 
             var (transaction, testService) = Create.SaveApplicantRequestDefectAppointedSigners
+                                                   .WithAuthenticatedUser(currentUser)
                                                    .PleaseWithTestService();
 
 
@@ -328,8 +332,9 @@ namespace Core.BL.Tests.BusinessTransactions.dbo
         [TestMethod]
         public void Test_ApproverSetApprove_MailSenderApplicantRequestDefectWasApproved_WasCalled()
         {
+            var currentUser = Create.User;
             var performer = Create.ApprovingSigners.Performer.WithId();
-            var approver = Create.ApprovingSigners.Approver.WithId();
+            var approver = Create.ApprovingSigners.Approver.WithId().WithUser(currentUser);
             var signatory = Create.ApprovingSigners.Signatory.WithId();
 
             var applicantRequest = Create
@@ -344,6 +349,7 @@ namespace Core.BL.Tests.BusinessTransactions.dbo
                 .Please();
 
             var (transaction, testService) = Create.SaveApplicantRequestDefectAppointedSigners
+                                                   .WithAuthenticatedUser(currentUser)
                                                    .PleaseWithTestService();
 
 
@@ -364,25 +370,27 @@ namespace Core.BL.Tests.BusinessTransactions.dbo
 
         #region Эксперт не имеет полномочие ApprovingAdministrator
         /// <summary>
-        /// эксперт не имеет ApprovingAdministrator и запрос в состоянии [Проект]
+        /// эксперт не имеет ApprovingAdministrator (но является автором) и запрос в состоянии [Проект]
         /// </summary>
         /// <result>
         ///     Может редактировать блок подписантов (менять подписантов)
-        ///     Не может ставить отметки согласовано
         /// </result>
         [TestMethod]
-        public void Test_TransactionIsSuccessful_ExpertCanChangeSignersList()
+        public void Test_TransactionIsSuccessful_ExpertIsAuthorAndCanChangeSignersList()
         {
+            var currentUser = Create.User;
+
             var applicantRequest = Create
                 .GrlsMPApplicantRequestDefect
                 .FromJSONFile("./BusinessTransactions/dbo/ApplicantRequests/json/ApplicantRequestDefect_Empty.json")
-                .WithAuthor(Create.User)
+                .WithAuthor(currentUser)
                 .WithPerformer(Create.ApprovingSigners.Performer.WithId())
                 .WithApprover(Create.ApprovingSigners.Approver.WithId())
                 .WithSignatory(Create.ApprovingSigners.Signatory.WithId())
                 .Please();
 
             var (transaction, testService) = Create.SaveApplicantRequestDefectAppointedSigners
+                                                   .WithAuthenticatedUser(currentUser)
                                                    .PleaseWithTestService();
 
 
@@ -399,13 +407,22 @@ namespace Core.BL.Tests.BusinessTransactions.dbo
                 repo => repo.SaveSigners(It.IsAny<long>(), It.IsAny<IEnumerable<ApprovingSigner>>()),
                 Times.Once());
         }
+
+        /// <summary>
+        /// эксперт не имеет ApprovingAdministrator (но является автором) и запрос в состоянии [Проект]
+        /// </summary>
+        /// <result>
+        ///     Не может ставить отметки согласовано
+        /// </result>
         [TestMethod]
         public void Test_TransactionIsSuccessful_ExpertCannotSetApproved()
         {
+            var currentUser = Create.User;
+
             var applicantRequest = Create
                 .GrlsMPApplicantRequestDefect
                 .FromJSONFile("./BusinessTransactions/dbo/ApplicantRequests/json/ApplicantRequestDefect_Empty.json")
-                .WithAuthor(Create.User)
+                .WithAuthor(currentUser)
                 .AuthorSetApproved()
                 .WithPerformer(Create.ApprovingSigners.Performer.WithId())
                 .WithApprover(Create.ApprovingSigners.Approver.WithId())
@@ -413,6 +430,7 @@ namespace Core.BL.Tests.BusinessTransactions.dbo
                 .Please();
 
             var (transaction, testService) = Create.SaveApplicantRequestDefectAppointedSigners
+                                                   .WithAuthenticatedUser(currentUser)
                                                    .PleaseWithTestService();
 
 
@@ -431,7 +449,7 @@ namespace Core.BL.Tests.BusinessTransactions.dbo
         }
 
         /// <summary>
-        /// эксперт не имеет ApprovingAdministrator и запрос в состоянии [На визировании] (эксперт не является подписантом)
+        /// эксперт не имеет ApprovingAdministrator и запрос в состоянии [На визировании] (эксперт не является approvingSigner)
         /// </summary>
         /// <result>
         ///     Не может редактировать блок подписантов (менять подписантов)
@@ -440,6 +458,8 @@ namespace Core.BL.Tests.BusinessTransactions.dbo
         [TestMethod]
         public void Test_TransactionIsFailure_ExpertCannotChangeSignersList_RequestIsInIndorseStage()
         {
+            var currentUser = Create.User;
+
             var applicantRequest = Create
                 .GrlsMPApplicantRequestDefect
                 .FromJSONFile("./BusinessTransactions/dbo/ApplicantRequests/json/ApplicantRequestDefect_Empty.json")
@@ -452,6 +472,7 @@ namespace Core.BL.Tests.BusinessTransactions.dbo
                 .Please();
 
             var (transaction, testService) = Create.SaveApplicantRequestDefectAppointedSigners
+                                                   .WithAuthenticatedUser(currentUser)
                                                    .PleaseWithTestService();
 
 
@@ -468,9 +489,18 @@ namespace Core.BL.Tests.BusinessTransactions.dbo
                 repo => repo.SaveSigners(It.IsAny<long>(), It.IsAny<IEnumerable<ApprovingSigner>>()),
                 Times.Never());
         }
+
+        /// <summary>
+        /// эксперт не имеет ApprovingAdministrator и запрос в состоянии [На визировании] (эксперт не является approvingSigner)
+        /// </summary>
+        /// <result>
+        ///     Не может ставить отметки согласовано
+        /// </result>
         [TestMethod]
         public void Test_TransactionIsFailure_ExpertCannotSetApproved_RequestIsInIndorseStage()
         {
+            var currentUser = Create.User;
+
             var applicantRequest = Create
                 .GrlsMPApplicantRequestDefect
                 .FromJSONFile("./BusinessTransactions/dbo/ApplicantRequests/json/ApplicantRequestDefect_Empty.json")
@@ -483,6 +513,7 @@ namespace Core.BL.Tests.BusinessTransactions.dbo
                 .Please();
 
             var (transaction, testService) = Create.SaveApplicantRequestDefectAppointedSigners
+                                                   .WithAuthenticatedUser(currentUser)  
                                                    .PleaseWithTestService();
 
 
@@ -500,6 +531,142 @@ namespace Core.BL.Tests.BusinessTransactions.dbo
                 Times.Never());
         }
 
+        /// <summary>
+        /// эксперт не имеет ApprovingAdministrator и запрос в состоянии [На визировании] (эксперт является performer)
+        /// </summary>
+        /// <result>
+        ///     Не может редактировать блок подписантов (менять подписантов) (Approver)
+        /// </result>
+        [TestMethod]
+        public void Test_TransactionIsFailure_ExpertIsPerformerAndCannotChangeApprover_RequestIsInIndorseStage()
+        {
+            var currentUser = Create.User;
+            var performer = Create.ApprovingSigners.Performer.WithId().WithUser(currentUser);
+            var signatory = Create.ApprovingSigners.Signatory.WithId();
+
+            var applicantRequest = Create
+                .GrlsMPApplicantRequestDefect
+                .FromJSONFile("./BusinessTransactions/dbo/ApplicantRequests/json/ApplicantRequestDefect_Empty.json")
+                .WithAuthor(Create.User)
+                .AuthorSetApproved()
+                .WithPerformer(performer)
+                .WithApprover(Create.ApprovingSigners.Approver.WithId())
+                .WithSignatory(signatory)
+                .InnerState(DocumentInternalStateEnum.indorse)
+                .Please();
+
+            var (transaction, testService) = Create.SaveApplicantRequestDefectAppointedSigners
+                                                   .WithAuthenticatedUser(currentUser)
+                                                   .PleaseWithTestService();
+
+
+            var result = transaction.Run(applicantRequest, new ApprovingSigner[]
+            {
+                performer,
+                Create.ApprovingSigners.Approver.WithId(),
+                signatory,
+            });
+
+
+            testService.IsTrue(result.IsFail);
+            testService.IDocumentSignersRepository.Verify(
+                repo => repo.SaveSigners(
+                    It.IsAny<long>(),
+                    It.IsAny<IEnumerable<ApprovingSigner>>()),
+                Times.Never());
+        }
+
+        /// <summary>
+        /// эксперт не имеет ApprovingAdministrator и запрос в состоянии [На визировании] (эксперт является performer)
+        /// </summary>
+        /// <result>
+        ///     Не может редактировать блок подписантов (менять подписантов) (Signatory)
+        /// </result>
+        [TestMethod]
+        public void Test_TransactionIsFailure_ExpertIsPerformerAndCannotChangeSignatory_RequestIsInIndorseStage()
+        {
+            var currentUser = Create.User;
+            var performer = Create.ApprovingSigners.Performer.WithId().WithUser(currentUser);
+            var approver = Create.ApprovingSigners.Approver.WithId();
+
+            var applicantRequest = Create
+                .GrlsMPApplicantRequestDefect
+                .FromJSONFile("./BusinessTransactions/dbo/ApplicantRequests/json/ApplicantRequestDefect_Empty.json")
+                .WithAuthor(Create.User)
+                .AuthorSetApproved()
+                .WithPerformer(performer)
+                .WithApprover(approver)
+                .WithSignatory(Create.ApprovingSigners.Signatory.WithId())
+                .InnerState(DocumentInternalStateEnum.indorse)
+                .Please();
+
+            var (transaction, testService) = Create.SaveApplicantRequestDefectAppointedSigners
+                                                   .WithAuthenticatedUser(currentUser)
+                                                   .PleaseWithTestService();
+
+
+            var result = transaction.Run(applicantRequest, new ApprovingSigner[]
+            {
+                performer,
+                approver,
+                Create.ApprovingSigners.Signatory.WithId(),
+            });
+
+
+            testService.IsTrue(result.IsFail);
+            testService.IDocumentSignersRepository.Verify(
+                repo => repo.SaveSigners(
+                    It.IsAny<long>(),
+                    It.IsAny<IEnumerable<ApprovingSigner>>()),
+                Times.Never());
+        }
+
+
+        /// <summary>
+        /// эксперт не имеет ApprovingAdministrator и запрос в состоянии [На визировании] (эксперт является performer)
+        /// </summary>
+        /// <result>
+        ///     может ставить отметки согласовано
+        /// </result>
+        [TestMethod]
+        public void Test_TransactionIsSuccessful_ExpertIsPerformerAndCanSetApproved_RequestIsInIndorseStage()
+        {
+            var currentUser = Create.User;
+            var performer = Create.ApprovingSigners.Performer.WithId().WithUser(currentUser);
+            var approver = Create.ApprovingSigners.Approver.WithId();
+            var signatory = Create.ApprovingSigners.Signatory.WithId();
+
+            var applicantRequest = Create
+                .GrlsMPApplicantRequestDefect
+                .FromJSONFile("./BusinessTransactions/dbo/ApplicantRequests/json/ApplicantRequestDefect_Empty.json")
+                .WithAuthor(Create.User)
+                .AuthorSetApproved()
+                .WithPerformer(performer)
+                .WithApprover(approver)
+                .WithSignatory(signatory)
+                .InnerState(DocumentInternalStateEnum.indorse)
+                .Please();
+
+            var (transaction, testService) = Create.SaveApplicantRequestDefectAppointedSigners
+                                                   .WithAuthenticatedUser(currentUser)
+                                                   .PleaseWithTestService();
+
+
+            var result = transaction.Run(applicantRequest, new ApprovingSigner[]
+            {
+                performer.Approved(),
+                approver,
+                signatory,
+            });
+
+
+            testService.IsTrue(result.IsSuccess);
+            testService.IDocumentSignersRepository.Verify(
+                repo => repo.SaveSigners(
+                    It.IsAny<long>(), 
+                    It.Is<IEnumerable<ApprovingSigner>>(signers => signers.GetPerformer().Approved == true)),
+                Times.Once());
+        }
 
 
         /// <summary>
@@ -645,11 +812,14 @@ namespace Core.BL.Tests.BusinessTransactions.dbo
 
         /// <summary>
         /// эксперт не имеет ApprovingAdministrator и запрос в состоянии [Подписан] (эксперт является подписантом)
+        /// </summary>
         /// <result>
         ///     Не может редактировать блок подписантов (менять подписантов)
         ///     Не может ставить отметки согласовано
         /// </result>
-        /// </summary>
+        //[TestMethod]
+        //public void Test_
+
 
         /// <summary>
         /// эксперт не имеет ApprovingAdministrator и запрос в состоянии [На выдачу] (эксперт не является подписантом)
@@ -1119,7 +1289,7 @@ namespace Core.BL.Tests.BusinessTransactions.dbo
         }
 
         /// <summary>
-        /// эксперт не имеет ApprovingAdministrator и запрос в состоянии [Ответ не получен] (эксперт является подписантом)
+        /// эксперт не имеет ApprovingAdministrator и запрос в состоянии [Ответ не получен] (эксперт является одним из подписантов)
         /// </summary>
         /// <result>
         ///     Не может редактировать блок подписантов (менять подписантов)
@@ -1231,7 +1401,7 @@ namespace Core.BL.Tests.BusinessTransactions.dbo
                 .Please();
 
             var (transaction, testService) = Create.SaveApplicantRequestDefectAppointedSigners
-                                                   .WithUser(Create.User.WithPermissions(Enums.ActionsEnum.ApproovingAdministrator))
+                                                   .WithAuthenticatedUser(Create.User.WithPermissions(Enums.ActionsEnum.ApproovingAdministrator))
                                                    .PleaseWithTestService();
 
 
@@ -1263,7 +1433,7 @@ namespace Core.BL.Tests.BusinessTransactions.dbo
                 .Please();
 
             var (transaction, testService) = Create.SaveApplicantRequestDefectAppointedSigners
-                                                   .WithUser(Create.User.WithPermissions(Enums.ActionsEnum.ApproovingAdministrator))
+                                                   .WithAuthenticatedUser(Create.User.WithPermissions(Enums.ActionsEnum.ApproovingAdministrator))
                                                    .PleaseWithTestService();
 
 
@@ -1295,7 +1465,7 @@ namespace Core.BL.Tests.BusinessTransactions.dbo
                 .Please();
 
             var (transaction, testService) = Create.SaveApplicantRequestDefectAppointedSigners
-                                                   .WithUser(Create.User.WithPermissions(Enums.ActionsEnum.ApproovingAdministrator))
+                                                   .WithAuthenticatedUser(Create.User.WithPermissions(Enums.ActionsEnum.ApproovingAdministrator))
                                                    .PleaseWithTestService();
 
 
@@ -1335,7 +1505,7 @@ namespace Core.BL.Tests.BusinessTransactions.dbo
                 .Please();
 
             var (transaction, testService) = Create.SaveApplicantRequestDefectAppointedSigners
-                                                   .WithUser(Create.User.WithPermissions(Enums.ActionsEnum.ApproovingAdministrator))
+                                                   .WithAuthenticatedUser(Create.User.WithPermissions(Enums.ActionsEnum.ApproovingAdministrator))
                                                    .PleaseWithTestService();
 
 
@@ -1367,7 +1537,7 @@ namespace Core.BL.Tests.BusinessTransactions.dbo
                 .Please();
 
             var (transaction, testService) = Create.SaveApplicantRequestDefectAppointedSigners
-                                                   .WithUser(Create.User.WithPermissions(Enums.ActionsEnum.ApproovingAdministrator))
+                                                   .WithAuthenticatedUser(Create.User.WithPermissions(Enums.ActionsEnum.ApproovingAdministrator))
                                                    .PleaseWithTestService();
 
 
@@ -1399,7 +1569,7 @@ namespace Core.BL.Tests.BusinessTransactions.dbo
                 .Please();
 
             var (transaction, testService) = Create.SaveApplicantRequestDefectAppointedSigners
-                                                   .WithUser(Create.User.WithPermissions(Enums.ActionsEnum.ApproovingAdministrator))
+                                                   .WithAuthenticatedUser(Create.User.WithPermissions(Enums.ActionsEnum.ApproovingAdministrator))
                                                    .PleaseWithTestService();
 
 
@@ -1439,7 +1609,7 @@ namespace Core.BL.Tests.BusinessTransactions.dbo
                 .Please();
 
             var (transaction, testService) = Create.SaveApplicantRequestDefectAppointedSigners
-                                                   .WithUser(Create.User.WithPermissions(Enums.ActionsEnum.ApproovingAdministrator))
+                                                   .WithAuthenticatedUser(Create.User.WithPermissions(Enums.ActionsEnum.ApproovingAdministrator))
                                                    .PleaseWithTestService();
 
 
@@ -1471,7 +1641,7 @@ namespace Core.BL.Tests.BusinessTransactions.dbo
                 .Please();
 
             var (transaction, testService) = Create.SaveApplicantRequestDefectAppointedSigners
-                                                   .WithUser(Create.User.WithPermissions(Enums.ActionsEnum.ApproovingAdministrator))
+                                                   .WithAuthenticatedUser(Create.User.WithPermissions(Enums.ActionsEnum.ApproovingAdministrator))
                                                    .PleaseWithTestService();
 
 
@@ -1503,7 +1673,7 @@ namespace Core.BL.Tests.BusinessTransactions.dbo
                 .Please();
 
             var (transaction, testService) = Create.SaveApplicantRequestDefectAppointedSigners
-                                                   .WithUser(Create.User.WithPermissions(Enums.ActionsEnum.ApproovingAdministrator))
+                                                   .WithAuthenticatedUser(Create.User.WithPermissions(Enums.ActionsEnum.ApproovingAdministrator))
                                                    .PleaseWithTestService();
 
 
@@ -1543,7 +1713,7 @@ namespace Core.BL.Tests.BusinessTransactions.dbo
                 .Please();
 
             var (transaction, testService) = Create.SaveApplicantRequestDefectAppointedSigners
-                                                   .WithUser(Create.User.WithPermissions(Enums.ActionsEnum.ApproovingAdministrator))
+                                                   .WithAuthenticatedUser(Create.User.WithPermissions(Enums.ActionsEnum.ApproovingAdministrator))
                                                    .PleaseWithTestService();
 
 
@@ -1575,7 +1745,7 @@ namespace Core.BL.Tests.BusinessTransactions.dbo
                 .Please();
 
             var (transaction, testService) = Create.SaveApplicantRequestDefectAppointedSigners
-                                                   .WithUser(Create.User.WithPermissions(Enums.ActionsEnum.ApproovingAdministrator))
+                                                   .WithAuthenticatedUser(Create.User.WithPermissions(Enums.ActionsEnum.ApproovingAdministrator))
                                                    .PleaseWithTestService();
 
 
@@ -1615,7 +1785,7 @@ namespace Core.BL.Tests.BusinessTransactions.dbo
                 .Please();
 
             var (transaction, testService) = Create.SaveApplicantRequestDefectAppointedSigners
-                                                   .WithUser(Create.User.WithPermissions(Enums.ActionsEnum.ApproovingAdministrator))
+                                                   .WithAuthenticatedUser(Create.User.WithPermissions(Enums.ActionsEnum.ApproovingAdministrator))
                                                    .PleaseWithTestService();
 
 
@@ -1647,7 +1817,7 @@ namespace Core.BL.Tests.BusinessTransactions.dbo
                 .Please();
 
             var (transaction, testService) = Create.SaveApplicantRequestDefectAppointedSigners
-                                                   .WithUser(Create.User.WithPermissions(Enums.ActionsEnum.ApproovingAdministrator))
+                                                   .WithAuthenticatedUser(Create.User.WithPermissions(Enums.ActionsEnum.ApproovingAdministrator))
                                                    .PleaseWithTestService();
 
 
@@ -1687,7 +1857,7 @@ namespace Core.BL.Tests.BusinessTransactions.dbo
                 .Please();
 
             var (transaction, testService) = Create.SaveApplicantRequestDefectAppointedSigners
-                                                   .WithUser(Create.User.WithPermissions(Enums.ActionsEnum.ApproovingAdministrator))
+                                                   .WithAuthenticatedUser(Create.User.WithPermissions(Enums.ActionsEnum.ApproovingAdministrator))
                                                    .PleaseWithTestService();
 
 
@@ -1719,7 +1889,7 @@ namespace Core.BL.Tests.BusinessTransactions.dbo
                 .Please();
 
             var (transaction, testService) = Create.SaveApplicantRequestDefectAppointedSigners
-                                                   .WithUser(Create.User.WithPermissions(Enums.ActionsEnum.ApproovingAdministrator))
+                                                   .WithAuthenticatedUser(Create.User.WithPermissions(Enums.ActionsEnum.ApproovingAdministrator))
                                                    .PleaseWithTestService();
 
 
@@ -1759,7 +1929,7 @@ namespace Core.BL.Tests.BusinessTransactions.dbo
                 .Please();
 
             var (transaction, testService) = Create.SaveApplicantRequestDefectAppointedSigners
-                                                   .WithUser(Create.User.WithPermissions(Enums.ActionsEnum.ApproovingAdministrator))
+                                                   .WithAuthenticatedUser(Create.User.WithPermissions(Enums.ActionsEnum.ApproovingAdministrator))
                                                    .PleaseWithTestService();
 
 
@@ -1791,7 +1961,7 @@ namespace Core.BL.Tests.BusinessTransactions.dbo
                 .Please();
 
             var (transaction, testService) = Create.SaveApplicantRequestDefectAppointedSigners
-                                                   .WithUser(Create.User.WithPermissions(Enums.ActionsEnum.ApproovingAdministrator))
+                                                   .WithAuthenticatedUser(Create.User.WithPermissions(Enums.ActionsEnum.ApproovingAdministrator))
                                                    .PleaseWithTestService();
 
 
@@ -1831,7 +2001,7 @@ namespace Core.BL.Tests.BusinessTransactions.dbo
                 .Please();
 
             var (transaction, testService) = Create.SaveApplicantRequestDefectAppointedSigners
-                                                   .WithUser(Create.User.WithPermissions(Enums.ActionsEnum.ApproovingAdministrator))
+                                                   .WithAuthenticatedUser(Create.User.WithPermissions(Enums.ActionsEnum.ApproovingAdministrator))
                                                    .PleaseWithTestService();
 
 
@@ -1863,7 +2033,7 @@ namespace Core.BL.Tests.BusinessTransactions.dbo
                 .Please();
 
             var (transaction, testService) = Create.SaveApplicantRequestDefectAppointedSigners
-                                                   .WithUser(Create.User.WithPermissions(Enums.ActionsEnum.ApproovingAdministrator))
+                                                   .WithAuthenticatedUser(Create.User.WithPermissions(Enums.ActionsEnum.ApproovingAdministrator))
                                                    .PleaseWithTestService();
 
 
@@ -1903,7 +2073,7 @@ namespace Core.BL.Tests.BusinessTransactions.dbo
                 .Please();
 
             var (transaction, testService) = Create.SaveApplicantRequestDefectAppointedSigners
-                                                   .WithUser(Create.User.WithPermissions(Enums.ActionsEnum.ApproovingAdministrator))
+                                                   .WithAuthenticatedUser(Create.User.WithPermissions(Enums.ActionsEnum.ApproovingAdministrator))
                                                    .PleaseWithTestService();
 
 
@@ -1935,7 +2105,7 @@ namespace Core.BL.Tests.BusinessTransactions.dbo
                 .Please();
 
             var (transaction, testService) = Create.SaveApplicantRequestDefectAppointedSigners
-                                                   .WithUser(Create.User.WithPermissions(Enums.ActionsEnum.ApproovingAdministrator))
+                                                   .WithAuthenticatedUser(Create.User.WithPermissions(Enums.ActionsEnum.ApproovingAdministrator))
                                                    .PleaseWithTestService();
 
 
@@ -1975,7 +2145,7 @@ namespace Core.BL.Tests.BusinessTransactions.dbo
                 .Please();
 
             var (transaction, testService) = Create.SaveApplicantRequestDefectAppointedSigners
-                                                   .WithUser(Create.User.WithPermissions(Enums.ActionsEnum.ApproovingAdministrator))
+                                                   .WithAuthenticatedUser(Create.User.WithPermissions(Enums.ActionsEnum.ApproovingAdministrator))
                                                    .PleaseWithTestService();
 
 
@@ -2007,7 +2177,7 @@ namespace Core.BL.Tests.BusinessTransactions.dbo
                 .Please();
 
             var (transaction, testService) = Create.SaveApplicantRequestDefectAppointedSigners
-                                                   .WithUser(Create.User.WithPermissions(Enums.ActionsEnum.ApproovingAdministrator))
+                                                   .WithAuthenticatedUser(Create.User.WithPermissions(Enums.ActionsEnum.ApproovingAdministrator))
                                                    .PleaseWithTestService();
 
 
@@ -2047,7 +2217,7 @@ namespace Core.BL.Tests.BusinessTransactions.dbo
                 .Please();
 
             var (transaction, testService) = Create.SaveApplicantRequestDefectAppointedSigners
-                                                   .WithUser(Create.User.WithPermissions(Enums.ActionsEnum.ApproovingAdministrator))
+                                                   .WithAuthenticatedUser(Create.User.WithPermissions(Enums.ActionsEnum.ApproovingAdministrator))
                                                    .PleaseWithTestService();
 
 
@@ -2079,7 +2249,7 @@ namespace Core.BL.Tests.BusinessTransactions.dbo
                 .Please();
 
             var (transaction, testService) = Create.SaveApplicantRequestDefectAppointedSigners
-                                                   .WithUser(Create.User.WithPermissions(Enums.ActionsEnum.ApproovingAdministrator))
+                                                   .WithAuthenticatedUser(Create.User.WithPermissions(Enums.ActionsEnum.ApproovingAdministrator))
                                                    .PleaseWithTestService();
 
 

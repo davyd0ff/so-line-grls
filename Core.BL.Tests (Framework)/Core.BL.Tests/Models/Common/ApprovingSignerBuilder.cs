@@ -3,6 +3,7 @@ using Core.BL.Tests.Models.Common;
 using Core.DataAcquisition;
 using Core.DataAcquisition.Abstract;
 using Core.Infrastructure.Context.Abstract;
+using Core.Models;
 using Core.Models.Common;
 using Core.Models.Common.Enums.Types;
 using Moq;
@@ -51,6 +52,9 @@ namespace Core.BL.Tests.Models.Common
         private void OnSignerCreated(ApprovingSigner signer)
         {
             if (signer.Id <= 0)
+                return;
+
+            if (signers.FirstOrDefault(s => s.Id == signer.Id) != null)
                 return;
 
             this.signers.Add(signer);
@@ -110,17 +114,38 @@ namespace Core.BL.Tests.Models.Common
                 Name = "test signer",
                 SignerType = new PersonType
                 {
-                    Id = (int) signerType,
+                    Id = (int)signerType,
                     Code = signerType.ToString(),
-                }
+                },
+                UserId = UserIdGenerator.Next(),
             };
             this.SignerWasCreatedEvent += onSignerWasCreated;
         }
+
+        public ApprovingSignerBuilder WithUser(OldUser user)
+        {
+            this.signer.UserId = user.Id;
+
+            return this;
+        }
+
+        //public ApprovingSignerBuilder WithUser(CoreUnitOfWorkUser user)
+        //{
+        //    this.signer.UserId = user.Id;
+
+        //    return this;
+        //}
 
         public ApprovingSignerBuilder WithId(int id)
         {
             this.signer.Id = id;
             return this; 
+        }
+
+        public ApprovingSignerBuilder WithUserId(int id)
+        {
+            this.signer.UserId = id;
+            return this;
         }
 
         public ApprovingSignerBuilder WithId()

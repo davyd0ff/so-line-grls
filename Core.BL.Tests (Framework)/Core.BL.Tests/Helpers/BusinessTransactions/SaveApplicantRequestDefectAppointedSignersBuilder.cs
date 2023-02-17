@@ -52,7 +52,7 @@ namespace Core.BL.Tests.Helpers.BusinessTransactions
             #endregion
         }
 
-        public SaveApplicantRequestDefectAppointedSignersBuilder WithUser(CoreUnitOfWorkUser user)
+        public SaveApplicantRequestDefectAppointedSignersBuilder WithAuthenticatedUser(CoreUnitOfWorkUser user)
         {
 
             this.mockedUnitOfWork

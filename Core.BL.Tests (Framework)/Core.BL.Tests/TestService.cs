@@ -6,6 +6,7 @@ using Core.Infrastructure.Context.Abstract;
 using Core.Models.Common;
 using Core.Models.Common.Abstract;
 using Core.Models.Common.Documents.ApplicantRequest;
+using Core.Models.CommunicationModels.State;
 using Core.Models.Documents.Abstract;
 using Core.Repositories;
 using Core.Repositories.Abstract;
@@ -41,11 +42,13 @@ namespace Core.BL.Tests
         public Mock<IBusinessTransaction<IIdentifiedBase>> UpdateApplicantRequest { get; set; }
 
         public Mock<IBinaryBusinessTransaction<Document, long?>> InsertDocumentOperation { get; set; }
-        public Mock<IBinaryBusinessTransaction<ApplicantRequestDefect, State>> ChangeApplicantRequesDefectInternalState { get; set; }
+        public Mock<IBinaryBusinessTransaction<ApplicantRequestDefect, InternalState>> ChangeApplicantRequesDefectInternalState { get; set; }
         public Mock<IBinaryBusinessTransaction<ApplicantRequestDefect, IEnumerable<ApprovingSigner>>> SaveApplicantRequestDefectAppointedSigners { get; set; }
         public Mock<IBinaryBusinessTransaction<ChangeStateInfo, bool>> ChangeGrlsApplicantRequestInternalState { get; set; }
         public Mock<IDataAcquisition<string, ApplicantRequestBase>> GetNewOutgoingNumberOfApplicantRequest { get; set; }
         public Mock<IBusinessTransaction<IMailSenderModel>> MailSenderApplicantRequestDefectWasApproved { get; set; }
+        public Mock<IBusinessTransaction<IMailSenderModel>> MailSenderApplicantRequestDefectUpdateState { get; set; }
+        public Mock<IBusinessTransaction<ChangeStateRequest>> ChangeApplicantRequestInternalState { get; set; }
 
         //public void Verify_That_IDocumentStateRepository_SetState_WasCalledOnceWith(long documentId, int stateId, int? any)
         //{

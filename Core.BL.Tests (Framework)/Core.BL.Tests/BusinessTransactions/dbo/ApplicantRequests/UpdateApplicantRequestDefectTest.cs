@@ -129,7 +129,7 @@ namespace Core.BL.Tests.BusinessTransactions.dbo.ApplicantRequests
 
             testService.ChangeApplicantRequesDefectInternalState.Verify(
                 tran => tran.Run(It.Is<ApplicantRequestDefect>(request => request.RoutingGuid.Equals(applicantRequest.RoutingGuid)), 
-                                 It.Is<State>(state => state.Id == (int)DocumentInternalStateEnum.canceled)),
+                                 It.Is<InternalState>(state => state.Id == (int)DocumentInternalStateEnum.canceled)),
                 Times.Once());
         }
 
@@ -163,7 +163,7 @@ namespace Core.BL.Tests.BusinessTransactions.dbo.ApplicantRequests
 
             testService.ChangeApplicantRequesDefectInternalState.Verify(
                 tran => tran.Run(It.Is<ApplicantRequestDefect>(request => request.RoutingGuid.Equals(applicantRequest.RoutingGuid)),
-                                 It.Is<State>(state => state.Id == (int)DocumentInternalStateEnum.canceled)),
+                                 It.Is<InternalState>(state => state.Id == (int)DocumentInternalStateEnum.canceled)),
                 Times.Once());
         }
 
@@ -197,7 +197,7 @@ namespace Core.BL.Tests.BusinessTransactions.dbo.ApplicantRequests
 
             testService.ChangeApplicantRequesDefectInternalState.Verify(
                 tran => tran.Run(It.Is<ApplicantRequestDefect>(request => request.RoutingGuid.Equals(applicantRequest.RoutingGuid)),
-                                 It.Is<State>(state => state.Id == (int)DocumentInternalStateEnum.signing)),
+                                 It.Is<InternalState>(state => state.Id == (int)DocumentInternalStateEnum.signing)),
                 Times.Once());
         }
         [TestMethod]
@@ -282,7 +282,7 @@ namespace Core.BL.Tests.BusinessTransactions.dbo.ApplicantRequests
 
             testService.ChangeApplicantRequesDefectInternalState.Verify(
                 tran => tran.Run(It.Is<ApplicantRequestDefect>(request => request.RoutingGuid.Equals(applicantRequest.RoutingGuid)),
-                                 It.Is<State>(state => state.Id == (int) DocumentInternalStateEnum.project)),
+                                 It.Is<InternalState>(state => state.Id == (int) DocumentInternalStateEnum.project)),
                 Times.Once());
         }
 

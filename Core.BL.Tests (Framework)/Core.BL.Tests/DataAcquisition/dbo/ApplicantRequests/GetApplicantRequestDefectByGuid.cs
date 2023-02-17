@@ -8,5 +8,37 @@ namespace Core.BL.Tests.DataAcquisition.dbo.ApplicantRequests
 {
     public class GetApplicantRequestDefectByGuid
     {
+        ///<summary>
+        ///</summary>
+        ///<result>
+        ///     Обратиться к IMedicamentRegistrationApplicantRequestRepository
+        ///     Обратиться к GetAttachedSignerTypesToDocumentByDocumentType
+        ///</result>
+
+
+        ///<summary>
+        /// У запроса нет подписантов
+        ///</summary>
+        ///<result>
+        ///     Обратиться к GetAttachedSignerTypesToDocumentByDocumentType
+        ///</result>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     }
 }
