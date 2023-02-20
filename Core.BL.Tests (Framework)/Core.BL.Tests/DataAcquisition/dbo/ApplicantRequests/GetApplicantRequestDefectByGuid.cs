@@ -24,7 +24,12 @@ namespace Core.BL.Tests.DataAcquisition.dbo.ApplicantRequests
         ///</result>
 
 
-
+        ///<summary>
+        /// У запроса частично заполнен список подписантов
+        ///</summary>
+        ///<result>
+        ///     Обратиться к GetAttachedSignerTypesToDocumentByDocumentType
+        ///</result>
 
 
 

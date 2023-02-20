@@ -51,9 +51,6 @@ namespace Core.BL.Tests.Models.Common
 
         private void OnSignerCreated(ApprovingSigner signer)
         {
-            if (signer.Id <= 0)
-                return;
-
             if (signers.FirstOrDefault(s => s.Id == signer.Id) != null)
                 return;
 
@@ -88,6 +85,9 @@ namespace Core.BL.Tests.Models.Common
 
             protected override Signer InternalDo(int id)
             {
+                if (id == 0)
+                    return null;
+
                 var signer = _signers.FirstOrDefault(s => s.Id == id);
                 return signer;
 

@@ -43,19 +43,69 @@ namespace Core.BL.Tests.BusinessTransactions.dbo
                 Times.Never());
         }
 
+        #region Процесс согласования (Последовательность галочек)
+        /// <summary>
+        /// Approver пытается поставить галочку без галочки Performer
+        /// </summary>
+        [TestMethod]
+        public void Test_TransactionIsFailure_RequestHasIndorseState_ApproverSetApproveBeforePerformer()
+        {
+            var currentUser = Create.User;
+            var performer = Create.ApprovingSigners.Performer.WithId();
+            var approver = Create.ApprovingSigners.Approver.WithId().WithUser(currentUser);
+            var signatory = Create.ApprovingSigners.Signatory.WithId();
+
+            var applicantRequest = Create.GrlsMPApplicantRequestDefect
+                .FromJSONFile("./BusinessTransactions/dbo/ApplicantRequests/json/ApplicantRequestDefect_Empty.json")
+                .WithAuthor(Create.User)
+                .AuthorSetApproved()
+                .WithPerformer(performer)
+                .WithApprover(approver)
+                .WithSignatory(signatory)
+                .InnerState(DocumentInternalStateEnum.indorse)
+                .Please();
+
+            var (transaction, testService) = Create.SaveApplicantRequestDefectAppointedSigners
+                .WithAuthenticatedUser(currentUser)
+                .PleaseWithTestService();
+
+
+            var result = transaction.Run(applicantRequest, new ApprovingSigner[]
+            {
+                performer, 
+                approver.Approved(), 
+                signatory
+            });
+
+
+            testService.IsTrue(result.IsFail);
+            testService.IDocumentSignersRepository.Verify(
+                repo => repo.SaveSigners(It.IsAny<long>(), It.IsAny<IEnumerable<ApprovingSigner>>()),
+                Times.Never());
+        }
+        #endregion
+
+
         /// <summary>
         /// Попытка сохранить пустой список согласующих (project)
         /// </summary>
+        /// <result>
+        ///   - IDocumentSignersRepository не будет вызван, т.к. пустой запрос ничем не отличается от изначальных данных
+        /// </result>
         [TestMethod]
         public void Test_TransactionIsSucess_EmptySigners_RequestHasProjectState()
         {
+            var currentUser = Create.User;
+
             var applicantRequest = Create
                 .GrlsMPApplicantRequestDefect
                 .FromJSONFile("./BusinessTransactions/dbo/ApplicantRequests/json/ApplicantRequestDefect_Empty.json")
+                .WithAuthor(currentUser)
                 .InnerState(DocumentInternalStateEnum.project)
                 .Please();
 
             var (transaction, testService) = Create.SaveApplicantRequestDefectAppointedSigners
+                                                   .WithAuthenticatedUser(currentUser)
                                                    .PleaseWithTestService();
 
 
@@ -67,14 +117,50 @@ namespace Core.BL.Tests.BusinessTransactions.dbo
             });
 
 
-            testService.IsTrue(result.IsFail);
+            testService.IsTrue(result.IsSuccess);
             testService.IDocumentSignersRepository.Verify(
                 repo => repo.SaveSigners(It.IsAny<long>(), It.IsAny<IEnumerable<ApprovingSigner>>()), 
                 Times.Never());
         }
 
         /// <summary>
-        /// Попытка сохранить список без исполнителя
+        /// Попытка сохранить частично заполненный список согласующих (project)
+        /// </summary>
+        /// <result>
+        ///   - IDocumentSignersRepository будет вызван
+        /// </result>
+        [TestMethod]
+        public void Test_TransactionIsSucess_SignersWithOnlyPerformer_RequestHasProjectState()
+        {
+            var currentUser = Create.User;
+            var applicantRequest = Create
+                .GrlsMPApplicantRequestDefect
+                .FromJSONFile("./BusinessTransactions/dbo/ApplicantRequests/json/ApplicantRequestDefect_Empty.json")
+                .WithAuthor(currentUser)
+                .InnerState(DocumentInternalStateEnum.project)
+                .Please();
+
+            var (transaction, testService) = Create.SaveApplicantRequestDefectAppointedSigners
+                                                   .WithAuthenticatedUser(currentUser)
+                                                   .PleaseWithTestService();
+
+
+            var result = transaction.Run(applicantRequest, new ApprovingSigner[]
+            {
+                Create.ApprovingSigners.Performer.WithId(),
+                Create.ApprovingSigners.Approver,
+                Create.ApprovingSigners.Signatory
+            });
+
+
+            testService.IsTrue(result.IsSuccess);
+            testService.IDocumentSignersRepository.Verify(
+                repo => repo.SaveSigners(It.IsAny<long>(), It.IsAny<IEnumerable<ApprovingSigner>>()),
+                Times.Once());
+        }
+
+        /// <summary>
+        /// Попытка сохранить список без исполнителя (Performer is null)
         /// </summary>
         [TestMethod]
         public void Test_TransactionIsFailure_WithoutPerformer()
@@ -102,7 +188,7 @@ namespace Core.BL.Tests.BusinessTransactions.dbo
         }
 
         /// <summary>
-        /// Попытка сохранить список без указания исполнителя
+        /// Попытка сохранить список без указания исполнителя (performer is empty)
         /// </summary>
         [TestMethod]
         public void Test_TransactionIsFailure_PerformerIsEmpty()
@@ -131,7 +217,7 @@ namespace Core.BL.Tests.BusinessTransactions.dbo
         }
 
         /// <summary>
-        /// Попытка сохранить список без согласующего
+        /// Попытка сохранить список без согласующего (Approver, null)
         /// </summary>
         [TestMethod]
         public void Test_TransactionIsFailure_WithoutApprover()
@@ -159,7 +245,7 @@ namespace Core.BL.Tests.BusinessTransactions.dbo
         }
 
         /// <summary>
-        /// Попытка сохранить список без указания согласующего
+        /// Попытка сохранить список без указания согласующего (Approver, empty)
         /// </summary>
         [TestMethod]
         public void Test_TransactionIsFailure_ApproverIsEmpty()
@@ -188,7 +274,7 @@ namespace Core.BL.Tests.BusinessTransactions.dbo
         }
 
         /// <summary>
-        /// Попытка сохранить список без подписанта
+        /// Попытка сохранить список без подписанта (null)
         /// </summary>
         [TestMethod]
         public void Test_TransactionIsFailure_WithoutSignatory()
@@ -215,8 +301,8 @@ namespace Core.BL.Tests.BusinessTransactions.dbo
                 Times.Never());
         }
 
-        /// <summary>
-        /// Попытка сохранить список без подписанта
+        /// <summary> 
+        /// Попытка сохранить список без подписанта (empty)
         /// </summary>
         [TestMethod]
         public void Test_TransactionIsFailure_SignatoryIsEmpty()
@@ -412,7 +498,7 @@ namespace Core.BL.Tests.BusinessTransactions.dbo
         /// эксперт не имеет ApprovingAdministrator (но является автором) и запрос в состоянии [Проект]
         /// </summary>
         /// <result>
-        ///     Не может ставить отметки согласовано
+        ///     Не может ставить отметку согласовано напротив Автора
         /// </result>
         [TestMethod]
         public void Test_TransactionIsSuccessful_ExpertCannotSetApproved()
@@ -626,7 +712,7 @@ namespace Core.BL.Tests.BusinessTransactions.dbo
         /// эксперт не имеет ApprovingAdministrator и запрос в состоянии [На визировании] (эксперт является performer)
         /// </summary>
         /// <result>
-        ///     может ставить отметки согласовано
+        ///     может ставить отметку согласовано напротив Performer
         /// </result>
         [TestMethod]
         public void Test_TransactionIsSuccessful_ExpertIsPerformerAndCanSetApproved_RequestIsInIndorseStage()
@@ -670,7 +756,7 @@ namespace Core.BL.Tests.BusinessTransactions.dbo
 
 
         /// <summary>
-        /// эксперт не имеет ApprovingAdministrator и запрос в состоянии [На подписи] (эксперт не является подписантом)
+        /// эксперт не имеет ApprovingAdministrator и запрос в состоянии [На подписи] (эксперт не является approvingSigner)
         /// </summary>
         /// <result>
         ///     Не может редактировать блок подписантов (менять подписантов)
@@ -741,7 +827,7 @@ namespace Core.BL.Tests.BusinessTransactions.dbo
 
 
         /// <summary>
-        /// эксперт не имеет ApprovingAdministrator и запрос в состоянии [Подписан] (эксперт не является подписантом)
+        /// эксперт не имеет ApprovingAdministrator и запрос в состоянии [Подписан] (эксперт не является approvingSigner)
         /// </summary>
         /// <result>
         ///     Не может редактировать блок подписантов (менять подписантов)
